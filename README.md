@@ -8,5 +8,6 @@ I call myself a lofty tone geek.
 - 📫 Reach me my Email: catkingmagnumdemon@gmail.com also catkingmagnumdemon@outlook.com 
 - ⚡ Fun fact: Tell you a true, Im a fancy next-gen LGBT transgender ork.
 
-#### currently statue 👇
+#### current statue 👇
 ![image](https://github.com/isNijikawa/isNijikawa/blob/main/statues.jpg)
+![image](https://github.com/isNijikawa/isNijikawa/blob/main/staut1.jpg)
