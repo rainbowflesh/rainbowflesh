@@ -6,7 +6,7 @@ I call myself a lofty tone geek.
 - 👯 No collaborate.
 - 💬 Ask me anything about bishojo, definitely will show the answer you want.
 - 📫 Reach me my Email (see profile)
-- ⚡ Fun fact: Tell you a true, Im a fancy next-gen LGBT transgender ork.
+- ⚡ Fun fact: They are'll idiot, and me a fancy next-gen LGBT transgender ork.
 
 #### current statue 👇
 ![image](https://github.com/isNijikawa/isNijikawa/blob/main/statues.jpg)
