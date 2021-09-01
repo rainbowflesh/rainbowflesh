@@ -3,7 +3,7 @@ I call myself a lofty tone geek.
 
 - 🔭 I’m currently working on process telemetry hydrological data.
 - 🌱 I’m currently diving into podman tech.
-- 👯 I’m no't looking to collaborate.
+- 👯 No collaborate.
 - 💬 Ask me anything about bishojo, definitely will show the answer you want.
 - 📫 Reach me my Email (see profile)
 - ⚡ Fun fact: Tell you a true, Im a fancy next-gen LGBT transgender ork.
