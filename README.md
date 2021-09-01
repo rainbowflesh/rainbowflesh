@@ -1,4 +1,4 @@
-### Hi there 👋, m'Nijikawa a data scientist desu!
+### allo there 👋, m'Nijikawa a data scientist desu!
 I call myself a lofty tone geek.
 
 - 🔭 I’m currently working on process telemetry hydrological data.
