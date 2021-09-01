@@ -1,11 +1,11 @@
 ### Hi there 👋, m'Nijikawa a data scientist desu!
 I call myself a lofty tone geek.
 
-- 🔭 I’m currently working on some giga Water Pollution Capture & Analyze project.
-- 🌱 I’m currently learning front-end & webGL.
+- 🔭 I’m currently working on process telemetry hydrological data.
+- 🌱 I’m currently diving into podman tech.
 - 👯 I’m no't looking to collaborate.
-- 💬 Ask me anything about bishojo, I will show the answer you want.
-- 📫 Reach me my Email (see left)
+- 💬 Ask me anything about bishojo, definitely will show the answer you want.
+- 📫 Reach me my Email (see profile)
 - ⚡ Fun fact: Tell you a true, Im a fancy next-gen LGBT transgender ork.
 
 #### current statue 👇
