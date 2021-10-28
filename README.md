@@ -9,5 +9,5 @@ I call myself a lofty tone geek.
 - ⚡ Fun fact: Everyone idiot, and me a fancy next-gen transgender homo ork.
 
 #### current statue 👇
-![image](https://github.com/isNijikawa/isNijikawa/blob/main/statues.jpg)
-![image](https://github.com/isNijikawa/isNijikawa/blob/main/staut1.jpg)
+![Hunting-to-love](https://github.com/isNijikawa/isNijikawa/blob/main/statues.jpg)
+![tired](https://github.com/isNijikawa/isNijikawa/blob/main/staut1.jpg)
