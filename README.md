@@ -1,12 +1,12 @@
-### allo there 👋, m'Nijikawa a data scientist desu!
+### Hwallo there 👋, m'Nijikawa a data scientist desu!
 I call myself a lofty tone geek.
 
 - 🔭 I’m currently working on process telemetry hydrological data.
-- 🌱 I’m currently diving into podman tech.
+- 🌱 I’m currently diving into podman.
 - 👯 No collaborate.
-- 💬 Ask me anything about bishojo, definitely will show the answer you want.
-- 📫 Reach me my Email (see profile)
-- ⚡ Fun fact: Everyone idiot, and me a fancy next-gen transgender gay ork.
+- 💬 Only Bishōjo I can talk about ;)
+- 📫 Reach me with Email.
+- ⚡ Fun fact: Everyone idiot, and me a fancy next-gen transgender homo ork.
 
 #### current statue 👇
 ![image](https://github.com/isNijikawa/isNijikawa/blob/main/statues.jpg)
