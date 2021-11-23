@@ -6,7 +6,7 @@ I call myself a lofty tone geek.
 - 👯 No collaborate.
 - 💬 I know nothin but Bishōjo ;)
 - 📫 Reach me with Email.
-- ⚡ Fun fact: Everyone idiot, and me a fancy next-gen transgender homo cyber alchemist ork .
+- ⚡ Fun fact: Everyone idiot, and me a fancy next-gen-transgender-homo-cyber-alchemist ork .
 
 #### current statue 👇
 ![Hunting-to-love](https://github.com/isNijikawa/isNijikawa/blob/main/statues.jpg)
