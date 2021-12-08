@@ -1,4 +1,5 @@
-### Hwallo there 👋, m'Nijikawa a data scientist desu!
+# Hwallo there 👋, m'Nijikawa a data scientist desu
+
 I call myself a lofty tone geek.
 
 - 🕳️ I resigned. Back to home. Start hibernation.
@@ -8,6 +9,7 @@ I call myself a lofty tone geek.
 - 📮 Reach me with Email.
 - ⚡ Fun fact: Everyone idiot, and me a fancy next-gen-transgender-homo-cyber-alchemist ork .
 
-#### current statue 👇
-![Hunting-to-love](https://github.com/isNijikawa/isNijikawa/blob/main/statues.jpg)
-![tired](https://github.com/isNijikawa/isNijikawa/blob/main/staut1.jpg)
+## current statue 👇
+
+![Hunting-to-love](./asset/stat0.jpg)
+![tired](./asset/stat1.jpg)
