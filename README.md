@@ -3,10 +3,10 @@
 I call myself a lofty tone geek.
 
 - 🕳️ I resigned. Back to home. Start hibernation.
-- 📖 Time 2 read something fancy.
+- 📖 Read.
 - 📴 No collaborate.
 - 👁️‍🗨️ I know nothin but Bishōjo ;)
-- 📮 Reach me with Email.
+- 📮 Reach me with email.
 - ⚡ Fun fact: Woa! CyberOrk.
 
 ## current statue 👇
