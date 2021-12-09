@@ -1,4 +1,4 @@
-# Hwallo there 👋, m'Nijikawa a data scientist desu
+# Hwallo there👋, m'Nijikawa a data scientist desu!
 
 I call myself a lofty tone geek.
 
