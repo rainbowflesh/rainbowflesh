@@ -1,3 +1,4 @@
+![Ohayōgozaimasuha](./asset/oha.jpg)
 # Hwallo there👋, m'Nijikawa a data scientist desu!
 
 I call myself a lofty tone geek.
