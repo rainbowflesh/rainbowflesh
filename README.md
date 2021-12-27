@@ -8,7 +8,7 @@ I call myself a lofty tone geek.
 - 📴 No collaborate.
 - 👁️‍🗨️ I know nothin but Bishōjo ;)
 - 📮 Reach me with email.
-- ⚡ Fun fact: Woa! CyberOrk.
+- ⚡ Fun fact: Woa! Actually I am alchemist cyber ork.
 
 ## current statue 👇
 
