@@ -9,10 +9,10 @@ $total_input = [System.IO.Directory]::GetFiles($input_file_path).Count - 1 # Unc
 
 # Print the waifu2x parameter
 Write-Host "<Waifu2x Detail>"
-Write-Host "[File in the output directory] $before_count"
-Write-Host "[Queried image count]  $total_input" -ForegroundColor Yellow
 Write-Host "[Input Directory]  $input_file_path" -ForegroundColor Green
 Write-Host "[Output Directory]  $output_file_path" -ForegroundColor Green
+Write-Host "[File in the output directory] $before_count"
+Write-Host "[Queried image count]  $total_input" -ForegroundColor Yellow
 Write-Host "[Used GPU]" -ForegroundColor Magenta
 
 # Main program
