@@ -18,8 +18,14 @@
 + 一...就...: hardly had done + when did
 + 一...就...: scarcely had done + when did
 + 一...就...: no sooner had done + than did
-
-+
++ 考虑做某事: consider doing something
++ 放弃做某事: give up/abandon doing something
++ 做某事的原因: reason for doing something
++ 做某事的原因: the reason why ... is that ...
++ 设备: equipment (表示综合不加复数)
++ 家具: furniture (表示综合不加复数)
++ 行李: luggage/baggage (表示综合不加复数)
++ 机器: machine (表示综合不加复数)
 
 ## 作文模板
 
@@ -234,4 +240,15 @@
     >> hardly scarcely no sooner 开头, 考察否定词搭配/半倒装/时态
     > 据此 (C) than -> when
 + Would you consider to give(A) her another(B) five minutes before(C) giving up(D) waiting for her?
+    > -> consider doing 固定搭配, 所以改 (A) give -> giving
     >
+    > another 后跟名词复数时视为整体, giving up doing 固定搭配.
++ I am going(A) to have my letter type(B) tomorrow if I've got(C) everything ready(D) by then.
+    > -> be doing to do 助动词表一般将来, aka. will do(动词原形).
+    > have my letter type(B) 中, 打印信件应当是信被打印属被动语态 -> have my letter typed
++ The reason(A) why Tom has made great progress(B) is for(C) she has never wasted(D) her time.
+    > -> the reason why is that 固定搭配, 所以改 (C) for -> that
++ The fire quickly spread(A) to the first floor where(B) it destroyed(C) all the equipments(D) in the language lab.
+    > 一般过去不加 s, spread 没问题. where 几楼也没问题, destroyed 过去式也没问题.
+    >
+    > (D) equipments 作为集体名词没有复数, 所以改为 -> equipment
