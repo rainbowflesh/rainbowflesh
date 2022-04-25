@@ -1,13 +1,26 @@
 # English
 
-## Words colle
+## 常见类型
 
-+ 当前: statue quo
++ 当前: statue quo (这个不常见)
 + 特殊场合: special occasion
++ 好脾气: good tempered
++ 发脾气: lose temper
++ 把...归功于...: owe...to...
++ 身心健康: mental&physical health
++ 培养培育: cultivate
++ 从未想到: never occurred
++ 写给某人: write somebody something/write something to somebody
++ 如此以至于: so + adj + a/an + 名词单数 + that
++ 如此以至于: such + adj + a/an + 名词单数 + that
++ 如此以至于: such + adj + 名词复数/不可数名词 + that
++ 想要做: want to do(原型) something
 
-## Write Template
++
 
-1. Social/Environment problem's solve
+## 作文模板
+
+1. 某谁的什么问题与解决方案
 
     ```txt
         In recent years, we have to face the problem that __QUESTION DESCRIPTION__.
@@ -20,7 +33,7 @@
         I am firmly convinced that through our combined efforts, we are bound to __SOLVE QUESTION__.
     ```
 
-2. Opinion
+2. 某谁关于什么的看法
 
     ```txt
         Nowadays, __QUESTION DESCRIPTION__ is becoming a heated topic/common phenomenon among __SWIPE__, which also has/have a great influence on them. Attitudes towards __QUESTION__ *vary* from person to person.
@@ -33,6 +46,12 @@
     ```
 
 ## 语法
+
++ 定语从句中, 若关系代词作宾语, 可以省略.
++ 形容词修饰名词代词.
++ 副词修饰形容词/副词, 副词放前面.
++ 副词修饰动词, 放前后.
++ 副词修饰句子, 放句首/句尾.
 
 ### 非谓语动词/谓语动词表示与判别
 
@@ -47,17 +66,16 @@
 + having been
 + to do, doing, done
 
-#### 判别
+### 判别
 
-1. 判断谓语和非谓语: 一句一谓语, 两谓一连词, 无连词用非谓语
-2. 判断主动被动: 看逻辑主语 (上文), 若逻辑主语与主句主语一致可省略
-    > 时态参照物: 与谓语动词的先后关系
+1. 判断谓语和非谓语: 一句一谓语, 两谓一连词, 无连词用非谓语.
+2. 判断主动被动: 看逻辑主语 (上文), 若逻辑主语与主句主语一致可省略.
+    > 时态参照物: 与谓语动词的先后关系.
 
 ### 反义疑问句
 
-> 前肯后否, 前否后肯
->
-> 构成: 助动词/be动词/情态动词+主语 (代词, 主格)
++ 前肯后否, 前否后肯.
++ 构成: 助动词/be动词/情态动词+主语 (代词, 主格).
 
 #### must 特殊情态动词
 
@@ -71,8 +89,133 @@
 
 ### 得分点
 
-1. 句子结构: 五大基本句型
-2. 句子语法: 时态/语态/主谓一致/单复数/等
-3. 词汇
+1. 句子结构: 五大基本句型.
+2. 句子语法: 时态/语态/主谓一致/单复数/等.
+3. 词汇.
+
+### 强调句
+
+#### 强调句判别
+
++ 强调词: 是/就是/正是+句子.
++ 去掉强调词不影响表达.
+
+#### 强调句翻译
+
++ it is/was + 被强调句部分 (强调词紧跟的一段句子) + that + 句子
+
+#### 强调句案列
+
++ 就是在那个电影院我们第一次相遇.
+    > It was at that cinema that we first met.
++ 就是在这件小屋里, 他们勤奋的工作着.
+    > It was in this small room that they work hard.
++ 昨天我是在街道上遇见她的.
+    > It was in street that I met her.
+
+### 翻译案例
+
++ 我们发现他很聪明.
+    > -> 我们 发现 (他很聪明).
+    >
+    > We find that he is very clever.
++ 我们发现他很聪明.
+    > -> 我们 发现 他 (很聪明).
+    >
+    > We find him very clever.
++ 我发现在短时间内解决这个问题很难.
+    > -> 我发现 (解决这个问题很难) (在短时间内).
+    >
+    > I find that it is difficult to solve this problem in short time.
++ 污染是我们现在必须解决的一个问题.
+    > -> 污染 是 (我们现在必须解决的) 一个问题.
+    >
+    > Pollution is a problem (that) we must solve now.
++ 如果不马上采取措施, 你就会错失良机.
+    > -> if 引导的条件状语从句: 真是条件状语从句; 主将从现
+    >
+    > If you don't take immediate action, you will lose your chance.
++ 城市人口越多. 人们感觉越孤独.
+    > -> 越...越... -> the + 比较级 + 主谓/主语 + 动词
+    >
+    > The more people are in the city, the more lonely the feel.
++ 到战争结束时, 这个组织拯救了两千多人的生命.
+    > By the time the war ended, this organization saved two thousand people's lives.
++ 很难想象, 这个好脾气的人会发那么大的脾气.
+    > It's hard to imagine that this good-tempered person can lose such a temper.
++ 只有患过重病的人才会明白健康对一个人意味着什么.
+    > -> (只有...)人 才会明白 (健康...)
+    >
+    > Only the people who have a seriously ill can really understand what the health means to a person.
++ 他把成功更多的归功于运气, 而不是能力.
+    > -> owe...to... 把...归功于...
+    >
+    > He owes his success to luck than to talent.
++ 我们要重视我们的身体和精神健康, 并养成良好的生活习惯.
+    > We should attach importance value our mental and physical health, and cultivate a good life habit.
++ 那家公司明年要出新的产品.
+    > -> (明年)
+    > That company will launch a series of new products next year.
++ 他从未想到过他会犯如此低级的错误.
+    > It never occurred to him that he would have committed such a low level error.
 
 ## 改错
+
++ 格式化的考试内容, 常考的经常考, 不考的经常不考.
+
+### 思路
+
+1. 翻译一下.
+2. 找到主干.
+3. 找主谓宾的错误:
+    > 主语错误: 动词做主语多用 "doing", 代词做主语用何种代词
+    >
+    > 谓语动词错误: 动词作为错误选项时, 考虑主谓一致/时态/主被动
+    >
+    > 宾语出错: 动词作宾语的 todo/doing/done 形式判断 (代词的格)
+    >
+    > 介词出错: 固定搭配错误
+4. 找修饰成分: 定于或状语:
+    > 形容词修饰名词/代词会和副词混用.
+    >
+    > 形容词 ing/ed 结尾的形容词修饰人/物.
+    >
+    > 状语错误: 副词/介词/连词
+
+### 改错案例
+
++ A talk on(A) Chinese history will give(B) in the school hall next week(C).
+    > -> 主语 A talk will give in the school hall.
+    >
+    > (B) will give: 举办演讲表被动 ->应改为 will be given
++ That(A) has been half(B) a year since(C) we came(D) to study in this university.
+    > -> 主语 That has been half a year.
+    >
+    > (A) that: -> 此处代指用 It
++ My uncle said(A) that he couldn't remember(B) to read(C) the article the day before(D) yesterday
+    >. -> 主语 My uncle couldn't remember.
+    >
+    > (C) to read: remember to do 记得未做, remember doing 记得做过, 此处句意为记得做过, 即 -> reading
++ The party by which(A) my grandfather was invited(B), was extremely enjoyable(D).
+    > -> 主语 The party was extremely enjoyable.
+    >
+    > 定语从句 by which my grandfather was invited
+    >
+    > by which, which 是关系代词, 此处代指 by the part, 可以放在句尾 -> my grandfather was invited *by* the party, 根据句意此处 by 做被动应为 to -> 即 (A) by which 应改为 to which
++ Not only she complained about the food, she also refused to pay for it.
+    > -> 否定词放句首, 主句用半倒装 -> 助动词/be动词/情态动词放主语之前
+    >> not only but also -> 前导后不导
+    >
+    > (A) she complained 主语没有倒装, 此处借助助动词 did 保持时态, do 后面加动词原形 -> did she complain
++ His parent went(A) to New York last year, but none(B) of them wrote(C) letters to(D) him.
+    > -> last year 过去式 went 没问题, write 接双宾语: write somebody something. write something to somebody 排除.
+    >
+    > (B) none: 代指三者及以上, 文中只有爸妈, 所以是两者, 改为 -> ether.
++ In(A) the modern society, people get(B) a lot of information_s(C) from the Internet(D).
+    > (C) 编辑器的差错器都发现 information 不能带s了, 所以改为 -> information
++ It(A) is so(B) a beautiful place that(C) we want to visit(D) it again.
+    > (B) 读一遍就感觉不对, 表大量 so -> such
++ Henry doesn't like his car bought last year, that often breaks down.
+    > -> 主语 Henry doesn't(be动词没错) like his car. last year, bought 也没错.
+    > 剩下 that 此处表示 "某一个" 改为 -> which
++ It was(A) yesterday when(B) he finished(C) reading(D) the novel.
