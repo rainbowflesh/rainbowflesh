@@ -15,6 +15,9 @@
 + 如此以至于: such + adj + a/an + 名词单数 + that
 + 如此以至于: such + adj + 名词复数/不可数名词 + that
 + 想要做: want to do(原型) something
++ 一...就...: hardly had done + when did
++ 一...就...: scarcely had done + when did
++ 一...就...: no sooner had done + than did
 
 +
 
@@ -52,6 +55,7 @@
 + 副词修饰形容词/副词, 副词放前面.
 + 副词修饰动词, 放前后.
 + 副词修饰句子, 放句首/句尾.
++ 一句话中有且只有一个谓语动词.
 
 ### 非谓语动词/谓语动词表示与判别
 
@@ -216,6 +220,18 @@
 + It(A) is so(B) a beautiful place that(C) we want to visit(D) it again.
     > (B) 读一遍就感觉不对, 表大量 so -> such
 + Henry doesn't like his car bought last year, that often breaks down.
-    > -> 主语 Henry doesn't(be动词没错) like his car. last year, bought 也没错.
-    > 剩下 that 此处表示 "某一个" 改为 -> which
+    > -> 主语 Henry doesn't like his car, 没有特定的时间, be 动词没错.
+    >
+    > bought 原型 buy 的过去式/过去分词, 若为过去式则可以充当谓语动词, 动词需要行为发生者, 词句前没有直接跟发生者, 同时作为谓语动词则前面的 doesn't like 也是谓语动词, 冲突. 作为过去分词时在句中做定语, 过去分词还可表被动, 去掉定语不影响句子成分, 所以在没问题.
+    >
+    > that(C) 在句中指物品 car, that 作为引导词引导后半部分为从句, breaks down 固定搭配无错, that 前有逗号成为了非限制性定语从句, 而不能用that, 此处改为 -> which
+    >> 其实读一遍语感就发现 that 读不通要用 which 了.
 + It was(A) yesterday when(B) he finished(C) reading(D) the novel.
+    > -> 强调句型 "It be", 判断方法是去掉强调内容看句式是否完整, 此处句型完整 强调句型跟 that
+    > (B) when -> that
++ Scarcely(A) had we come into(B) the classroom than(C) the bell rang(D).
+    > -> 否定词开头(no not never few little hardly scarcely no sooner) 为半倒装句 (助动词 + 主语)
+    >> hardly scarcely no sooner 开头, 考察否定词搭配/半倒装/时态
+    > 据此 (C) than -> when
++ Would you consider to give(A) her another(B) five minutes before(C) giving up(D) waiting for her?
+    >
