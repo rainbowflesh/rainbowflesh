@@ -82,22 +82,56 @@
 
 #### 不定积分公式
 
-+ ∫k dx = kx + C
-+ ∫x^a dx = x^(a+1)/(a+1) + C
-+ ∫1/x dx = ln |x| + C
-+ ∫e^x dx = e^x + C
-+ ∫a^x dx = a^x/ln a + C, a>0, a≠1, a为常数
-+ ∫sinx dx = -cosx + C
-+ ∫cosx dx = sinx + C
-+ ∫sec^2(x) dx = tanx+ C
-+ ∫csc^2(x) dx = -cotx + C
-+ ∫sec(x)tan(x) dx = sec x + C
-+ ∫csc(x)cot(x) dx = -csc(x) + C
-+ ∫1/(sqrt(1-x^2)) dx = arc sin(x) + C
-+ ∫1/(sqrt(1+x^2)) dx = arc tan(x) + C
-+ ∫1/(a^2+x^2) dx = 1/a * arctan(x/a) + C
-+ ∫1/(a^2-x^2) dx = arcsin(x/a) + C
-+ ∫1/(x^2-a^2) dx = 1/2a * (ln|x-a| - ln|x+a|) + C
+$(1)\int0 \mathrm{dx} = C$
+
+$(2)\int k\mathrm{dx}=kx+C$
+
+$(3)\int x^\mu \mathrm{dx}=\frac1{\mu+1}x^{\mu+1}+C(\mu \ne -1)$
+
+$(4)\int\frac1{x}\mathrm{dx}=\ln|x|+C$
+
+$(5)\int a^x \mathrm{dx}=\frac{a^x}{\ln a}+C$
+
+$(6)\int e^x \mathrm{dx}=e^x+C$
+
+$(7)\int \sin x \mathrm{dx}=-\cos x +C$
+
+$(8)\int \cos x \mathrm{dx}=\sin x +C$
+
+$(9)\int \sec^2 x \mathrm{dx}=\int \frac1{\cos^2 x}\mathrm{dx}=\tan x+C$
+
+$(10)\int \csc^2x\mathrm{dx}=\int \frac1{\sin^2x}\mathrm{dx}=-\cot x +C$
+
+$(11)\int\sec x\tan x\mathrm{dx}=\sec x+C$
+
+$(12)\int \csc x\cot x\mathrm{dx}=-\csc x +C$
+
+$(13)\int \frac{\mathrm{dx}}{\sqrt{1-x^2}}=\arcsin x+C$
+
+$(14)\int \frac{\mathrm{dx}}{1+x^2}=\arctan x+C$
+
+$(15)\int \tan x\mathrm{dx}=-\ln|\cos x|+C$
+
+$(16)\int \cot x \mathrm{dx}=\ln|\sin x|+C$
+
+$(17)\int \sec x \mathrm{dx}=\ln|\sec x+\tan x|+C$
+
+$(18)\int \csc x\mathrm{dx}=\ln|\csc x -\cot x|+C$
+
+$(19)\int \frac{\mathrm{dx}}{x^2+a^2}=\frac1{a}\arctan {\frac{x}{a}}+C$
+
+$(20)\int \frac{\mathrm{dx}}{x^2-a^2}=\frac1{2a}\ln|\frac{x-a}{x+a}|+C$
+
+$(21)\int \frac{\mathrm{dx}}{\sqrt{a^2-x^2}}=\arcsin \frac{x}{a}+C$
+
+$(22)\int \frac{\mathrm{dx}}{\sqrt{x^2\pm a^2}}=\ln|x+\sqrt{x^2\pm a^2}|+C$
+
+$(23)\int \sqrt{a^2-x^2}\mathrm{dx}=\frac{x}{2}\sqrt{a^2-x^2}+\frac{a^2}{2}\arcsin \frac{x}{a}+C$
+
+$(24)\int \sqrt{x^2\pm a^2}\mathrm{dx}=\frac{x}{2}\sqrt{x^2\pm a^2}\pm \frac{a^2}{2}\ln|x+\sqrt{x^2\pm a^2}|+C$
+
+$(25)\int \ln x\mathrm{dx}=x\ln x-x+C$
+
 + ∫e^(a*sqrt x)/sqrt x dx = 2/a* e^(a*sqrt x) + C
 + ∫a/(b-cx) dx = -a/c * ln|b-cx| + C
 
