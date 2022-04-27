@@ -4,11 +4,11 @@
 
 ### 一元函数
 
-+ 一阶奇
-+ 二阶偶
-+ 三阶奇
-+ -1阶奇
-+ 根号/二分之一阶无奇偶性
++ 一次奇
++ 二次偶
++ 三次奇
++ -1次奇
++ sqrt/二分之一次无奇偶性
 + 幂函数无
 + 对数函数无
 
@@ -37,19 +37,38 @@
 
 ## 函数单调性
 
-> 若函数求一阶导后y'>0, 则函数单调递增, 反之递减
+> 若函数求一次导后y'>0, 则函数单调递增, 反之递减
 
 ---
 
 ## 导数
 
+### 导数运算法则
+
++ (A+-B)' = A' +- B'
++ (A*B)' = A'*B + A*B'
++ (A/B)' = (A'*B - A*B')/B^2
+
 ### 导数公式
 
 + C‘ = 0, C 为常数
-+ (x^a)` = ax^a-1
-+ (a^x)` = a^xlna
-+ (e^x)` = e^x
-+ (loga x)` = 1/xlna
++ (x^a)' = ax^a-1
++ (a^x)' = a^xlna
++ (e^x)' = e^x
++ (loga x)' = 1/xlna
++ (ln x)' = 1/x
++ (sin x)' = cos x
++ (cos x)' = -sin x
++ (tan x)' = sec^2 x
++ (sec x)' = sec x + tan x
++ (cot x)' = -csc^2 x
++ (csc x)' = -csc x * cot x
++ (arc sin x)' = 1/sqrt(1-x^2) = -(arc cos x)'
++ (arc tan x)' = -1/(1+x^2) = -(arc cot x)'
++ (1/x)' = -1/x^2
++ ln(1+e^x)' = e^x/(1+e^x)
++ ln[f(x)+C]' = 1/[f(x)+C] * f'(x)
++ [e^f(x)^n]' = e^f(x)^n * [f(x)^n]'
 
 ---
 
@@ -61,13 +80,66 @@
 
 ### 不定积分
 
+#### 不定积分公式
+
++ ∫k dx = kx + C
++ ∫x^a dx = x^(a+1)/(a+1) + C
++ ∫1/x dx = ln |x| + C
++ ∫e^x dx = e^x + C
++ ∫a^x dx = a^x/ln a + C, a>0, a≠1, a为常数
++ ∫sinx dx = -cosx + C
++ ∫cosx dx = sinx + C
++ ∫sec^2(x) dx = tanx+ C
++ ∫csc^2(x) dx = -cotx + C
++ ∫sec(x)tan(x) dx = sec x + C
++ ∫csc(x)cot(x) dx = -csc(x) + C
++ ∫1/(sqrt(1-x^2)) dx = arc sin(x) + C
++ ∫1/(sqrt(1+x^2)) dx = arc tan(x) + C
++ ∫1/(a^2+x^2) dx = 1/a * arctan(x/a) + C
++ ∫1/(a^2-x^2) dx = arcsin(x/a) + C
++ ∫1/(x^2-a^2) dx = 1/2a * (ln|x-a| - ln|x+a|) + C
++ ∫e^(a*sqrt x)/sqrt x dx = 2/a* e^(a*sqrt x) + C
++ ∫a/(b-cx) dx = -a/c * ln|b-cx| + C
+
 ### 微分
 
-### 定积分
+> 微分 d(f(x)) = f'(x)dx
+
+### 微分运算法则
+
++ d(A+-B) = dA +- dB
++ d(A*B) = A*dB + B*dA
++ d(A/B) = (B*dA - A*dB)/B^2
++ d(C*A) = C*dA
++ d[F(g(x))] = F'(g(x)) * g'(x)
+
+### 定积分例题
+
++ ∫0到1 (2x+k)dx = 2, k=1
 
 ---
 
 ## 极限
+
+### 极限计算法则
+
+> Limit properties − if the limit of f(x), and g(x) exists, then:
+
++ limx→a (x) = a
++ limx→a [c·f(x)] = c·limx→a f(x)
++ limx→a [(f(x))^c] = (limx→a f(x))^c
++ limx→a [f(x) ± g(x)] = limx→a f(x) ± limx→a g(x)
++ limx→a [f(x) · g(x)] = limx→a f(x) · limx→a g(x)
++ limx→a [f(x) / g(x)] = limx→a f(x) / limx→a g(x) , where limx→ag(x)≠0
+
+### 近似值
+
+> x->0 时
+
++ sinx = x
++ tanx = x
++ e^x = 1+x
++ ln(1+x) = x
 
 ### 利用无穷小的性质求函数的极限
 
@@ -85,22 +157,29 @@
 ### 其他常见极限
 
 + limx->0 1-cosx = (x^2)/2
-+ limx->0 根号1-x = -x/2
++ limx->0 sqrt1-x = -x/2
 + limx->0 sinx - tanx = -(x^3)/2
 + limx->0 xsin(n/x) = 0, sin为有界函数, x为无穷小量, 无穷小量×有界函数=0
+
+---
+
 + limx->1 lnx = x-1
 
-## 极限类型
+---
 
-### ∞/∞ 无穷比无穷型
++ limx->∞ (1+1/ax)^x = e^(1/a)
 
-### 1^∞ 1的无穷次方型
+### 极限类型
+
+#### ∞/∞ 无穷比无穷型
+
+#### 1^∞ 1的无穷次方型
 
 > x^f(x) = 1^∞, 则-> e^f(x)×lnx, 同时 e^f(x)×lnx = 1^∞
 
 ### 无穷大小量
 
-> 某某无穷大小量的阶数: 趋近于无穷大小时, 将原式作为极限计算
+> 某某无穷大小量的次数: 趋近于无穷大小时, 将原式作为极限计算
 
 #### 等价无穷大小
 
@@ -129,8 +208,8 @@
 
 #### 其他型月世界的泰勒展开
 
-+ 根号下1+x -> (1+x)^1/2 = 1+1/2x+o(x)
-+ 根号下1-x -> (1-x)^1/2 = 1-1/2x+o(x)
++ sqrt下1+x -> (1+x)^1/2 = 1+1/2x+o(x)
++ sqrt下1-x -> (1-x)^1/2 = 1-1/2x+o(x)
 
 ---
 
@@ -147,6 +226,10 @@
 >
 > 其中n>0时, p>1 则级数收敛, p<=1时级数发散
 
+### 级数题
+
+设级数∞∑n=1 Bn 为正项级数, ∞∑n=1 (An)^2 收敛, 则级数∞∑n=1 (-1)^n |An|/sqrt下n^2 + Bn
+> 绝对收敛.
 ---
 
 ## 各类理论
@@ -229,3 +312,5 @@
 
     带入 1. 得 e^{[1/(x-1)](x-1)}=e
 3. x=1无定义, x=1极限存在, 则x=1为可去间断点
+
+## 证明题
