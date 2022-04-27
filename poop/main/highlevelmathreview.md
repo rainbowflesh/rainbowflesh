@@ -82,58 +82,35 @@
 
 #### 不定积分公式
 
-$(1)\int0 \mathrm{dx} = C$
-
-$(2)\int k\mathrm{dx}=kx+C$
-
-$(3)\int x^\mu \mathrm{dx}=\frac1{\mu+1}x^{\mu+1}+C(\mu \ne -1)$
-
-$(4)\int\frac1{x}\mathrm{dx}=\ln|x|+C$
-
-$(5)\int a^x \mathrm{dx}=\frac{a^x}{\ln a}+C$
-
-$(6)\int e^x \mathrm{dx}=e^x+C$
-
-$(7)\int \sin x \mathrm{dx}=-\cos x +C$
-
-$(8)\int \cos x \mathrm{dx}=\sin x +C$
-
-$(9)\int \sec^2 x \mathrm{dx}=\int \frac1{\cos^2 x}\mathrm{dx}=\tan x+C$
-
-$(10)\int \csc^2x\mathrm{dx}=\int \frac1{\sin^2x}\mathrm{dx}=-\cot x +C$
-
-$(11)\int\sec x\tan x\mathrm{dx}=\sec x+C$
-
-$(12)\int \csc x\cot x\mathrm{dx}=-\csc x +C$
-
-$(13)\int \frac{\mathrm{dx}}{\sqrt{1-x^2}}=\arcsin x+C$
-
-$(14)\int \frac{\mathrm{dx}}{1+x^2}=\arctan x+C$
-
-$(15)\int \tan x\mathrm{dx}=-\ln|\cos x|+C$
-
-$(16)\int \cot x \mathrm{dx}=\ln|\sin x|+C$
-
-$(17)\int \sec x \mathrm{dx}=\ln|\sec x+\tan x|+C$
-
-$(18)\int \csc x\mathrm{dx}=\ln|\csc x -\cot x|+C$
-
-$(19)\int \frac{\mathrm{dx}}{x^2+a^2}=\frac1{a}\arctan {\frac{x}{a}}+C$
-
-$(20)\int \frac{\mathrm{dx}}{x^2-a^2}=\frac1{2a}\ln|\frac{x-a}{x+a}|+C$
-
-$(21)\int \frac{\mathrm{dx}}{\sqrt{a^2-x^2}}=\arcsin \frac{x}{a}+C$
-
-$(22)\int \frac{\mathrm{dx}}{\sqrt{x^2\pm a^2}}=\ln|x+\sqrt{x^2\pm a^2}|+C$
-
-$(23)\int \sqrt{a^2-x^2}\mathrm{dx}=\frac{x}{2}\sqrt{a^2-x^2}+\frac{a^2}{2}\arcsin \frac{x}{a}+C$
-
-$(24)\int \sqrt{x^2\pm a^2}\mathrm{dx}=\frac{x}{2}\sqrt{x^2\pm a^2}\pm \frac{a^2}{2}\ln|x+\sqrt{x^2\pm a^2}|+C$
-
-$(25)\int \ln x\mathrm{dx}=x\ln x-x+C$
-
-+ ∫e^(a*sqrt x)/sqrt x dx = 2/a* e^(a*sqrt x) + C
-+ ∫a/(b-cx) dx = -a/c * ln|b-cx| + C
+$
+(1)\int0 \mathrm{dx} = C \\
+(2)\int k\mathrm{dx}=kx + C \\
+(3)\int x^\mu \mathrm{dx}=\frac1{\mu+1}x^{\mu+1}+C(\mu \ne -1) \\
+(4)\int\frac1{x}\mathrm{dx}=\ln|x| + C \\
+(5)\int a^x \mathrm{dx}=\frac{a^x}{\ln a} + C \\
+(6)\int e^x \mathrm{dx}=e^x + C \\
+(7)\int \sin x \mathrm{dx}=-\cos x + C \\
+(8)\int \cos x \mathrm{dx}=\sin x + C \\
+(9)\int \sec^2 x \mathrm{dx}=\int \frac1{\cos^2 x}\mathrm{dx}=\tan x + C \\
+(10)\int \csc^2x\mathrm{dx}=\int \frac1{\sin^2x}\mathrm{dx}=-\cot x + C \\
+(11)\int\sec x\tan x\mathrm{dx}=\sec x + C \\
+(12)\int \csc x\cot x\mathrm{dx}=-\csc x + C \\
+(13)\int \frac{\mathrm{dx}}{\sqrt{1-x^2}}=\arcsin x + C \\
+(14)\int \frac{\mathrm{dx}}{1+x^2}=\arctan x + C \\
+(15)\int \tan x\mathrm{dx}=-\ln|\cos x| + C \\
+(16)\int \cot x \mathrm{dx}=\ln|\sin x| + C \\
+(17)\int \sec x \mathrm{dx}=\ln|\sec x+\tan x| + C \\
+(18)\int \csc x\mathrm{dx}=\ln|\csc x -\cot x| + C \\
+(19)\int \frac{\mathrm{dx}}{x^2+a^2}=\frac1{a}\arctan {\frac{x}{a}} + C \\
+(20)\int \frac{\mathrm{dx}}{x^2-a^2}=\frac1{2a}\ln|\frac{x-a}{x+a}| + C \\
+(21)\int \frac{\mathrm{dx}}{\sqrt{a^2-x^2}}=\arcsin \frac{x}{a} + C \\
+(22)\int \frac{\mathrm{dx}}{\sqrt{x^2\pm a^2}}=\ln|x+\sqrt{x^2\pm a^2}| + C \\
+(23)\int \sqrt{a^2-x^2}\mathrm{dx}=\frac{x}{2}\sqrt{a^2-x^2}+\frac{a^2}{2}\arcsin \frac{x}{a} + C \\
+(24)\int \sqrt{x^2\pm a^2}\mathrm{dx}=\frac{x}{2}\sqrt{x^2\pm a^2}\pm \frac{a^2}{2}\ln|x+\sqrt{x^2\pm a^2}| + C \\
+(25)\int \ln x\mathrm{dx}=x\ln x-x + C \\
+(26)\int \frac{e^{a\sqrt{x}}}{\sqrt{x}}{dx} = \frac{2}{a}{e^{a\sqrt{x}}} + C \\
+(27)\int \frac{a}{b-{c{x}}}{dx} = \frac{-a}{c}\ln|{b}-{c}{x}| + C \\
+$
 
 ### 微分
 
@@ -159,23 +136,25 @@ $(25)\int \ln x\mathrm{dx}=x\ln x-x+C$
 
 > Limit properties − if the limit of f(x), and g(x) exists, then:
 
-+ limx→a (x) = a
-+ limx→a [c·f(x)] = c·limx→a f(x)
-+ limx→a [(f(x))^c] = (limx→a f(x))^c
-+ limx→a [f(x) ± g(x)] = limx→a f(x) ± limx→a g(x)
-+ limx→a [f(x) · g(x)] = limx→a f(x) · limx→a g(x)
-+ limx→a [f(x) / g(x)] = limx→a f(x) / limx→a g(x) , where limx→ag(x)≠0
++ $\lim _{x\to a}$ (x) = a
++ $\lim _{x\to a}$ [c·f(x)] = c·$\lim_{x\to a}$ f(x)
++ $\lim _{x\to a}$ [(f(x))^c] = $\lim_{x\to a}$ f(x)^c
++ $\lim _{x\to a}$ [f(x) ± g(x)] = $\lim_{x\to a}$ f(x) ± $\lim _{x\to a}$ g(x)
++ $\lim _{x\to a}$ [f(x) · g(x)] = $\lim_{x\to a}$ f(x) · $\lim _{x\to a}$ g(x)
++ $\lim _{x\to a}$ [f(x) / g(x)] = $\lim_{x\to a}$ f(x) / $\lim _{x\to a}$ g(x) , where $\lim_{x\to a}$g(x)≠0
 
 ### 近似值
 
-> x->0 时
+> $\lim _{x\to 0}$ 时
 
 + sinx = x
 + tanx = x
 + e^x = 1+x
++ e^x^a = 1+x^a
 + ln(1+x) = x
++ 1-cosx = 1/2x^2 = -(cosx -1)
 
-### 利用无穷小的性质求函数的极限
+#### 利用无穷小的性质求函数的极限
 
 > 性质1: 有界函数与无穷小的乘积是无穷小
 >
@@ -194,13 +173,7 @@ $(25)\int \ln x\mathrm{dx}=x\ln x-x+C$
 + limx->0 sqrt1-x = -x/2
 + limx->0 sinx - tanx = -(x^3)/2
 + limx->0 xsin(n/x) = 0, sin为有界函数, x为无穷小量, 无穷小量×有界函数=0
-
----
-
 + limx->1 lnx = x-1
-
----
-
 + limx->∞ (1+1/ax)^x = e^(1/a)
 
 ### 极限类型
@@ -213,7 +186,12 @@ $(25)\int \ln x\mathrm{dx}=x\ln x-x+C$
 
 ### 无穷大小量
 
-> 某某无穷大小量的次数: 趋近于无穷大小时, 将原式作为极限计算
+> 无穷大小量的阶数: 趋近于无穷大小时, 将原式作为极限计算, 例如:
+
++ $\lim _{x\to 0}\left({x^2}\right) = {x^2}$
++ $\lim _{x\to 0}\left({1-\cos{x}}\right) = \frac 1{x^2}$
++ $\lim _{x\to 0}\left(\sqrt{1-{x}}-1\right) = -\frac 1{2}{x}$
++ $\lim _{x\to 0}\left(\sin{x}-\tan{x}\right) = {x}-\frac 1{2}{x^3}$
 
 #### 等价无穷大小
 
@@ -231,19 +209,32 @@ $(25)\int \ln x\mathrm{dx}=x\ln x-x+C$
 
 > x->0时
 
-+ sin(x) = x
++ sin(x) -> x
 + sin^2(x) -> x^2
 + ln(1+2x) -> 2x
 + xsinx -> x^2
 
 ### 泰勒展开
 
-![泰勒展开](..//..//asset//TylerExpand.png)
+$
+\begin{aligned}
+e^{x} &=\sum_{n=0}^{\infty} \frac{1}{n !} x^{n}=1+x+\frac{1}{2 !} x^{2}+\cdots \in(-\infty,+\infty) \\
+\sin x &=\sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2 n+1) !} x^{2 n+1}=x-\frac{1}{3 !} x^{3}+\frac{1}{5 !} x^{5}+\cdots, x \in(-\infty,+\infty) \\
+\cos x &=\sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2 n) !} x^{2 n}=1-\frac{1}{2 !} x^{2}+\frac{1}{4 !} x^{4}+\cdots, x \in(-\infty,+\infty) \\
+\ln(1+x) &=\sum_{n=0}^{\infty} \frac{(-1)^{n}}{n+1} x^{n+1}=x-\frac{1}{2} x^{2}+\frac{1}{3} x^{3}+\cdots, x \in(-1,1] \\
+\frac{1}{1-x} &=\sum_{n=0}^{\infty} x^{n}=1+x+x^{2}+x^{3}+\cdots, x \in(-1,1) \\
+\frac{1}{1+x} &=\sum_{n=0}^{\infty}(-1)^{n} x^{n}=1-x+x^{2}-x^{3}+\cdots, x \in(-1,1)\\
+(1+x)^{\alpha} &=1+\sum_{n=1}^{\infty} \frac{\alpha(\alpha-1) \cdots(\alpha-n+1)}{n !} x^{n}=1+\alpha x+\frac{\alpha(\alpha-1)}{2 !} x^{2}+\cdots, x \in (-1,1)\\
+\arcsin x &=\sum_{n=0}^{\infty} \frac{(2 n) !}{4^{n}(n !)^{2}(2 n+1)} x^{2 n+1}=x+\frac{1}{6} x^{3}+\frac{3}{40} x^{5}+\frac{5}{112} x^{7}+\frac{35}{1152} x^{9}+\cdots,x \in (-1,1)\\
+\arctan x &=\sum_{n=0}^{\infty} \frac{(-1)^{n}}{2 n+1} x^{2 n+1}=x-\frac{1}{3} x^{3}+\frac{1}{5} x^{5}+\cdots+x \in[-1,1]\\
+\tan x &= \sum_{n=1}^{\infty} \frac{B_{2 n}(-4)^{n}\left(1-4^{n}\right)}{(2 n) !} x^{2 n-1}=x+\frac{1}{3} x^{3}+\frac{2}{15} x^{5}+\frac{17}{315} x^{7}+\frac{62}{2835} x^{9}+\frac{1382}{155925} x^{11}+\frac{21844}{6081075} x^{13}+\frac{929569}{638512875} x^{15}+\cdots, x \in\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)
+\end{aligned}
+$
 
 #### 其他型月世界的泰勒展开
 
-+ sqrt下1+x -> (1+x)^1/2 = 1+1/2x+o(x)
-+ sqrt下1-x -> (1-x)^1/2 = 1-1/2x+o(x)
++ $\sqrt{1+x} = {1+x}^\frac{1}{2} = 1+\frac{1}{2x}+o{x}$
++ $\sqrt{1-x} = {1-x}^\frac{1}{2} = 1-\frac{1}{2x}+o{x}$
 
 ---
 
@@ -305,13 +296,27 @@ $(25)\int \ln x\mathrm{dx}=x\ln x-x+C$
 定义:
 > 如果函数f在点x连续, 则称x是函数f的连续点；如果函数f在点x不连续, 则称x是函数f的间断点
 
+#### 第一类间断点
+
+> 给定一个函数 f(x) 如果 x0 是函数 f(x) 的间断点, 并且 f(x) 在 x0 处的左极限和右极限均存在的点称为第一类间断点.
+
 #### 可去间断点
 
-> 给定一个函数 f(x) 如果 x0 是函数 f(x) 的间断点, 并且 f(x) 在 x0 处的左极限和右极限均存在的点称为第一类间断点. 若 f(x) 在 x0 处得到左、右极限均存在且相等的间断点, 称为可去间断点. 需要注意的是, 可去间断点需满足 f(x) 在 x0 处无定义, 或在 x0 处有定义但不等于函数 f(x) 在 x0 的左右极限.
+> 若 f(x) 在 x0 处得到左、右极限均存在且相等的间断点, 称为可去间断点. 需要注意的是, 可去间断点需满足 f(x) 在 x0 处无定义, 或在 x0 处有定义但不等于函数 f(x) 在 x0 的左右极限.
+>> 例如 $f\left({x}\right)={x}^{\frac{1}{x-1}}$ x=1 是f(x)的可去间断点: 取极限 $\lim _{x\to 1}{x}^{\frac{1}{x-1}}=e^{\frac {x-1}{x-1}}=e$ 得极限存在, 而 x=1 方程无定义, 故为可去间断点.
 
 #### 跳跃间断点
 
-> 设函数 f(x) 在 U(x0) 内有定义，x0 是函数 f(x) 的间断点 (使函数不连续的点)，那么如果左极限 f(x-) 与右极限 f(x+) 都存在，但 f(x-)≠f(x+), 则称 x0 为 f(x) 的跳跃间断点，它属于第一间断点。
+> 设函数 f(x) 在 U(x0) 内有定义，x0 是函数 f(x) 的间断点 (使函数不连续的点)，那么如果左极限 f(x-) 与右极限 f(x+) 都存在，但 f(x-)≠f(x+), 则称 x0 为 f(x) 的跳跃间断点，它属于第一间断点.
+---
+
+### 图形学
+
+#### 各类图形方程
+
++ 法线方程
+    > 111
+
 ---
 
 ## 其他常见题型
@@ -347,4 +352,8 @@ $(25)\int \ln x\mathrm{dx}=x\ln x-x+C$
     带入 1. 得 e^{[1/(x-1)](x-1)}=e
 3. x=1无定义, x=1极限存在, 则x=1为可去间断点
 
+---
+
 ## 证明题
+
+---
