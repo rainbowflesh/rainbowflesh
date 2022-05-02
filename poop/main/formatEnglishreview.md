@@ -20,8 +20,11 @@
 + 一...就...: no sooner had done + than did
 + 考虑做某事: consider doing something
 + 放弃做某事: give up/abandon doing something
++ 应该做某事: be supposed to do something
++ 允许做: allow to do
 + 做某事的原因: reason for doing something
 + 做某事的原因: the reason why ... is that ...
++ 发现: catch sight of...
 + 设备: equipment (表示综合不加复数)
 + 家具: furniture (表示综合不加复数)
 + 行李: luggage/baggage (表示综合不加复数)
@@ -94,7 +97,13 @@
 
 > 表示主语的身份性质状态和特征, 位于连系动词之后, 与连系动词一起构成句子的谓语.
 
+### 同位语
+
+> 指在名词或代词之后, 对其进一步解释说明, 在语法上处于同等地位.
+
 ### 非谓语
+
+形式:
 
 + having
 + having been
@@ -119,6 +128,36 @@
 4. 表示一定的疑问: must + 时间 -> didn't
 5. be动词: am/is/are -> am/is't/aren't
 
+### 时态
+
+| \ | 一般 | 进行 | 完成 | 完成进行 |
+| :----: | :----: | :----: | :----: | :----: |
+| 现在 | do/does | am/is/are/doing | have/has done | have/has been doing|
+| 过去 | did | was/were doing | had done | had been doing |
+| 将来 | will/shall do | will/shall be doing | will/shall have done | will/shall have been doing |
+| 过去将来 | should/would do | should/would be doing | should/would have done | should/would have been doing |
+
++ 一般现在时的用法
+    > 结构: 主语 + 动词原形
+    >> 若主语是单数第三人称, 动词需要变化:
+    >>>
+    >>> + 直接在动词词尾加s
+    >>> + 以字母sxchsho结尾加es
+    >>> + 以辅音字母+y结尾的动词变y为i加es
+    >>>
+    > + 表示现在的习惯性经常性发生的动作或存在的状态, 常与表示频度的时间状语连用.
+    > + 表示客观真理, 科学事务, 公式, 自然现象等.
+
++ 一般过去时的用法
+    > 结构: 主语 + 动词过去式
+    >>
+    >> + 一般情况下直接在动词原形后面加ed
+    >> + 以不发音e结尾直接加d
+    >> + 以一个辅音字母结尾的重读闭音节, 双写辅音字母加ed
+    >> + 以辅音字母加y结尾的, 变y为i加ed
+    >>
+    >>> 表示过去发生的动作或存在的状态
+    >>>
 ## 翻译
 
 ### 得分点
@@ -276,3 +315,7 @@
     > 一般过去不加 s, spread 没问题. where 几楼也没问题, destroyed 过去式也没问题.
     >
     > (D) equipments 作为集体名词没有复数, 所以改为 -> equipment
+
+## 完型填空
+
+翻译完再写
