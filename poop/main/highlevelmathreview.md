@@ -10,7 +10,22 @@
       1. [函数单调性](#函数单调性)
       1. [函数凹凸性](#函数凹凸性)
       1. [判断函数间断点](#判断函数间断点)
-   1. [> 若 x=n 直接带入原式无定义, 则使用极限推导-> limx=n 原式](#-若-xn-直接带入原式无定义-则使用极限推导--limxn-原式)
+   1. [极限](#极限)
+      1. [极限类型](#极限类型)
+      1. [极限做题时的性质](#极限做题时的性质)
+      1. [极限计算法则](#极限计算法则)
+      1. [近似值](#近似值)
+         1. [利用无穷小的性质求函数的极限](#利用无穷小的性质求函数的极限)
+      1. [重要极限](#重要极限)
+      1. [无穷大小量](#无穷大小量)
+         1. [等价无穷大小](#等价无穷大小)
+      1. [常用解法](#常用解法)
+         1. [抓大头](#抓大头)
+      1. [常见的等价变换](#常见的等价变换)
+      1. [泰勒展开](#泰勒展开)
+         1. [其他型月世界的泰勒展开](#其他型月世界的泰勒展开)
+      1. [极限的图形学](#极限的图形学)
+      1. [其他型月世界的极限题](#其他型月世界的极限题)
    1. [导数](#导数)
       1. [导数运算法则](#导数运算法则)
       1. [导数公式](#导数公式)
@@ -38,24 +53,7 @@
          1. [二阶常系数齐次常微分方程](#二阶常系数齐次常微分方程)
       1. [其他型月世界得求微分通解](#其他型月世界得求微分通解)
       1. [全微分](#全微分)
-   1. [极限](#极限)
-      1. [极限做题时的性质](#极限做题时的性质)
-      1. [极限计算法则](#极限计算法则)
-      1. [近似值](#近似值)
-         1. [利用无穷小的性质求函数的极限](#利用无穷小的性质求函数的极限)
-      1. [重要极限](#重要极限)
-      1. [极限类型](#极限类型)
-         1. [∞/∞ 无穷比无穷型](#-无穷比无穷型)
-         1. [1^∞ 1的无穷次方型](#1-1的无穷次方型)
-      1. [无穷大小量](#无穷大小量)
-         1. [等价无穷大小](#等价无穷大小)
-      1. [常用解法](#常用解法)
-         1. [抓大头](#抓大头)
-      1. [常见的等价变换](#常见的等价变换)
-      1. [泰勒展开](#泰勒展开)
-         1. [其他型月世界的泰勒展开](#其他型月世界的泰勒展开)
-      1. [极限的图形学](#极限的图形学)
-      1. [其他型月世界的极限题](#其他型月世界的极限题)
+      1. [微分在近似计算种的应用](#微分在近似计算种的应用)
    1. [级数](#级数)
       1. [级数的敛散](#级数的敛散)
          1. [P级数](#p级数)
@@ -96,19 +94,20 @@
 
 ## 高中遗留物
 
-> 毕达哥拉斯三角恒等式
++ 毕达哥拉斯三角恒等式
+  > $\sin ^{2}\theta +\cos ^{2}\theta =1 \\$
+  >> $\tan ^{2}\theta +1\,=\sec ^{2}\theta \\$
+  >>> $1\,+\cot ^{2}\theta =\csc ^{2}\theta \\$
 
-+ $\sin ^{2}\theta +\cos ^{2}\theta =1 \\$
-+ $\tan ^{2}\theta +1\,=\sec ^{2}\theta \\$
-+ $1\,+\cot ^{2}\theta =\csc ^{2}\theta \\$
++ 幂简约公式
+  > $\cos ^{2}\theta=\frac{1}{2}({1+\cos{2\theta}})$
+  >> $\sin ^{2}\theta=\frac{1}{2}({1-\cos{2\theta}})$
 
-> 幂简约公式
++ 反函数
+  > y=f(x)=w, x=g(y), y=g(x)
 
-+ $\cos ^{2}\theta=\frac{1}{2}({1+\cos{2\theta}})$
-+ $\sin ^{2}\theta=\frac{1}{2}({1-\cos{2\theta}})$
-
-> 反函数
->> y=f(x)=w, x=g(y), y=g(x)
++ 变形
+  > $a^{-\frac{1}{2}}=\frac{1}{\sqrt{a}}$
 
 ## 函数
 
@@ -156,6 +155,138 @@
 ### 判断函数间断点
 
 > 若 x=n 直接带入原式无定义, 则使用极限推导-> limx=n 原式
+
+## 极限
+
+### 极限类型
+
+七种未定式
+
++ $\frac{0}{0}$
++ $\frac{\infin}{\infin}$
++ $0\times\infin$
+  > $\rightarrow\frac{\infin}{\frac{1}{0}}\rightarrow\frac{\infin}{\infin}$
++ $\infin-\infin$
+  > 通分, 和差化积
++ $\infin^0$
+  > $e^{0\times\ln\infin}\rightarrow{e^{0\times\infin}}$
++ $0^0$
+  > $e^{0\times\ln0}\rightarrow{e^{0\times\infin}}$
++ $1^\infin$
+  > $e^{\infin\ln{1}}\rightarrow e^{\infin\times0}$
+  >> $x^{f(x)} = 1^∞, 则=e^{f(x)\ln{x}}, 同时 e^{f(x)\ln{x}} = 1^∞$
+  >>
+### 极限做题时的性质
+
++ $要使函数f(x)在x=1处连续, 则有\lim_{x\to{1}}f(x)=f(1)$
++ 极限趋近于无穷则没有极限aka.无穷不是极限wtf
+
+### 极限计算法则
+
++ 确定未定式类型
+
+> Limit properties − if the limit of f(x), and g(x) exists, then:
+
++ $\lim_{x\to a}$ (x) = a
++ $\lim_{x\to a}$ [c·f(x)] = c·$\lim_{x\to a}$ f(x)
++ $\lim_{x\to a}$ [(f(x))^c] = $\lim_{x\to a}$ f(x)^c
++ $\lim_{x\to a}$ [f(x) ± g(x)] = $\lim_{x\to a}$ f(x) ± $\lim _{x\to a}$ g(x)
++ $\lim_{x\to a}$ [f(x) · g(x)] = $\lim_{x\to a}$ f(x) · $\lim _{x\to a}$ g(x)
++ $\lim_{x\to a}$ [f(x) / g(x)] = $\lim_{x\to a}$ f(x) / $\lim _{x\to a}$ g(x) , where $\lim_{x\to a}$g(x)≠0
+
+### 近似值
+
++ $\lim_{x\to 0}$ 时
+  > $1-x=1 \\ \sin x = x \\ \tan x = x \\ e^x = 1+x \\ e^{x^a} = 1+x^a \\ \ln(1+x) = x \\ 1-\cos{x} = \frac{1}{2x^2} = -(\cos{x} -1)$
+
+#### 利用无穷小的性质求函数的极限
+
+> + 性质1: 有界函数与无穷小的乘积是无穷小
+> + 性质2: 常数与无穷小的乘积是无穷小
+> + 性质3: 有限个无穷小相加、相减及相乘仍旧无穷小
+
+### 重要极限
+
++ $\lim_{x\to{0}}\frac{\sin{x}}{x}=1$
++ $\lim_{x\to0}(1-x)^{\frac{a}{-x}}=e^a$
++ $\lim_{x\to{\infin}}(1+\frac{1}{x})^{ax}=e^a$
++ $\lim_{x\to\infin}(1+\frac{1}{ax})^x=e^\frac{1}{a}$
++ limx->0 1-cosx = (x^2)/2
++ limx->0 sqrt1-x = -x/2
++ limx->0 sinx - tanx = -(x^3)/2
++ limx->0 xsin(n/x) = 0, sin为有界函数, x为无穷小量, 无穷小量×有界函数=0
++ limx->1 lnx = x-1
+
+### 无穷大小量
+
+> 无穷大小量的阶数: 趋近于无穷大小时, 将原式作为极限计算, 例如:
+
++ $\lim_{x\to 0}\left({x^2}\right) = {x^2}$
++ $\lim_{x\to 0}\left({1-\cos{x}}\right) = \frac 1{x^2}$
++ $\lim_{x\to 0}\left(\sqrt{1-{x}}-1\right) = -\frac 1{2}{x}$
++ $\lim_{x\to 0}\left(\sin{x}-\tan{x}\right) = {x}-\frac 1{2}{x^3}$
+
+#### 等价无穷大小
+
+> limx->0 [f(x)/g(x)] = 1, 即为等价无穷小
+
+### 常用解法
+
++ sinx -> x | sinAx -> Ax
+
+#### 抓大头
+
+> 看最高次幂->前面的系数
+
+### 常见的等价变换
+
+> x->0时
+
++ sin(x) -> x
++ sin^2(x) -> x^2
++ ln(1+2x) -> 2x
++ xsinx -> x^2
+
+### 泰勒展开
+
+$
+\begin{aligned}
+e^{x} &=\sum_{n=0}^{\infin} \frac{1}{n !} x^{n}=1+x+\frac{1}{2 !} x^{2}+\cdots \in(-\infin,+\infin) \\
+\sin x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{(2 n+1) !} x^{2 n+1}=x-\frac{1}{3 !} x^{3}+\frac{1}{5 !} x^{5}+\cdots, x \in(-\infin,+\infin) \\
+\cos x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{(2 n) !} x^{2 n}=1-\frac{1}{2 !} x^{2}+\frac{1}{4 !} x^{4}+\cdots, x \in(-\infin,+\infin) \\
+\ln(1+x) &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{n+1} x^{n+1}=x-\frac{1}{2} x^{2}+\frac{1}{3} x^{3}+\cdots, x \in(-1,1] \\
+\frac{1}{1-x} &=\sum_{n=0}^{\infin} x^{n}=1+x+x^{2}+x^{3}+\cdots, x \in(-1,1) \\
+\frac{1}{1+x} &=\sum_{n=0}^{\infin}(-1)^{n} x^{n}=1-x+x^{2}-x^{3}+\cdots, x \in(-1,1)\\
+(1+x)^{\alpha} &=1+\sum_{n=1}^{\infin} \frac{\alpha(\alpha-1) \cdots(\alpha-n+1)}{n !} x^{n}=1+\alpha x+\frac{\alpha(\alpha-1)}{2 !} x^{2}+\cdots, x \in (-1,1)\\
+\arcsin x &=\sum_{n=0}^{\infin} \frac{(2 n) !}{4^{n}(n !)^{2}(2 n+1)} x^{2 n+1}=x+\frac{1}{6} x^{3}+\frac{3}{40} x^{5}+\frac{5}{112} x^{7}+\frac{35}{1152} x^{9}+\cdots,x \in (-1,1)\\
+\arctan x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{2 n+1} x^{2 n+1}=x-\frac{1}{3} x^{3}+\frac{1}{5} x^{5}+\cdots+x \in[-1,1]\\
+\tan x &= \sum_{n=1}^{\infin} \frac{B_{2 n}(-4)^{n}\left(1-4^{n}\right)}{(2 n) !} x^{2 n-1}=x+\frac{1}{3} x^{3}+\frac{2}{15} x^{5}+\frac{17}{315} x^{7}+\frac{62}{2835} x^{9}+\frac{1382}{155925} x^{11}+\frac{21844}{6081075} x^{13}+\frac{929569}{638512875} x^{15}+\cdots, x \in\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)
+\end{aligned}
+$
+
+#### 其他型月世界的泰勒展开
+
++ $\sqrt{1+x} = {(1+x)}^\frac{1}{2} = 1+\frac{1}{2x}+o{x}$
++ $\sqrt{1-x} = {(1-x)}^\frac{1}{2} = 1-\frac{1}{2x}+o{x}$
+
+### 极限的图形学
+
++ 若有一点使极限值 = 函数值, 则函数在该点连续
+
+### 其他型月世界的极限题
+
++ $\lim_{n\to\infin}(\frac{1}{\sqrt{1+n^2}}+...+\frac{1}{\sqrt{n+n^2}})=?$
+  > 夹逼缩放法:
+  >> $\lim_{n\to\infin}\frac{n}{\sqrt{n+n^2}}≤...≤\lim_n{\to\infin}\frac{1}{\sqrt{1+n^2}}$
+  >>> 求极限得 1≤...≤1, 即 ...=?=1
++ 极限 limx->0 {[e^(x^2)]-1}/cosx -1
+  > 换元法 x^2 = u, 等价 (e^x)-1->x, 变形 cosx-1 = -(1-cosx), limx->0 1-cosx = (x^2)/2, -(1-cosx)=-(x^2)/2, 带入原极限求得 -2
++ $极限 lim_{x=1} x^\frac{1}{x-1}, 原极限为1^∞型, 转换为 e^{\frac{1}{x-1}lnx}\rightarrow lim_{x\to 1}\ln(x), x-1\\带入得 e^{\frac{1}{x-1}x-1}=e, x=1无定义且极限存在, 则x=1为可去间断点$
++ 第一判定定理
+  > 啥我也不知道
+  >
++ 极值点产生驻点和不可导点, 即函数一阶导=0或不存在.
+
 ---
 
 ## 导数
@@ -173,13 +304,16 @@
 
 ### 导数公式
 
-+ C‘ = 0, C 为常数
-+ (x^a)' = ax^a-1
-+ (a^x)' = a^xlna
-+ (e^x)' = e^x
-+ (loga x)' = 1/xlna
-+ (ln x)' = 1/x
-+ (sin x)' = cos x
+$C`=0, C为常数 \\
+x^a`=ax^{a-1} \\
+a^x`=a^x\ln{a} \\
+e^x`=e^x \\
+\log_a{x}`=\frac{1}{x}\ln{a} \\
+\ln{x}`=\frac{1}{x} \\
+\sin{x}`=\cos{x} \\
+\cos{x}`=-\sin{x} \\
+$
+
 + (cos x)' = -sin x
 + (tan x)' = sec^2 x
 + (sec x)' = sec x + tan x
@@ -336,19 +470,19 @@ $性质A: \int\int{区间D}dxdy=区间D图形的面积$
 以下是常微分方程的一些例子, 其中$u$为未知的函数, 自变量为$x$, $c$及$\omega$ 均为常数.
 
 + 非齐次一阶常系数线性微分方程:
-  > $d u d x = c u + x 2 . {\displaystyle {\frac {du}{dx}}=cu+x^{2}.}$
+  > ${\displaystyle {\frac {du}{dx}}=cu+x^{2}.}$
 + 齐次二阶线性微分方程:
-  > $d 2 u d x 2 − x d u d x + u = 0. {\displaystyle {\frac {d^{2}u}{dx^{2}}}-x{\frac {du}{dx}}+u=0.} $
+  > ${\displaystyle {\frac {d^{2}u}{dx^{2}}}-x{\frac {du}{dx}}+u=0.} $
 + 描述谐振子的齐次二阶常系数线性微分方程:
-  > $d 2 u d x 2 + ω 2 u = 0. {\displaystyle {\frac {d^{2}u}{dx^{2}}}+\omega ^{2}u=0.} $
+  > ${\displaystyle {\frac {d^{2}u}{dx^{2}}}+\omega ^{2}u=0.} $
 + 非齐次一阶非线性微分方程:
-  > $d u d x = u 2 + 1. {\displaystyle {\frac {du}{dx}}=u^{2}+1.} $
+  > ${\displaystyle {\frac {du}{dx}}=u^{2}+1.} $
 + 描述长度为$L$的单摆的二阶非线性微分方程:
-  > $L d 2 u d x 2 + g sin ⁡ u = 0. {\displaystyle L{\frac {d^{2}u}{dx^{2}}}+g\sin u=0.} $
-+ 以下是偏微分方程的一些例子, 其中 $u$为未知的函数, 自变量为$x$
-  > $x$及$t$或者是$x$及$y$
+  > ${\displaystyle L{\frac {d^{2}u}{dx^{2}}}+g\sin u=0.} $
++ $以下是偏微分方程的一些例子, 其中u为未知的函数, 自变量为x$
+  > $x及t或者是x及y$
 + 齐次一阶线性偏微分方程:
-  > $ ∂ u ∂ t + t ∂ u ∂ x = 0. {\displaystyle {\frac {\partial u}{\partial t}}+t{\frac {\partial u}{\partial x}}=0.}$
+  > ${\displaystyle {\frac {\partial u}{\partial t}}+t{\frac {\partial u}{\partial x}}=0.}$
 + 拉普拉斯方程, 是椭圆型的齐次二阶常系数线性偏微分方程:
   > $ ∂ 2 u ∂ x 2 + ∂ 2 u ∂ y 2 = 0. {\displaystyle {\frac {\partial ^{2}u}{\partial x^{2}}}+{\frac {\partial ^{2}u}{\partial y^{2}}}=0.}$
 + KdV方程, 是三阶的非线性偏微分方程:
@@ -391,142 +525,19 @@ $性质A: \int\int{区间D}dxdy=区间D图形的面积$
 + $求方程2(xy+y)y`=y的通解$
   > $\begin{aligned}y`=\frac{dy}{dx}&=\frac{y}{2(xy+x)}\\ydx&=2(xy+x)dy\\\frac{y+1}{y}dy&=\frac{1}{2x}dx\\\int\frac{y+1}{y}dy&=\int\frac{1}{2x}dx\\\int 1+\frac{1}{y}dy&=\int\frac{1}{2}\frac{1}{x}dx\\y+\ln{|y|}&=\frac{1}{2}\ln{|x|}+C\\2y+2\ln{|y|}&=\ln{|x|}+C\\e^{2y+2\ln{|y|}}&=e^{\ln{|x|}+\ln{C}}\\e^{2y+\ln^2|y|}&=e^{\ln{|x|}+\ln{C}}\\e^{\frac{1}{\ln{C}}(2y+\ln{|y|^2})}&=e^{\ln{|x|}}\\Ce^{2y}e^{\ln|y|^2}&=x\\由图像知|x|恒>0\\则原方程通解为\\Ce^{2y}y^2&=x\end{aligned}$
 + $求方程y`+xy^2=0的通解$
-  > $\begin{aligned}y`=\frac{dy}{dx}&=xy^2\\dy&=xdxy^2\\\frac{dy}{y^2}&=xdx\\\int\frac{1}{y^2}dy&=\int{x}dx\\-\frac{1}{y}&=-\frac{x^2}{2}+\frac{C}{2}\\y&=\frac{2}{x^2+C}\end{aligned}$
+  > $\begin{aligned}y`=\frac{dy}{dx}&=-xy^2\\dy&=-xdxy^2\\\frac{dy}{y^2}&=-xdx\\\int\frac{1}{y^2}dy&=\int-{x}dx\\-\frac{1}{y}&=-\frac{x^2}{2}+\frac{C}{2}\\y&=\frac{2}{x^2+C}\end{aligned}$
 
 ### 全微分
 
 + 公式
   > $dz=\frac{\partial{z}}{\partial{x}}dx+\frac{\partial{z}}{\partial{y}}dy$
   >> 有点则直接带入微分算子求出值, 再带上dx dy => 值dx+值dy
+  >>
+### 微分在近似计算种的应用
+
++ $f(x_0+\Delta{x})=f(x_0)+f`(x_0)\Delta{x}$
 
 ---
-
-## 极限
-
-### 极限做题时的性质
-
-+ $要使函数f(x)在x=1处连续, 则有\lim_{x\to{1}}f(x)=f(1)$
-+ 极限趋近于无穷则没有极限aka.无穷不是极限wtf
-
-### 极限计算法则
-
-> Limit properties − if the limit of f(x), and g(x) exists, then:
-
-+ $\lim_{x\to a}$ (x) = a
-+ $\lim_{x\to a}$ [c·f(x)] = c·$\lim_{x\to a}$ f(x)
-+ $\lim_{x\to a}$ [(f(x))^c] = $\lim_{x\to a}$ f(x)^c
-+ $\lim_{x\to a}$ [f(x) ± g(x)] = $\lim_{x\to a}$ f(x) ± $\lim _{x\to a}$ g(x)
-+ $\lim_{x\to a}$ [f(x) · g(x)] = $\lim_{x\to a}$ f(x) · $\lim _{x\to a}$ g(x)
-+ $\lim_{x\to a}$ [f(x) / g(x)] = $\lim_{x\to a}$ f(x) / $\lim _{x\to a}$ g(x) , where $\lim_{x\to a}$g(x)≠0
-
-### 近似值
-
-> $\lim_{x\to 0}$ 时
-
-+ sinx = x
-+ tanx = x
-+ e^x = 1+x
-+ e^x^a = 1+x^a
-+ ln(1+x) = x
-+ 1-cosx = 1/2x^2 = -(cosx -1)
-
-#### 利用无穷小的性质求函数的极限
-
-> + 性质1: 有界函数与无穷小的乘积是无穷小
-> + 性质2: 常数与无穷小的乘积是无穷小
-> + 性质3: 有限个无穷小相加、相减及相乘仍旧无穷小
-
-### 重要极限
-
-+ $\lim_{x\to{0}}\frac{\sin{x}}{x}=1$
-+ $\lim_{x\to0}(1-x)^{\frac{a}{-x}}=e^a$
-+ $\lim_{x\to{\infin}}(1+\frac{1}{x})^{ax}=e^a$
-+ $\lim_{x\to\infin}(1+\frac{1}{ax})^x=e^\frac{1}{a}$
-+ limx->0 1-cosx = (x^2)/2
-+ limx->0 sqrt1-x = -x/2
-+ limx->0 sinx - tanx = -(x^3)/2
-+ limx->0 xsin(n/x) = 0, sin为有界函数, x为无穷小量, 无穷小量×有界函数=0
-+ limx->1 lnx = x-1
-
-### 极限类型
-
-#### ∞/∞ 无穷比无穷型
-
-#### 1^∞ 1的无穷次方型
-
-> x^f(x) = 1^∞, 则-> e^f(x)×lnx, 同时 e^f(x)×lnx = 1^∞
-
-### 无穷大小量
-
-> 无穷大小量的阶数: 趋近于无穷大小时, 将原式作为极限计算, 例如:
-
-+ $\lim_{x\to 0}\left({x^2}\right) = {x^2}$
-+ $\lim_{x\to 0}\left({1-\cos{x}}\right) = \frac 1{x^2}$
-+ $\lim_{x\to 0}\left(\sqrt{1-{x}}-1\right) = -\frac 1{2}{x}$
-+ $\lim_{x\to 0}\left(\sin{x}-\tan{x}\right) = {x}-\frac 1{2}{x^3}$
-
-#### 等价无穷大小
-
-> limx->0 [f(x)/g(x)] = 1, 即为等价无穷小
-
-### 常用解法
-
-+ sinx -> x | sinAx -> Ax
-
-#### 抓大头
-
-> 看最高次幂->前面的系数
-
-### 常见的等价变换
-
-> x->0时
-
-+ sin(x) -> x
-+ sin^2(x) -> x^2
-+ ln(1+2x) -> 2x
-+ xsinx -> x^2
-
-### 泰勒展开
-
-$
-\begin{aligned}
-e^{x} &=\sum_{n=0}^{\infin} \frac{1}{n !} x^{n}=1+x+\frac{1}{2 !} x^{2}+\cdots \in(-\infin,+\infin) \\
-\sin x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{(2 n+1) !} x^{2 n+1}=x-\frac{1}{3 !} x^{3}+\frac{1}{5 !} x^{5}+\cdots, x \in(-\infin,+\infin) \\
-\cos x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{(2 n) !} x^{2 n}=1-\frac{1}{2 !} x^{2}+\frac{1}{4 !} x^{4}+\cdots, x \in(-\infin,+\infin) \\
-\ln(1+x) &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{n+1} x^{n+1}=x-\frac{1}{2} x^{2}+\frac{1}{3} x^{3}+\cdots, x \in(-1,1] \\
-\frac{1}{1-x} &=\sum_{n=0}^{\infin} x^{n}=1+x+x^{2}+x^{3}+\cdots, x \in(-1,1) \\
-\frac{1}{1+x} &=\sum_{n=0}^{\infin}(-1)^{n} x^{n}=1-x+x^{2}-x^{3}+\cdots, x \in(-1,1)\\
-(1+x)^{\alpha} &=1+\sum_{n=1}^{\infin} \frac{\alpha(\alpha-1) \cdots(\alpha-n+1)}{n !} x^{n}=1+\alpha x+\frac{\alpha(\alpha-1)}{2 !} x^{2}+\cdots, x \in (-1,1)\\
-\arcsin x &=\sum_{n=0}^{\infin} \frac{(2 n) !}{4^{n}(n !)^{2}(2 n+1)} x^{2 n+1}=x+\frac{1}{6} x^{3}+\frac{3}{40} x^{5}+\frac{5}{112} x^{7}+\frac{35}{1152} x^{9}+\cdots,x \in (-1,1)\\
-\arctan x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{2 n+1} x^{2 n+1}=x-\frac{1}{3} x^{3}+\frac{1}{5} x^{5}+\cdots+x \in[-1,1]\\
-\tan x &= \sum_{n=1}^{\infin} \frac{B_{2 n}(-4)^{n}\left(1-4^{n}\right)}{(2 n) !} x^{2 n-1}=x+\frac{1}{3} x^{3}+\frac{2}{15} x^{5}+\frac{17}{315} x^{7}+\frac{62}{2835} x^{9}+\frac{1382}{155925} x^{11}+\frac{21844}{6081075} x^{13}+\frac{929569}{638512875} x^{15}+\cdots, x \in\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)
-\end{aligned}
-$
-
-#### 其他型月世界的泰勒展开
-
-+ $\sqrt{1+x} = {(1+x)}^\frac{1}{2} = 1+\frac{1}{2x}+o{x}$
-+ $\sqrt{1-x} = {(1-x)}^\frac{1}{2} = 1-\frac{1}{2x}+o{x}$
-
----
-
-### 极限的图形学
-
-+ 若有一点使极限值 = 函数值, 则函数在该点连续
-
-### 其他型月世界的极限题
-
-+ $\lim_{n\to\infin}(\frac{1}{\sqrt{1+n^2}}+...+\frac{1}{\sqrt{n+n^2}})=?$
-  > 夹逼缩放法:
-  >> $\lim_{n\to\infin}\frac{n}{\sqrt{n+n^2}}≤...≤\lim_n{\to\infin}\frac{1}{\sqrt{1+n^2}}$
-  >>> 求极限得 1≤...≤1, 即 ...=?=1
-+ 极限 limx->0 {[e^(x^2)]-1}/cosx -1
-  > 换元法 x^2 = u, 等价 (e^x)-1->x, 变形 cosx-1 = -(1-cosx), limx->0 1-cosx = (x^2)/2, -(1-cosx)=-(x^2)/2, 带入原极限求得 -2
-+ $极限 lim_{x=1} x^\frac{1}{x-1}, 原极限为1^∞型, 转换为 e^{\frac{1}{x-1}lnx}\rightarrow lim_{x\to 1}\ln(x), x-1\\带入得 e^{\frac{1}{x-1}x-1}=e, x=1无定义且极限存在, 则x=1为可去间断点$
-+ 第一判定定理
-  > 啥我也不知道
-  >
-+ 极值点产生驻点和不可导点, 即函数一阶导=0或不存在.
 
 ## 级数
 
