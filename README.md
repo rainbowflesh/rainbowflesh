@@ -1,12 +1,13 @@
 ![Ohayōgozaimasuha](./asset/oha.jpg)
-# Hwallo there👋, m'Nijikawa a data scientist desu!
+
+# Hwallo there👋, m'Nijikawa a data scientist desu
 
 I call myself a lofty tone geek.
 
 - 🕳️ I resigned. Back to home. Start hibernation.
 - 📖 Read.
 - 📴 No collaborate.
-- 👁️‍🗨️ I know nothin but Bishōjo ;)
+- 👁️‍🗨️ I know nothing but Bishōjo ;)
 - 📮 Reach me with email.
 - ⚡ Fun fact: Woa! Actually I am alchemist cyber ork.
 
