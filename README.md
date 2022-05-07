@@ -10,7 +10,7 @@ I call myself a lofty tone geek.
 - 👁️‍🗨️ I know nothing but Bishōjo ;)
 - 📮 Reach me with email.
 - ⚡ Fun fact: Woa! Actually I am alchemist cyber ork.
-- [Who Im I?](asset\pixelavatar_opc.gif)
+- [Who Im I?](asset/pixelavatar_opc.gif)
 
 ## current statue 👇
 
