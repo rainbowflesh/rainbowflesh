@@ -39,12 +39,14 @@
       1. [变换积分次序](#变换积分次序)
       1. [不定积分](#不定积分)
       1. [不定积分公式](#不定积分公式)
+      1. [经常考的傻逼积分变形](#经常考的傻逼积分变形)
       1. [其他型月世界常见积分](#其他型月世界常见积分)
       1. [定积分](#定积分)
       1. [定积分例题](#定积分例题)
       1. [二重积分](#二重积分)
       1. [变上限积分求导](#变上限积分求导)
       1. [对称限积分](#对称限积分)
+      1. [圆相关的积分](#圆相关的积分)
    1. [微分](#微分)
       1. [微分运算法则](#微分运算法则)
       1. [微分方程](#微分方程)
@@ -59,6 +61,7 @@
          1. [P级数](#p级数)
          1. [交错P级数](#交错p级数)
          1. [调和级数](#调和级数)
+         1. [和函数](#和函数)
       1. [其他型月世界的级数例题](#其他型月世界的级数例题)
    1. [各类理论](#各类理论)
       1. [中值定理/均值定理](#中值定理均值定理)
@@ -74,6 +77,7 @@
          1. [可去间断点](#可去间断点)
          1. [跳跃间断点](#跳跃间断点)
    1. [图形学](#图形学)
+      1. [极坐标](#极坐标)
       1. [向量](#向量)
       1. [模长](#模长)
       1. [方向余弦](#方向余弦)
@@ -296,16 +300,19 @@ $
 
 ### 导数运算法则
 
-+ (A+-B)' = A' +- B'
-+ (A*B)' = A'*B + A*B'
-+ (A/B)' = (A'*B - A*B')/B^2
-+ $dz=\frac{dz}{dx}dx+\frac{dz}{dy}dy$ (这个是全微分)
++ $(A+-B)' = A' +- B'$
++ $(AB)' = A'B + AB' 前导后不导+后导前不导$
++ $(\frac{A}{B})' = \frac{A'B - AB'}{B^2}$
++ $dz=\frac{\partial{z}}{\partial{x}}dx+\frac{\partial{z}}{\partial{y}}dy$ (这个是全微分)
+  > $z`=\frac{\partial{z}}{\partial{x或者y}}$
 + $xy=t,\frac{d^2x}{dy^2}=\frac{dy}{dx}\frac{dt}{dx}$
 
 ### 导数公式
 
 $C`=0, C为常数 \\
 x^a`=ax^{a-1} \\
+\sqrt{x}`= \frac{1}{2\sqrt{x}} \\
+\frac{1}{\sqrt{x}}`=-\frac{1}{2x^{\frac{3}{2}}} \\
 a^x`=a^x\ln{a} \\
 e^x`=e^x \\
 \log_a{x}`=\frac{1}{x}\ln{a} \\
@@ -384,40 +391,43 @@ $已知函数Q(x)在点x=0处可导,函数f(x)=W(x)Q(W(x)), 则f`(w)=\frac{f(x)-
 ### 不定积分公式
 
 $
-\int0 \mathrm{dx} = C \\
-\int k\mathrm{dx}=kx + C \\
 \int x^\mu \mathrm{dx}=\frac1{\mu+1}x^{\mu+1}+C(\mu \ne -1) \\
-\int -x^\mu \mathrm{dx}=-\frac1{\mu+1}x^{\mu+1}+C(\mu \ne -1) \\
 \int\frac{1}{x}\mathrm{dx}=\ln|x| + C \\
-\int\frac{1}{x^2}\mathrm{dx}=-\frac{1}{x} + C \\
-\int \frac{1}{x+1\:}dx=\ln|x+1|+C \\
 \int a^x \mathrm{dx}=\frac{a^x}{\ln a} + C \\
-\int e^x \mathrm{dx}=e^x + C \\
-\int e^{-x} \mathrm{dx}=-e^{-x} + C \\
+\int e^{±x} \mathrm{dx}=±e^{±x} + C \\
+\int \ln x\mathrm{dx}=x\ln x-x + C \\
 \int \sin x \mathrm{dx}=-\cos x + C \\
+\int \sin ^2x\mathrm{dx}= \frac{1}{2}\left(x-\frac{1}{2}\sin \left(2x\right)\right)+C\\
 \int \cos x \mathrm{dx}=\sin x + C \\
 \int \cos^2 x \mathrm{dx}=\frac 1{2}(x+\frac 1{2}\sin{2x}) + C \\
-\int \cos ^2\left(\frac{x}{2}\right)dx = \frac 1{2}(x+\sin{x}) + C \\
 \int\sec x\tan x\mathrm{dx}=\sec x + C \\
 \int \sec^2 x \mathrm{dx}=\int \frac1{\cos^2 x}\mathrm{dx}=\tan x + C \\
 \int \csc x\cot x\mathrm{dx}=-\csc x + C \\
 \int \csc^2x\mathrm{dx}=\int \frac1{\sin^2x}\mathrm{dx}=-\cot x + C \\
-\int \frac{\mathrm{dx}}{\sqrt{1-x^2}}=\arcsin x + C \\
-\int \frac{\mathrm{dx}}{1+x^2}=\arctan x + C \\
 \int \tan x\mathrm{dx}=-\ln|\cos x| + C \\
 \int \cot x \mathrm{dx}=\ln|\sin x| + C \\
 \int \sec x \mathrm{dx}=\ln|\sec x+\tan x| + C \\
 \int \csc x\mathrm{dx}=\ln|\csc x -\cot x| + C \\
+$
+
+### 经常考的傻逼积分变形
+
+$
+\int\frac{1}{x^2}\mathrm{dx}=-\frac{1}{x} + C \\
+\int\frac{1}{\sqrt{x}}\mathrm{dx}=2\sqrt{x} + C \\
+\int \frac{1}{x+1\:}\mathrm{dx}=\ln|x+1|+C \\
 \int \frac{\mathrm{dx}}{x^2+a^2}=\frac1{a}\arctan {\frac{x}{a}} + C \\
 \int \frac{\mathrm{dx}}{x^2-a^2}=\frac1{2a}\ln|\frac{x-a}{x+a}| + C \\
 \int \frac{\mathrm{dx}}{\sqrt{a^2-x^2}}=\arcsin \frac{x}{a} + C \\
 \int \frac{\mathrm{dx}}{\sqrt{x^2\pm a^2}}=\ln|x+\sqrt{x^2\pm a^2}| + C \\
 \int \sqrt{a^2-x^2}\mathrm{dx}=\frac{x}{2}\sqrt{a^2-x^2}+\frac{a^2}{2}\arcsin \frac{x}{a} + C \\
 \int \sqrt{x^2\pm a^2}\mathrm{dx}=\frac{x}{2}\sqrt{x^2\pm a^2}\pm \frac{a^2}{2}\ln|x+\sqrt{x^2\pm a^2}| + C \\
-\int \ln x\mathrm{dx}=x\ln x-x + C \\
-\int \frac{e^{a\sqrt{x}}}{\sqrt{x}}{dx} = \frac{2}{a}{e^{a\sqrt{x}}} + C \\
+\int \frac{e^{a\sqrt{x}}}{\sqrt{x}}\mathrm{dx} = \frac{2}{a}{e^{a\sqrt{x}}} + C \\
 \int \frac{a}{b-{c{x}}}{dx} = \frac{-a}{c}\ln|{b}-{c}{x}| + C \\
-$
+\int \frac{\mathrm{dx}}{\sqrt{1-x^2}}=\arcsin x + C \\
+\int \frac{\mathrm{dx}}{1+x^2}=\arctan x + C \\
+\int \sin ^2\left(\frac{x}{2}\right)dx=\frac{1}{2}\left(x-\sin \left(x\right)\right)+C\\
+\int \cos ^2\left(\frac{x}{2}\right)\mathrm{dx} = \frac 1{2}(x+\sin{x}) + C \\$
 
 ### 其他型月世界常见积分
 
@@ -450,6 +460,10 @@ $性质A: \int\int{区间D}dxdy=区间D图形的面积$
 > $形如\int_{-a}^a\:f(x)dx, 其中$
 >> $被积函数为偶函数, 则积分可以写作2\int_0^a\:f(x)dx$
 >> $被积函数为奇函数, 则积分等于0$
+
+### 圆相关的积分
+
+> $x^2+y^2=r^2是圆心在圆点的表达式,\int_Df(x,y)dxdy的积分可以写成\int_Dg(r)d\theta, \theta\in[0,2\pi]$
 
 ---
 
@@ -572,6 +586,10 @@ $性质A: \int\int{区间D}dxdy=区间D图形的面积$
 
  ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{3}}+{\frac {1}{4}}+\cdots \,\!}$
 
+#### 和函数
+
+> wtf
+
 ### 其他型月世界的级数例题
 
 + $设级数∞∑n=1 Bn 为正项级数, ∞∑n=1 (A_n)^2 收敛, 则级数∞∑n=1 (-1)^n |A_n|/sqrt下n^2 + B_n$
@@ -660,6 +678,8 @@ $
 
 ## 图形学
 
+### 极坐标
+
 ### 向量
 
 + $\overrightarrow{a}=1i+1j+1k$
@@ -690,6 +710,8 @@ $
 
 ### 计算与公式
 
++ 法向量差积
+  > $\overrightarrow{S}=\overrightarrow{n_1}\times\overrightarrow{n_2}=\begin{vmatrix} i & i & k \\ n_1系数_1 & n_1系数_2 & n_1系数_3 \\ n_2系数_1 & n_2系数_2 & n_2系数_3 \end{vmatrix}\\=去掉第一行第一列-去掉第二行第二列+去掉第三行第三列=\begin{vmatrix}n_1系数_2&n_1系数_3\\n_2系数_2&n_2系数_3\end{vmatrix}i-类推j+类推k=交叉相乘再相减i-类推j+类推k$
 + 向量垂直
   > 向量点乘=0
 + 向量平行
@@ -703,6 +725,11 @@ $
   > 0=w(X-x) - (Y-y), 其中wk=-1 (k是切线方程的斜率)
   >> $w=\frac{dy}{dx}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}$
   >>
++ 点向式方程
+  > $$
++ 直线方程
+  > 求出方向向量, 找出经过的点, 带入点向式方程
+
 ### 其他型月世界常见的图形题
 
 + 直线balabala与平面平行
