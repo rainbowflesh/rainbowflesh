@@ -1,4 +1,4 @@
-# 简历
+# 繁历
 
 重生之我是全干骡子
 
@@ -18,51 +18,90 @@
 
 ## 技术栈
 
-+ 基础服务建设
-  + 熟悉 Linux 系统的部署、管理、维护.
-  + 熟悉 Linux 系统下应用环境与应用的搭建、部署、管理、维护.
-  + 熟悉 Docker/Podman 的使用.
-  + 熟悉 Nginx 的使用.
-  + 熟悉 Hadoop 生态系列的系统/应用部署、管理、维护.
-  + 了解 Windows Server 的部署、管理、维护.
-  + 了解内网/互联网的通讯网络拓扑设计、通讯原理.
-  + 了解堡垒机/跳板机的搭建、管理、维护.
-  + 了解 DNS 的使用.
-  + 了解 CDN 服务搭建、管理、维护.
-  + 了解 Kubernetes 的使用.
-+ 数据库
-  + 熟悉 SQL 设计.
-  + 了解 MySQL 的使用.
-  + 了解 PostgreSQL 的使用.
-+ Web 应用开发
-  + 熟悉 nodejs 系, vue2/vue3 框架的单页面应用开发.
-    + 掌握 echarts 各类图表使用.
-    + 掌握 treejs/pixijs 的使用.
-    + 熟悉网页设计,
-    + 了解 electron 框架下的桌面/移动应用开发.
-  + 熟悉基于 Spring 全家桶的 Java 后端开发
-    + 了解分布式后端应用的开发、部署.
-+ 机器学习
-  + 了解 TensorFlow 框架的使用.
-  + 了解 CUDA 套件的使用.
-  + 了解 CUDNN 的使用.
-+ 计算机视觉
-  + 掌握图像识别技术的设计与实现.
-  + 了解 WebGPU/WebGL 的使用.
-  + 了解 DirectX/Vulkan/OpenGL 等图形 api 的使用.
-  + 了解 OpenCV 的使用.
-  + 了解光线追踪的设计原理.
-+ 操作系统
-  + 熟悉 Windows/MacOS/Linux系统的使用.
-  + 了解 Windows NT 内核原理.
-  + 了解 NTFS、ext、ZFS、FAT 等文件系统原理.
-+ 其他技能
-  + 熟练掌握数据挖掘/信息检索技能.
-  + 掌握 Office 全家桶 adobe 全家桶的使用.
-  + 掌握 git 的使用.
-  + 掌握英语语言.
-  + 会画画.
-  + 了解各类动作捕捉技术的使用.
-  + 了解 Blender 的使用.
-  + 了解 VRoid Studio 建模工具的使用.
-  + 了解 Unity3D 的使用, harmony 库的使用.
+<details>
+  <summary>基础服务建设</summary>
+  
++ 熟悉 Linux 系统的部署、管理、维护.
++ 熟悉 Linux 系统下应用环境与应用的搭建、部署、管理、维护.
++ 熟悉 Docker/Podman 的使用.
++ 熟悉 Nginx 的使用.
++ 熟悉 Hadoop 生态系列的系统/应用部署、管理、维护.
++ 了解 Gitlab 的搭建、管理、维护.
++ 了解内网/互联网的通讯网络拓扑设计、通讯原理.
++ 了解堡垒机/跳板机的搭建、管理、维护.
++ 了解 DNS 的使用.
++ 了解 CDN 服务搭建、管理、维护.
+
+</details>
+<details>
+  <summary>数据库</summary>
+
++ 熟悉 SQL 设计.
++ 了解 MySQL 的使用.
++ 了解 PostgreSQL 的使用.
++ 了解 Hadoop 文件系统的使用.
++ 了解 Redis 的使用.
++ 了解 MongoDB 的使用.
+
+</details>
+<details>
+  <summary>Web 应用开发</summary>
+
++ 熟悉 nodejs 系, vue2/vue3 框架的单页面应用开发.
+  + 掌握 echarts 各类图表使用.
+  + 掌握 treejs/pixijs 的使用.
+  + 熟悉网页设计,
+  + 了解 electron 框架下的桌面/移动应用开发.
++ 熟悉基于 Spring 全家桶的 Java 后端开发
+  + 了解分布式后端应用的开发、部署.
+
+</details>
+<details>
+  <summary>机器学习</summary>
+
++ 了解 TensorFlow 框架的使用.
++ 了解 CUDA 套件的使用.
++ 了解 CUDNN 的使用.
+
+</details>
+<details>
+  <summary>计算机视觉</summary>
+  
++ 掌握图像识别技术的设计与实现.
++ 了解 WebGPU/WebGL 的使用.
++ 了解 DirectX/Vulkan/OpenGL 等图形 api 的使用.
++ 了解 OpenCV 的使用.
++ 了解光线追踪的设计原理.
+
+</details>
+<details>
+  <summary>操作系统</summary>
+
++ 熟悉 Windows/MacOS/Linux 系统的使用.
++ 了解 Windows NT 内核原理.
++ 了解 NTFS、ext、ZFS、FAT 等文件系统原理.
+
+</details>
+<details>
+  <summary>编程语言</summary>
+
++ 了解 Java 虚拟机工作原理与优化.
+
+</details>
+<details>
+  <summary>其他技能</summary>
+
++ 熟练掌握数据挖掘/信息检索技能.
++ 掌握 Office 全家桶 adobe 全家桶的使用.
++ 掌握 git 的使用.
++ 掌握文档攥写技能.
++ 掌握英语语言.
++ 会画画.
++ 了解各类动作捕捉技术的使用.
++ 了解 Blender 的使用.
++ 了解 VRoid Studio 建模工具的使用.
++ 了解 Unity3D 的使用, harmony 库的使用.
++ 了解计算机原理.
++ 了解显示器原理.
+
+</details>
