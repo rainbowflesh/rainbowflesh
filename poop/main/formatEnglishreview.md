@@ -18,6 +18,7 @@
 + 一...就...: hardly had done + when did
 + 一...就...: scarcely had done + when did
 + 一...就...: no sooner had done + than did
++ 让某人做某事: let sb. do sth.
 + 考虑做某事: consider doing something
 + 放弃做某事: give up/abandon doing something
 + 应该做某事: be supposed to do something
@@ -103,17 +104,21 @@
 
 ### 非谓语
 
-形式:
-
-+ having
-+ having been
-+ to do, doing, done
-
-### 判别
-
-1. 判断谓语和非谓语: 一句一谓语, 两谓一连词, 无连词用非谓语.
-2. 判断主动被动: 看逻辑主语 (上文), 若逻辑主语与主句主语一致可省略.
-    > 时态参照物: 与谓语动词的先后关系.
+> 形式
+    + todo 不定式: 由 to 加动词原形构成的句子, to 只作为符号, 无实际意义.
+    + 动名词: 动词 ing 形式构成.
+    + 分词: 现在分词 (ing) 与过去分词 (ed) 构成.
+> 特征
+    + 非谓语动词可以做主语宾语等多种句子成分, 但不能做谓语.
+    + 非谓语动词具有各种形态: 原型主动被动进行时完成时.
+    + 非谓语动词具有动词的功能, 可以有自己的宾语, 但不具备语法上的动词性质, 如没有人称和数量变化.
+> 条件
+    + 一个句子中, 已经存在一个谓语动词, 而没有连词的情况下, 其他的动词要用非谓语形式.
+> 时态类型
+    + 不定式的动作与谓语动词同时发生, 非谓语用原型.
+    + 强调不定式的动作在谓语动词发生前, 非谓语用完成时.
+    + 强调不定式的动作正在进行, 非谓语用不定式的时态 (现在进行/过去进行).
+    + 当不定式的逻辑主语是不定式动作的承受者时, 非谓语用被动语态.
 
 ### 反义疑问句
 
@@ -130,11 +135,11 @@
 
 ### 时态
 
-| \ | 一般 | 进行 | 完成 | 完成进行 |
-| :----: | :----: | :----: | :----: | :----: |
-| 现在 | do/does | am/is/are/doing | have/has done | have/has been doing|
-| 过去 | did | was/were doing | had done | had been doing |
-| 将来 | will/shall do | will/shall be doing | will/shall have done | will/shall have been doing |
+|    \     |      一般       |         进行          |          完成          |           完成进行           |
+|:--------:|:---------------:|:---------------------:|:----------------------:|:----------------------------:|
+|   现在   |     do/does     |    am/is/are/doing    |     have/has done      |     have/has been doing      |
+|   过去   |       did       |    was/were doing     |        had done        |        had been doing        |
+|   将来   |  will/shall do  |  will/shall be doing  |  will/shall have done  |  will/shall have been doing  |
 | 过去将来 | should/would do | should/would be doing | should/would have done | should/would have been doing |
 
 + 一般现在时的用法
@@ -158,6 +163,7 @@
     >>
     >>> 表示过去发生的动作或存在的状态
     >>>
+
 ## 翻译
 
 ### 得分点
@@ -315,7 +321,63 @@
     > 一般过去不加 s, spread 没问题. where 几楼也没问题, destroyed 过去式也没问题.
     >
     > (D) equipments 作为集体名词没有复数, 所以改为 -> equipment
+    >
+> *神秘押题*
+
++ After driving(A) for twenty mile(B), he suddenly realized that(C) he was driving(D) in the wrong direction.
+    > (B) mile -> miles
++ Under(A) no circumstances we should(B) waste time, even when(C) we think we have nothing to do(D).
+    > (B) we should -> should we, 倒装句.
++ Some students fell like to go(A) abroad for further(B) study after graduation form(C) university instead of hunting for a job.
+    > (A) to go -> going
+    >
++ The experts come to(A) the conclusion when(B) the summer will be much hotter than before.
+    > (B) when -> that
++ Reading(A) the book, he returned it to the library and(B) borrowed another(B) one to read(D).
+    > (A) Reading -> Having read 非谓语动词:
+    >> he 主语, returned 谓语过去式, Read 发生在 returned 之前, to do 不定式, read 发生在 borrowed 之前, 所以应为过去完成时 having done.
++ Henry is determined to go(A) to the little cafe by himself(B), because the background music there sounds softly(C) to him(D).
+    > (C) softly -> soft
++ Dr. Bell has given(A) some lectures, visited the(B) Imperial Palace and went(C) shopping in the downtown during his stay(D) in Beijing last time.
+    > (A) has given -> gave, 全体都是过去式.
++ If you studied(A) the mathematical(B) formula last night, you wouldn't have(C) any difficulty now(D).
+    > (A) studied -> has studied, 虚拟语气, 主句 last night 表过去, 从句用 had done.
++ In(A) my opinion, five thousand(B) and forty pounds are(C) too high for a(D) second-hand.
+    > (C) are -> is, 主 (my) 谓一致.
++ Mr. Blair and his wife live(A) in an(B) old house, in front of what(C) there is a very beautiful(D) garden.
+    > (C) what -> which, 关系代词指物 (garden).
+    >
+> 另一份
+
++ The smaller(A) the house is, the little(B) it will cost(C) us to heat(C) it.
+    > (B)  the little -> the less, 比较级错了.
++ They arrived at(A) the museum out of breath(B), only to tell(C) that it was closed today.
+    > (C) to tell -> to be told, 被动语态.
++ Although he is known to(A) few(B) in his country, but(C) his reputation abroad(D) is very great.
+    > (C) but -> 去掉.
++ But for(A) the passer-by(B), the driver would lose(C) his wife in(D) that terrible accident yesterday.
+    > (C) would lose -> would have lose, 过去虚拟语态 would have done.
++ With exams approached(A), it is a good idea to review(B) the notes that(C) you take in(D) class.
+    > (A) approached -> approaching, 非谓语动词.
++ Only after the writer's(A) people were(B) able to true(C) appreciate her works(D).
+    > (B) were -> were people, 倒装.
++ I will let(A) you to know(B) my answer as soon as(C) I make(D) my decision.
+    > (B) to know -> know, let sb do sth.
++ It was(A) in the park where(B) he figured out(C) the difficult(D) maths problem.
+    > (D) difficult -> difficulty
++ By(A) the end of last month, that(B) factory has carried out(C) its production plan for this year successfully(D).
+    > (C) carried out -> had carried out, 过去完成.
++ In(A) the modern society, people get(B) a lot of informations(C) from the Internet(D).
+    > (C) informations -> information
 
 ## 完型填空
 
 翻译完再写
+
+## 神秘填空
+
+完形填空青春版.
+
+## 判断正误
+
+阅读理解青春版.
