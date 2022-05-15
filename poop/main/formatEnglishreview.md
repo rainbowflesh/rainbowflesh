@@ -1,8 +1,13 @@
 # English
 
-## 常见类型
+## 固定搭配
 
 + 当前: statue quo (这个不常见)
++ 在很大程度上: to a *表示大的形容词* extent
++ 至关重要: Of the utmost importance
++ 确定某事: be sure that
++ 有能力做某事: be capable of doing something
++ 尝试: make an attempt at
 + 特殊场合: special occasion
 + 好脾气: good tempered
 + 发脾气: lose temper
@@ -372,12 +377,20 @@
 
 ## 完型填空
 
-翻译完再写
+翻译完再写, 翻译完也不会写, 到底哪个脑瘫想出来的这种题型.
 
-## 神秘填空
+### A
 
-完形填空青春版.
+```text
+        If you were to begin a new job tomorrow, you would bring with you some basic strengths and weaknesses. Success or failure in your work would depend, to a great extent, on your ability to use your strengths and weaknesses to the best advantage. Of the utmost importance is your attitude. A person who begins a job convinced that he isn't going to like it or is sure that he is going to ail is exhibiting a weakness which can only hinder his success. On the other hand, a person who believes that he is probably as capable of doing the work as anyone else and who is willing to make a cheerful attempt at it possesses a certain strength of purpose. The chances are that he will do well.
+        Having the prerequisite skills for a particular job is strength. Lacking those skills is obviously a weakness. A book-keeper who can't add or a carpenter who can't cut a straight line with a saw is hopeless cases.
+        this book has been designed to help you capitalize on the strength and overcome the weakness that you bring to the job of learning. But in group to measure your development, you must first take stock of somewhere you stand now. As we get further along in the book, we'll be strengthen in some detail with specific processes for developing and strengthening learning skills. However, to begin with, you should pause to examine your present strengths and weaknesses in three areas that are critical to your success or failure in school: your work, your reading and communication skills, and your study habits.
+```
 
 ## 判断正误
 
 阅读理解青春版.
+
+## 神秘填空
+
+完形填空青春版.
