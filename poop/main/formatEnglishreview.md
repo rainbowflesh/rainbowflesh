@@ -36,33 +36,6 @@
 + 行李: luggage/baggage (表示综合不加复数)
 + 机器: machine (表示综合不加复数)
 
-## 作文模板
-
-1. 某谁的什么问题与解决方案
-
-    ```txt
-        In recent years, we have to face the problem that __QUESTION DESCRIPTION__.
-    In fact, the problem of __QUESTION__ has become a public concern across society.
-
-        There are several reasons which may account for this social phenomenon/problem. First of all ____. Secondly, ____. Furthermore, ____.
-
-        As Confucius instructed, it's better late than never. In my opinion. prompt and strict measures should be taken to turn back this evil trend. On one had __QUESTION SOLUTION__, On the other hand, __QUESTION SOLUTION 2__.
-
-        I am firmly convinced that through our combined efforts, we are bound to __SOLVE QUESTION__.
-    ```
-
-2. 某谁关于什么的看法
-
-    ```txt
-        Nowadays, __QUESTION DESCRIPTION__ is becoming a heated topic/common phenomenon among __SWIPE__, which also has/have a great influence on them. Attitudes towards __QUESTION__ *vary* from person to person.
-
-        Some people think __OPINION 1__ for the reason that __OPINION 1 REASON__. what is more important, __OPINION REASON 2__ 
-
-        While others hole the belief that __OPINION 2__ is better choice in the following two reason: Firstly, __OPINION 2 REASON 1__. Besides, __OPINION 2 REASON 2__.
-
-        Form my point of view, __MY OPINION__. For one things, __MY OPINION REASON 1__. For another things, __MY OPINION REASON 2__. As a matter of fact, there are some of other reasons to explain my choice. For me the former one is surely a wise choice.
-    ```
-
 ## 语法
 
 + 定语从句中, 若关系代词作宾语, 可以省略.
@@ -176,6 +149,7 @@
 1. 句子结构: 五大基本句型.
 2. 句子语法: 时态/语态/主谓一致/单复数/等.
 3. 词汇.
+4. 时态.
 
 ### 强调句
 
@@ -242,6 +216,16 @@
     > That company will launch a series of new products next year.
 + 他从未想到过他会犯如此低级的错误.
     > It never occurred to him that he would have committed such a low level error.
++ 住在公园附近的每一个人都很熟悉这种气味.
+    > Everyone who lives near the park is familiar with this smell.
++ 直到会议结束, 他才现身.
+    > He didn't show up until the meeting was over.
++ 无论输赢, 我们所有人都会支持你.
+    > Wether you win or lose, all of us will support you.
++ 你练习得越多, 就能理解的越好.
+    > The more you practice, the better you can understand.
++ 据报道, 昨天有几百人在首都被拘捕了.
+    > From the report, there are hundreds of people arrested in the capital yesterday.
 
 ## 改错
 
@@ -387,6 +371,17 @@
         this book has been designed to help you capitalize on the strength and overcome the weakness that you bring to the job of learning. But in group to measure your development, you must first take stock of somewhere you stand now. As we get further along in the book, we'll be strengthen in some detail with specific processes for developing and strengthening learning skills. However, to begin with, you should pause to examine your present strengths and weaknesses in three areas that are critical to your success or failure in school: your work, your reading and communication skills, and your study habits.
 ```
 
+主要考点:
+
++ 上下文分析
++ 固定搭配 (多)
++ 定语从句
++ 词义/动名词辨析 (多)
++ 非谓语动词
++ 主谓一致
++ 连词
++ 形容词
+
 ## 判断正误
 
 阅读理解青春版.
@@ -394,3 +389,40 @@
 ## 神秘填空
 
 完形填空青春版.
+
+### a
+
+```text
+    Facial makeup refers to the colorful painting on the face of the actors in Peking Opera, which is a traditional Chinese opera. It has _certain format_ in terns of color, design and type. Red, yellow, black, purple, green and silver are the main color used for facial makeup to _represent_ different characters. The facial designs for the roles are made by _painting_, powdering and coloring in the basic forms of Zheng Lian (keeping the basic face pattern), San Kuai Wa Lian (three-section face) and Sui Lian (fragmentary face). These types are widely used to represent _generals_, officials, heros, gods and ghosts. The Chou (clown) actors can be recognized by the patch of white in various shapes painted around the eyes and nose. Sometimes these _patches_ are outlined in black, often called Xiao Hua Lian (partly painted face).
+```
+
+考点: 翻译 (为什么是翻译)
+
+## 作文模板
+
+1. 某谁的什么问题与解决方案
+
+    ```txt
+        In recent years, we have to face the problem that __QUESTION DESCRIPTION__.
+    In fact, the problem of __QUESTION__ has become a public concern across society.
+
+        There are several reasons which may account for this social phenomenon/problem. First of all ____. Secondly, ____. Furthermore, ____.
+
+        As Confucius instructed, it's better late than never. In my opinion. prompt and strict measures should be taken to turn back this evil trend. On one had __QUESTION SOLUTION__, On the other hand, __QUESTION SOLUTION 2__.
+
+        I am firmly convinced that through our combined efforts, we are bound to __SOLVE QUESTION__.
+    ```
+
+2. 某谁关于什么的看法
+
+    ```txt
+        Nowadays, __QUESTION DESCRIPTION__ is becoming a heated topic/common phenomenon among __SWIPE__, which also has/have a great influence on them. Attitudes towards __QUESTION__ *vary* from person to person.
+
+        Some people think __OPINION 1__ for the reason that __OPINION 1 REASON__. What is more important, __OPINION REASON 2__ 
+
+        While others hole the belief that __OPINION 2__ is better choice in the following two reason: Firstly, __OPINION 2 REASON 1__. Besides, __OPINION 2 REASON 2__.
+
+        From my point of view, __MY OPINION__. For one things, __MY OPINION REASON 1__. For another things, __MY OPINION REASON 2__. As a matter of fact, there are some of other reasons to explain my choice. For me the former one is surely a wise choice.
+    ```
+
+cooperation
