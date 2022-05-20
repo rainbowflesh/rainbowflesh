@@ -41,5 +41,6 @@ payload:
     - "+.nexus-fastly.com"
     - "+.iqdb.org"
     - "+.pixl.is"
+    - "+.gitlab.com"
     - "api.steampowered.com"
     - "store.steampowered.com"
