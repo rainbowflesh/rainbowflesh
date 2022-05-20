@@ -1,6 +1,0 @@
-﻿payload:
-    - "+.jindouyun.com"
-    - "+.gacloudltd.org"
-    - "+.jike0001.com"
-    - "yacd.haishan.me"
-    - "clash.razord.top"
