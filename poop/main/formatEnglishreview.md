@@ -424,5 +424,3 @@
 
         From my point of view, __MY OPINION__. For one things, __MY OPINION REASON 1__. For another things, __MY OPINION REASON 2__. As a matter of fact, there are some of other reasons to explain my choice. For me the former one is surely a wise choice.
     ```
-
-cooperation
