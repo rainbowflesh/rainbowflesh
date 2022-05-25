@@ -100,7 +100,8 @@
 ## 高中遗留物
 
 - $\ln{A}-\ln{B}=\ln{\frac{A}{B}}$
-
+- $A\ln{B}=-\frac{\ln{B}}{A}$
+- $\ln{100}=2\ln{10}$
 - 因式分解公式
 
     > $\frac{1}{x(C-x)}=\frac{1}{c}[\frac{1}{x}+\frac{1}{C-x}]$
@@ -130,7 +131,9 @@
 
 ## 函数
 
-### 一元函数
+### 奇偶性
+
+#### 一元函数
 
 - 一次奇
 - 二次偶
@@ -140,7 +143,7 @@
 - 幂函数无
 - 对数函数无
 
-### 三角函数
+#### 三角函数
 
 - sin 奇
 - cos 偶
@@ -150,6 +153,10 @@
 - arc cos 无
 - arc tan 奇
 - arc cot 无
+
+#### 复合函数
+
+-
 
 ### 计算法则
 
@@ -345,12 +352,12 @@ $
 - (cot x)' = -csc^2 x
 - (csc x)' = -csc x \* cot x
 - $\arcsin{x}`=\frac{1}{\sqrt1-x^2} = -\arccos{x}`$
-- $\arctan{x}`=\frac{1}{1+x^2} = -\arccot{x}`$
+- $\arctan{x}`=\frac{1}{1+x^2} = -arccot{x}`$
 - (1/x)' = -1/x^2
 - $\frac{1}{x^2}`=-\frac{2}{x^3}$
-- ln(1+e^x)' = e^x/(1+e^x)
-- ln[f(x)+C]' = 1/[f(x)+C] \* f'(x)
-- [e^f(x)^n]' = e^f(x)^n \* [f(x)^n]'
+- \ln(1+e^x)' = e^x/(1+e^x)
+- \ln[f(x)+C]' = 1/[f(x)+C] \* f'(x)
+- $[e^{f(x)^n}]' = \frac{e^{{f(x)}^n}}{f(x)^n}'$
 - $(e^{\digamma{(x)}})`=[\digamma{(x)}]`e^{\digamma{(x)}}$
 - $|f(x)|` = \frac {f(x)}{|f(x)|}$
 - $(x^{\sin{x}})`=(e^{\sin{x}\ln{x}})`=(\cos{x}\ln{x}+\frac{\sin{x}}{x})x^{\sin{x}}$
@@ -789,7 +796,7 @@ $
 - 平行于一个向量的单位向量
     > 平行的向量除以目标向量的模长得到通向的单位向量, 此时再加上负号得到反向的单位向量
 - $求曲线x=e^t\cos t,y=e^t\sin t,在t=\frac{\pi}{2}处的法线方程$
-    > $设法线的斜率为w, 曲线切线的斜率为k,则w=-k\\k=\frac{dy}{dx}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}=\frac{e^t\sin t+e^t\cos t}{e^t\cos t-e^t\sin t}=-1, 即w=1\\当t=\frac{\pi}{2}时, x=0, y=e^\frac{\pi}{2}\\此时法线方程为(y-e^\frac{pi}{2})=(x-0), 即y=x+e^\frac{\pi}{2}$
+    > 设法线的斜率为 w, 曲线切线的斜率为 k,则 $w=-k\\k=\frac{dy}{dx}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}=\frac{e^t\sin t+e^t\cos t}{e^t\cos t-e^t\sin t}=-1, 即w=1\\当t=\frac{\pi}{2}时, x=0, y=e^\frac{\pi}{2}\\此时法线方程为(y-e^\frac{pi}{2})=(x-0), 即y=x+e^\frac{\pi}{2}$
 
 ---
 
@@ -803,16 +810,24 @@ $
 - 牛顿第二定律
     > 物体质量 m, 物体加速度 a, 物体动能 F=ma
     >
-    > > $加速度a=\frac{d^2x}{dt^2}=\frac{dv}{dt}=v\frac{dv}{dt}, 分离变量可以积分$
+    > > 加速度 $a=\frac{d^2x}{dt^2}=\frac{dv}{dt}=v\frac{dv}{dt}$, 分离变量可以积分
     > >
-    > > > $正比F=kt, 反比Ft=k, 一正一反Fv=kt$
+    > > > 正比 F=kt, 反比 Ft=k, 一正一反 Fv=kt
     > > >
-    > > > > $若有积分求得balabala+C, 还要带入条件求出C的具体值, 然后再带入求得的积分成为函数式$
+    > > > > 若有积分求得 balabala+C, 还要带入条件求出 C 的具体值, 然后再带入求得的积分成为函数式
 - 变化率问题
 
-    > $形如t时刻某量y对t的变化率与t时刻某量w成正比 aka. \frac{dy}{dt}=kW(x)$
+    > 形如有总数 N, t 时刻某量 y 对 t 的变化率与 t 时刻某量 x 成正比: $y(x)=\frac{dx}{dt}=±kx(N-x)$
     >
     > > 注意标注变化率的正负
+
+- 冷却定律 (高概率考题)
+
+    > t 时刻 T(t)的时间对温度的变化率与 t 时刻物体与介质的温差 $T-T_0 成正比$
+    >
+    > > > $\frac{dT}{dt}=-k(T-T_0),\frac{dT}{dt}<0$
+    > > >
+    > > > > 会出现一阶线性常微分方程, 时间 t 为变量 x, 解如 $W=Ce^{-\int kdt}+W_0$, 其中原式形如 $\frac{dW}{dt}=±k(W-W_0)$
 
 ## 证明题
 
