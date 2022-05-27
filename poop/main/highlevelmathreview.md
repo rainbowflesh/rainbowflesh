@@ -12,6 +12,7 @@
       1. [函数单调性](#函数单调性)
       1. [函数凹凸性](#函数凹凸性)
       1. [判断函数间断点](#判断函数间断点)
+      1. [二元函数](#二元函数)
    1. [极限](#极限)
       1. [一些极限概念](#一些极限概念)
       1. [极限类型](#极限类型)
@@ -39,6 +40,7 @@
       1. [原函数](#原函数)
    1. [偏导数](#偏导数)
    1. [积分](#积分)
+      1. [凑积分](#凑积分)
       1. [分部积分法](#分部积分法)
       1. [变换积分次序](#变换积分次序)
       1. [不定积分](#不定积分)
@@ -82,6 +84,8 @@
          1. [可去间断点](#可去间断点)
          1. [跳跃间断点](#跳跃间断点)
    1. [图形学](#图形学)
+      1. [二次曲面](#二次曲面)
+      1. [直线的表达式](#直线的表达式)
       1. [渐近线](#渐近线)
       1. [向量](#向量)
       1. [模长](#模长)
@@ -186,6 +190,11 @@
 ### 判断函数间断点
 
 > 若 x=n 直接带入原式无定义, 则使用极限推导-> limx=n 原式
+
+### 二元函数
+
+- 分离变量 $f(x,y)\to f_x=f`(x)=\frac{d}{dx},f_y=f`(y)=\frac{d}{dx}$
+- 求极值: 分离变量令二者皆等零, A = f_xx, B = f_xy, C = f_yy, B^2-AC<0,A>0, 则为极小值点, 极值为 $x=\frac{-B}{2A}$, $y=\frac{-C}{2A}$
 
 ## 极限
 
@@ -334,7 +343,7 @@ $
 
 ### 导数运算法则
 
-- $(A+-B)' = A' +- B'$
+- $(A±B)' = A' ± B'$
 - $(AB)' = A'B + AB' 前导后不导+后导前不导$
 - $(\frac{A}{B})' = \frac{A'B - AB'}{B^2}$
 - $dz=\frac{\partial{z}}{\partial{x}}dx+\frac{\partial{z}}{\partial{y}}dy$ (这个是全微分)
@@ -405,6 +414,11 @@ $已知函数Q(x)在点x=0处可导,函数f(x)=W(x)Q(W(x)), 则f`(w)=\frac{f(x)-
 
 逆求导=积分
 
+### 凑积分
+
+- 一个函数: $dx=\frac{1}{x}d(ax+b)$
+- 复合函数: $y`dx=dy$
+
 ### 分部积分法
 
 假设${\displaystyle h(x)\ }$与${\displaystyle k(x)\ }$是两个连续可导函数. 由乘积法则可知
@@ -435,6 +449,7 @@ $已知函数Q(x)在点x=0处可导,函数f(x)=W(x)Q(W(x)), 则f`(w)=\frac{f(x)-
 ### 不定积分公式
 
 $
+\int k \mathrm{dx}=kx+C \\
 \int x^\mu \mathrm{dx}=\frac1{\mu+1}x^{\mu+1}+C(\mu \ne -1) \\
 \int\frac{1}{x}\mathrm{dx}=\ln|x| + C \\
 \int a^x \mathrm{dx}=\frac{a^x}{\ln a} + C \\
@@ -496,21 +511,22 @@ $
 
 ### 二重积分
 
-$性质A: \int\int{区间D}dxdy=区间D图形的面积$
+- 性质 A: $\int\int_{区间D}dxdy=$ 区间 D 的面积
+- 性质 B: $\int\int_{区间D}xdxdy$ 需要画出区间后积分计算
 
 ### 变上限积分求导
 
-> 积分上限为参数, 下限为常数, 则 d/dx∫f(t)dt = F(x)-F(a)
+> 积分上限为参数, 下限为常数, 则 $\frac{d}{dx}∫f(t)dt = F(x)-F(a)$
 
 ### 对称限积分
 
-> $形如\int_{-a}^a\:f(x)dx, 其中$
+> 形如 $\int_{-a}^a\:f(x)dx,$ 其中
 >
-> > $被积函数为偶函数, 则积分可以写作2\int_0^a\:f(x)dx$ >> $被积函数为奇函数, 则积分等于0$
+> > 被积函数为偶函数, 则积分可以写作 $2\int_0^a\:f(x)dx$ >> 被积函数为奇函数, 则积分等于 0
 
 ### 圆相关的积分
 
-> $x^2+y^2=r^2是圆心在圆点的表达式,\int\int_Df(x,y)dxdy的积分可以写成\int\int_Dg(r)dO=\int_\theta d\theta\int_rg(r)rdr, \theta\in[0,2\pi],O是极坐标的什么什么概念衍生, 极坐标是用角度和长度描述位置的坐标系$
+> $x^2+y^2=r^2$ 是圆心在圆点的表达式 , $\int\int_Df(x,y)dxdy$ 的积分可以写成 $\int\int_Dg(r)dO=\int_\theta d\theta\int_rg(r)rdr, \theta\in[0,2\pi],$ O 是极坐标的什么什么概念衍生, 极坐标是用角度和长度描述位置的坐标系
 
 ---
 
@@ -520,11 +536,11 @@ $性质A: \int\int{区间D}dxdy=区间D图形的面积$
 
 ### 微分运算法则
 
-- d(A+-B) = dA +- dB
+- d(A±B) = dA ± dB
 - d(A*B) = A*dB + B\*dA
-- d(A/B) = (B*dA - A*dB)/B^2
+- $d(A/B) = \frac{(B*dA - A*dB)}{B^2}$
 - d(C*A) = C*dA
-- d[F(g(x))] = F'(g(x)) \* g'(x)
+- $dF(g(x))=\frac{F`(g(x))}{g`(x)}$
 
 ### 微分方程
 
@@ -533,19 +549,19 @@ $性质A: \int\int{区间D}dxdy=区间D图形的面积$
 - 非齐次一阶常系数线性微分方程:
     > ${\displaystyle {\frac {du}{dx}}=cu+x^{2}.}$
 - 齐次二阶线性微分方程:
-    > ${\displaystyle {\frac {d^{2}u}{dx^{2}}}-x{\frac {du}{dx}}+u=0.} $
+    > ${\displaystyle {\frac {d^{2}u}{dx^{2}}}-x{\frac {du}{dx}}+u=0.}$
 - 描述谐振子的齐次二阶常系数线性微分方程:
-    > ${\displaystyle {\frac {d^{2}u}{dx^{2}}}+\omega ^{2}u=0.} $
+    > ${\displaystyle {\frac {d^{2}u}{dx^{2}}}+\omega ^{2}u=0.}$
 - 非齐次一阶非线性微分方程:
-    > ${\displaystyle {\frac {du}{dx}}=u^{2}+1.} $
+    > ${\displaystyle {\frac {du}{dx}}=u^{2}+1.}$
 - 描述长度为$L$的单摆的二阶非线性微分方程:
-    > ${\displaystyle L{\frac {d^{2}u}{dx^{2}}}+g\sin u=0.} $
-- $以下是偏微分方程的一些例子, 其中u为未知的函数, 自变量为x$
-    > $x及t或者是x及y$
+    > ${\displaystyle L{\frac {d^{2}u}{dx^{2}}}+g\sin u=0.}$
+- 以下是偏微分方程的一些例子, 其中 u 为未知的函数, 自变量为 x
+    > x 及 t 或者是 x 及 y
 - 齐次一阶线性偏微分方程:
     > ${\displaystyle {\frac {\partial u}{\partial t}}+t{\frac {\partial u}{\partial x}}=0.}$
 - 拉普拉斯方程, 是椭圆型的齐次二阶常系数线性偏微分方程:
-    > $ ∂ 2 u ∂ x 2 + ∂ 2 u ∂ y 2 = 0. {\displaystyle {\frac {\partial ^{2}u}{\partial x^{2}}}+{\frac {\partial ^{2}u}{\partial y^{2}}}=0.}$
+    > $∂ 2 u ∂ x 2 + ∂ 2 u ∂ y 2 = 0. {\displaystyle {\frac {\partial ^{2}u}{\partial x^{2}}}+{\frac {\partial ^{2}u}{\partial y^{2}}}=0.}$
 - KdV 方程, 是三阶的非线性偏微分方程:
     > $∂ u ∂ t = 6 u ∂ u ∂ x − ∂ 3 u ∂ x 3 . {\displaystyle {\frac {\partial u}{\partial t}}=6u{\frac {\partial u}{\partial x}}-{\frac {\partial ^{3}u}{\partial x^{3}}}.}$
 
@@ -750,6 +766,44 @@ $
 
 ## 图形学
 
+### 二次曲面
+
+| 未退化的一般实二次曲面 |                                       表达式                                       |                                                   图像                                                   |
+|:-------------------:|:----------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|
+|         椭球面         |          ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}+{z^{2} \over c^{2}}=1$           |           ![椭球面](https://upload.wikimedia.org/wikipedia/commons/e/ec/Ellipsoid_Quadric.png)           |
+|       椭圆抛物面       |                  ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-z=0\,$                   |        ![椭圆抛物面](https://upload.wikimedia.org/wikipedia/commons/0/02/Paraboloid_Quadric.Png)         |
+|       双曲抛物面       |                  ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}-z=0\,$                   |   ![双曲抛物面](https://upload.wikimedia.org/wikipedia/commons/8/87/Hyperbolic_Paraboloid_Quadric.png)   |
+|       单页双曲面       | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/3/34/Hyperboloid_Of_One_Sheet_Quadric.png)  |
+|       双叶双曲面       | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/a/af/Hyperboloid_Of_Two_Sheets_Quadric.png) |
+
+|       特殊二次曲面       |                                       表达式                                       |                                                       图像                                                        |
+|:----------------------:|:----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+| 类球面（一种特殊的椭球面） |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$          |   ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png)   |
+|           球面           |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$          |                  ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png)                  |
+|         圆抛物面         |                  ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$                   |         ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png)          |
+|        单叶双曲面        | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png)  |
+|        双叶双曲面        | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
+
+| 退化的一般实二次曲面 |                                      表达式                                       |                                               图像                                               |
+|:------------------:|:---------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
+|       椭圆锥面       |         ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=0\,$         |   ![椭圆锥面](https://upload.wikimedia.org/wikipedia/commons/9/9b/Elliptical_Cone_Quadric.Png)   |
+|         锥面         | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=0\,}$ |      ![锥面](https://upload.wikimedia.org/wikipedia/commons/c/c6/Circular_Cone_Quadric.png)      |
+|       椭圆柱面       |                   ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}=1\,$                   |  ![椭圆柱面](https://upload.wikimedia.org/wikipedia/commons/6/64/Elliptic_Cylinder_Quadric.png)  |
+|        圆柱面        |                   ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}=1\,$                   |   ![圆柱面](https://upload.wikimedia.org/wikipedia/commons/0/0c/Circular_Cylinder_Quadric.png)   |
+|       双曲柱面       |                   ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}=1\,$                   | ![双曲柱面](https://upload.wikimedia.org/wikipedia/commons/8/82/Hyperbolic_Cylinder_Quadric.png) |
+|       抛物柱面       |                                  $x^{2}+2ay=0\,$                                  | ![抛物柱面](https://upload.wikimedia.org/wikipedia/commons/e/ea/Parabolic_Cylinder_Quadric.png)  |
+
+> 简约版:
+>
+> - 缺一变量变量且有平方和表示一个母线平行于z轴的柱面
+> - 变量z为负数的图像两头大中间小
+> - 变量z分之斜率的图像是锥面
+
+### 直线的表达式
+
+- 第一类: $x=k_0±a, y=k_1±b, z=k_2±c$, 其中 k 为点的坐标, a,b,c 为直线的斜率
+- 第二类: $\frac{x±k_0}{a}=\frac{y±k_1}{b}=\frac{z±k_2}{c}$, 其中 k 为点的坐标, a,b,c 为直线的斜率
+
 ### 渐近线
 
 - 曲线 $\lim_{x\to\infin}=0$ 则存在水平渐近线 y=0, $\lim_{x\to无意义点}=\infin$ 则有垂直渐近线 x=2
@@ -768,19 +822,19 @@ $
 
 ### 方向角
 
-- $就是方向余弦的值的角度, \cos\alpha=w, \alpha=方向角$
+- 就是方向余弦的值的角度, $\cos\alpha=w, \alpha=$ 方向角
 
 ### 法向量
 
 #### 法向量定义
 
-系数
+- 系数
 
 ### 方向向量
 
 #### 方向向量定义
 
-直线分母
+- 直线分母
 
 ### 计算与公式
 
@@ -875,20 +929,19 @@ $
     > $\frac{1}{x^2}-\frac{2x}{x^2}-\frac{x^2}{x^2}=\frac{1}{x^2}-\frac{2}{x}-1=带入无穷=0-0-1=-1$ 化简题吃屎去吧
 - $当x\to{0}时2-2\cos{x}~ax^2=$
     > $\lim_{x\to{0}}\frac{2-2\cos{x}}{ax^2}=1,其中1-\cos{x}=\frac{x}{2}, 带入然后解得a=1$
-- $函数f(x)=1-|x-1|在点x=1$
-    > $处连续但不可导, ∵左极限≠右极限$
-- $若曲线 f(x)=1-x^3 与曲线 g(x)=\ln{x}在自变量 x=$x_0$ 时的切线相互垂直, 则 $x_0$
-    > $$x_0$=f`($x_0$)g(`$x_0$)=-3x^2×\frac{1}{x}=0, $x_0$=\frac{1}{3}$
-- $设函数f(x)在区间(-1,1)内连续, 若x\in(-1,0)时,f`(x)<0;x\in(0,1)时,f`(x)>0,则在区间(-1,1)内$
-    > $f(0)是函数的极小值 (极值第一判定)$
+- 函数 $f(x)=1-|x-1|$ 在点 x=1 处连续但不可导, ∵ 左极限 ≠ 右极限
+- 若曲线 $f(x)=1-x^3$ 与曲线 $g(x)=\ln{x}$ 在自变量 $x=x_0$ 时的切线相互垂直, 则 $x_0$
+    > $x_0=f`(x_0)g(`x_0)=-3x^2×\frac{1}{x}=0, x_0=\frac{1}{3}$
+- 设函数 f(x)在区间(-1,1)内连续, 若 $x\in(-1,0)$ 时, $f`(x)<0;x\in(0,1)$ 时, f`(x)>0,则在区间(-1,1)内:
+    > f(0)是函数的极小值 (极值第一判定)
 - 向量 a=j+k 的方向角是啥?
-    > $\frac{\pi}{2},\frac{\pi}{4},\frac{\pi}{4}小编也不知道.$
-- $已知e^{-x}是微分方程y``+3ay`+2y=0的一个解, 则a=?.$
-    > $令y=e^x,y`=-e^{-x},y``=e^x, 带入原式得e^x-3ae^{-x}+2e^x=0, 即1-3a+2=0, a=1$
-- $\int\int{区间D}f(x,y)dw=\int_0^1\:dx\int_0^x\:f(x,y)dy变换积分次序:$
-    > $交换区间, 0≤x≤1, 0≤y≤x可以换为y≤x≤1,0≤y≤1, 则交换后的积分次序为\int_0^1\:dy\int_y^1\:f(x,y)dx$
-- $函数f(x)=e^{1-x}在点x=0.99处的近似值$
-    > $magik变换之x=1,\Delta{x}=-0.01, f(0.99)=f(x+\Delta{x})=f(x)+\Delta{x}f`(x)=e^{1-1}+(-0.01)(-e^{1-1})=1+0.01$
+    > $\frac{\pi}{2},\frac{\pi}{4},\frac{\pi}{4}$ 小编也不知道
+- 已知 $e^{-x}$ 是微分方程 $y``+3ay`+2y=0$ 的一个解, 则 a=?.
+    > 令 $y=e^x,y`=-e^{-x},y``=e^x$, 带入原式得 $e^x-3ae^{-x}+2e^x=0, 即1-3a+2=0, a=1$
+- $\int\int_{区间D}f(x,y)dw=\int_0^1\:dx\int_0^x\:f(x,y)dy$ 变换积分次序:
+    > 交换区间, $0≤x≤1, 0≤y≤x$ 可以换为 $y≤x≤1,0≤y≤1$, 则交换后的积分次序为 $\int_0^1\:dy\int_y^1\:f(x,y)dx$
+- 函数 $f(x)=e^{1-x}$ 在点 x=0.99 处的近似值
+    > magik 变换之 $x=1,\Delta{x}=-0.01, f(0.99)=f(x+\Delta{x})=f(x)+\Delta{x}f`(x)=e^{1-1}+(-0.01)(-e^{1-1})=1+0.01$
 
 ### 我最喜欢的脱裤子放屁题
 
