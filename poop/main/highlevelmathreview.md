@@ -526,7 +526,7 @@ $
 ### 二重积分
 
 - 性质 A: $\int\int_{区间D}dxdy=$ 区间 D 的面积
-- 性质 B: $\int\int_{区间D}xdxdy$ 需要画出区间后积分计算
+- 性质 B: $\int\int_{区间D}x dxdy$ 需要画出区间后积分计算
 
 ### 变上限积分求导
 
@@ -632,7 +632,7 @@ $
     >
     > > 有点则直接带入微分算子求出值, 再带上 dx dy => 值 dx+值 dy
 - 设三元的公式
-    > $f(x,y,z)=balabal, f_x=ba,f_y=la,f_z=bal,dz=-\frac{f_x}{f_z}+-\frac{f_y}{f_z}=\frac{dx}{-dz}+\frac{dy}{-dz}$
+    > $f(x,y,z)=balabala, f_x=ba,f_y=la,f_z=bal,dz=-\frac{f_x}{f_z}+-\frac{f_y}{f_z}=\frac{dx}{-dz}+\frac{dy}{-dz}$
 
 ### 微分在近似计算种的应用
 
@@ -789,23 +789,23 @@ $
 ### 二次曲面
 
 | 未退化的一般实二次曲面 |                                       表达式                                       |                                                   图像                                                   |
-| :--------------------: | :--------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
+|:-------------------:|:----------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|
 |         椭球面         |          ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}+{z^{2} \over c^{2}}=1$           |           ![椭球面](https://upload.wikimedia.org/wikipedia/commons/e/ec/Ellipsoid_Quadric.png)           |
 |       椭圆抛物面       |                  ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-z=0\,$                   |        ![椭圆抛物面](https://upload.wikimedia.org/wikipedia/commons/0/02/Paraboloid_Quadric.Png)         |
 |       双曲抛物面       |                  ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}-z=0\,$                   |   ![双曲抛物面](https://upload.wikimedia.org/wikipedia/commons/8/87/Hyperbolic_Paraboloid_Quadric.png)   |
 |       单页双曲面       | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/3/34/Hyperboloid_Of_One_Sheet_Quadric.png)  |
 |       双叶双曲面       | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/a/af/Hyperboloid_Of_Two_Sheets_Quadric.png) |
 
-|        特殊二次曲面        |                                       表达式                                       |                                                       图像                                                        |
-| :------------------------: | :--------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
-| 类球面（一种特殊的椭球面） |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$          |  ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png)  |
-|            球面            |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$          |                  ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png)                  |
-|          圆抛物面          |                  ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$                   |         ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png)          |
-|         单叶双曲面         | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png)  |
-|         双叶双曲面         | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
+|       特殊二次曲面       |                                       表达式                                       |                                                       图像                                                        |
+|:----------------------:|:----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+| 类球面（一种特殊的椭球面） |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$          |   ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png)   |
+|           球面           |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$          |                  ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png)                  |
+|         圆抛物面         |                  ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$                   |         ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png)          |
+|        单叶双曲面        | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png)  |
+|        双叶双曲面        | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
 
 | 退化的一般实二次曲面 |                                      表达式                                       |                                               图像                                               |
-| :------------------: | :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
+|:------------------:|:---------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
 |       椭圆锥面       |         ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=0\,$         |   ![椭圆锥面](https://upload.wikimedia.org/wikipedia/commons/9/9b/Elliptical_Cone_Quadric.Png)   |
 |         锥面         | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=0\,}$ |      ![锥面](https://upload.wikimedia.org/wikipedia/commons/c/c6/Circular_Cone_Quadric.png)      |
 |       椭圆柱面       |                   ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}=1\,$                   |  ![椭圆柱面](https://upload.wikimedia.org/wikipedia/commons/6/64/Elliptic_Cylinder_Quadric.png)  |
@@ -826,7 +826,8 @@ $
 
 ### 渐近线
 
-- 曲线 $\lim_{x\to\infin}=0$ 则存在水平渐近线 y=0, $\lim_{x\to无意义点}=\infin$ 则有垂直渐近线 x=2
+- 曲线的水平渐近线: y = $\lim_{x\to\infin}f(x)$
+- 曲线的垂直渐近线: $\lim_{x\to无意义点}f(x)=\infin$, x = 无意义点
 
 ### 向量
 
