@@ -200,7 +200,7 @@
 
 ### 一些极限概念
 
-- 驻点: $f`(x) $ 存在, f(x) 在 $x=x_0$ 处取到最大值的点为 f(x) 的驻点
+- 驻点: $f`(x)$ 存在, f(x) 在 $x=x_0$ 处取到最大值的点为 f(x) 的驻点
 
 ### 极限类型
 
@@ -320,17 +320,26 @@ $
 
 ### 其他型月世界的极限题
 
+- 求极限: $\lim_{x\to{0}}(1±f(x))^{g(x)}\\=\lim_{x\to{0}}(1±f(x))^{f(x)k(x)}\\=e^{\lim_{x\to{0}}k(x)} , g(x)=f(x)k(x)$
+
 - $\lim_{n\to\infin}(\frac{1}{\sqrt{1+n^2}}+...+\frac{1}{\sqrt{n+n^2}})=?$
+
     > 夹逼缩放法:
     >
     > > $\lim_{n\to\infin}\frac{n}{\sqrt{n+n^2}}≤...≤\lim_n{\to\infin}\frac{1}{\sqrt{1+n^2}}$
     > >
     > > > 求极限得 1≤...≤1, 即 ...=?=1
+
 - 极限 limx->0 {[e^(x^2)]-1}/cosx -1
+
     > 换元法 x^2 = u, 等价 (e^x)-1->x, 变形 cosx-1 = -(1-cosx), limx->0 1-cosx = (x^2)/2, -(1-cosx)=-(x^2)/2, 带入原极限求得 -2
+
 - $极限 lim_{x=1} x^\frac{1}{x-1}, 原极限为1^∞型, 转换为 e^{\frac{1}{x-1}lnx}\rightarrow lim_{x\to 1}\ln(x), x-1\\带入得 e^{\frac{1}{x-1}x-1}=e, x=1无定义且极限存在, 则x=1为可去间断点$
+
 - 第一判定定理
+
     > 啥我也不知道
+
 - 极值点产生驻点和不可导点, 即函数一阶导=0 或不存在.
 
 ---
@@ -359,6 +368,7 @@ x^a`=ax^{a-1} \\
 \frac{1}{\sqrt{x}}`=-\frac{1}{2x^{\frac{3}{2}}} \\
 a^x`=a^x\ln{a} \\
 e^x`=e^x \\
+e^{ax}`=ae^{ax} \\
 \log_a{x}`=\frac{1}{x}\ln{a} \\
 \ln{x}`=\frac{1}{x} \\
 \sin{x}`=\cos{x} \\
@@ -374,8 +384,8 @@ $
 - $\arctan{x}`=\frac{1}{1+x^2} = -arccot{x}`$
 - (1/x)' = -1/x^2
 - $\frac{1}{x^2}`=-\frac{2}{x^3}$
-- \ln(1+e^x)' = e^x/(1+e^x)
-- \ln[f(x)+C]' = 1/[f(x)+C] \* f'(x)
+- $\ln(1+e^x)' = e^x/(1+e^x)$
+- $\ln[f(x)+C]' = \frac{1}{f(x)+C * f'(x)}$
 - $[e^{f(x)^n}]' = \frac{e^{{f(x)}^n}}{f(x)^n}'$
 - $(e^{\digamma{(x)}})`=[\digamma{(x)}]`e^{\digamma{(x)}}$
 - $|f(x)|` = \frac {f(x)}{|f(x)|}$
@@ -407,6 +417,8 @@ $已知函数Q(x)在点x=0处可导,函数f(x)=W(x)Q(W(x)), 则f`(w)=\frac{f(x)-
 ---
 
 ## 偏导数
+
+> 对谁求导谁是变量, 其他为常数.
 
 ---
 
@@ -498,6 +510,8 @@ $
     > > > $然后套公式y-y_0=k(x-x_0)求出y=?,x=?,\\ds=什么什么dx$
     > > >
     > > > > $x,y替换到原函数里得到一个新的积分\\\int_{x的区间}x或者f(x)社么什么dx, 然后求积分就完了$
+    > > > >
+    > > > > > 一阶导=斜率
 
 ### 定积分
 
@@ -604,10 +618,12 @@ $
 
 ### 其他型月世界得求微分通解
 
-- $求方程2(xy+y)y`=y的通解$
+- 求方程 $2(xy+y)y`=y$ 的通解
     > $\begin{aligned}y`=\frac{dy}{dx}&=\frac{y}{2(xy+x)}\\ydx&=2(xy+x)dy\\\frac{y+1}{y}dy&=\frac{1}{2x}dx\\\int\frac{y+1}{y}dy&=\int\frac{1}{2x}dx\\\int 1+\frac{1}{y}dy&=\int\frac{1}{2}\frac{1}{x}dx\\y+\ln{|y|}&=\frac{1}{2}\ln{|x|}+C\\2y+2\ln{|y|}&=\ln{|x|}+C\\e^{2y+2\ln{|y|}}&=e^{\ln{|x|}+\ln{C}}\\e^{2y+\ln^2|y|}&=e^{\ln{|x|}+\ln{C}}\\e^{\frac{1}{\ln{C}}(2y+\ln{|y|^2})}&=e^{\ln{|x|}}\\Ce^{2y}e^{\ln|y|^2}&=x\\由图像知|x|恒>0\\则原方程通解为\\Ce^{2y}y^2&=x\end{aligned}$
-- $求方程y`+xy^2=0的通解$
+- 求方程 $y`+xy^2=0$ 的通解
     > $\begin{aligned}y`=\frac{dy}{dx}&=-xy^2\\dy&=-xdxy^2\\\frac{dy}{y^2}&=-xdx\\\int\frac{1}{y^2}dy&=\int-{x}dx\\-\frac{1}{y}&=-\frac{x^2}{2}+\frac{C}{2}\\y&=\frac{2}{x^2+C}\end{aligned}$
+- 已知一个解, 求微分方程的常量
+    > 解导一下然后带入微分方程.
 
 ### 全微分
 
@@ -615,6 +631,8 @@ $
     > $dz=\frac{\partial{z}}{\partial{x}}dx+\frac{\partial{z}}{\partial{y}}dy$
     >
     > > 有点则直接带入微分算子求出值, 再带上 dx dy => 值 dx+值 dy
+- 设三元的公式
+    > $f(x,y,z)=balabal, f_x=ba,f_y=la,f_z=bal,dz=-\frac{f_x}{f_z}+-\frac{f_y}{f_z}=\frac{dx}{-dz}+\frac{dy}{-dz}$
 
 ### 微分在近似计算种的应用
 
@@ -631,16 +649,18 @@ $
 - 收敛半径:
     > $收敛半径R=\frac{1}{\rho}, \rho=\lim_{n\to\infin}|\frac{A{n+1}}{An}|, \rho\in{(0,+∞)}$
 - 收敛区间:
-    > (-R,R)
+    > 计算 $\rho$, 然后令 $\rho<1$ 并讨论 x 的范围.
 - 收敛域:
-    > 先求出收敛半径
+    > 先求出收敛半径 (-R,R)
     >
     > > 讨论收敛区间端点的敛散性, 即讨论 x=-R,x=R 时的带入到原级数后的级数的敛散性.
 - 交错级数判别敛散性:
 
-    > $具有以下形式的级数{\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a*{n}\!} \\其中所有的a_{n}非负, 被称作交错级数. \\如果当n趋于无穷时, 数列a_{n}的极限存在且等于0, 并且每个a_{n}小于或等于a_{n-1}(即数列a_{n}是单调递减的), 那么级数收敛. \\如果L是级数的和{\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a_{n}=L\!}那么部分和{\displaystyle S_{k}=\sum_{n=0}^{k}(-1)^{n}a_{n}\!}逼近L有截断误差{\displaystyle \left|S_{k}-L\right\vert \leq \left|S_{k}-S_{k-1}\right\vert =a_{k}\!}$
+    > 具有以下形式的级数 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a*{n}\!} \\$ 其中所有的 $a_{n}$ 非负, 被称作交错级数.
+    > 如果当 n 趋于无穷时, 数列 $a_{n}$ 的极限存在且等于 0, 并且每个 $a_{n}$ 小于或等于 $a_{n-1}$ (即数列 $a_{n}$ 是单调递减的), 那么级数收敛.
+    > 如果 L 是级数的和 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a_{n}=L\!}$ 那么部分和 ${\displaystyle S_{k}=\sum_{n=0}^{k}(-1)^{n}a_{n}\!}$ 逼近 L 有截断误差 ${\displaystyle \left|S_{k}-L\right\vert \leq \left|S_{k}-S_{k-1}\right\vert =a_{k}\!}$
     >
-    > > 简化: $\lim_{n\to\infin}An=0, An≥A{n+1}, 即单调递减$
+    > > 简化: $\lim_{n\to\infin}An=0, An≥A{n+1}$, 即单调递减
 
 - $若级数{\displaystyle \sum_{n=1}^{\infin }Un\! 收敛, 则\lim_{n\to\infin}Un=0}$
 
@@ -769,23 +789,23 @@ $
 ### 二次曲面
 
 | 未退化的一般实二次曲面 |                                       表达式                                       |                                                   图像                                                   |
-|:-------------------:|:----------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|
+| :--------------------: | :--------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
 |         椭球面         |          ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}+{z^{2} \over c^{2}}=1$           |           ![椭球面](https://upload.wikimedia.org/wikipedia/commons/e/ec/Ellipsoid_Quadric.png)           |
 |       椭圆抛物面       |                  ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-z=0\,$                   |        ![椭圆抛物面](https://upload.wikimedia.org/wikipedia/commons/0/02/Paraboloid_Quadric.Png)         |
 |       双曲抛物面       |                  ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}-z=0\,$                   |   ![双曲抛物面](https://upload.wikimedia.org/wikipedia/commons/8/87/Hyperbolic_Paraboloid_Quadric.png)   |
 |       单页双曲面       | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/3/34/Hyperboloid_Of_One_Sheet_Quadric.png)  |
 |       双叶双曲面       | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/a/af/Hyperboloid_Of_Two_Sheets_Quadric.png) |
 
-|       特殊二次曲面       |                                       表达式                                       |                                                       图像                                                        |
-|:----------------------:|:----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
-| 类球面（一种特殊的椭球面） |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$          |   ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png)   |
-|           球面           |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$          |                  ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png)                  |
-|         圆抛物面         |                  ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$                   |         ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png)          |
-|        单叶双曲面        | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png)  |
-|        双叶双曲面        | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
+|        特殊二次曲面        |                                       表达式                                       |                                                       图像                                                        |
+| :------------------------: | :--------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
+| 类球面（一种特殊的椭球面） |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$          |  ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png)  |
+|            球面            |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$          |                  ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png)                  |
+|          圆抛物面          |                  ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$                   |         ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png)          |
+|         单叶双曲面         | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png)  |
+|         双叶双曲面         | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
 
 | 退化的一般实二次曲面 |                                      表达式                                       |                                               图像                                               |
-|:------------------:|:---------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
+| :------------------: | :-------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: |
 |       椭圆锥面       |         ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=0\,$         |   ![椭圆锥面](https://upload.wikimedia.org/wikipedia/commons/9/9b/Elliptical_Cone_Quadric.Png)   |
 |         锥面         | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=0\,}$ |      ![锥面](https://upload.wikimedia.org/wikipedia/commons/c/c6/Circular_Cone_Quadric.png)      |
 |       椭圆柱面       |                   ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}=1\,$                   |  ![椭圆柱面](https://upload.wikimedia.org/wikipedia/commons/6/64/Elliptic_Cylinder_Quadric.png)  |
@@ -795,9 +815,9 @@ $
 
 > 简约版:
 >
-> - 缺一变量变量且有平方和表示一个母线平行于z轴的柱面
-> - 变量z为负数的图像两头大中间小
-> - 变量z分之斜率的图像是锥面
+> - 缺一变量变量且有平方和表示一个母线平行于 z 轴的柱面
+> - 变量 z 为负数的图像两头大中间小
+> - 变量 z 分之斜率的图像是锥面
 
 ### 直线的表达式
 
@@ -823,6 +843,7 @@ $
 ### 方向角
 
 - 就是方向余弦的值的角度, $\cos\alpha=w, \alpha=$ 方向角
+- 可以作为向量的一组: $\frac{\pi}{大}\frac{\pi}{小}\frac{\pi}{小}$
 
 ### 法向量
 
@@ -843,7 +864,10 @@ $
 - 向量垂直
     > 向量点乘=0
 - 向量平行
-    > 平行的原向量点分之模长: $\frac{点}{模}$
+    >
+    > - 平行的原向量点分之模长: $\frac{点}{模}$, 模 $=\sqrt{点^2+点^2+点^2}$
+    > - 平行的单位向量: $±(\frac{点}{模}\frac{点}{模}\frac{点}{模})$
+    >
 - 切线方程
     > 两线相交一点, 求切线方程
     >
@@ -869,6 +893,7 @@ $
     > 平行的向量除以目标向量的模长得到通向的单位向量, 此时再加上负号得到反向的单位向量
 - $求曲线x=e^t\cos t,y=e^t\sin t,在t=\frac{\pi}{2}处的法线方程$
     > 设法线的斜率为 w, 曲线切线的斜率为 k,则 $w=-k\\k=\frac{dy}{dx}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}=\frac{e^t\sin t+e^t\cos t}{e^t\cos t-e^t\sin t}=-1, 即w=1\\当t=\frac{\pi}{2}时, x=0, y=e^\frac{\pi}{2}\\此时法线方程为(y-e^\frac{pi}{2})=(x-0), 即y=x+e^\frac{\pi}{2}$
+- 两曲线的切线互相垂直: 一阶导相乘=-1
 
 ---
 
