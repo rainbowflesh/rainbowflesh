@@ -189,7 +189,7 @@
 
 ### 判断函数间断点
 
-> 若 x=n 直接带入原式无定义, 则使用极限推导-> limx=n 原式
+> 若 x=n 直接带入原式无定义, 则使用极限推导 $\to lim_{x=n}$ 原式
 
 ### 二元函数
 
@@ -256,11 +256,11 @@
 - $\lim_{x\to0}(1-x)^{\frac{a}{-x}}=e^a$
 - $\lim_{x\to{\infin}}(1+\frac{1}{x})^{ax}=e^a$
 - $\lim_{x\to\infin}(1+\frac{1}{ax})^x=e^\frac{1}{a}$
-- limx->0 1-cosx = (x^2)/2
-- limx->0 sqrt1-x = -x/2
-- limx->0 sinx - tanx = -(x^3)/2
-- limx->0 xsin(n/x) = 0, sin 为有界函数, x 为无穷小量, 无穷小量 × 有界函数=0
-- limx->1 lnx = x-1
+- $lim_{x\to0} 1-cosx = (x^2)/2$
+- $lim_{x\to0} sqrt1-x = -x/2$
+- $lim_{x\to0} sinx - tanx = -(x^3)/2$
+- $lim_{x\to0} xsin(n/x) = 0, sin$ 为有界函数, x 为无穷小量, 无穷小量 × 有界函数=0
+- $lim_{x\to1} lnx = x-1$
 
 ### 无穷大小量
 
@@ -273,24 +273,25 @@
 
 #### 等价无穷大小
 
-> limx->0 [f(x)/g(x)] = 1, 即为等价无穷小
+> $lim_{x\to0} [f(x)/g(x)] = 1$, 即为等价无穷小
 
 ### 常用解法
 
-- sinx -> x | sinAx -> Ax
+- $sinx \to x | sinAx \to Ax$
 
 #### 抓大头
 
-> 看最高次幂->前面的系数
+> 看最高次幂到前面的系数
 
 ### 常见的等价变换
 
-> x->0 时
+> $x\to0$ 时
 
-- sin(x) -> x
-- sin^2(x) -> x^2
-- ln(1+2x) -> 2x
-- xsinx -> x^2
+- $sin(x) \to x$
+- $sin^2(x) \to x^2$
+- $ln(1+2x) \to 2x$
+- $xsinx \to x^2$
+- $e^x-1\to{x}$
 
 ### 泰勒展开
 
@@ -330,9 +331,9 @@ $
     > >
     > > > 求极限得 1≤...≤1, 即 ...=?=1
 
-- 极限 limx->0 {[e^(x^2)]-1}/cosx -1
+- 极限 $lim_{x\to0} {[e^(x^2)]-1}/cosx -1$
 
-    > 换元法 x^2 = u, 等价 (e^x)-1->x, 变形 cosx-1 = -(1-cosx), limx->0 1-cosx = (x^2)/2, -(1-cosx)=-(x^2)/2, 带入原极限求得 -2
+    > 换元法 $x^2 = u$, 等价 $(e^x)-1\to x$, 变形 $cosx-1 = -(1-cosx), lim_x\to0 1-cosx = \frac{x^2}{2}, -(1-cosx)=\frac{-x^2}{2}$, 带入原极限求得 -2
 
 - $极限 lim_{x=1} x^\frac{1}{x-1}, 原极限为1^∞型, 转换为 e^{\frac{1}{x-1}lnx}\rightarrow lim_{x\to 1}\ln(x), x-1\\带入得 e^{\frac{1}{x-1}x-1}=e, x=1无定义且极限存在, 则x=1为可去间断点$
 
@@ -448,7 +449,7 @@ $已知函数Q(x)在点x=0处可导,函数f(x)=W(x)Q(W(x)), 则f`(w)=\frac{f(x)-
 注意:
 
 - 分布积分 u 的选择遵守优先级原则:
-    > 反三角函数>对数函数>幂函数>指数函数>三角函数>常数>变量
+    > 反三角函数 > 对数函数 > 幂函数 > 指数函数 > 三角函数 > 常数 > 变量
 
 ### 变换积分次序
 
@@ -463,7 +464,7 @@ $已知函数Q(x)在点x=0处可导,函数f(x)=W(x)Q(W(x)), 则f`(w)=\frac{f(x)-
 $
 \int k \mathrm{dx}=kx+C \\
 \int x^\mu \mathrm{dx}=\frac1{\mu+1}x^{\mu+1}+C(\mu \ne -1) \\
-\int\frac{1}{x}\mathrm{dx}=\ln|x| + C \\
+\int\frac{1}{±x}\mathrm{dx}=±\ln|x| + C \\
 \int a^x \mathrm{dx}=\frac{a^x}{\ln a} + C \\
 \int e^{±x} \mathrm{dx}=±e^{±x} + C \\
 \int \ln x\mathrm{dx}=x\ln x-x + C \\
@@ -644,12 +645,12 @@ $
 
 ### 级数的敛散
 
-- 条件收敛: 若级数 ∞∑n=1 |Un| ->发散, ∞∑n=1 Un ->收敛, 则称级数为条件收敛级数
-- 绝对收敛: 若级数 ∞∑n=1 |Un| ->收敛, 则称级数为绝对收敛级数
+- 条件收敛: 若级数 $∞∑_{n=1} |Un| \to$ 发散, $∞∑n=1 Un \to$ 收敛, 则称级数为条件收敛级数
+- 绝对收敛: 若级数 $∞{∑n=1} |Un| \to$ 收敛, 则称级数为绝对收敛级数
 - 收敛半径:
-    > $收敛半径R=\frac{1}{\rho}, \rho=\lim_{n\to\infin}|\frac{A{n+1}}{An}|, \rho\in{(0,+∞)}$
+    > $R=\frac{1}{\rho}=\lim_{n\to\infin}\frac{a_n}{a_{n+1}}, \rho=\lim_{n\to\infin}|\frac{a_{n+1}}{a_n}|, \rho\in{(0,+∞)}$
 - 收敛区间:
-    > 计算 $\rho$, 然后令 $\rho<1$ 并讨论 x 的范围.
+    > 计算收敛半径 R, 然后令含有x的 $|f(x)|<R$ 并讨论 x 的范围.
 - 收敛域:
     > 先求出收敛半径 (-R,R)
     >
