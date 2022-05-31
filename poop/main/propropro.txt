@@ -1,5 +1,7 @@
 payload:
     - "+.sfmlab.com"
+    - "+.chuwenjie.com"
+    - "+.squarespace-cdn.com"
     - "+.jsdeliver.net"
     - "+.jsdeliver.com"
     - "+.jetbrains.com"
