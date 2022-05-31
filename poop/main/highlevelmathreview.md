@@ -232,12 +232,12 @@
 
 > Limit properties − if the limit of f(x), and g(x) exists, then:
 
-- $\lim_{x\to a}$ (x) = a
-- $\lim_{x\to a}$ [c·f(x)] = c·$\lim_{x\to a}$ f(x)
-- $\lim_{x\to a}$ [(f(x))^c] = $\lim_{x\to a}$ f(x)^c
-- $\lim_{x\to a}$ [f(x) ± g(x)] = $\lim_{x\to a}$ f(x) ± $\lim _{x\to a}$ g(x)
-- $\lim_{x\to a}$ [f(x) · g(x)] = $\lim_{x\to a}$ f(x) · $\lim _{x\to a}$ g(x)
-- $\lim_{x\to a}$ [f(x) / g(x)] = $\lim_{x\to a}$ f(x) / $\lim _{x\to a}$ g(x) , where $\lim_{x\to a}$g(x)≠0
+- $\lim_{x\to a}(x) = a$
+- $\lim_{x\to a}cf(x) = c\lim_{x\to a} f(x)$
+- $\lim_{x\to a}(f(x))^c = \lim_{x\to a} f(x)^c$
+- $\lim_{x\to a}f(x) ± g(x) = \lim_{x\to a} f(x) ± \lim _{x\to a}g(x)$
+- $\lim_{x\to a}f(x) · g(x) = \lim_{x\to a} f(x) · \lim _{x\to a}g(x)$
+- $\lim_{x\to a}\frac{f(x)}{g(x)} = \lim_{x\to a} \frac{f(x)}{g(x)} , where \lim_{x\to a}g(x)≠0$
 
 ### 近似值
 
