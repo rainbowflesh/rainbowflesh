@@ -542,7 +542,14 @@ $
 
 ### 圆相关的积分
 
-> $x^2+y^2=r^2$ 是圆心在圆点的表达式 , $\int\int_Df(x,y)dxdy$ 的积分可以写成 $\int\int_Dg(r)dO=\int_\theta d\theta\int_rg(r)rdr, \theta\in[0,2\pi],$ O 是极坐标的什么什么概念衍生, 极坐标是用角度和长度描述位置的坐标系
+- $x^2+y^2=r^2$ 是圆心在圆点的表达式 , $\int\int_Df(x,y)dxdy$ 的积分可以写成 $\int\int_Dg(r)dO=\int_\theta d\theta\int_rg(r)rdr, \theta\in[0,2\pi],$ O 是极坐标的什么什么概念衍生, 极坐标是用角度和长度描述位置的坐标系
+
+- 格林公式:
+
+  > 设闭区域 D 由分段光滑的简单曲线 L 围成，函数 P(x,y) 及 Q(x,y) 在 D 上有一阶连续偏导数, 则有:
+  > ${\displaystyle \iint \limits_{D}\left({\frac {\partial Q}{\partial x}}-{\frac {\partial P}{\partial y}}\right)\mathrm {d} x\mathrm {d} y=\oint_{L^{+}}(P\mathrm {d} x+Q\mathrm {d} y)}$
+  >
+  > 其中 L+ 是 D 的取正向的边界曲线.
 
 ---
 
