@@ -1,6 +1,7 @@
 payload:
     - "+.sfmlab.com"
     - "+.openai.com"
+    - "+.unsplash.com"
     - "+.chuwenjie.com"
     - "+.squarespace-cdn.com"
     - "+.jsdeliver.net"
