@@ -114,9 +114,11 @@
 - $\ln{100}=2\ln{10}$
 - 因式分解公式
 
-    > $\frac{1}{x(C-x)}=\frac{1}{c}[\frac{1}{x}+\frac{1}{C-x}]$
+    > - $\frac{1}{x(C-x)}=\frac{1}{c}[\frac{1}{x}+\frac{1}{C-x}]$
     >
     > > 理解: 分母拆开看 W±M, 分子上同分之后是 1, x+50-x=50, 提出 50 得证
+    >
+    > - $\frac{1}{f(x)(g(x))}=\frac{a}{f(x)}-\frac{b}{g(x)}$ 求出 a, b 后转换为 $\frac{1}{w}[\frac{1}{f(x)}-\frac{1}{g(x)}]$
 
 - 毕达哥拉斯三角恒等式
 
@@ -257,11 +259,11 @@
 - $\lim_{x\to0}(1-x)^{\frac{a}{-x}}=e^a$
 - $\lim_{x\to{\infin}}(1+\frac{1}{x})^{ax}=e^a$
 - $\lim_{x\to\infin}(1+\frac{1}{ax})^x=e^\frac{1}{a}$
-- $lim_{x\to0} 1-cosx = (x^2)/2$
-- $lim_{x\to0} sqrt1-x = -x/2$
-- $lim_{x\to0} sinx - tanx = -(x^3)/2$
-- $lim_{x\to0} xsin(n/x) = 0, sin$ 为有界函数, x 为无穷小量, 无穷小量 × 有界函数=0
-- $lim_{x\to1} lnx = x-1$
+- $lim_{x\to0} 1-cosx = \frac{x^2}{2}$
+- $lim_{x\to0} \sqrt{1-x} = \frac{-x}{2}$
+- $lim_{x\to0} \sin{x} - \tan{x} = \frac{-(x^3)}{2}$
+- $lim_{x\to0} x\sin\frac{n}{x} = 0, sin$ 为有界函数, x 为无穷小量, 无穷小量 × 有界函数=0
+- $lim_{x\to1} \ln{x} = x-1$
 
 ### 无穷大小量
 
@@ -550,6 +552,7 @@ $
   > ${\displaystyle \iint \limits_{D}\left({\frac {\partial Q}{\partial x}}-{\frac {\partial P}{\partial y}}\right)\mathrm {d} x\mathrm {d} y=\oint_{L^{+}}(P\mathrm {d} x+Q\mathrm {d} y)}$
   >
   > 其中 L+ 是 D 的取正向的边界曲线.
+  >> 简化版: 前后偏分后 $\int\int_D Q(x)-P(x) dxdy=-S_D$
 
 ---
 
@@ -671,15 +674,15 @@ $
     >
     > > 简化: $\lim_{n\to\infin}An=0, An≥A{n+1}$, 即单调递减
 
-- $若级数{\displaystyle \sum_{n=1}^{\infin }Un\! 收敛, 则\lim_{n\to\infin}Un=0}$
+- 若级数 ${\displaystyle \sum_{n=1}^{\infin }Un\! 收敛, 则\lim_{n\to\infin}Un=0}$
 
 #### P 级数
 
-> $形如{\displaystyle\sum_{n=1}^{\infin}} \frac{1}{n^p}\\其中n>0时, p>1 则级数收敛, p<=1时级数发散$
+> 形如 ${\displaystyle\sum_{n=1}^{\infin}} \frac{1}{n^p}$ 其中n>0时, p>1 则级数收敛, p<=1时级数发散
 
 #### 交错 P 级数
 
-> $形如{\displaystyle\sum_{n=1}^{\infin}}(-1)^{n-1} \frac{1}{n^p}\\其中, p>1时绝对收敛, 0<p≤1时条件收敛, p≤0时发散$
+> 形如 ${\displaystyle\sum_{n=1}^{\infin}}(-1)^{n-1} \frac{1}{n^p}$ 其中, p>1时绝对收敛, 0<p≤1时条件收敛, p≤0时发散
 
 #### 调和级数
 
@@ -689,23 +692,23 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
 
 #### 和函数
 
-- $一个等比数列的首n项之和, 称为等比数列和 (sum of geometric sequence)或几何级数 (geometric series), 记作S_{n}$
+- 一个等比数列的首n项之和, 称为等比数列和 (sum of geometric sequence)或几何级数 (geometric series), 记作 $S_{n}$
 
 - 求法
     > 求级数收敛域, 再令 S(x)=这个级数=化简化简, 在求导并令 n=0,然后带入求和公式
 - 求和公式
-    > $等比数列{\displaystyle S_{n}={\frac {a(1-r^{n})}{1-r}}}\\等差级数{\displaystyle S_{n}={\frac {n}{2}}\,(a+a_{n})\\={\frac {n}{2}}[2a+(n-1)d]\\=an+d\cdot {\frac {n(n-1)}{2}}}$
+    > 等比数列 ${\displaystyle S_{n}={\frac {a(1-r^{n})}{1-r}}}$ 等差级数 ${\displaystyle S_{n}={\frac {n}{2}}\,(a+a_{n})\\={\frac {n}{2}}[2a+(n-1)d]\\=an+d\cdot {\frac {n(n-1)}{2}}}$
 
 ### 其他型月世界的级数例题
 
-- $设级数∞∑n=1 Bn 为正项级数, ∞∑n=1 (A_n)^2 收敛, 则级数∞∑n=1 (-1)^n |A_n|/sqrt下n^2 + B_n$
+- 设级数 $∞∑_n=1 Bn$ 为正项级数, $∞∑_n=1 (A_n)^2$ 收敛, 则级数 $∞∑_n=1 (-1)^n \frac{|A_n|}{\sqrt{n^2 + B_n}}$
     > 绝对收敛.
-- $求幂级数{\displaystyle\sum_{n=0}^{\infin }\frac{\ln(n+1)}{n}x^{n-1}}的收敛域$
-    > $收敛半径R=\frac{1}{\rho},\rho=\lim_{n\to\infin}|\frac{A{n+1}}{A{n}}|, A{n}=\frac{\ln{n+1}}{n}$
+- 求幂级数 ${\displaystyle\sum_{n=0}^{\infin }\frac{\ln(n+1)}{n}x^{n-1}}$ 的收敛域
+    > 收敛半径 $R=\frac{1}{\rho},\rho=\lim_{n\to\infin}|\frac{A{n+1}}{A{n}}|, A{n}=\frac{\ln{n+1}}{n}$
     >
-    > > $\begin{aligned}\rho&=\lim_{n\to\infin}|\frac{\frac{\ln(n+1+1)}{n+1}}{\frac{\ln(n+1)}{n}}|\\&=\lim_{n\to\infin}|\frac{\ln(n+1+1)}{n+1}\frac{n}{\ln(n+1)}|\\&=\lim_{n\to\infin}\frac{\ln(n+2)}{\ln(n+1)}\frac{n}{n+1}\\&=\lim_{n\to\infin}|\frac{n+1}{n+2}|\\&=1\end{aligned}\\R=\frac{1}{\rho}=1, 原级数收敛区间为(-1,1)$
+    > > $\begin{aligned}\rho&=\lim_{n\to\infin}|\frac{\frac{\ln(n+1+1)}{n+1}}{\frac{\ln(n+1)}{n}}|\\&=\lim_{n\to\infin}|\frac{\ln(n+1+1)}{n+1}\frac{n}{\ln(n+1)}|\\&=\lim_{n\to\infin}\frac{\ln(n+2)}{\ln(n+1)}\frac{n}{n+1}\\&=\lim_{n\to\infin}|\frac{n+1}{n+2}|\\&=1\end{aligned}\\R=\frac{1}{\rho}=1$ , 原级数收敛区间为(-1,1)
     > >
-    > > > $当x=-1时, 原级数={\displaystyle\sum_{n=0}^{\infin }\frac{\ln(n+1)}{n}(-1)^{n-1}}为交错级数, 此时判别敛散性\\\lim_{n\to\infin}\frac{\ln(n+1)}{n}=\frac{\infin}{\infin}=洛\frac{f`(x)}{g`(x)}=0, 且单调递减, 即x=-1时收敛\\当x=1时, 原级数={\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}(1)^{n-1}}={\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}}>{\displaystyle\sum_{n=0}^{\infin }\frac{1}{n}},即x=1时小发散\rightarrow大发散$
+    > > > 当x=-1时, 原级数= ${\displaystyle\sum_{n=0}^{\infin }\frac{\ln(n+1)}{n}(-1)^{n-1}}$ 为交错级数, 此时判别敛散性\\ $\lim_{n\to\infin}\frac{\ln(n+1)}{n}=\frac{\infin}{\infin}$ =洛 $\frac{f`(x)}{g`(x)}=0$ , 且单调递减, 即x=-1时收敛\\当x=1时, 原级数= ${\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}(1)^{n-1}}={\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}}>{\displaystyle\sum_{n=0}^{\infin }\frac{1}{n}}$ ,即x=1时小发散$\rightarrow$ 大发散
     > > >
     > > > > 综上, 原级数收敛区域为[-1,1)
 - $求幂级数\displaystyle\sum_{n=1}^{\infin }\frac{x^n}{3^n}的收敛半径$
@@ -723,11 +726,9 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
 
 ### 洛必达
 
-$
-洛必达法则可以求出特定函数趋近于某数的极限值, \\
-两函数f(x),g(x)在以x=c为端点的开区间可微 {\displaystyle c\in {\bar {\mathbb {R} }}}时\\
-如果{\displaystyle\lim_{x\to c}{f(x)}=\lim_{x\to c}{g(x)}=0}或{\displaystyle \lim_{x\to c}{|f(x)|}=\lim_{x\to c}{|g(x)|}=\infin }\\其中一者成立, 则称欲求的极限{\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}}为未定式\\此时洛必达法则表明: {\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}=\lim_{x\to c}{\frac{f'(x)}{g'(x)}}}
-$
+洛必达法则可以求出特定函数趋近于某数的极限值,
+两函数f(x),g(x)在以x=c为端点的开区间可微 ${\displaystyle c\in {\bar {\mathbb {R} }}}$ 时
+如果 ${\displaystyle\lim_{x\to c}{f(x)}=\lim_{x\to c}{g(x)}=0} 或 {\displaystyle \lim_{x\to c}{|f(x)|}=\lim_{x\to c}{|g(x)|}=\infin }$ 其中一者成立, 则称欲求的极限 ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}}$ 为未定式, 此时洛必达法则表明: ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}=\lim_{x\to c}{\frac{f'(x)}{g'(x)}}}$
 
 ### 条件
 
@@ -759,7 +760,7 @@ $
 #### 拉格朗日中值定理
 
 > - 在开区间 (a,b) 内至少存在一点 ξ ,
-> - 使得 f'(ξ)=(f(b)-f(a))/(b-a)
+> - 使得 $f'(ξ)=\frac{f(b)-f(a)}{b-a}$
 
 #### 柯西定理
 
@@ -873,6 +874,7 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 
 ### 计算与公式
 
+- 求互相垂直直线, 设 $w=\frac{f(x)}{a}=\frac{g(y)}{b}=\frac{Q(z)}{c}$, 用向量 $s= w-所过点_{xyz},s_{所求}\times s_L=0$, 求出t代会列的向量求出分母, 分子就是xyz-过的点
 - 法向量差积
     > $\overrightarrow{S}=\overrightarrow{n_1}\times\overrightarrow{n_2}=\begin{vmatrix} i & i & k \\ n_1系数_1 & n_1系数_2 & n_1系数_3 \\ n_2系数_1 & n_2系数_2 & n_2系数_3 \end{vmatrix}\\=去掉第一行第一列-去掉第二行第二列+去掉第三行第三列=\begin{vmatrix}n_1系数_2&n_1系数_3\\n_2系数_2&n_2系数_3\end{vmatrix}i-类推j+类推k=交叉相乘再相减i-类推j+类推k$
 - 向量垂直
