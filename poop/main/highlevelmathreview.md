@@ -850,6 +850,8 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 ### 模长
 
 - $|\overrightarrow{u}|=\sqrt{A^2+B^2+C^2}$
+- 一个题: 向量 a, b 的模长 |a|=2, |b|=3, 求 |a-b|
+  > 解: $|a-b|=\sqrt{|a-b|^2} = \sqrt{|a|^2+|b|^2-2 a \cdot b} =\sqrt{13-2 |a||b|cos<a,b>} =\sqrt{13-6} =\sqrt{7}$
 
 ### 方向余弦
 
@@ -907,8 +909,8 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
     > 即平面法向量与直线方向向量垂直
 - 平行于一个向量的单位向量
     > 平行的向量除以目标向量的模长得到通向的单位向量, 此时再加上负号得到反向的单位向量
-- $求曲线x=e^t\cos t,y=e^t\sin t,在t=\frac{\pi}{2}处的法线方程$
-    > 设法线的斜率为 w, 曲线切线的斜率为 k,则 $w=-k\\k=\frac{dy}{dx}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}=\frac{e^t\sin t+e^t\cos t}{e^t\cos t-e^t\sin t}=-1, 即w=1\\当t=\frac{\pi}{2}时, x=0, y=e^\frac{\pi}{2}\\此时法线方程为(y-e^\frac{pi}{2})=(x-0), 即y=x+e^\frac{\pi}{2}$
+- 求曲线 $x=e^t\cos t,y=e^t\sin t$, 在 $t=\frac{\pi}{2}$ 处的法线方程
+    > 设法线的斜率为 w, 曲线切线的斜率为 k,则 $w=-k\\k=\frac{dy}{dx}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}=\frac{e^t\sin t+e^t\cos t}{e^t\cos t-e^t\sin t}=-1$, 即 $w=1\\$ 当 $t=\frac{\pi}{2}$ 时, $x=0, y=e^\frac{\pi}{2}\\$ 此时法线方程为 $(y-e^\frac{pi}{2})=(x-0), 即y=x+e^\frac{\pi}{2}$
 - 两曲线的切线互相垂直: 一阶导相乘=-1
 
 ---
@@ -954,12 +956,13 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 
 #### 拉日型例题
 
-- $已知函数f(x)在[0,1]上连续,在(0,1)内可导,且f(0)=0,f(1)=1, 试证明:\\(1)存在\xi\in(0,1)使f(\xi)=1-\xi\\(2)存在两个不同的点\eta,\mu\in(0,1)使f`(\eta)f`(\mu)=1$
-    > $(1)设辅助函数F(\xi)=f(\xi)-1+\xi\rightarrow F(x)=f(x)-1+x, x\in(0,1)$
+- 已知函数f(x)在[0,1]上连续,在(0,1)内可导,且f(0)=0,f(1)=1, 试证明:\\(1)存在 $\xi\in(0,1)$ 使 $f(\xi)=1-\xi\\(2)$ 存在两个不同的点 $\eta,\mu\in(0,1)$ 使 $f`(\eta)f`(\mu)=1$
+    > (1)设辅助函数 $F(\xi)=f(\xi)-1+\xi\rightarrow F(x)=f(x)-1+x, x\in(0,1)$
     >
-    > > $F(0)=f(0)-1+0=-1<0, F(1)=f(1)-1+1=1>0, 由零点定理可得必有一点\xi使F(\xi)=0, 即f(\xi)=1-\xi$
+    > > $F(0)=f(0)-1+0=-1<0, F(1)=f(1)-1+1=1>0$, 由零点定理可得必有一点 $\xi$ 使 $F(\xi)=0$, 即 $f(\xi)=1-\xi$
     >
-    > $(2)设一点\xi使\eta\in(0,\xi),\mu\in(\xi,1)\\∵f(x)在[0,1]上连续,在(0,1)内可导,∴f(x)在[0,\xi]上连续,在(0,\xi)内可导,[\xi,1]上连续,在(\xi,1)内可导\\由拉日定理得f`(\eta)=\frac{f(\xi)-f(0)}{\xi-0},f`(\mu)=\frac{f(1)-\xi}{1-\xi},联立f(\xi)=1-\xi得f`(\eta)f`(\mu)=\frac{1-1+\xi}{\xi}=1,证毕$
+    > (2)设一点 $\xi,\eta\in(0,\xi),\mu\in(\xi,1)\\∵f(x)$ 在 $[0,1]$ 上连续,在(0,1)内可导, ∴f(x) 在 $[0,\xi]$ 上连续,在 $(0,\xi)$ 内可导,$[\xi,1]$ 上连续,在 $(\xi,1)$ 内可导
+    由拉日定理得 $f`(\eta)=\frac{f(\xi)-f(0)}{\xi-0},f`(\mu)=\frac{f(1)-\xi}{1-\xi}$ ,联立 $f(\xi)=1-\xi$ 得 $f`(\eta)f`(\mu)=\frac{1-1+\xi}{\xi}=1$ ,证毕
 
 ---
 

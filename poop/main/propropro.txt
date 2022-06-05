@@ -1,5 +1,6 @@
 payload:
     - "+.sfmlab.com"
+    - "+.xywlapi.cc"
     - "+.openai.com"
     - "+.unsplash.com"
     - "+.chuwenjie.com"
