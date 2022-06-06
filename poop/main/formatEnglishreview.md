@@ -35,6 +35,7 @@
 ## 固定搭配
 
 + 当前: statue quo (这个不常见)
++ 从中获得利益: get something out of something
 + 在很大程度上: to a *表示大的形容词* extent
 + 至关重要: Of the utmost importance
 + 确定某事: be sure that
@@ -440,7 +441,7 @@
 
         There are several reasons which may account for this social phenomenon/problem. First of all ____. Secondly, ____. Furthermore, ____.
 
-        As Confucius instructed, it's better late than never. In my opinion. prompt and strict measures should be taken to turn back this evil trend. On one had __QUESTION SOLUTION__, On the other hand, __QUESTION SOLUTION 2__.
+        As Confucius instructed, it's better late than never. In my opinion, prompt and strict measures should be taken to turn back this evil trend. On one had __QUESTION SOLUTION__, On the other hand, __QUESTION SOLUTION 2__.
 
         I am firmly convinced that through our combined efforts, we are bound to __SOLVE QUESTION__.
     ```
