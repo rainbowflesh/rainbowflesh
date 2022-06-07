@@ -3,6 +3,7 @@ payload:
     - "+.xywlapi.cc"
     - "+.openai.com"
     - "+.unsplash.com"
+    - "+.rentry.co"
     - "+.chuwenjie.com"
     - "+.squarespace-cdn.com"
     - "+.jsdeliver.net"
