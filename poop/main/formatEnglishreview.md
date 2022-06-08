@@ -440,24 +440,18 @@
 1. 某谁的什么问题与解决方案
 
     ```txt
-        In recent years, we have to face the problem that __QUESTION DESCRIPTION__.
-    In fact, the problem of __QUESTION__ has become a public concern across society.
-
-        There are several reasons which may account for this social phenomenon/problem. First of all ____. Secondly, ____. Furthermore, ____.
-
-        As Confucius instructed, it's better late than never. In my opinion, prompt and strict measures should be taken to turn back this evil trend. On one had __QUESTION SOLUTION__, On the other hand, __QUESTION SOLUTION 2__.
-
-        I am firmly convinced that through our combined efforts, we are bound to __SOLVE QUESTION__.
+        We have had to deal with the balabala problem in recent years.
+        In fact, the subject of balabala has become a major concern throughout society.
+        This societal phenomenon/issue might be attributed to a number of factors. Balabala comes first. Second, balabala. Furthermore, balabala.
+        It's better to be late than never, as Confucius said. To reverse this awful tendency, fast and strong steps, in my opinion, should be adopted. On the one hand, balabala. On the other hand, balabala.
+        Through our united efforts, I am confident that we are destined for balabala.
     ```
 
 2. 某谁关于什么的看法
 
     ```txt
-        Nowadays, __QUESTION DESCRIPTION__ is becoming a heated topic/common phenomenon among __SWIPE__, which also has/have a great influence on them. Attitudes towards __QUESTION__ *vary* from person to person.
-
-        Some people think __OPINION 1__ for the reason that __OPINION 1 REASON__. What is more important, __OPINION REASON 2__
-
-        While others hole the belief that __OPINION 2__ is better choice in the following two reason: Firstly, __OPINION 2 REASON 1__. Besides, __OPINION 2 REASON 2__.
-
-        From my point of view, __MY OPINION__. For one things, __MY OPINION REASON 1__. For another things, __MY OPINION REASON 2__. As a matter of fact, there are some of other reasons to explain my choice. For me the former one is surely a wise choice.
+        Balabala is currently a heated topic among adolescents, and it has a significant impact on them. Balabala attitudes differ from individual to another.
+        Some people believe in balabala because balabala. What matters most, balabala.
+        Others believe that balabala is a superior alternative for the following two reasons: First and foremost, balabala. Aside from that, balabala.
+        From my perspective, balabala. For starters, balabala. Aside from that, balabala In truth, there are a few more factors that contribute to my decision. For me, the former is unquestionably the better option.
     ```
