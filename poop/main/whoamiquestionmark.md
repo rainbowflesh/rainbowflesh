@@ -14,7 +14,7 @@
 
 - Web 服务应用原型的快速开发.
 
-## 经验
+## 工作经验
 
 - 中国电建集团昆明科研勘探设计院, GIS / BIM 方向研发岗.
 
@@ -22,9 +22,9 @@
 
     - 技术栈: Spring Boot, Vue, MySQL, MongoDB.
 
-    - 项目内容: 负责后期客户要求的新功能添加, BUG 修复, 数据分析等工作.
+    - 项目内容: 负责实现客户后期跟进需求, BUG 修复, 数据分析等工作.
 
-  - 参与云南省滇中引水工程 “ 智慧滇中引水 ” 建设管理信息系统（一期）的程序原型的前后端应用开发, 数据库设计等工作.
+  - 参与云南省滇中引水工程 “智慧滇中引水” 建设管理信息系统（一期）的程序原型的前后端应用开发, 数据库设计等工作.
 
     - 技术栈: 前后端架构分离, Spring Cloud, Vue, MySQL, MongoDB, Redis, Nacos, Docker 等.
 
@@ -52,37 +52,49 @@
 
   - 了解 electron 框架下的桌面/移动应用开发.
 
-- 了解 Java Web 服务端开发, 掌握 Spring 全家桶的使用, 了解 Eureka, Hibernate, Mybatis-plus, Bee ORM 等快速开发框架的使用及原理.
+  - 了解微服务架构, 了解发现服务 (Eureka server) 的使用.
+  
+  - 了解消息中间件 Kafka 和搜索中间件 ElasticSearch, 能够在项目中灵活运用提高系统可用性和稳定性.
 
-- 熟悉 Linux 系统为主的服务器搭建, 运维, 内网, 外网通信设备, 堡垒机, 跳板机的搭建, 运维, Gitlab 的搭建, 运维.
+- 熟悉 Linux 系统下的设备 & 应用 & 环境的搭建部署与运维, 包括:
 
-- 熟悉 Hadoop 生态的的系统, 应用部署, 运维.
+  - 外网通信设备, 堡垒机, 跳板机.
+  
+  - 代码托管服务 (Gitlab).
+  
+  - Hadoop 生态系列 (HDFS, HIVE 等常用软件).
+  
+  - SQL 数据库 (MySQL, PostgreSQL).
+  
+  - NoSQL 数据库 (MongoDB, Redis).
 
-- 熟悉 MySQL, PostgreSQL 的搭建使用与运维, 了解常用数据类型及使用场景, 对分布式锁, 哨兵机制, 集群高可用都有部分理解.
-
-- 了解 Redis, MongoDB 等 NoSQL 的搭建运维以及使用.
-
-- 了解 HDFS 的使用与维护, 了解 HIVE 的搭建.
-
-- 了解消息中间件 Kafka 和搜索中间件 ElasticSearch, 能够在项目中灵活运用提高系统可用性和稳定性.
+- 了解常用数据类型及使用场景, 对分布式锁, 哨兵机制, 集群高可用都有部分理解.
 
 - 了解 Tensorflow 框架下的图形识别技术设计与实现
 
   - 了解 CUDA 框架, CUDNN 加速计算技术, 光线追踪的设计原理.
 
-  - 了解各类动作捕捉技术的使用.
+  - 了解基于空间传感动捕设备, 和图像识别动捕软件 (mediapipe) 的使用.
+  
+  - 了解 VSLAM 使用场景和实现.
+  
+  - 了解 MockingBird, WaveRNN 等语音合成原理.
+  
+  - 了解 DeepFaceLab 人脸识别技术的使用.
 
-- 了解各类图形 api, 3D 建模软件, 渲染软件, 引擎的使用.
+- 了解 DirectX, Vulkan, OpenGL 等图形 api 的使用.
+  
+  - 了解 3D 建模, Blender 渲染器, Unity & Unreal 4 引擎的使用.
+
+  - 了解图形设计, 制图等
 
 - 了解计算机原理, 熟悉 Windows/MacOS/Linux 系统的使用.
 
   - 了解 Windows NT 内核原理.
 
-  - 了解 NTFS, ext, ZFS, FAT 等文件系统原理.
+  - 了解 NTFS, ext, ZFS, FAT 等文件系统原理与使用优化.
 
 - 了解 Java 虚拟机原理与优化.
-
-- 了解图形设计, 制图等.
 
 <details>
   <summary>其他技能</summary>
@@ -99,7 +111,7 @@
 
 - 掌握英语语言.
 
-- 会画画 (不是美工.
+- 会画画 (不是美工).
 
 - 代码规范 / 语言规范本当上手.
 
