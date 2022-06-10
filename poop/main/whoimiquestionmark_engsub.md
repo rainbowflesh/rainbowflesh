@@ -98,7 +98,7 @@
 <details>
   <summary>Other Skills</summary>
 
-- Have full dry experience, have experience in building products from 0 to 1, and have independent development ability.
+- Have full stack develop experience, have experience in building products from 0 to 1, and have independent development ability.
 
 - Proficient in data mining & information retrieval skills.
 
