@@ -1,6 +1,6 @@
 # CV
 
-Full stack development
+Full stack / DevOps developer.
 
 ## What will I do
 

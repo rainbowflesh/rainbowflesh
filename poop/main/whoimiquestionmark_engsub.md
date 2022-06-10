@@ -1,5 +1,7 @@
 # Resume
 
+Full stack / DevOps developer.
+
 ## What will I do
 
 - Extend and maintain shared infrastructure and software development and deployment tools.
