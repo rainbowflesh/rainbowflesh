@@ -48,9 +48,9 @@
 
 ## 技术栈
 
-- 熟悉使用 vue 框架和 spring 全家桶的 web 单页面应用开发.
+- 熟悉使用 Vue 框架和 Spring 全家桶的 Web 单页面应用开发.
 
-  - 了解 electron 框架下的桌面/移动应用开发.
+  - 了解 Electron 框架下的桌面/移动应用开发.
 
   - 了解微服务架构, 了解发现服务 (Eureka server) 的使用.
   

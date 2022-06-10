@@ -4,13 +4,12 @@
 
 I call myself a lofty tone geek.
 
-- 🕳️ I resigned. Back to home. Start hibernation.
+- 🤯 Reaching for a job!
 - 📖 Read.
-- 📴 No collaborate.
 - 👁️‍🗨️ I know nothing but Bishōjo ;)
 - 📮 Reach me with email.
 - ⚡ Fun fact: Woa! Actually I am alchemist cyber ork.
-- [Who Im I?](asset/pixelavatar_opc.gif)
+- [Who Im I?](./poop/main/whoimiquestionmark_engsub.md)
 
 ## current statue 👇
 
