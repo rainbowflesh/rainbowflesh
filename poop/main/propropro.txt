@@ -1,5 +1,8 @@
 payload:
     - "+.sfmlab.com"
+    - "+.vscode.dev"
+    - "+.logrocket.com"
+    - "+.owasp.org"
     - "+.xywlapi.cc"
     - "+.openai.com"
     - "+.unsplash.com"
