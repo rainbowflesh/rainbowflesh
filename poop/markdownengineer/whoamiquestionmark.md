@@ -42,7 +42,7 @@
 
   - 参与 [VRoid Studio 翻译](https://github.com/xiaoye97/VRoidChinese)工作.
 
-  - FreeBSD 中文社区成员, 参与过文档攥写和翻译.
+  - FreeBSD 中文社区成员, 参与过文档撰写和翻译.
 
   - 做了其他的一些根本没人看的项目.
 
