@@ -1,5 +1,7 @@
 payload:
     - "+.sfmlab.com"
+    - "+.spring.io"
+    - "+.lovense.com"
     - "+.vscode.dev"
     - "+.logrocket.com"
     - "+.owasp.org"
