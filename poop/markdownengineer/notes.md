@@ -50,8 +50,8 @@
         - BroadCast 多播. 适用于写操作, 即同步调用写入多个具有本地状态的节点, 保证写入的一致性.
     - 分布式储存的容错机制有:
         - 磁盘级容错:
-            - 纠删码 N+M. 可用容量 = $裸容量\times\frac{N}{N+M}$, 可以任意损坏 N 块磁盘或 N 个节点数据不丢失.
-            - 纠删码 N+ $\frac{M}{K}$. 可用容量 = $裸容量\times\frac{N}{N+M}$, 可以任意损坏 M 块磁盘或 K 个节点数据不丢失.
+            - 纠删码 N+M. 可用容量 = 裸容量$\times\frac{N}{N+M}$, 可以任意损坏 N 块磁盘或 N 个节点数据不丢失.
+            - 纠删码 N+ $\frac{M}{K}$. 可用容量 = 裸容量$\times\frac{N}{N+M}$, 可以任意损坏 M 块磁盘或 K 个节点数据不丢失.
             - 多副本 N. 可用容量 = $\frac{裸容量}{N}$, 可以任意损坏 N 块磁盘或 N 个节点数据不丢失.
         - 其中, 多副本易于恢复, 对业务影响小, 安全性高, 但占用大.
     - 分布式计算引擎的容错机制:
@@ -88,11 +88,11 @@
         - SOA 架构适用于 TOGAF 之类的架构方法论. 微服务则敏捷得多.只要用户用得到, 就先把这个服务挖出来.然后针对性的, 快速确认业务需求, 快速开发迭代.
 
 5. 实践微服务
-    - 要实际的应用微服务，需要解决一下四点问题：
+    - 要实际的应用微服务, 需要解决一下四点问题：
         1. 客户端如何访问这些服务
         2. 每个服务之间如何通信
-        3. 如此多的服务，如何实现？
-        4. 服务挂了，如何解决？（备份方案，应急处理机制）
+        3. 如此多的服务, 如何实现?
+        4. 服务挂了, 如何解决? (备份方案, 应急处理机制)
 
 ## 开发
 
@@ -100,13 +100,13 @@
 
 #### Java
 
-1. StringBuffer 和 StringBuilder 的区别.
+1. ```StringBuffer``` 和 ```StringBuilder``` 的区别.
 
-    - 两者底层都是 char[], StringBuilder 不是线程安全的类, StringBuffer 是线程安全的类, 其实现线程安全的方法是给每个方法加上了 synchronized.
+    - 两者底层都是 ```char[], StringBuilder``` 不是线程安全的类, ```StringBuffer``` 是线程安全的类, 其实现线程安全的方法是给每个方法加上了 ```synchronized```.
 
-2. ThreadLocal 是什么.
+2. ```ThreadLocal``` 是什么.
 
-    - ThreadLocal 是无并发的线程安全容器, 其内部自己实现了一个 Map 数据结构, key 是线程的 id, value 是线程的值.
+    - ```ThreadLocal``` 是无并发的线程安全容器, 其内部自己实现了一个 Map 数据结构, key 是线程的 id, value 是线程的值.
 
 3. java 程序产生内存溢出的排查过程.
     - 设置 Xmx 小一点, 这样最终产生的 dump 文件方便分析, 使用 jhat 或者 jvisualvm 分析 dump 文件, 注重观察占用最多 bytes 的类是什么并分析这些类为什么没有被 jvm 回收从而导致 oom.
@@ -114,7 +114,7 @@
 ### 前端
 
 1. JS 的箭头函数是什么?
-    - 箭头函数表达式的语法比函数表达式更简洁, 并且没有自己的 this, arguments, super 或 new.target. 箭头函数表达式更适用于那些本来需要匿名函数的地方, 并且它不能用作构造函数. 引入箭头函数有两个方面的作用: 更简短的函数并且不绑定 this.
+    - 箭头函数表达式的语法比函数表达式更简洁, 并且没有自己的 ```this, arguments, super``` 或```new.target```. 箭头函数表达式更适用于那些本来需要匿名函数的地方, 并且它不能用作构造函数. 引入箭头函数有两个方面的作用: 更简短的函数并且不绑定```this```.
 
 ### 算法
 
@@ -181,7 +181,7 @@
 
 6. 配置 Jenkins 的 job
 
-    - 在 Jenkins 主页创建 job: 选择 "New Job" " Build a free-style software project ", 并设置配置:
+    - 在 Jenkins 主页创建 job: 选择 ```New Job, Build a free-style software project```, 并设置配置:
         - 可选的 SCM (例如源代码所在的 CVS 或 Subversion).
         - 用于控制 Jenkins 何时执行构建的触发器.
         - 构建用于执行实际工作的构建的脚本.
@@ -199,7 +199,7 @@
 
 8. 如何保证 Jenkins 的安全?
 
-    - 确保 global security 配置项已经打开.
+    - 确保 ```global security``` 配置项已经打开.
     - 确保用适当的插件将 Jenkins 与企业员工目录进行集成.
     - 确保启用项目矩阵的权限访问设置.
     - 通过自定义版本控制的脚本来自动化 Jenkins 中设置权限 / 特权的过程.
@@ -214,11 +214,11 @@
 
 1. kafka 如何保持数据可靠? ISR 是什么? 他的工作机制是?
 
-2. kafka 相关 broker partition segment 他们是? 他们关系是
+2. kafka 相关 ```broker, partition, segment``` 他们是都是什么? 他们关系是什么?
 
 ## 运维
 
-1. 线下一个服务响应很慢, 你如何排查, 排查流程是?
+1. 线下一个服务响应很慢, 你如何排查? 排查流程是?
 
 ### 脚本
 
@@ -228,13 +228,13 @@
 
 2. 如何使用 shell 实现一个爬虫, 你描述下整个过程, 会用到哪些命令?
 
-3. shell 相关 [[]] [] (()) () 他们区别是?
+3. shell 相关 ```[[]] [] (()) ()``` 他们区别是?
 
-    - [[]] 是字符串表达式, [] 是 test 命令, (()) 是数学比较表达式, () 为命令组 / 命令替换.
+    - ```[[]]``` 是字符串表达式, ```[]``` 是 ```test``` 命令, ```(())``` 是数学比较表达式, ```()``` 为命令组 / 命令替换.
 
-4. shell function 如何返回字符串
+4. shell ```function``` 如何返回字符串
 
-5. shell $# $\* 是什么意思
+5. shell ```$# $\*``` 是什么意思
 
 ### Linux
 
@@ -250,7 +250,7 @@
 
     - 硬连接指通过索引节点来进行连接. Linux 文件系统中, 保存在磁盘分区中的文件都会获得一个索引节点号号, 多个文件名指向同一索引节点的连接就是硬连接. 硬连接的作用是允许一个文件拥有多个有效路径名 (文件真正删除的条件是与之相关的所有硬连接文件均被删除). Symbolic Link 叫软连接. 软链接文件有类似于 Windows 的快捷方式, 实际上是一个特殊的文件, 文件实际上是一个文本文件, 其中包含的有另一文件的位置信息.
 
-4. Linux 下一个用户登录以下文件加载顺序是? ~/.bash_profile, ~/.bash_login, ~/.profile, ~/.bashrc, /etc/profile
+4. Linux 下一个用户登录以下文件加载顺序是? ```~/.bash_profile, ~/.bash_login, ~/.profile, ~/.bashrc, /etc/profile```
 
     ```shell
     # load global environment variable
@@ -274,7 +274,7 @@
 
     ```
 
-    > 非登录情况加载: ~/.bashrc, /etc/bashrc
+    > 非登录情况加载: ```~/.bashrc, /etc/bashrc```
 
 5. 都说 systemd 他可以并行启动, 他的实现原理是?
 
@@ -296,7 +296,7 @@
 
 9. 举例 Linux 内置命令.
 
-    - pwd, echo, which, type, 使用 type 可以查看一个命令是不是内置的.
+    - 例如: ```pwd, echo, which, type```; 使用 ```type``` 可以查看一个命令是不是内置的.
 
 10. ACL 是什么意思?
     - Access Control List, Linux 的一个权限管理应用.
@@ -313,9 +313,9 @@
 
 1. nginx 相关 正向 /反向代理是什么意思? 他们区别是?
 
-2. 一般架构 nginx 集群 --反向代理--> tomcat , 为什么不能反过来部署呢? 高并发 /动静分离等, 这些我程序也可以做
+2. 一般架构 nginx 集群 -> 反向代理 -> tomcat , 为什么不能反过来部署呢?
 
-3. 都是 nginx 轻量级, 比如对比 tomcat , epoll 是操作系统机制, 与 nginx 无关, 我自己开放也可以调用, 内存占用小 /启动快这不是特点, 模块化这也不是特点, 我自己开发程序也可以实现. . .
+3. 高并发 / 动静分离如何实现?
 
 ### Git
 
@@ -323,12 +323,13 @@
 
 2. 都说 git 管理 /切分支轻量, 他们轻量在哪里, 具体原理是?
 
-3. git rebase xxx 发送冲突, 他的根本原因是? 不要说具体场景 git fetch/git pull 他们区别是?
+3. ```git rebase xxx``` 发送冲突, 他的根本原因是? 不要说具体场景 ```git fetch/git pull``` 他们区别是?
 
-4. index/local/remote/workspace 他们是? 比如 git add xxx 他发生了什么?
+4. ```index / local / remote / workspace``` 他们是? 比如 ```git add xxx``` 他发生了什么?
 
-5. git pull 做了哪些工作？
-    - git pull 是 git fetch + git merge, 将远程仓库内容拉取到本地再与本地仓库相同分支的内容进行合并.
+5. ```git pull``` 做了哪些工作?
+    - ```git pull``` 是 ```git fetch + git merge```, 将远程仓库内容拉取到本地再与本地仓库相同分支的内容进行合并.
+6. ```git rebase``` 和 ```git marge``` 区别是?
 
 ### Docker
 
@@ -337,15 +338,15 @@
     - 移除 apt 的 cache, 对经常变化的指令放在最后 可以优化增量部分
     - 参考 nginx 的 alpine.
 
-2. run yum install -y balabala & run yum clean cache 这么写有问题吗?
+2. ```run yum install -y balabala & run yum clean cache``` 这么写有问题吗?
 
-    - 有, 一个 run 对应一层 layer, docker 镜像会记录每一次 run 直接的 diff, 上面的单独 run yum clean cache 并不会减小镜像大小.
+    - 有, 一个 ```run``` 对应一层```layer```, docker 镜像会记录每一次 ```run``` 直接的 diff, 上面的单独 ```run yum clean cache``` 并不会减小镜像大小.
 
 3. 导出镜像时如何尽可能压缩体积?
 
     - 11
 
-4. 如何解决 ubuntu 容器中没有 ping ifconfig killall 等命令的问题 是否需要解决这种问题?
+4. 如何解决 ubuntu 容器中没有 ```ping, ifconfig, killall``` 等命令的问题 是否需要解决这种问题?
 
     - 22
 
@@ -355,7 +356,7 @@
 
 7. swarm 内部负载均衡突然死活路由不到某一个 worker 上了, 如何解决.
 
-8. RUN rm -rf some_file 镜像大小会减小吗?
+8. ```RUN rm -rf some_file``` 镜像大小会减小吗?
 
 9. Docker Compose 概述
 
@@ -363,13 +364,13 @@
 
 10. 都是 docker 轻量级, 他轻量在哪里, 从技术角度分析, 咱们都是搞技术, 不需要从产品角度分析他为什么轻量?
 
-11. docker volume bind mount 他们区别是什么? 如何构建最小的镜像, 说说你的思路?
+11. ```docker volume, bind, mount``` 他们区别是什么? 如何构建最小的镜像, 说说你的思路?
 
-12. docker -p/P 他的实现原理是什么?
+12. ```docker -p/P``` 他的实现原理是什么?
 
-13. ADD 和 copy 的区别.
+13. ```ADD``` 和 ```copy``` 的区别.
 
-    - ADD 能加载网络源, copy 只能加载本地源, ADD 是 copy 的超集.
+    - ```ADD``` 能加载网络源, ```copy``` 只能加载本地源, ```ADD``` 是 ```copy``` 的超集.
 
 14. 简述 / 阐述 docker 的网络原理, 底层实现.
 
@@ -381,14 +382,14 @@
 
 2. 什么情况下需要建索引? 什么情况下不建?
 
-    - 那么如果查询语句的查询条件仅用到 primary key, 那么就不需要增加索引, 此外如果查询条件的字段是仅包含两三个值的枚举类型, 也是不需要增加索引.
+    - 那么如果查询语句的查询条件仅用到 ```primary key```, 那么就不需要增加索引, 此外如果查询条件的字段是仅包含两三个值的枚举类型, 也是不需要增加索引.
 
 3. mysql 查看连接数和进程数?
 
-    - show processlist
+    - ```show processlist```
 
 4. 慢查询是什么?
-    - SQL 的执行时间超过 MySQL 中 long_query_time 参数的值的时候, 会被记录到慢查询 SQL 日志文件中.
+    - SQL 的执行时间超过 MySQL 中 ```long_query_time``` 参数的值的时候, 会被记录到慢查询 SQL 日志文件中.
 
 ### Redis
 
