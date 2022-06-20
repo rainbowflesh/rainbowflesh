@@ -1,6 +1,7 @@
 # 简历
 
-DevOps / web 全栈开发者.
+SRE / DevOps / web 全栈开发者.
+🥲 想搞基建...
 
 ## 我会什么
 
@@ -16,16 +17,17 @@ DevOps / web 全栈开发者.
 
 - 数据库:
 
-    - 熟悉 MySQL, PostgreSQL 的使用, 了解 Redis, MongoDB 的使用, 了解 HDFS 文件系统的使用.
+    - 熟悉 MySQL, PostgreSQL 的使用; 了解 Redis, MongoDB 的使用, 了解 HDFS 文件系统的使用.
 
 - 运维:
 
-    - 了解 Docker 的使用.
-    - 了解 Linux 系统下的应用环境搭建, 网络服务器, 数据库搭建 & 管理 & 运维.
+    - 了解 Linux 容器技术; 了解 Docker 基本命令的使用.
+    - 了解 Linux 系统下的应用环境搭建; 了解网络服务, 数据库搭建 & 管理.
     - 了解 Hadoop 与生态圈的应用搭建与管理.
     - 有阿里, 腾讯, vultr 这类云托管厂商产品的使用经验.
+    - 了解网络基础,
 
-- 掌握 Git 使用, 拥有文档编写能力, 掌握信息检索能力, 喜爱学习.
+- 掌握 Git 使用; 拥有文档编写能力; 掌握信息检索能力; 喜爱学习.
 
 - 掌握 Powershell, Bash 等脚本语言的使用.
 
