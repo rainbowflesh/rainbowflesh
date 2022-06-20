@@ -1,6 +1,6 @@
 # Resume
 
-Full stack / DevOps developer.
+SRE / Web Full Stack / DevOps developer.
 
 ## What will I do
 
@@ -17,20 +17,22 @@ Full stack / DevOps developer.
 ## Work Experience
 
 - Company: Kunming Research, Exploration, and Design Institute of PowerChina Construction Group
-  - Location: China
-  - Position: R&D position in GIS / BIM.
-  - Duration: Apr 2021 - Jan 2022
-    - Response: contribute to the development of "Kunming smart water system" front-end & back-end apps and post-maintenance-services-services.
 
-      - Mainly used techs: Spring Boot, Vue, MySQL, MongoDB.
+    - Location: China
+    - Position: R&D position in GIS / BIM.
+    - Duration: Apr 2021 - Jan 2022
 
-      - Project content: Responsible for fulfilling customer follow-up requirements, bug fixes, data process.
+        - Response: contribute to the development of "Kunming smart water system" front-end & back-end apps and post-maintenance-services-services.
 
-    - Response: contributed to the "Construction Management Information System of Yunnan Province's 'Center of Dian Water Diversion Project (Phase I)'" front-end & back-end application development, database design, and other aspects of the .
+            - Mainly used techs: Spring Boot, Vue, MySQL, MongoDB.
 
-      - Mainly used techs: Separation of front-end and back-end architectures, Spring Cloud, Vue, MySQL, MongoDB, Redis, Nacos, Docker, etc.
+            - Project content: Responsible for fulfilling customer follow-up requirements, bug fixes, data process.
 
-      - Project content: Responsible for the quick development of the project prototype system's initial phase, as well as the design of testing database, pre-product database, and low-code platforms aka. code generator.
+        - Response: contributed to the "Construction Management Information System of Yunnan Province's 'Center of Dian Water Diversion Project (Phase I)'" front-end & back-end application development, database design, and other aspects of the .
+
+            - Mainly used techs: Separation of front-end and back-end architectures, Spring Cloud, Vue, MySQL, MongoDB, Redis, Nacos, Docker, etc.
+
+            - Project content: Responsible for the quick development of the project prototype system's initial phase, as well as the design of testing database, pre-product database, and low-code platforms aka. code generator.
 
 - Open source community
 - Fix a [serious bug](https://github.com/qier222/YesPlayMusic/issues/1019) and other smaller flaws in [YesPlayMusic](https://github.com/qier222/YesPlayMusic).
@@ -51,49 +53,49 @@ Full stack / DevOps developer.
 
 - Experience developing web single page applications with the vue framework and the spring framework.
 
-  - Learn about desktop/mobile application creation with the with electron framework.
+    - Learn about desktop/mobile application creation with the with electron framework.
 
-  - Understand microservice architecture and use the discovery service (Eureka server).
-  
-  - Understand message middleware Kafka and search middleware ElasticSearch, have ability to used flexibly in projects to improve system availability and stability.
+    - Understand microservice architecture and use the discovery service (Eureka server).
+
+    - Understand message middleware Kafka and search middleware ElasticSearch, have ability to used flexibly in projects to improve system availability and stability.
 
 - Experienced in the design, implementation, operation, and maintenance of Linux-based devices, applications, and environments, including:
 
-  - Equipment for external network connectivity, bastion machine, and springboard machine.
-  
-  - Code hosting service (GitLab).
-  
-  - Hadoop environmental series (HDFS, HIVE and other common software).
+    - Equipment for external network connectivity, bastion machine, and springboard machine.
 
-  - SQL databases (MySQL, PostgreSQL).
-  
-  - NoSQL databases (MongoDB, Redis).
+    - Code hosting service (GitLab).
 
-  - Be familiar with typical data types and usage situations, as well as a working knowledge of distributed locks, sentinel mechanisms, and cluster high availability.
+    - Hadoop environmental series (HDFS, HIVE and other common software).
 
-  - Understand the TensorFlow framework's pattern recognition technology design and implementation.
+    - SQL databases (MySQL, PostgreSQL).
 
-  - Understand the CUDA framework, CUDNN accelerated computing technologies, and ray tracing design principles.
+    - NoSQL databases (MongoDB, Redis).
 
-  - Understand the use of motion capture devices based on spatial sensing, and image recognition motion capture software (mediapipe).
+    - Be familiar with typical data types and usage situations, as well as a working knowledge of distributed locks, sentinel mechanisms, and cluster high availability.
 
-  - Be familiar with VSLAM use scenarios and implementation.
+    - Understand the TensorFlow framework's pattern recognition technology design and implementation.
 
-  - Be familiar with speech synthesis principles such as MockingBird, WaveRNN, and others.
+    - Understand the CUDA framework, CUDNN accelerated computing technologies, and ray tracing design principles.
 
-  - Understand how to utilize DeepFaceLab facial recognition technology.
+    - Understand the use of motion capture devices based on spatial sensing, and image recognition motion capture software (mediapipe).
+
+    - Be familiar with VSLAM use scenarios and implementation.
+
+    - Be familiar with speech synthesis principles such as MockingBird, WaveRNN, and others.
+
+    - Understand how to utilize DeepFaceLab facial recognition technology.
 
 - Understand the use of graphics APIs such as DirectX, Vulkan, OpenGL, etc.
-  
-  - Understand 3D modeling, the Blender renderer, the Unity and Unreal 4 engines.
 
-  - Understand graphic design, drafting, and other related skills.
+    - Understand 3D modeling, the Blender renderer, the Unity and Unreal 4 engines.
+
+    - Understand graphic design, drafting, and other related skills.
 
 - Understand computer principles and be familiar with the use of Windows/MacOS/Linux systems.
 
-  - Understand the principles of the Windows NT kernel.
+    - Understand the principles of the Windows NT kernel.
 
-  - Understand the fundamentals and optimization of file systems such as NTFS, ext, ZFS, and FAT, among others.
+    - Understand the fundamentals and optimization of file systems such as NTFS, ext, ZFS, and FAT, among others.
 
 - Understand the Java virtual machine's concepts and optimization.
 

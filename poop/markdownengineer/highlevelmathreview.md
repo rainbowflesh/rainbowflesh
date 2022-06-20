@@ -534,7 +534,8 @@ $
 ### 变上限积分求导
 
 > 积分上限为参数, 下限为常数, 则 $\frac{d}{dx}\int_0^x{f(t)dt} = F(x)-F(a)=f(x)\times{x`}, f(x)=?$
->> 若求 x=? 时的值, 则直接带入 x 到 $f(x)=?$ 中求出值.
+>
+> > 若求 x=? 时的值, 则直接带入 x 到 $f(x)=?$ 中求出值.
 
 ### 对称限积分
 
@@ -548,11 +549,11 @@ $
 
 - 格林公式:
 
-  > 设闭区域 D 由分段光滑的简单曲线 L 围成，函数 P(x,y) 及 Q(x,y) 在 D 上有一阶连续偏导数, 则有:
-  > ${\displaystyle \iint \limits_{D}\left({\frac {\partial Q}{\partial x}}-{\frac {\partial P}{\partial y}}\right)\mathrm {d} x\mathrm {d} y=\oint_{L^{+}}(P\mathrm {d} x+Q\mathrm {d} y)}$
-  >
-  > 其中 L+ 是 D 的取正向的边界曲线.
-  >> 简化版: 前后偏分后 $\int\int_D Q(x)-P(x) dxdy=-S_D$
+    > 设闭区域 D 由分段光滑的简单曲线 L 围成，函数 P(x,y) 及 Q(x,y) 在 D 上有一阶连续偏导数, 则有: ${\displaystyle \iint \limits_{D}\left({\frac {\partial Q}{\partial x}}-{\frac {\partial P}{\partial y}}\right)\mathrm {d} x\mathrm {d} y=\oint_{L^{+}}(P\mathrm {d} x+Q\mathrm {d} y)}$
+    >
+    > 其中 L+ 是 D 的取正向的边界曲线.
+    >
+    > > 简化版: 前后偏分后 $\int\int_D Q(x)-P(x) dxdy=-S_D$
 
 ---
 
@@ -661,16 +662,14 @@ $
 - 收敛半径:
     > $R=\frac{1}{\rho}=\lim_{n\to\infin}\frac{a_n}{a_{n+1}}, \rho=\lim_{n\to\infin}|\frac{a_{n+1}}{a_n}|, \rho\in{(0,+∞)}$
 - 收敛区间:
-    > 计算收敛半径 R, 然后令含有x的 $|f(x)|<R$ 并讨论 x 的范围.
+    > 计算收敛半径 R, 然后令含有 x 的 $|f(x)|<R$ 并讨论 x 的范围.
 - 收敛域:
     > 先求出收敛半径 (-R,R)
     >
     > > 讨论收敛区间端点的敛散性, 即讨论 x=-R,x=R 时的带入到原级数后的级数的敛散性.
 - 交错级数判别敛散性:
 
-    > 具有以下形式的级数 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a*{n}\!} \\$ 其中所有的 $a_{n}$ 非负, 被称作交错级数.
-    > 如果当 n 趋于无穷时, 数列 $a_{n}$ 的极限存在且等于 0, 并且每个 $a_{n}$ 小于或等于 $a_{n-1}$ (即数列 $a_{n}$ 是单调递减的), 那么级数收敛.
-    > 如果 L 是级数的和 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a_{n}=L\!}$ 那么部分和 ${\displaystyle S_{k}=\sum_{n=0}^{k}(-1)^{n}a_{n}\!}$ 逼近 L 有截断误差 ${\displaystyle \left|S_{k}-L\right\vert \leq \left|S_{k}-S_{k-1}\right\vert =a_{k}\!}$
+    > 具有以下形式的级数 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a*{n}\!} \\$ 其中所有的 $a_{n}$ 非负, 被称作交错级数. 如果当 n 趋于无穷时, 数列 $a_{n}$ 的极限存在且等于 0, 并且每个 $a_{n}$ 小于或等于 $a_{n-1}$ (即数列 $a_{n}$ 是单调递减的), 那么级数收敛. 如果 L 是级数的和 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a_{n}=L\!}$ 那么部分和 ${\displaystyle S_{k}=\sum_{n=0}^{k}(-1)^{n}a_{n}\!}$ 逼近 L 有截断误差 ${\displaystyle \left|S_{k}-L\right\vert \leq \left|S_{k}-S_{k-1}\right\vert =a_{k}\!}$
     >
     > > 简化: $\lim_{n\to\infin}An=0, An≥A{n+1}$, 即单调递减
 
@@ -678,11 +677,11 @@ $
 
 #### P 级数
 
-> 形如 ${\displaystyle\sum_{n=1}^{\infin}} \frac{1}{n^p}$ 其中n>0时, p>1 则级数收敛, p<=1时级数发散
+> 形如 ${\displaystyle\sum_{n=1}^{\infin}} \frac{1}{n^p}$ 其中 n>0 时, p>1 则级数收敛, p<=1 时级数发散
 
 #### 交错 P 级数
 
-> 形如 ${\displaystyle\sum_{n=1}^{\infin}}(-1)^{n-1} \frac{1}{n^p}$ 其中, p>1时绝对收敛, 0<p≤1时条件收敛, p≤0时发散
+> 形如 ${\displaystyle\sum_{n=1}^{\infin}}(-1)^{n-1} \frac{1}{n^p}$ 其中, p>1 时绝对收敛, 0<p≤1 时条件收敛, p≤0 时发散
 
 #### 调和级数
 
@@ -692,7 +691,7 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
 
 #### 和函数
 
-- 一个等比数列的首n项之和, 称为等比数列和 (sum of geometric sequence)或几何级数 (geometric series), 记作 $S_{n}$
+- 一个等比数列的首 n 项之和, 称为等比数列和 (sum of geometric sequence)或几何级数 (geometric series), 记作 $S_{n}$
 
 - 求法
     > 求级数收敛域, 再令 S(x)=这个级数=化简化简, 在求导并令 n=0,然后带入求和公式
@@ -708,7 +707,7 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
     >
     > > $\begin{aligned}\rho&=\lim_{n\to\infin}|\frac{\frac{\ln(n+1+1)}{n+1}}{\frac{\ln(n+1)}{n}}|\\&=\lim_{n\to\infin}|\frac{\ln(n+1+1)}{n+1}\frac{n}{\ln(n+1)}|\\&=\lim_{n\to\infin}\frac{\ln(n+2)}{\ln(n+1)}\frac{n}{n+1}\\&=\lim_{n\to\infin}|\frac{n+1}{n+2}|\\&=1\end{aligned}\\R=\frac{1}{\rho}=1$ , 原级数收敛区间为(-1,1)
     > >
-    > > > 当x=-1时, 原级数= ${\displaystyle\sum_{n=0}^{\infin }\frac{\ln(n+1)}{n}(-1)^{n-1}}$ 为交错级数, 此时判别敛散性\\ $\lim_{n\to\infin}\frac{\ln(n+1)}{n}=\frac{\infin}{\infin}$ =洛 $\frac{f`(x)}{g`(x)}=0$ , 且单调递减, 即x=-1时收敛\\当x=1时, 原级数= ${\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}(1)^{n-1}}={\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}}>{\displaystyle\sum_{n=0}^{\infin }\frac{1}{n}}$ ,即x=1时小发散$\rightarrow$ 大发散
+    > > > 当 x=-1 时, 原级数= ${\displaystyle\sum_{n=0}^{\infin }\frac{\ln(n+1)}{n}(-1)^{n-1}}$ 为交错级数, 此时判别敛散性\\ $\lim_{n\to\infin}\frac{\ln(n+1)}{n}=\frac{\infin}{\infin}$ =洛 $\frac{f`(x)}{g`(x)}=0$ , 且单调递减, 即 x=-1 时收敛\\当 x=1 时, 原级数= ${\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}(1)^{n-1}}={\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}}>{\displaystyle\sum_{n=0}^{\infin }\frac{1}{n}}$ ,即 x=1 时小发散$\rightarrow$ 大发散
     > > >
     > > > > 综上, 原级数收敛区域为[-1,1)
 - $求幂级数\displaystyle\sum_{n=1}^{\infin }\frac{x^n}{3^n}的收敛半径$
@@ -726,9 +725,7 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
 
 ### 洛必达
 
-洛必达法则可以求出特定函数趋近于某数的极限值,
-两函数f(x),g(x)在以x=c为端点的开区间可微 ${\displaystyle c\in {\bar {\mathbb {R} }}}$ 时
-如果 ${\displaystyle\lim_{x\to c}{f(x)}=\lim_{x\to c}{g(x)}=0} 或 {\displaystyle \lim_{x\to c}{|f(x)|}=\lim_{x\to c}{|g(x)|}=\infin }$ 其中一者成立, 则称欲求的极限 ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}}$ 为未定式, 此时洛必达法则表明: ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}=\lim_{x\to c}{\frac{f'(x)}{g'(x)}}}$
+洛必达法则可以求出特定函数趋近于某数的极限值, 两函数 f(x),g(x)在以 x=c 为端点的开区间可微 ${\displaystyle c\in {\bar {\mathbb {R} }}}$ 时如果 ${\displaystyle\lim_{x\to c}{f(x)}=\lim_{x\to c}{g(x)}=0} 或 {\displaystyle \lim_{x\to c}{|f(x)|}=\lim_{x\to c}{|g(x)|}=\infin }$ 其中一者成立, 则称欲求的极限 ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}}$ 为未定式, 此时洛必达法则表明: ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}=\lim_{x\to c}{\frac{f'(x)}{g'(x)}}}$
 
 ### 条件
 
@@ -802,30 +799,30 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 
 ### 二次曲面
 
-| 未退化的一般实二次曲面 |                                       表达式                                       |                                                   图像                                                   |
-|:-------------------:|:----------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|
-|         椭球面         |          ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}+{z^{2} \over c^{2}}=1$           |           ![椭球面](https://upload.wikimedia.org/wikipedia/commons/e/ec/Ellipsoid_Quadric.png)           |
-|       椭圆抛物面       |                  ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-z=0\,$                   |        ![椭圆抛物面](https://upload.wikimedia.org/wikipedia/commons/0/02/Paraboloid_Quadric.Png)         |
-|       双曲抛物面       |                  ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}-z=0\,$                   |   ![双曲抛物面](https://upload.wikimedia.org/wikipedia/commons/8/87/Hyperbolic_Paraboloid_Quadric.png)   |
-|       单页双曲面       | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/3/34/Hyperboloid_Of_One_Sheet_Quadric.png)  |
-|       双叶双曲面       | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/a/af/Hyperboloid_Of_Two_Sheets_Quadric.png) |
+| 未退化的一般实二次曲面 | 表达式 | 图像 |
+| :-: | :-: | :-: |
+| 椭球面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}+{z^{2} \over c^{2}}=1$ | ![椭球面](https://upload.wikimedia.org/wikipedia/commons/e/ec/Ellipsoid_Quadric.png) |
+| 椭圆抛物面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-z=0\,$ | ![椭圆抛物面](https://upload.wikimedia.org/wikipedia/commons/0/02/Paraboloid_Quadric.Png) |
+| 双曲抛物面 | ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}-z=0\,$ | ![双曲抛物面](https://upload.wikimedia.org/wikipedia/commons/8/87/Hyperbolic_Paraboloid_Quadric.png) |
+| 单页双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=1\,}$ | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/3/34/Hyperboloid_Of_One_Sheet_Quadric.png) |
+| 双叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/a/af/Hyperboloid_Of_Two_Sheets_Quadric.png) |
 
-|       特殊二次曲面       |                                       表达式                                       |                                                       图像                                                        |
-|:----------------------:|:----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
-| 类球面（一种特殊的椭球面） |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$          |   ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png)   |
-|           球面           |         ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$          |                  ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png)                  |
-|         圆抛物面         |                  ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$                   |         ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png)          |
-|        单叶双曲面        | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$  | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png)  |
-|        双叶双曲面        | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
+| 特殊二次曲面 | 表达式 | 图像 |
+| :-: | :-: | :-: |
+| 类球面（一种特殊的椭球面） | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$ | ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png) |
+| 球面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$ | ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png) |
+| 圆抛物面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$ | ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png) |
+| 单叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$ | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png) |
+| 双叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
 
-| 退化的一般实二次曲面 |                                      表达式                                       |                                               图像                                               |
-|:------------------:|:---------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
-|       椭圆锥面       |         ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=0\,$         |   ![椭圆锥面](https://upload.wikimedia.org/wikipedia/commons/9/9b/Elliptical_Cone_Quadric.Png)   |
-|         锥面         | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=0\,}$ |      ![锥面](https://upload.wikimedia.org/wikipedia/commons/c/c6/Circular_Cone_Quadric.png)      |
-|       椭圆柱面       |                   ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}=1\,$                   |  ![椭圆柱面](https://upload.wikimedia.org/wikipedia/commons/6/64/Elliptic_Cylinder_Quadric.png)  |
-|        圆柱面        |                   ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}=1\,$                   |   ![圆柱面](https://upload.wikimedia.org/wikipedia/commons/0/0c/Circular_Cylinder_Quadric.png)   |
-|       双曲柱面       |                   ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}=1\,$                   | ![双曲柱面](https://upload.wikimedia.org/wikipedia/commons/8/82/Hyperbolic_Cylinder_Quadric.png) |
-|       抛物柱面       |                                  $x^{2}+2ay=0\,$                                  | ![抛物柱面](https://upload.wikimedia.org/wikipedia/commons/e/ea/Parabolic_Cylinder_Quadric.png)  |
+| 退化的一般实二次曲面 | 表达式 | 图像 |
+| :-: | :-: | :-: |
+| 椭圆锥面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=0\,$ | ![椭圆锥面](https://upload.wikimedia.org/wikipedia/commons/9/9b/Elliptical_Cone_Quadric.Png) |
+| 锥面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=0\,}$ | ![锥面](https://upload.wikimedia.org/wikipedia/commons/c/c6/Circular_Cone_Quadric.png) |
+| 椭圆柱面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}=1\,$ | ![椭圆柱面](https://upload.wikimedia.org/wikipedia/commons/6/64/Elliptic_Cylinder_Quadric.png) |
+| 圆柱面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}=1\,$ | ![圆柱面](https://upload.wikimedia.org/wikipedia/commons/0/0c/Circular_Cylinder_Quadric.png) |
+| 双曲柱面 | ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}=1\,$ | ![双曲柱面](https://upload.wikimedia.org/wikipedia/commons/8/82/Hyperbolic_Cylinder_Quadric.png) |
+| 抛物柱面 | $x^{2}+2ay=0\,$ | ![抛物柱面](https://upload.wikimedia.org/wikipedia/commons/e/ea/Parabolic_Cylinder_Quadric.png) |
 
 > 简约版:
 >
@@ -851,7 +848,7 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 
 - $|\overrightarrow{u}|=\sqrt{A^2+B^2+C^2}$
 - 一个题: 向量 a, b 的模长 |a|=2, |b|=3, 求 |a-b|
-  > 解: $|a-b|=\sqrt{|a-b|^2} = \sqrt{|a|^2+|b|^2-2 a \cdot b} =\sqrt{13-2 |a||b|cos<a,b>} =\sqrt{13-6} =\sqrt{7}$
+    > 解: $|a-b|=\sqrt{|a-b|^2} = \sqrt{|a|^2+|b|^2-2 a \cdot b} =\sqrt{13-2 |a||b|cos<a,b>} =\sqrt{13-6} =\sqrt{7}$
 
 ### 方向余弦
 
@@ -876,7 +873,7 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 
 ### 计算与公式
 
-- 求互相垂直直线, 设 $w=\frac{f(x)}{a}=\frac{g(y)}{b}=\frac{Q(z)}{c}$, 用向量 $s= w-所过点_{xyz},s_{所求}\times s_L=0$, 求出t代会列的向量求出分母, 分子就是xyz-过的点
+- 求互相垂直直线, 设 $w=\frac{f(x)}{a}=\frac{g(y)}{b}=\frac{Q(z)}{c}$, 用向量 $s= w-所过点_{xyz},s_{所求}\times s_L=0$, 求出 t 代会列的向量求出分母, 分子就是 xyz-过的点
 - 法向量差积
     > $\overrightarrow{S}=\overrightarrow{n_1}\times\overrightarrow{n_2}=\begin{vmatrix} i & i & k \\ n_1系数_1 & n_1系数_2 & n_1系数_3 \\ n_2系数_1 & n_2系数_2 & n_2系数_3 \end{vmatrix}\\=去掉第一行第一列-去掉第二行第二列+去掉第三行第三列=\begin{vmatrix}n_1系数_2&n_1系数_3\\n_2系数_2&n_2系数_3\end{vmatrix}i-类推j+类推k=交叉相乘再相减i-类推j+类推k$
 - 向量垂直
@@ -951,18 +948,16 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 #### 拉日型
 
 - 常见于问两个点使 balabala 成立
-    > 首先作辅助函数 (我也不知道怎么做. 大概和画辅助线一样属于和出题人思路碰一碰)
-    > 然后画数轴, 设一点分割另外两点, 分类讨论一下
+    > 首先作辅助函数 (我也不知道怎么做. 大概和画辅助线一样属于和出题人思路碰一碰) 然后画数轴, 设一点分割另外两点, 分类讨论一下
 
 #### 拉日型例题
 
-- 已知函数f(x)在[0,1]上连续,在(0,1)内可导,且f(0)=0,f(1)=1, 试证明:\\(1)存在 $\xi\in(0,1)$ 使 $f(\xi)=1-\xi\\(2)$ 存在两个不同的点 $\eta,\mu\in(0,1)$ 使 $f`(\eta)f`(\mu)=1$
+- 已知函数 f(x)在[0,1]上连续,在(0,1)内可导,且 f(0)=0,f(1)=1, 试证明:\\(1)存在 $\xi\in(0,1)$ 使 $f(\xi)=1-\xi\\(2)$ 存在两个不同的点 $\eta,\mu\in(0,1)$ 使 $f`(\eta)f`(\mu)=1$
     > (1)设辅助函数 $F(\xi)=f(\xi)-1+\xi\rightarrow F(x)=f(x)-1+x, x\in(0,1)$
     >
     > > $F(0)=f(0)-1+0=-1<0, F(1)=f(1)-1+1=1>0$, 由零点定理可得必有一点 $\xi$ 使 $F(\xi)=0$, 即 $f(\xi)=1-\xi$
     >
-    > (2)设一点 $\xi,\eta\in(0,\xi),\mu\in(\xi,1)\\∵f(x)$ 在 $[0,1]$ 上连续,在(0,1)内可导, ∴f(x) 在 $[0,\xi]$ 上连续,在 $(0,\xi)$ 内可导,$[\xi,1]$ 上连续,在 $(\xi,1)$ 内可导
-    由拉日定理得 $f`(\eta)=\frac{f(\xi)-f(0)}{\xi-0},f`(\mu)=\frac{f(1)-\xi}{1-\xi}$ ,联立 $f(\xi)=1-\xi$ 得 $f`(\eta)f`(\mu)=\frac{1-1+\xi}{\xi}=1$ ,证毕
+    > (2)设一点 $\xi,\eta\in(0,\xi),\mu\in(\xi,1)\\∵f(x)$ 在 $[0,1]$ 上连续,在(0,1)内可导, ∴f(x) 在 $[0,\xi]$ 上连续,在 $(0,\xi)$ 内可导,$[\xi,1]$ 上连续,在 $(\xi,1)$ 内可导 由拉日定理得 $f`(\eta)=\frac{f(\xi)-f(0)}{\xi-0},f`(\mu)=\frac{f(1)-\xi}{1-\xi}$ ,联立 $f(\xi)=1-\xi$ 得 $f`(\eta)f`(\mu)=\frac{1-1+\xi}{\xi}=1$ ,证毕
 
 ---
 

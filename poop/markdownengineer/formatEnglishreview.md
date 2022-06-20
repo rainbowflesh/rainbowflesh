@@ -117,23 +117,23 @@
 
 - 形式
 
-  - todo 不定式: 由 to 加动词原形构成的句子, to 只作为符号, 无实际意义.
-  - 动名词: 动词 ing 形式构成.
-  - 分词: 现在分词 (ing) 与过去分词 (ed) 构成.
+    - todo 不定式: 由 to 加动词原形构成的句子, to 只作为符号, 无实际意义.
+    - 动名词: 动词 ing 形式构成.
+    - 分词: 现在分词 (ing) 与过去分词 (ed) 构成.
 
 - 特征
 
-  - 非谓语动词可以做主语宾语等多种句子成分, 但不能做谓语.
-  - 非谓语动词具有各种形态: 原型主动被动进行时完成时.
-  - 非谓语动词具有动词的功能, 可以有自己的宾语, 但不具备语法上的动词性质, 如没有人称和数量变化.
+    - 非谓语动词可以做主语宾语等多种句子成分, 但不能做谓语.
+    - 非谓语动词具有各种形态: 原型主动被动进行时完成时.
+    - 非谓语动词具有动词的功能, 可以有自己的宾语, 但不具备语法上的动词性质, 如没有人称和数量变化.
 
 - 条件
-  - 一个句子中, 已经存在一个谓语动词, 而没有连词的情况下, 其他的动词要用非谓语形式.
+    - 一个句子中, 已经存在一个谓语动词, 而没有连词的情况下, 其他的动词要用非谓语形式.
 - 时态类型
-  - 不定式的动作与谓语动词同时发生, 非谓语用原型.
-  - 强调不定式的动作在谓语动词发生前, 非谓语用完成时.
-  - 强调不定式的动作正在进行, 非谓语用不定式的时态 (现在进行/过去进行).
-  - 当不定式的逻辑主语是不定式动作的承受者时, 非谓语用被动语态.
+    - 不定式的动作与谓语动词同时发生, 非谓语用原型.
+    - 强调不定式的动作在谓语动词发生前, 非谓语用完成时.
+    - 强调不定式的动作正在进行, 非谓语用不定式的时态 (现在进行/过去进行).
+    - 当不定式的逻辑主语是不定式动作的承受者时, 非谓语用被动语态.
 
 ### 反义疑问句
 
@@ -150,11 +150,11 @@
 
 ### 时态
 
-|    \     |      一般       |         进行          |          完成          |           完成进行           |
-| :------: | :-------------: | :-------------------: | :--------------------: | :--------------------------: |
-|   现在   |     do/does     |    am/is/are/doing    |     have/has done      |     have/has been doing      |
-|   过去   |       did       |    was/were doing     |        had done        |        had been doing        |
-|   将来   |  will/shall do  |  will/shall be doing  |  will/shall have done  |  will/shall have been doing  |
+| \  | 一般 | 进行 | 完成 | 完成进行 |
+| :-: | :-: | :-: | :-: | :-: |
+| 现在 | do/does | am/is/are/doing | have/has done | have/has been doing |
+| 过去 | did | was/were doing | had done | had been doing |
+| 将来 | will/shall do | will/shall be doing | will/shall have done | will/shall have been doing |
 | 过去将来 | should/would do | should/would be doing | should/would have done | should/would have been doing |
 
 - 一般现在时的用法
@@ -250,8 +250,7 @@
 - 我们要重视我们的身体和精神健康, 并养成良好的生活习惯.
     > We should attach importance value our mental and physical health, and cultivate a good life habit.
 - 那家公司明年要出新的产品.
-    > -> (明年)
-    > That company will launch a series of new products next year.
+    > -> (明年) That company will launch a series of new products next year.
 - 他从未想到过他会犯如此低级的错误.
     > It never occurred to him that he would have committed such a low level error.
 - 住在公园附近的每一个人都很熟悉这种气味.
@@ -331,20 +330,17 @@
     >
     > > 其实读一遍语感就发现 that 读不通要用 which 了.
 - It was(A) yesterday when(B) he finished(C) reading(D) the novel.
-    > -> 强调句型 "It be", 判断方法是去掉强调内容看句式是否完整, 此处句型完整 强调句型跟 that
-    > (B) when -> that
+    > -> 强调句型 "It be", 判断方法是去掉强调内容看句式是否完整, 此处句型完整 强调句型跟 that (B) when -> that
 - Scarcely(A) had we come into(B) the classroom than(C) the bell rang(D).
     > -> 否定词开头(no not never few little hardly scarcely no sooner) 为半倒装句 (助动词 + 主语)
     >
-    > > hardly scarcely no sooner 开头, 考察否定词搭配/半倒装/时态
-    > > 据此 (C) than -> when
+    > > hardly scarcely no sooner 开头, 考察否定词搭配/半倒装/时态据此 (C) than -> when
 - Would you consider to give(A) her another(B) five minutes before(C) giving up(D) waiting for her?
     > -> consider doing 固定搭配, 所以改 (A) give -> giving
     >
     > another 后跟名词复数时视为整体, giving up doing 固定搭配.
 - I am going(A) to have my letter type(B) tomorrow if I've got(C) everything ready(D) by then.
-    > -> be doing to do 助动词表一般将来, aka. will do(动词原形).
-    > have my letter type(B) 中, 打印信件应当是信被打印属被动语态 -> have my letter typed
+    > -> be doing to do 助动词表一般将来, aka. will do(动词原形). have my letter type(B) 中, 打印信件应当是信被打印属被动语态 -> have my letter typed
 - The reason(A) why Tom has made great progress(B) is for(C) she has never wasted(D) her time.
     > -> the reason why is that 固定搭配, 所以改 (C) for -> that
 - The fire quickly spread(A) to the first floor where(B) it destroyed(C) all the equipments(D) in the language lab. > 一般过去不加 s, spread 没问题. where 几楼也没问题, destroyed 过去式也没问题. > > (D) equipments 作为集体名词没有复数, 所以改为 -> equipment >
