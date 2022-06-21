@@ -9,9 +9,9 @@ I call myself a lofty tone geek.
 - 👁️‍🗨️ I know nothing but Bishōjo ;)
 - 📮 Reach me with email.
 - ⚡ Fun fact: Woa! Actually I am alchemist cyber ork.
-- [Who Im I?](./poop/markdownengineer/whoimiquestionmark_engsub.md)
+- [Who Im I?](./poop/markdownengineer/whoimilite_engsub.md)
 
 ## current statue 👇
 
 ![Hunting-to-love](./asset/stat0.jpg)
-![tired](./asset/stat1.jpg)
+<!-- ![tired](./asset/stat1.jpg) -->
