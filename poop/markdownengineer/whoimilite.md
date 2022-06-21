@@ -19,7 +19,7 @@ SRE / DevOps / web 全栈开发者.
     - 熟悉 Linux 系统下的 Java, NodeJs 应用环境搭建; 了解 nginx 基本使用配置.
     - 了解 Linux 上的 MySQL, PostgreSQL 数据库的部署与使用.
     - 了解 Hadoop 与生态圈的应用搭建与管理.
-    - 多年 vps 维护经验,  有木马排查 & 修复经验; 了解集群负载均衡的应用, 了解流量转发与 CDN 服务的使用.
+    - 多年 vps 维护经验, 有木马排查 & 修复经验; 了解集群负载均衡的应用, 了解流量转发与 CDN 服务的使用.
 
 - 熟悉 Git 使用; 拥有文档编写能力; 掌握信息检索能力; 热衷于学习新技术.
 
@@ -45,7 +45,7 @@ SRE / DevOps / web 全栈开发者.
 
     - 修复 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 软件的一个[重大 bug](https://github.com/qier222/YesPlayMusic/issues/1019), 还有其他的一些小 bug.
 
-    - 参与过 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作 (连 logo 都是我做的 ( 逃.
+    - 参与过 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作 (连 logo 都是我做的).
 
     - 参与过 style2paints 作者的另一个项目 [PaintingLight](https://github.com/lllyasviel/PaintingLight), 以及 [MangaCraft](https://github.com/lllyasviel/MangaCraft) (现已将功能合并到 s2p 所以删库跑路了).
 
