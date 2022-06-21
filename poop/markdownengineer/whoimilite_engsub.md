@@ -4,24 +4,35 @@ SRE / Web Full Stack / DevOps developer.
 
 ## What will I do
 
-- Web service application development:
-    - Use Java, Javascript, SQL languages.
-    - Familiar with Spring Boot framework, single page application development under Vue.js framework.
-    - Learn about desktop/mobile application development under the Electron framework.
-    - Understand the microservice architecture, understand the use of discovery service (Eureka server).
-    - Understand message middleware Kafka and search middleware ElasticSearch, which can be used flexibly in projects to improve system availability and stability.
-    - Understand the use of ORM frameworks such as JPA, Hibernate, Bee, etc.
-    - Familiar with rapid development of front-end and back-end application prototypes.
-    - Familiar with the use of MySQL, PostgreSQL, understand the use of Redis, MongoDB, understand the use of the HDFS file system.
-- Master the use of Git and the ability to write documentation.
-- Master the use of scripting languages ​​such as Powershell, Bash, etc.
+- B/S Architecture Web Application Development:
+
+    - Use Java, JavaScript, SQL languages.
+        - Experience with the Spring Boot framework and the Vue.js framework for single-page applications.
+        - Know how to utilize different ORMs and security frameworks.
+    - Distributed application:
+        - Recognize the concept and principles of microservice architecture, as well as the Spring Cloud framework's application.
+        - Know how to use the Eureka server's discovery service and the Kafka message queue.
+
+- Maintenance and operation:
+
+    - Get a fundamental understanding of Linux container technologies and Docker commands.
+    - Know how to build a Java and NodeJs application environment on Linux; Understand the basic configuration of nginx.
+    - Learn how to install and use MySQL and PostgreSQL databases on Linux.
+    - Understand the application construction and management of Hadoop and ecosystem.
+    - Years of VPS maintenance, have trojan troubleshooting and repair expertise; knowledge of cluster load balancing, traffic forwarding, and CDN services.
+
+- Familiarity with Git; capacity to develop documentation; mastery of information retrieval; eagerness to learn new technologies
+
+- Be familiar with scripting languages such as PowerShell, Bash, and others.
 
 ## Work Experience
 
 - Company: Kunming Research, Exploration, and Design Institute of PowerChina Construction Group
+
     - Location: China
     - Position: R&D position in GIS / BIM.
     - Duration: Apr 2021 - Jan 2022
+
         - Response: contribute to the development of "Kunming smart water system" front-end & back-end apps and post-maintenance-services-services.
 
             - Mainly used techs: Spring Boot, Vue, MySQL, MongoDB.
