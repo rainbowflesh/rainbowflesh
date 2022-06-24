@@ -1,6 +1,6 @@
 # 简历
 
-SRE / DevOps / web 全栈开发者.
+意向 DevOps / web 应用全栈开发方向的远程岗位; 对基建和 SRE 方向也感兴趣, 可驻场.
 
 ## 我会什么
 
@@ -8,20 +8,20 @@ SRE / DevOps / web 全栈开发者.
 
     - 使用 Java, Javascript, SQL 语言.
         - 熟悉 Spring Boot 框架, Vue.js 框架下的单页面应用开发.
-        - 了解各类 ORM 和安全框架的使用.
+        - 了解 JPA, mybatis, Bee 等 ORM 框架和 Sa-token, Apache Shiro 安全框架的使用.
     - 分布式应用:
         - 了解微服务架构的定义与标准; 了解 Spring Cloud 框架的应用.
-        - 了解发现服务 Eureka server 的使用, 消息队列 Kafka 的使用.
+        - 了解发现服务 Eureka server 以及消息队列 Kafka 的使用.
 
 - 运维:
 
-    - 了解 Linux 容器技术; 了解 Docker 基本命令.
+    - 了解 Docker 基本命令的使用.
     - 熟悉 Linux 系统下的 Java, NodeJs 应用环境搭建; 了解 nginx 基本使用配置.
     - 了解 Linux 上的 MySQL, PostgreSQL 数据库的部署与使用.
     - 了解 Hadoop 与生态圈的应用搭建与管理.
     - 多年 vps 维护经验, 有木马排查 & 修复经验; 了解集群负载均衡的应用, 了解流量转发与 CDN 服务的使用.
 
-- 熟悉 Git 使用; 拥有文档编写能力; 掌握信息检索能力; 热衷于学习新技术.
+- 熟悉 Git 使用; 拥有文档编写能力; 掌握信息检索能力; 热衷于学习新技术, 学习能力强.
 
 - 掌握 Powershell, Bash 等脚本语言的使用.
 
@@ -29,7 +29,7 @@ SRE / DevOps / web 全栈开发者.
 
 - 中国电建集团昆明科研勘探设计院, GIS / BIM 方向研发岗.
 
-    - 参与昆明市智慧水务系统, 后期维护的前后端应用开发.
+    - 参与昆明市智慧水务系统, 线上应用的维护工作, 前后端应用开发.
 
         - 技术栈: Spring Boot, Vue, MySQL, MongoDB.
 
@@ -45,7 +45,7 @@ SRE / DevOps / web 全栈开发者.
 
     - 修复 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 软件的一个[重大 bug](https://github.com/qier222/YesPlayMusic/issues/1019), 还有其他的一些小 bug.
 
-    - 参与过 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作 (连 logo 都是我做的).
+    - 参与过 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, 包括 logo 的设计.
 
     - 参与过 style2paints 作者的另一个项目 [PaintingLight](https://github.com/lllyasviel/PaintingLight), 以及 [MangaCraft](https://github.com/lllyasviel/MangaCraft) (现已将功能合并到 s2p 所以删库跑路了).
 
