@@ -46,14 +46,14 @@ SRE / Web Full Stack / DevOps developer.
             - Project content: Responsible for the quick development of the project prototype system's initial phase, as well as the design of testing database, pre-product database, and low-code platforms aka. code generator.
 
 - Open source community
-- Fix a [serious bug](https://github.com/qier222/YesPlayMusic/issues/1019) and other smaller flaws in [YesPlayMusic](https://github.com/qier222/YesPlayMusic).
+    - Fix a [serious bug](https://github.com/qier222/YesPlayMusic/issues/1019) and other smaller flaws in [YesPlayMusic](https://github.com/qier222/YesPlayMusic).
 
-- Helped with the early development and testing of [style2paints](https://github.com/lllyasviel/style2paints) (also logo designed by me).
+    - Helped with the early development and testing of [style2paints](https://github.com/lllyasviel/style2paints) (also logo designed by me).
 
-- Contributed to another style2paints project, [PaintingLight](https://github.com/lllyasviel/PaintingLight), and [MangaCraft](https://github.com/lllyasviel/MangaCraft) (now merged functionality into s2p, so the repositories deleted).
+    - Contributed to another style2paints project, [PaintingLight](https://github.com/lllyasviel/PaintingLight), and [MangaCraft](https://github.com/lllyasviel/MangaCraft) (now merged functionality into s2p, so the repositories deleted).
 
-- Helped with the testing of [DeepCreamPy](https://github.com/liaoxiong3x/DeepCreamPy).
+    - Helped with the testing of [DeepCreamPy](https://github.com/liaoxiong3x/DeepCreamPy).
 
-- Help with [VRoid Studio](https://github.com/xiaoye97/VRoidChinese) translation.
+    - Help with [VRoid Studio](https://github.com/xiaoye97/VRoidChinese) translation.
 
-- Member of the FreeBSD Chinese community, contributed to document authoring and translation.
+    - Member of the FreeBSD Chinese community, contributed to document authoring and translation.
