@@ -13,7 +13,7 @@
 
 - 运维:
 
-    - 了解 Linux 容器技术, FreeBSD Jail 技术, 了解 Docker 基本命令的使用; 了解 HyperV, VMware 虚拟机使用.
+    - 了解 Linux 容器技术, FreeBSD Jail 技术, 了解 Docker 基本命令的使用; 了解 Hyper-V, VMware 虚拟机使用.
     - 熟悉 Linux 系统下的 Java, NodeJs 应用环境搭建; 了解 nginx 基本使用配置.
     - 了解 Linux 上的 MySQL, PostgreSQL 数据库的部署与使用.
     - 了解 Hadoop 与生态圈的应用搭建与管理.
