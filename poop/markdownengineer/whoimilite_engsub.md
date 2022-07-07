@@ -1,6 +1,6 @@
 # CV
-
-SRE / Web Full Stack / DevOps developer.
+![profile](../../asset/hislinkedinprofile.jpg)
+SRE / Web Full Stack / DevOps developer, Data Scientist.
 
 ## What will I do
 
