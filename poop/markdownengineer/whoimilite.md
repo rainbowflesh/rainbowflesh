@@ -2,22 +2,20 @@
 
 ## 我会什么
 
+- 运维:
+
+    - 熟悉 Linux 系统的使用, 尝试过多种发行版, 有过长期使用 Linux 作为桌面系统的经验.
+    - 了解 Linux 容器技术, FreeBSD Jail 技术, 了解 Docker 基本命令的使用; 了解 Hyper-V, VMware 虚拟机使用.
+    - 了解 nginx 基本使用配置; 了解 MySQL, PostgreSQL 数据库, Hadoop 与 HIVE 集群的部署与使用.
+    - 有基于云托管的 vps 维护经验, 有木马排查 & 修复经验; 了解集群负载均衡的应用, 了解基础的网络通信和安全技术, 了解流量转发与 CDN 服务的使用.
+
 - B / S 架构 Web 应用开发:
 
     - 使用 Java, Javascript, SQL 语言.
         - 熟悉 Spring Boot 框架, Vue.js 框架下的单页面应用开发.
-        - 了解 JPA, mybatis, Bee 等 ORM 框架和 Sa-token, Apache Shiro 安全框架的使用.
-    - 分布式应用:
+        - 了解 JPA, mybatis-plus, Bee ORM 框架的使用.
         - 了解微服务架构的定义与标准; 了解 Spring Cloud 框架的应用.
         - 了解发现服务 Eureka server 以及消息队列 Kafka 的使用.
-
-- 运维:
-
-    - 了解 Linux 容器技术, FreeBSD Jail 技术, 了解 Docker 基本命令的使用; 了解 Hyper-V, VMware 虚拟机使用.
-    - 熟悉 Linux 系统下的 Java, NodeJs 应用环境搭建; 了解 nginx 基本使用配置.
-    - 了解 Linux 上的 MySQL, PostgreSQL 数据库的部署与使用.
-    - 了解 Hadoop 与生态圈的应用搭建与管理.
-    - 多年 vps 维护经验, 有木马排查 & 修复经验; 了解集群负载均衡的应用, 了解交换机, 路由器, 防火墙等网络和安全技术, 了解流量转发与 CDN 服务的使用.
 
 - 熟悉 Git 使用; 拥有文档编写能力; 掌握信息检索能力; 热衷于学习新技术, 学习能力强.
 
