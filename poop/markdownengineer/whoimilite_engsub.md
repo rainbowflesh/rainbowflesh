@@ -1,6 +1,6 @@
 # CV
-![profile](../../asset/hislinkedinprofile.jpg)
-SRE / Web Full Stack / DevOps developer, Data Scientist.
+
+![profile](../../asset/hislinkedinprofile.jpg) SRE / Web Full Stack / DevOps developer, Data Scientist.
 
 ## What will I do
 
@@ -15,11 +15,11 @@ SRE / Web Full Stack / DevOps developer, Data Scientist.
 
 - Maintenance and operation:
 
-    - Get a fundamental understanding of Linux container technologies and Docker commands.
-    - Know how to build a Java and NodeJs application environment on Linux; Understand the basic configuration of nginx.
-    - Learn how to install and use MySQL and PostgreSQL databases on Linux.
-    - Understand the application construction and management of Hadoop and ecosystem.
-    - Years of VPS maintenance, have trojan troubleshooting and repair expertise; knowledge of cluster load balancing, traffic forwarding, and CDN services.
+    - Understand Linux container technology, FreeBSD Jail technology, fundamental Docker commands, and the utilization of Hyper-V and VMware virtual machines.
+    - Familiar with building Java and NodeJs application environments on Linux systems; grasp the fundamentals of nginx setup.
+    - Understand the installation and use of MySQL and PostgreSQL databases on Linux.
+    - Understand Hadoop application development and administration, as well as the Hadoop ecosystem.
+    - Years of VPS maintenance expertise, Trojan diagnosis and repair knowledge; understanding of cluster load balancing, network and security technologies such as switches, routers, firewalls, and traffic forwarding and CDN services.
 
 - Familiarity with Git; capacity to develop documentation; mastery of information retrieval; eagerness to learn new technologies
 
@@ -46,6 +46,7 @@ SRE / Web Full Stack / DevOps developer, Data Scientist.
             - Project content: Responsible for the quick development of the project prototype system's initial phase, as well as the design of testing database, pre-product database, and low-code platforms aka. code generator.
 
 - Open source community
+
     - Fix a [serious bug](https://github.com/qier222/YesPlayMusic/issues/1019) and other smaller flaws in [YesPlayMusic](https://github.com/qier222/YesPlayMusic).
 
     - Helped with the early development and testing of [style2paints](https://github.com/lllyasviel/style2paints) (also logo designed by me).
