@@ -6,7 +6,7 @@
 
     - 了解集群负载均衡, DNS 与 CDN 配置, 了解反爬虫和基本安全策略; 了解基础网络技术, 家庭组网.
 
-- 熟悉 Hadoop 搭建与部署; 了解 Flink, Storm, Spark 等工具的使用.
+- 了解 Hadoop 集群搭建与部署; 了解 Flink, Storm, Spark 等工具的使用.
 
 - 熟悉 Java, JavaScript, SQL 语言的使用, 熟悉 Spring 系列框架与 Vue.JS 框架搭配的 B/S 架构单页面应用开发.
 

@@ -4,24 +4,15 @@
 
 ## What will I do
 
-- B/S Architecture Web Application Development:
+- Experience with cloud-based hosting services and familiarity with the Linux operating system.
 
-    - Use Java, JavaScript, SQL languages.
-        - Experience with the Spring Boot framework and the Vue.js framework for single-page applications.
-        - Know how to utilize different ORMs and security frameworks.
-    - Distributed application:
-        - Recognize the concept and principles of microservice architecture, as well as the Spring Cloud framework's application.
-        - Know how to use the Eureka server's discovery service and the Kafka message queue.
+- Understand cluster load balancing, DNS and CDN configuration, anti-crawling and basic security policies; fundamental network technologies; and home networking.
 
-- Maintenance and operation:
+- Know how to build and deploy Hadoop, as well as how to use Flink, Storm, Spark, and other tools.
 
-    - Understand Linux container technology, FreeBSD Jail technology, fundamental Docker commands, and the utilization of Hyper-V and VMware virtual machines.
-    - Familiar with building Java and NodeJs application environments on Linux systems; grasp the fundamentals of nginx setup.
-    - Understand the installation and use of MySQL and PostgreSQL databases on Linux.
-    - Understand Hadoop application development and administration, as well as the Hadoop ecosystem.
-    - Years of VPS maintenance expertise, Trojan diagnosis and repair knowledge; understanding of cluster load balancing, network and security technologies such as switches, routers, firewalls, and traffic forwarding and CDN services.
+- Experience with Java, JavaScript, SQL, and the B/S architecture single-page application development with Spring series frameworks and Vue.JS frameworks.
 
-- Familiarity with Git; capacity to develop documentation; mastery of information retrieval; eagerness to learn new technologies
+- Experience with Git; understanding of technical writing; familiarity with the creation of various documents; mastery of information retrieval and data mining technology; eagerness to learn new technologies
 
 - Be familiar with scripting languages such as PowerShell, Bash, and others.
 
