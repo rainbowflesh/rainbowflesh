@@ -26,14 +26,12 @@
       7. [MySQL](#mysql)
       8. [Redis](#redis)
       9. [Kubernetes](#kubernetes)
-   5. [安全](#安全)
-   6. [硬件](#硬件)
-   7. [迫真 ML](#迫真-ml)
-   8. [迫真 CV](#迫真-cv)
-   9. [迫真元宇宙](#迫真元宇宙)
-   10. [迫真 web 3](#迫真-web-3)
-   11. [迫真区块链](#迫真区块链)
-   12. [算法](#算法)
+   5. [数据科学](#数据科学)
+      1. [Rocky Linux Setup](#rocky-linux-setup)
+   6. [安全](#安全)
+   7. [硬件](#硬件)
+   8. [迫真 ML](#迫真-ml)
+   9. [算法](#算法)
       1. [为什么算法](#为什么算法)
 
 ## 架构 & 设计
@@ -517,6 +515,51 @@
 2. k8s 部署应用一共有几种方式
 3. k8s 自动扩容的底层实现原理
 
+## 数据科学
+
+### Rocky Linux Setup
+
+1. 下载本地部署的镜像, 11 个 g 大的那个.
+
+2. 安装, 软件包选择 server.
+
+3. 运行 ```nmtui```, 把网连上, 固定 IP, 配置 DNS balabala.
+
+4. ```yum install -y git zsh```
+
+5. 配置 git 的代理, ```git config --global http.proxy http://ip:port```
+
+6. ```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+
+7. ```git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions```
+8. ```git clone <https://github.com/zsh-users/zsh-syntax-highlighting.git> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting```
+
+9. zshrc 里 配置一下 plugins 和 themes.
+
+10. 创建普通用户一个.
+
+11. 下载 hadoop 和 jdk 11: ```wget https://mirrors.tuna.tsinghua.edu.cn/apache/hadoop/common/hadoop-3.3.3/hadoop-3.3.3.tar.gz```, jdk 手动上 oracle 整一个 下载链接, 放进去 wget, 下完 ```tar -zxvf``` 然后移动到 /usr/local/ 里.
+
+12. 添加一堆环境变量在 /etc/profile 里:
+
+    ```shell
+    export JAVA_HOME=/usr/local/jdk-version
+    export HADOOP_HOME=/usr/local/hadoop-version
+    export HIVE_HOME=/usr/local/hive-version
+    export PATH=$PATH:$JAVA_HOME/bin:$HADOOP_HOME/sbin:$HADOOP_HOME/bin:$HIVE_HOME/bin
+    ```
+
+13. 照着文档配置 hadoop, 注意 root 用户要在 sbin/start-dfs 添加用户指定:
+
+    ```shell
+    HDFS_DATANODE_USER=root
+    HADOOP_SECURE_DN_USER=hdfs
+    HDFS_NAMENODE_USER=root
+    HDFS_SECONDARYNAMENODE_USER=root
+    ```
+
+13. 下载 Hive ```wget <https://mirrors.tuna.tsinghua.edu.cn/apache/hive/hive-3.1.3/apache-hive-3.1.3-bin.tar.gz>```, 解压到 /usr/local/bin, 配置环境变量.
+
 ## 安全
 
 1. 跨站脚本是什么, 如何防范?
@@ -542,16 +585,6 @@
 6. bias variance tradeoff, boosting, bagging 间的区别
 
 7. l1 / l2 正则
-
-## 迫真 CV
-
-- 简单使用 webGPU 实现光线追踪渲染.
-
-## 迫真元宇宙
-
-## 迫真 web 3
-
-## 迫真区块链
 
 ## 算法
 
