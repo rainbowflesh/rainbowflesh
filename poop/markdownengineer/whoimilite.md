@@ -4,7 +4,7 @@
 
 - 熟悉 Linux 操作系统的使用和运维, 有基于云托管服务的使用经验; 了解反爬虫和基本安全策略, 基础网络技术, 家庭组网.
 
-- 了解 Apache Hadoop 环境与配套工具的集群搭建部署.
+- 了解 Apache Hadoop 集群搭建部署, 了解 Kafka, Zookeeper 等工具的技术原理 .
 
 - 熟悉 Java, JavaScript, SQL 语言的使用, 熟悉 Spring 系列框架与 Vue.JS 框架搭配的 B/S 架构单页面应用开发.
 

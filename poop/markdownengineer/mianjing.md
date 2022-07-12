@@ -83,11 +83,8 @@
       6. [kafka 数据格式都是什么](#kafka-数据格式都是什么)
       7. [Kafka 如何清理过期数据](#kafka-如何清理过期数据)
       8. [kafka 的 `Broker, partition, segment` 都是啥](#kafka-的-broker-partition-segment-都是啥)
-      9. [Kafka 的优势](#kafka-的优势)
-      10. [Kafka 的弊端](#kafka-的弊端)
-      11. [Kafka 如何实现幂等性](#kafka-如何实现幂等性)
-      12. [Kafka 为什么低延迟高吞吐 哪些特点 原理](#kafka-为什么低延迟高吞吐-哪些特点-原理)
-      13. [Kafka 蓄水池机制](#kafka-蓄水池机制)
+      9. [Kafka 如何实现幂等性](#kafka-如何实现幂等性)
+      10. [Kafka 蓄水池机制](#kafka-蓄水池机制)
    11. [算法](#算法)
       1. [求两个字符串的公共子串最大长度](#求两个字符串的公共子串最大长度)
       2. [数组问题](#数组问题)
@@ -505,13 +502,7 @@ Kafka 的日志保存在 /kafka-logs 文件夹中, 默认七天清理.
 
 Segment File 又由 index file 和 data file 组成, 他们总是成对出现, 后缀 ".index" 和 ".log" 分表表示 Segment 索引文件和数据文件.
 
-### Kafka 的优势
-
-### Kafka 的弊端
-
 ### Kafka 如何实现幂等性
-
-### Kafka 为什么低延迟高吞吐 哪些特点 原理
 
 ### Kafka 蓄水池机制
 
