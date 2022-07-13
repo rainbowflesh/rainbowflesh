@@ -2,13 +2,19 @@
 
 ## 我会什么
 
-- 熟悉 Linux 操作系统的使用和运维, 有基于云托管服务的使用经验; 了解反爬虫和基本安全策略, 基础网络技术, 家庭组网.
+- Web 应用开发:
 
-- 了解 Apache Hadoop 集群搭建部署, 了解 Kafka, Zookeeper 等工具的技术原理.
+    - 使用 Java, JavaScript, SQL 语言.
 
-- 熟悉 Java, JavaScript, SQL 语言的使用, 熟悉 Spring 系列框架与 Vue.JS 框架搭配的 B/S 架构单页面应用开发.
+    - 熟悉 Spring Boot 框架与 Vue.js 框架下的 B/S 单页面应用开发; 了解 Electron 框架下的桌面应用开发, Spring Cloud 框架的微服务架构应用开发.
 
-- 熟悉 Git 使用; 了解技术写作, 熟悉各类文档的编写; 掌握信息检索, 数据挖掘技术; 热衷于学习新技术.
+    - 熟悉 MySQL. PostgreSQL 的使用, 了解 Redis, MongoDB 的使用.
+
+- 熟悉 Hadoop 集群搭建; 了解消息队列 Kafka, 分布式协调器 Zookeeper, 计算框架 Spark 的使用.
+
+- 熟悉 Linux 操作系统的运维和使用, 有云托管服务使用经验; 了解反爬虫和常用安全策略.
+
+- 掌握 Git 使用; 了解技术写作与文档编写.
 
 - 掌握 Powershell, Bash 等脚本语言的使用.
 
@@ -20,7 +26,7 @@
 
         - 技术栈: Spring Boot, Vue, MySQL, MongoDB.
 
-        - 项目内容: 负责实现客户后期跟进需求, BUG 修复, 业务相关的一些数据采集, 分析处理等工作.
+        - 项目内容: 负责实现客户后期跟进需求, 数据大屏开发, BUG 修复, 业务相关的一些数据采集, 分析处理等工作.
 
     - 参与云南省滇中引水工程 “智慧滇中引水” 建设管理信息系统（一期）的程序原型的前后端应用开发, 数据库设计等工作.
 
@@ -32,9 +38,9 @@
 
     - 修复 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 软件的一个[重大 bug](https://github.com/qier222/YesPlayMusic/issues/1019), 还有其他的一些小 bug.
 
-    - 参与过 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, 包括 logo 的设计.
+    - 参与过 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, logo 设计.
 
-    - 参与过 style2paints 作者的另一个项目 [PaintingLight](https://github.com/lllyasviel/PaintingLight), 以及 [MangaCraft](https://github.com/lllyasviel/MangaCraft) (现已将功能合并到 s2p 所以删库跑路了).
+    - 参与过 style2paints 作者其他项目 [PaintingLight](https://github.com/lllyasviel/PaintingLight), 以及 [MangaCraft](https://github.com/lllyasviel/MangaCraft).
 
     - 参与过 [DeepCreamPy](https://github.com/liaoxiong3x/DeepCreamPy) 的测试工作.
 
@@ -42,4 +48,4 @@
 
     - FreeBSD 中文社区成员, 参与过文档攥写和翻译.
 
-    - 做了其他的一些根本没人看的项目.
+    - 做了一些有趣的桌面应用.
