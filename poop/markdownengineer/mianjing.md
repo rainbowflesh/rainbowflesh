@@ -432,7 +432,7 @@ alter table table_name add partition (partition_colN=partition_valueN);
 
 #### 针对数据内容设置合理的 Map 数量
 
-主要的决定因素有：input 的文件总个数, input 的文件大小, 集群设置的文件块大小.
+主要的决定因素有: input 的文件总个数, input 的文件大小, 集群设置的文件块大小.
 
 通常情况下, 作业会通过 input 的目录产生一个或者多个 map 任务.
 
@@ -683,7 +683,18 @@ HIVE 支持的存储数的格式主要有 TEXTFILE (行式存储), SEQUENCEFILE 
 - TEXTFILE 格式:
     - 默认格式, 数据不做压缩, 磁盘空间开销大, 数据解析开销大. 若使用 Bzip2 等压缩, HIVE 不会对数据进行切分, 从而无法进行并行操作.
 - Optimized Row Columnar 格式:
+    ![orc](/asset/img/notes/orc.png)
     - HIVE 0.11 引入的储存格式, ORC 文件由数个 Stripe 组成, Stripe 实际相当于 RowGroup 概念, 大小由 4mb 到 250mb 不等, 这样做可以提升顺序读的性能.
+
+    - 一个 ORC 文件可以分为若干个 Stripe, 每个 Stripe 由 Index Data, Row Data, Stripe Footer 三个部分组成, 其中
+        - indexData: 某些列的索引数据; 一个轻量级的 index, 默认是每隔 1 万行做一个索引. 这里做的索引只是记录某行的各字段在 Row Data 中的 offset.
+        - rowData: 真正的数据存储; 存的是具体的数据, 先取部分行, 对其按列进行储存, 并编码各列, 分成多个 Stream 来储存,
+        - StripFooter: Stripe 的元数据信息.
+    - 每个文件都有一个 File Footer, 负责存储 Stripe 的行数, Column 的数据类型信息等; 每个文件尾部有一个 PostScript, 负责记录整个文件的压缩类型和 FileFooter 的长度信息. 在读取文件时采用从后向前的顺序: 首先寻址到文件尾部读取 PostScript, 解析出 FileFooter 的长度, 再读取 FileFooter, 并解析读取 Stripe 信息.
+- PARQUET:
+    ![PARQUET](/asset/img/notes/parquet.jpg)
+    - PARQUET 是面向分析性业务的列式存储格式, 文件以二进制形式储存, 其中包含文件数据和元数据, 所以此格式是自解析的.
+    - 通常情况下, 储存 PARQUET 数据都会按照 Block 的大小设置_行组_的大小, 配合 Mapper 处理任务的最小单位 (1 Block) 优化任务执行并行量.
 
 ## HBase
 

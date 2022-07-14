@@ -1,6 +1,6 @@
 # CV
 
-![profile](../../asset/hislinkedinprofile.jpg) SRE / Web Full Stack / DevOps developer, Data Scientist.
+![meme](../../asset/img/meme/hislinkedinprofile.jpg) SRE / Web Full Stack / DevOps developer, Data Scientist.
 
 ## What will I do
 

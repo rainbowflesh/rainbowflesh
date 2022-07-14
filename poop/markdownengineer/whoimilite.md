@@ -49,3 +49,5 @@
     - FreeBSD 中文社区成员, 参与过文档攥写和翻译.
 
     - 做了一些有趣的桌面应用.
+
+    - [博客](https://rainbowflesh.blogspot.com/)
