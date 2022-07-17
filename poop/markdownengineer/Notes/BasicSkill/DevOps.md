@@ -71,8 +71,12 @@
     - `ansible NodeName -m yum -a 'name=packageName state=present’`
 - service: systemctl 或者 service.
 - user: 管理用户账号.
+    - `ansible NodeName -m user -a 'name=username system=yes group=root uid=2000’`
 - group: 管理用户组.
 - script: 在远程服务器上运行本机的脚本.
+
+- cron: 计划任务
+    - `ansible NodeName -m cron -a 'name=“crontab test” weekday=5 hour=14 minute=30 job="/usr/bin/tar -czf /opt/var.tar.gz /var"'`
 
 ### 什么是 playbook
 
