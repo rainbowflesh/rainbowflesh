@@ -4,17 +4,21 @@
 
 ## What will I do
 
-- Experience with cloud-based hosting services and familiarity with the Linux operating system.
+- Web application development:
 
-- Understand cluster load balancing, DNS and CDN configuration, anti-crawling and basic security policies; fundamental network technologies; and home networking.
+    - Use Java, JavaScript, SQL languages.
 
-- Know how to build and deploy Hadoop, as well as how to use Flink, Storm, Spark, and other tools.
+    - Experience developing B/S single-page applications using the Spring Boot and Vue.js frameworks; Know how to development desktop application with the Electron framework; Understand microservice architecture application development using the Spring Cloud framework.
 
-- Experience with Java, JavaScript, SQL, and the B/S architecture single-page application development with Spring series frameworks and Vue.JS frameworks.
+    - Familiar with MySQL. The use of PostgreSQL, and the use of Redis and MongoDB.
 
-- Experience with Git; understanding of technical writing; familiarity with the creation of various documents; mastery of information retrieval and data mining technology; eagerness to learn new technologies
+- Familiar with Hadoop cluster construction; Understand the use of message queue Kafka, distributed coordinator Zookeeper, and computing framework Spark.
 
-- Be familiar with scripting languages such as PowerShell, Bash, and others.
+- Familiar with the operation, maintenance, and use of the Linux operating system, have experience in using cloud hosting services; understand anti-crawlers and common security policies.
+
+- Understand technical writing and documentation; Master Git use.
+
+- Familiar with the use of scripting languages such as PowerShell, Bash, etc.
 
 ## Work Experience
 

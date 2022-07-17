@@ -30,36 +30,9 @@
       1. [nginx 相关 正向 /反向代理是什么意思? 他们区别是?](#nginx-相关-正向-反向代理是什么意思-他们区别是)
       2. [一般架构 nginx 集群 -> 反向代理 -> tomcat, 为什么不能反过来部署呢?](#一般架构-nginx-集群---反向代理---tomcat-为什么不能反过来部署呢)
       3. [高并发 / 动静分离如何实现?](#高并发--动静分离如何实现)
-   6. [Git](#git)
-      1. [git 相关 svn/git 分别是? 他们有什么区别?](#git-相关-svngit-分别是-他们有什么区别)
-      2. [都说 git 管理 /切分支轻量, 他们轻量在哪里, 具体原理是?](#都说-git-管理-切分支轻量-他们轻量在哪里-具体原理是)
-      3. [`git rebase xxx` 发送冲突, 他的根本原因是? 不要说具体场景 `git fetch/git pull` 他们区别是?](#git-rebase-xxx-发送冲突-他的根本原因是-不要说具体场景-git-fetchgit-pull-他们区别是)
-      4. [`index / local / remote / workspace` 他们是? 比如 `git add xxx` 他发生了什么?](#index--local--remote--workspace-他们是-比如-git-add-xxx-他发生了什么)
-      5. [`git pull` 做了哪些工作?](#git-pull-做了哪些工作)
-      6. [`git rebase` 和 `git marge` 区别是?](#git-rebase-和-git-marge-区别是)
-   7. [Docker](#docker)
-      1. [Dockerfile 优化](#dockerfile-优化)
-      2. [`run yum install -y balabala & run yum clean cache` 这么写有问题吗?](#run-yum-install--y-balabala--run-yum-clean-cache-这么写有问题吗)
-      3. [导出镜像时如何尽可能压缩体积?](#导出镜像时如何尽可能压缩体积)
-      4. [如何解决 ubuntu 容器中没有 `ping, ifconfig, killall` 等命令的问题 是否需要解决这种问题?](#如何解决-ubuntu-容器中没有-ping-ifconfig-killall-等命令的问题-是否需要解决这种问题)
-      5. [简单谈谈怎么用 compse 部署个 crud 系统](#简单谈谈怎么用-compse-部署个-crud-系统)
-      6. [Docker 的 overlay2 storage driver 比起 overlay 有哪些改进? 是如何做到的?](#docker-的-overlay2-storage-driver-比起-overlay-有哪些改进-是如何做到的)
-      7. [swarm 内部负载均衡突然死活路由不到某一个 worker 上了, 如何解决](#swarm-内部负载均衡突然死活路由不到某一个-worker-上了-如何解决)
-      8. [`RUN rm -rf some_file` 镜像大小会减小吗?](#run-rm--rf-some_file-镜像大小会减小吗)
-      9. [Docker Compose 概述](#docker-compose-概述)
-      10. [都是 docker 轻量级, 他轻量在哪里, 从技术角度分析, 咱们都是搞技术, 不需要从产品角度分析他为什么轻量?](#都是-docker-轻量级-他轻量在哪里-从技术角度分析-咱们都是搞技术-不需要从产品角度分析他为什么轻量)
-      11. [`docker volume, bind, mount` 他们区别是什么? 如何构建最小的镜像, 说说你的思路?](#docker-volume-bind-mount-他们区别是什么-如何构建最小的镜像-说说你的思路)
-      12. [`docker -p/P` 他的实现原理是什么?](#docker--pp-他的实现原理是什么)
-      13. [`ADD` 和 `copy` 的区别](#add-和-copy-的区别)
-      14. [简述 / 阐述 docker 的网络原理, 底层实现](#简述--阐述-docker-的网络原理-底层实现)
-   8. [MySQL](#mysql)
-      1. [联合索引字段顺序会产生影响吗? 产生什么影响?](#联合索引字段顺序会产生影响吗-产生什么影响)
-      2. [什么情况下需要建索引? 什么情况下不建?](#什么情况下需要建索引-什么情况下不建)
-      3. [mysql 查看连接数和进程数?](#mysql-查看连接数和进程数)
-      4. [慢查询是什么?](#慢查询是什么)
-   9. [Redis](#redis)
+   6. [Redis](#redis)
       1. [redis 哨兵机制主从是如何切换的?](#redis-哨兵机制主从是如何切换的)
-   10. [Kubernetes](#kubernetes)
+   7. [Kubernetes](#kubernetes)
       1. [k8s 请求到达 APIserver 的整个流程](#k8s-请求到达-apiserver-的整个流程)
       2. [k8s 部署应用一共有几种方式](#k8s-部署应用一共有几种方式)
       3. [k8s 自动扩容的底层实现原理](#k8s-自动扩容的底层实现原理)
@@ -185,83 +158,6 @@ end if
 ### 一般架构 nginx 集群 -> 反向代理 -> tomcat, 为什么不能反过来部署呢?
 
 ### 高并发 / 动静分离如何实现?
-
-## Git
-
-### git 相关 svn/git 分别是? 他们有什么区别?
-
-### 都说 git 管理 /切分支轻量, 他们轻量在哪里, 具体原理是?
-
-### `git rebase xxx` 发送冲突, 他的根本原因是? 不要说具体场景 `git fetch/git pull` 他们区别是?
-
-### `index / local / remote / workspace` 他们是? 比如 `git add xxx` 他发生了什么?
-
-### `git pull` 做了哪些工作?
-
-- `git pull` 是 `git fetch + git merge`, 将远程仓库内容拉取到本地再与本地仓库相同分支的内容进行合并.
-
-### `git rebase` 和 `git marge` 区别是?
-
-## Docker
-
-### Dockerfile 优化
-
-- 移除 apt 的 cache, 对经常变化的指令放在最后 可以优化增量部分
-- 参考 nginx 的 alpine.
-
-### `run yum install -y balabala & run yum clean cache` 这么写有问题吗?
-
-- 有, 一个 `run` 对应一层`layer`, docker 镜像会记录每一次 `run` 直接的 diff, 上面的单独 `run yum clean cache` 并不会减小镜像大小.
-
-### 导出镜像时如何尽可能压缩体积?
-
-- 11
-
-### 如何解决 ubuntu 容器中没有 `ping, ifconfig, killall` 等命令的问题 是否需要解决这种问题?
-
-- 22
-
-### 简单谈谈怎么用 compse 部署个 crud 系统
-
-### Docker 的 overlay2 storage driver 比起 overlay 有哪些改进? 是如何做到的?
-
-### swarm 内部负载均衡突然死活路由不到某一个 worker 上了, 如何解决
-
-### `RUN rm -rf some_file` 镜像大小会减小吗?
-
-### Docker Compose 概述
-
-- Compose 是一个用于定义和运行多容器 Docker 应用程序的工具, 适用于所有环境: 生产, 登台, 开发, 测试以及 CI 工作流程.
-
-### 都是 docker 轻量级, 他轻量在哪里, 从技术角度分析, 咱们都是搞技术, 不需要从产品角度分析他为什么轻量?
-
-### `docker volume, bind, mount` 他们区别是什么? 如何构建最小的镜像, 说说你的思路?
-
-### `docker -p/P` 他的实现原理是什么?
-
-### `ADD` 和 `copy` 的区别
-
-- `ADD` 能加载网络源, `copy` 只能加载本地源, `ADD` 是 `copy` 的超集.
-
-### 简述 / 阐述 docker 的网络原理, 底层实现
-
-## MySQL
-
-### 联合索引字段顺序会产生影响吗? 产生什么影响?
-
-- 会, 最左优先原则: 要想 SQL 执行的时候能够用到联合索引, 那么联合索引中的第一个字段一定要在 where 语句中, 并且不能让该字段参与任何运算.
-
-### 什么情况下需要建索引? 什么情况下不建?
-
-- 那么如果查询语句的查询条件仅用到 `primary key`, 那么就不需要增加索引, 此外如果查询条件的字段是仅包含两三个值的枚举类型, 也是不需要增加索引.
-
-### mysql 查看连接数和进程数?
-
-- `show processlist`
-
-### 慢查询是什么?
-
-- SQL 的执行时间超过 MySQL 中 `long_query_time` 参数的值的时候, 会被记录到慢查询 SQL 日志文件中.
 
 ## Redis
 
