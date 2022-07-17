@@ -26,7 +26,7 @@
 
         - 技术栈: Spring Boot, Vue, MySQL, MongoDB.
 
-        - 项目内容: 负责实现客户后期跟进需求, 数据大屏开发, BUG 修复, 水务数据的预处理工作.
+        - 项目内容: 负责实现客户后期跟进需求, 数据大屏开发, BUG 修复, 相关数据的预处理工作.
 
     - 参与云南省滇中引水工程 “智慧滇中引水” 建设管理信息系统（一期）的程序原型的前后端应用开发, 数据库设计等工作.
 
@@ -36,18 +36,18 @@
 
 - 开源社区
 
-    - 修复 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 软件的一个[重大 bug](https://github.com/qier222/YesPlayMusic/issues/1019), 还有其他的一些小 bug.
+    - 修复流媒体播放器 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 软件的一个[重大 bug](https://github.com/qier222/YesPlayMusic/issues/1019), 还有其他的一些小 bug.
 
-    - 参与过 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, logo 设计.
+    - 参与过人工智能上色软件 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, logo 设计.
 
     - 参与过 style2paints 作者其他项目 [PaintingLight](https://github.com/lllyasviel/PaintingLight), 以及 [MangaCraft](https://github.com/lllyasviel/MangaCraft).
 
-    - 参与过 [DeepCreamPy](https://github.com/liaoxiong3x/DeepCreamPy) 的测试工作.
+    - 参与过人工智能图片缺陷补充软件 [DeepCreamPy](https://github.com/liaoxiong3x/DeepCreamPy) 的测试工作.
 
-    - 参与 [VRoid Studio 翻译](https://github.com/xiaoye97/VRoidChinese)工作.
+    - 参与 3D 建模软件 [VRoid Studio 翻译](https://github.com/xiaoye97/VRoidChinese)工作.
 
     - FreeBSD 中文社区成员, 参与过文档攥写和翻译.
 
-    - 做了一些有趣的桌面应用.
+    - 做了一些有趣的桌面应用 (.net / Rust 编写).
 
     - [博客](https://rainbowflesh.blogspot.com/)
