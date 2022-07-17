@@ -7,7 +7,12 @@
    4. [蓝绿发布是? 他的优缺点?](#蓝绿发布是-他的优缺点)
    5. [pipeline 是什么, 他有什么优势?](#pipeline-是什么-他有什么优势)
    6. [shift-left 你是怎么理解的?](#shift-left-你是怎么理解的)
-   7. [Jenkins 相关](#jenkins-相关)
+   7. [Ansible 相关](#ansible-相关)
+      1. [Ansible 是什么](#ansible-是什么)
+      2. [Ansible 常用模块](#ansible-常用模块)
+      3. [什么是 playbook](#什么是-playbook)
+      4. [Ansible 是怎么工作的](#ansible-是怎么工作的)
+   8. [Jenkins 相关](#jenkins-相关)
       1. [什么是持续集成?](#什么是持续集成)
       2. [为什么研发团队需要开发与测试的持续集成?](#为什么研发团队需要开发与测试的持续集成)
       3. [持续集成的成功因素有哪些?](#持续集成的成功因素有哪些)
@@ -43,6 +48,43 @@
 ## shift-left 你是怎么理解的?
 
 - 一种测试手段, 即在项目生命周期的早期阶段就进行测试工作, 在开发流程的早期发现并修复错误, 而不是在发布后的测试期间再发现错误.
+
+## Ansible 相关
+
+### Ansible 是什么
+
+一个 Python 开发基于 ssh 的自动化运维工具, 可以实现批量系统配置, 程序部署, 命令运行等功能.
+
+### Ansible 常用模块
+
+模块被认为是 Ansible 的工作单元, 有幂等性.
+
+- command: 不支持 pipeline 的命令执行模块.
+- ping: ping.
+- shell: 调用 shell 解析器的模块, 支持 pipeline.
+- copy: 复制本机文件到远程主机, 支持设定内容和修改权限.
+    - `ansible NodeName -m copy -a 'src=/dir/file dest=/dir'`
+- file: 文件操作模块, 能够新建删除文件以及创建软硬连接.
+    - `ansible NodeName -m file -a 'path=/dir/file owner=ownerName group=groupName mode=0777’`
+- fetch: 从远程服务器拉取文件.
+- yum: yum.
+    - `ansible NodeName -m yum -a 'name=packageName state=present’`
+- service: systemctl 或者 service.
+- user: 管理用户账号.
+- group: 管理用户组.
+- script: 在远程服务器上运行本机的脚本.
+
+### 什么是 playbook
+
+Ansible 的配置部署于编排用的东西, yaml编写.
+
+### Ansible 是怎么工作的
+
+在本地机器上安装 Ansible, 以 ssh 的方式连接到远程机器.
+
+playbook 则拆分为单条 play, 再组织成 task, 在 task 里面调用模块和插件, 根据 inventory 中定义的主机在上面以临时脚本或命令的形式运行并返回结果.
+
+你就当是个能解码 yaml 配置的 ssh 脚本执行器就完了.
 
 ## Jenkins 相关
 
