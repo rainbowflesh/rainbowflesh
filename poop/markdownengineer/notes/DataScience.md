@@ -3,26 +3,30 @@
 1. [目录](#目录)
 2. [Hadoop 全家桶](#hadoop-全家桶)
    1. [Hadoop](#hadoop)
-      1. [搭建 Hadoop 集群的主要配置文件](#搭建-hadoop-集群的主要配置文件)
-      2. [正常的 Hadoop 集群进程与作用](#正常的-hadoop-集群进程与作用)
-      3. [SecondaryNode 的具体作用](#secondarynode-的具体作用)
-      4. [Hadoop 大版本区别](#hadoop-大版本区别)
+      1. [Hadoop 常见输入格式](#hadoop-常见输入格式)
+      2. [搭建 Hadoop 集群的主要配置文件](#搭建-hadoop-集群的主要配置文件)
+      3. [正常的 Hadoop 集群进程与作用](#正常的-hadoop-集群进程与作用)
+      4. [SecondaryNode 的具体作用](#secondarynode-的具体作用)
+      5. [NameNode 出现故障如何恢复](#namenode-出现故障如何恢复)
+      6. [Hadoop 的 Rack Awareness 是什么](#hadoop-的-rack-awareness-是什么)
+      7. [Hadoop 大版本区别](#hadoop-大版本区别)
          1. [1.x](#1x)
          2. [2.x](#2x)
          3. [3.x](#3x)
-      5. [Hadoop 高可用](#hadoop-高可用)
-      6. [Hadoop 配置调优](#hadoop-配置调优)
+      8. [Hadoop 高可用](#hadoop-高可用)
+      9. [Hadoop 配置调优](#hadoop-配置调优)
    2. [HDFS](#hdfs)
       1. [HDFS 文件的一些概念](#hdfs-文件的一些概念)
       2. [HDFS 的 Block](#hdfs-的-block)
-      3. [HDFS 的 Block 怎么调整大小](#hdfs-的-block-怎么调整大小)
-      4. [HDFS 对单独一个文件调整 Block 大小](#hdfs-对单独一个文件调整-block-大小)
-      5. [Block 副本放置策略](#block-副本放置策略)
+         1. [Block 和输入分割直接有什么区别](#block-和输入分割直接有什么区别)
+         2. [HDFS 的 Block 怎么调整大小](#hdfs-的-block-怎么调整大小)
+      3. [HDFS 对单独一个文件调整 Block 大小](#hdfs-对单独一个文件调整-block-大小)
+      4. [Block 副本放置策略](#block-副本放置策略)
          1. [1.x 版本的 HDFS](#1x-版本的-hdfs)
          2. [2.x 版本的 HDFS](#2x-版本的-hdfs)
-      6. [HDFS 写过程](#hdfs-写过程)
-      7. [HDFS 读过程](#hdfs-读过程)
-      8. [往 HDFS 里 put 文件时 HDFS 都做了什么](#往-hdfs-里-put-文件时-hdfs-都做了什么)
+      5. [HDFS 写过程](#hdfs-写过程)
+      6. [HDFS 读过程](#hdfs-读过程)
+      7. [往 HDFS 里 put 文件时 HDFS 都做了什么](#往-hdfs-里-put-文件时-hdfs-都做了什么)
    3. [MapReduce](#mapreduce)
       1. [MapReduce 的工作原理与流程](#mapreduce-的工作原理与流程)
       2. [Map 的运行步骤](#map-的运行步骤)
@@ -178,6 +182,12 @@
 
 ## Hadoop
 
+### Hadoop 常见输入格式
+
+- 文本输入: 默认输入格式.
+- 序列文件输入: 要读取序列文件中的文件, 需要使用序列文件输入格式.
+- KV 输入: 用于纯文本的输入.
+
 ### 搭建 Hadoop 集群的主要配置文件
 
 - core-site.xml
@@ -208,6 +218,18 @@ Secondary NameNode 会经常向 NameNode 发送请求,是否满足 check.
 这时 NameNode 滚动当前正在写的 Edits, 将刚刚滚动掉的和之前 Edits 文件进行合并. Secondary NameNode 下载 Edits 文件, 然后将 Edits 文件和自身保存的 fsimage 文件在内存中进行合并, 然后写入磁盘并上传新的 fsimage 到 nameNode, 这时 NameNode 将旧的 fsimage 用新的替换掉.
 
 > `hdfs haadmin -getServiceState namenode_name` 查看状态.
+
+### NameNode 出现故障如何恢复
+
+1. 使用文件系统元数据副本 FsImage 启动新的 NameNode.
+2. 配置新的数据节点和 Client 使其确认新启动的 NameNode 节点名称.
+3. 一旦新的 NameNode 完成加载最后一个从 DataNode 接收到足够阻止报告的 CheckPoint FsImage, 它将开始为 Client 提供服务.
+
+### Hadoop 的 Rack Awareness 是什么
+
+应用于 NameNode 的算法, 用于确定如何放置块与其副本.
+
+定义: 在同一机架内的 DataNode 之间将网络流量最小化, 比如 AB 副本在同一机架, C 在另一个.
 
 ### Hadoop 大版本区别
 
@@ -273,7 +295,11 @@ Secondary NameNode 会经常向 NameNode 发送请求,是否满足 check.
 
 > 1.x 使用 64 mb 作为 Block 大小.
 
-### HDFS 的 Block 怎么调整大小
+#### Block 和输入分割直接有什么区别
+
+HDFS 将输入数据物理上划分为 Block; 输入拆分是映射器对数据的逻辑划分, 用于映射操作.
+
+#### HDFS 的 Block 怎么调整大小
 
 在配置文件 hdfs-site.xml 中加入, 所有的 DataNode 都要加.
 
