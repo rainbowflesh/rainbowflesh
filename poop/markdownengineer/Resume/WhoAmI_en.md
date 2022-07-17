@@ -4,7 +4,7 @@
 
 Reach me with Email: yya3vslty@mozmail.com
 
-## What will I do
+## What can I do
 
 - Web application development:
 
