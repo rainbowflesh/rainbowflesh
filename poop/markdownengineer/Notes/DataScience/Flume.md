@@ -34,9 +34,7 @@
 
 #### Flume 采集数据会丢失么
 
-可以开启断点续传 `TailDirSource`.
-
-不会, Channel 储存可以在 File 中, 传输数据有事务性. 类似数据库事务, Flume 使用两个独立的事务分别控制从 Source 到 Channel (Put 事务), 以及 Channel 到 Sink (Take 事务).
+不会, Channel 储存可以在 File 中, 传输数据有事务性. 类似数据库事务, Flume 使用两个独立的事务分别控制从 Source 到 Channel (Put 事务), 以及 Channel 到 Sink (Take 事务) .
 
 - ​TailDir Source: 断点续传, 多目录. Flume 1.6 以前需要自己自定义 Source 记录每次读取文件位置, 实现断点续传.
 
@@ -45,6 +43,8 @@
 - Memory Channel: 数据存储在内存中, 宕机数据丢失. 传输速率快. 适合对数据传输可靠性要求不高的场景, 比如普通日志数据.
 
 - Kafka Channel: 减少了 Flume 的 Sink 阶段, 提高了传输效率.
+
+> 可以开启断点续传 `TailDirSource` 保证网络传输.
 
 #### Failover
 

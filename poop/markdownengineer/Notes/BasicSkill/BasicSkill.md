@@ -158,7 +158,9 @@
 
 - $1～$n 添加到 Shell 的各参数值. $1 是第 1 参数, $2 是第 2 参数, $n 是第 n 个.
 
-- $$ Shell本身的PID (ProcessID)
+- $$
+    Shell本身的PID (ProcessID)
+    $$
 
 - $! Shell 最后运行的后台 Process 的 PID
 

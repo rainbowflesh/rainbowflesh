@@ -174,6 +174,7 @@ UDF 是 Hive 提供的自定义函数工具.
 #### hive-site.xml
 
 ```xml
+
 <configuration>
     <!-- 合并 block 减少 Task 数量 -->
     <property>
@@ -293,8 +294,9 @@ set hive.optimize.cp = true;
 要在 Hadoop 中使用压缩, 在 mapred-site.xml 中配置如下:
 
 ```xml
+
 <configuration>
-<!-- something else... -->
+    <!-- something else... -->
     <property>
         <name>mapreduce.map.output.compress</name>
         <value>true</value>
@@ -326,6 +328,7 @@ set hive.optimize.cp = true;
 在 core-site.xml 中配置如下:
 
 ```xml
+
 <configuration>
     <property>
         <name>io.compression.codecs</name>
@@ -356,6 +359,6 @@ HIVE 支持的存储数的格式主要有 TEXTFILE (行式存储), SEQUENCEFILE 
 
 - PARQUET: ![PARQUET](/asset/img/notes/parquet.jpg)
     - PARQUET 是面向分析性业务的列式存储格式, 文件以二进制形式储存, 其中包含文件数据和元数据, 所以此格式是自解析的.
-    - 通常情况下, 储存 PARQUET 数据都会按照 Block 的大小设置_行组_的大小, 配合 Mapper 处理任务的最小单位 (1 Block) 优化任务执行并行量.
+    - 通常情况下, 储存 PARQUET 数据都会按照 Block 的大小设置*行组*的大小, 配合 Mapper 处理任务的最小单位 (1 Block) 优化任务执行并行量.
 
 > 存储文件的查询速度总结: ORC > TextFile > Parquet

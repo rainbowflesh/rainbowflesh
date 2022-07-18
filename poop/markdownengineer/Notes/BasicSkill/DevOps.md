@@ -80,7 +80,7 @@
 
 ### 什么是 playbook
 
-Ansible 的配置部署于编排用的东西, yaml编写.
+Ansible 的配置部署于编排用的东西, yaml 编写.
 
 ### Ansible 是怎么工作的
 

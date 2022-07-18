@@ -120,6 +120,7 @@
 ## 因式分解公式
 
 $\frac{1}{x(C-x)}=\frac{1}{c}[\frac{1}{x}+\frac{1}{C-x}]$
+
 > 理解: 分母拆开看 W±M, 分子上同分之后是 1, x+50-x=50, 提出 50 得证
 
 $\frac{1}{f(x)(g(x))}=\frac{a}{f(x)}-\frac{b}{g(x)}$ 求出 a, b 后转换为 $\frac{1}{w}[\frac{1}{f(x)}-\frac{1}{g(x)}]$
@@ -259,7 +260,8 @@ y=f(x)=w, x=g(y), y=g(x)
 
 - $\lim_{x\to 0}$ 时
 
-> $1-x=1 \\ \sin x = x \\ \tan x = x \\ e^x = 1+x \\ e^{x^a} = 1+x^a \\ \ln(1+x) = x \\ 1-\cos{x} = \frac{1}{2x^2} = -(\cos{x} -1)$
+> $1-x=1 \\ \sin x = x \\ \tan x = x \\ e^x = 1+x \\ e^{x^a} = 1+x^a \\ \ln(1+x) = x \\ 1-\cos{x} = \frac{1}{2x^2} = -(
+> \cos{x} -1)$
 
 #### 利用无穷小的性质求函数的极限
 
@@ -315,15 +317,22 @@ y=f(x)=w, x=g(y), y=g(x)
 $
 \begin{aligned}
 e^{x} &=\sum_{n=0}^{\infin} \frac{1}{n !} x^{n}=1+x+\frac{1}{2 !} x^{2}+\cdots \in(-\infin,+\infin) \\
-\sin x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{(2 n+1) !} x^{2 n+1}=x-\frac{1}{3 !} x^{3}+\frac{1}{5 !} x^{5}+\cdots, x \in(-\infin,+\infin) \\
-\cos x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{(2 n) !} x^{2 n}=1-\frac{1}{2 !} x^{2}+\frac{1}{4 !} x^{4}+\cdots, x \in(-\infin,+\infin) \\
+\sin x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{(2 n+1) !} x^{2 n+1}=x-\frac{1}{3 !} x^{3}+\frac{1}{5 !} x^{5}+\cdots, x
+\in(-\infin,+\infin) \\
+\cos x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{(2 n) !} x^{2 n}=1-\frac{1}{2 !} x^{2}+\frac{1}{4 !} x^{4}+\cdots, x \in(
+-\infin,+\infin) \\
 \ln(1+x) &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{n+1} x^{n+1}=x-\frac{1}{2} x^{2}+\frac{1}{3} x^{3}+\cdots, x \in(-1,1] \\
 \frac{1}{1-x} &=\sum_{n=0}^{\infin} x^{n}=1+x+x^{2}+x^{3}+\cdots, x \in(-1,1) \\
 \frac{1}{1+x} &=\sum_{n=0}^{\infin}(-1)^{n} x^{n}=1-x+x^{2}-x^{3}+\cdots, x \in(-1,1)\\
-(1+x)^{\alpha} &=1+\sum_{n=1}^{\infin} \frac{\alpha(\alpha-1) \cdots(\alpha-n+1)}{n !} x^{n}=1+\alpha x+\frac{\alpha(\alpha-1)}{2 !} x^{2}+\cdots, x \in (-1,1)\\
-\arcsin x &=\sum_{n=0}^{\infin} \frac{(2 n) !}{4^{n}(n !)^{2}(2 n+1)} x^{2 n+1}=x+\frac{1}{6} x^{3}+\frac{3}{40} x^{5}+\frac{5}{112} x^{7}+\frac{35}{1152} x^{9}+\cdots,x \in (-1,1)\\
-\arctan x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{2 n+1} x^{2 n+1}=x-\frac{1}{3} x^{3}+\frac{1}{5} x^{5}+\cdots+x \in[-1,1]\\
-\tan x &= \sum_{n=1}^{\infin} \frac{B_{2 n}(-4)^{n}\left(1-4^{n}\right)}{(2 n) !} x^{2 n-1}=x+\frac{1}{3} x^{3}+\frac{2}{15} x^{5}+\frac{17}{315} x^{7}+\frac{62}{2835} x^{9}+\frac{1382}{155925} x^{11}+\frac{21844}{6081075} x^{13}+\frac{929569}{638512875} x^{15}+\cdots, x \in\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)
+(1+x)^{\alpha} &=1+\sum_{n=1}^{\infin} \frac{\alpha(\alpha-1) \cdots(\alpha-n+1)}{n !} x^{n}=1+\alpha x+\frac{\alpha(
+\alpha-1)}{2 !} x^{2}+\cdots, x \in (-1,1)\\
+\arcsin x &=\sum_{n=0}^{\infin} \frac{(2 n) !}{4^{n}(n !)^{2}(2 n+1)} x^{2 n+1}=x+\frac{1}{6} x^{3}+\frac{3}{40}
+x^{5}+\frac{5}{112} x^{7}+\frac{35}{1152} x^{9}+\cdots,x \in (-1,1)\\
+\arctan x &=\sum_{n=0}^{\infin} \frac{(-1)^{n}}{2 n+1} x^{2 n+1}=x-\frac{1}{3} x^{3}+\frac{1}{5} x^{5}+\cdots+x
+\in[-1,1]\\
+\tan x &= \sum_{n=1}^{\infin} \frac{B_{2 n}(-4)^{n}\left(1-4^{n}\right)}{(2 n) !} x^{2 n-1}=x+\frac{1}{3}
+x^{3}+\frac{2}{15} x^{5}+\frac{17}{315} x^{7}+\frac{62}{2835} x^{9}+\frac{1382}{155925} x^{11}+\frac{21844}{6081075}
+x^{13}+\frac{929569}{638512875} x^{15}+\cdots, x \in\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)
 \end{aligned}
 $
 
@@ -352,7 +361,8 @@ $
 
 > 换元法 $x^2 = u$, 等价 $(e^x)-1\to x$, 变形 $cosx-1 = -(1-cosx), lim_x\to0 1-cosx = \frac{x^2}{2}, -(1-cosx)=\frac{-x^2}{2}$, 带入原极限求得 -2
 
-- $极限 lim_{x=1} x^\frac{1}{x-1}, 原极限为1^∞型, 转换为 e^{\frac{1}{x-1}lnx}\rightarrow lim_{x\to 1}\ln(x), x-1\\带入得 e^{\frac{1}{x-1}x-1}=e, x=1无定义且极限存在, 则x=1为可去间断点$
+- $极限 lim_{x=1} x^\frac{1}{x-1}, 原极限为1^∞型, 转换为 e^{\frac{1}{x-1}lnx}\rightarrow lim_{x\to 1}\ln(x), x-1\\带入得
+  e^{\frac{1}{x-1}x-1}=e, x=1无定义且极限存在, 则x=1为可去间断点$
 
 - 第一判定定理
 
@@ -419,7 +429,8 @@ $
 
 - $设函数y=y(x)由方程\ln(x^2+y)=x^3y+\sin x确定, 求\frac{dy}{dx}|x=0$
 
-> $复合函数\ln(w)求导得|\frac{w`}{w}|, 复合函数x^3y求导得3x^2y+x^3y`\\\rightarrow\frac{dy}{dx}=\frac{2x+y`}{x^2+y}=3x^2y+x^3y`+\cos x\\带入x=0得\frac{y`}{y}=1,x=0带入原方程得y=1,则\frac{y`}{1}=1, y`=1, 即\frac{dy}{dx}|{x=0} =1$
+> $复合函数\ln(w)求导得|\frac{w`}{w}|, 复合函数x^3y求导得3x^2y+x^3y`\\\rightarrow\frac{dy}{dx}=\frac{2x+y`}{x^2+y}=3x^2y+x^3y`+\cos
+> x\\带入x=0得\frac{y`}{y}=1,x=0带入原方程得y=1,则\frac{y`}{1}=1, y`=1, 即\frac{dy}{dx}|{x=0} =1$
 
 ### 可导导致的连续
 
@@ -450,11 +461,13 @@ $已知函数Q(x)在点x=0处可导,函数f(x)=W(x)Q(W(x)), 则f`(w)=\frac{f(x)-
 
 假设${\displaystyle h(x)\ }$与${\displaystyle k(x)\ }$是两个连续可导函数. 由乘积法则可知
 
-> ${\displaystyle {\frac {{\rm {d}}(hk)}{{\rm {d}}x}}={\frac {{\rm {d}}h}{{\rm {d}}x}}k+h{\frac {{\rm {d}}k}{{\rm {d}}x}}}$
+> ${\displaystyle {\frac {{\rm {d}}(hk)}{{\rm {d}}x}}={\frac {{\rm {d}}h}{{\rm {d}}x}}k+h{\frac {{\rm {d}}k}{{\rm
+> {d}}x}}}$
 
 不定积分形式的分部积分方程
 
-> ${\displaystyle \int {\frac {{\rm {d}}h}{{\rm {d}}x}}k\ {\rm {d}}x=hk-\int h{\frac {{\rm {d}}k}{{\rm {d}}x}}\ {\rm {d}}x}$
+> ${\displaystyle \int {\frac {{\rm {d}}h}{{\rm {d}}x}}k\ {\rm {d}}x=hk-\int h{\frac {{\rm {d}}k}{{\rm {d}}x}}\ {\rm
+> {d}}x}$
 
 简化
 
@@ -560,11 +573,14 @@ $
 
 ### 圆相关的积分
 
-- $x^2+y^2=r^2$ 是圆心在圆点的表达式 , $\int\int_Df(x,y)dxdy$ 的积分可以写成 $\int\int_Dg(r)dO=\int_\theta d\theta\int_rg(r)rdr, \theta\in[0,2\pi],$ O 是极坐标的什么什么概念衍生, 极坐标是用角度和长度描述位置的坐标系
+- $x^2+y^2=r^2$ 是圆心在圆点的表达式 , $\int\int_Df(x,y)dxdy$ 的积分可以写成 $\int\int_Dg(r)dO=\int_\theta d\theta\int_rg(r)rdr,
+  \theta\in[0,2\pi],$ O 是极坐标的什么什么概念衍生, 极坐标是用角度和长度描述位置的坐标系
 
 - 格林公式:
 
-> 设闭区域 D 由分段光滑的简单曲线 L 围成，函数 P(x,y) 及 Q(x,y) 在 D 上有一阶连续偏导数, 则有: ${\displaystyle \iint \limits_{D}\left({\frac {\partial Q}{\partial x}}-{\frac {\partial P}{\partial y}}\right)\mathrm {d} x\mathrm {d} y=\oint_{L^{+}}(P\mathrm {d} x+Q\mathrm {d} y)}$
+> 设闭区域 D 由分段光滑的简单曲线 L 围成，函数 P(x,y) 及 Q(x,y) 在 D 上有一阶连续偏导数, 则有: ${\displaystyle \iint \limits_{D}\left({\frac {\partial
+> Q}{\partial x}}-{\frac {\partial P}{\partial y}}\right)\mathrm {d} x\mathrm {d} y=\oint_{L^{+}}(P\mathrm {d} x+Q\mathrm
+> {d} y)}$
 >
 > 其中 L+ 是 D 的取正向的边界曲线.
 >
@@ -616,11 +632,13 @@ $
 
 - 拉普拉斯方程, 是椭圆型的齐次二阶常系数线性偏微分方程:
 
-> $∂ 2 u ∂ x 2 + ∂ 2 u ∂ y 2 = 0. {\displaystyle {\frac {\partial ^{2}u}{\partial x^{2}}}+{\frac {\partial ^{2}u}{\partial y^{2}}}=0.}$
+> $∂ 2 u ∂ x 2 + ∂ 2 u ∂ y 2 = 0. {\displaystyle {\frac {\partial ^{2}u}{\partial x^{2}}}+{\frac {\partial
+> ^{2}u}{\partial y^{2}}}=0.}$
 
 - KdV 方程, 是三阶的非线性偏微分方程:
 
-> $∂ u ∂ t = 6 u ∂ u ∂ x − ∂ 3 u ∂ x 3 . {\displaystyle {\frac {\partial u}{\partial t}}=6u{\frac {\partial u}{\partial x}}-{\frac {\partial ^{3}u}{\partial x^{3}}}.}$
+> $∂ u ∂ t = 6 u ∂ u ∂ x − ∂ 3 u ∂ x 3 . {\displaystyle {\frac {\partial u}{\partial t}}=6u{\frac {\partial u}{\partial
+> x}}-{\frac {\partial ^{3}u}{\partial x^{3}}}.}$
 
 ### 简易微分方程的求解方法
 
@@ -664,11 +682,15 @@ $
 
 - 求方程 $2(xy+y)y`=y$ 的通解
 
-> $\begin{aligned}y`=\frac{dy}{dx}&=\frac{y}{2(xy+x)}\\ydx&=2(xy+x)dy\\\frac{y+1}{y}dy&=\frac{1}{2x}dx\\\int\frac{y+1}{y}dy&=\int\frac{1}{2x}dx\\\int 1+\frac{1}{y}dy&=\int\frac{1}{2}\frac{1}{x}dx\\y+\ln{|y|}&=\frac{1}{2}\ln{|x|}+C\\2y+2\ln{|y|}&=\ln{|x|}+C\\e^{2y+2\ln{|y|}}&=e^{\ln{|x|}+\ln{C}}\\e^{2y+\ln^2|y|}&=e^{\ln{|x|}+\ln{C}}\\e^{\frac{1}{\ln{C}}(2y+\ln{|y|^2})}&=e^{\ln{|x|}}\\Ce^{2y}e^{\ln|y|^2}&=x\\由图像知|x|恒>0\\则原方程通解为\\Ce^{2y}y^2&=x\end{aligned}$
+> $\begin{aligned}y`=\frac{dy}{dx}&=\frac{y}{2(xy+x)}\\ydx&=2(xy+x) dy\\\frac{y+1}{y}dy&=\frac{1}{2x}dx\\\int\frac{y+1}{y}dy&=\int\frac{1}{2x}dx\\\int
+>
+> 1+\frac{1}{y}dy&=\int\frac{1}{2}\frac{1}{x}dx\\y+\ln{|y|}&=\frac{1}{2}\ln{|x|}+C\\2y+2\ln{|y|}&=\ln{|x|}+C\\e^{2y+2\ln{|y|}}&=e^{\ln{|x|}+\ln{C}}\\e^{2y+\ln^2|y|}&=e^{\ln{|x|}+\ln{C}}\\e^{\frac{1}{\ln{C}}( 2y+\ln{|y|^2})}&=e^{\ln{|x|}}\\Ce^{2y}e^{\ln|y|^2}&=x\\由图像知|x|恒>0\\则原方程通解为\\Ce^{2y}y^2&=x\end{aligned}$
 
 - 求方程 $y`+xy^2=0$ 的通解
 
-> $\begin{aligned}y`=\frac{dy}{dx}&=-xy^2\\dy&=-xdxy^2\\\frac{dy}{y^2}&=-xdx\\\int\frac{1}{y^2}dy&=\int-{x}dx\\-\frac{1}{y}&=-\frac{x^2}{2}+\frac{C}{2}\\y&=\frac{2}{x^2+C}\end{aligned}$
+> $\begin{aligned}y`
+>
+> =\frac{dy}{dx}&=-xy^2\\dy&=-xdxy^2\\\frac{dy}{y^2}&=-xdx\\\int\frac{1}{y^2}dy&=\int-{x}dx\\-\frac{1}{y}&=-\frac{x^2}{2}+\frac{C}{2}\\y&=\frac{2}{x^2+C}\end{aligned}$
 
 - 已知一个解, 求微分方程的常量
 
@@ -712,7 +734,9 @@ $
 
 - 交错级数判别敛散性:
 
-> 具有以下形式的级数 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a*{n}\!} \\$ 其中所有的 $a_{n}$ 非负, 被称作交错级数. 如果当 n 趋于无穷时, 数列 $a_{n}$ 的极限存在且等于 0, 并且每个 $a_{n}$ 小于或等于 $a_{n-1}$ (即数列 $a_{n}$ 是单调递减的), 那么级数收敛. 如果 L 是级数的和 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a_{n}=L\!}$ 那么部分和 ${\displaystyle S_{k}=\sum_{n=0}^{k}(-1)^{n}a_{n}\!}$ 逼近 L 有截断误差 ${\displaystyle \left|S_{k}-L\right\vert \leq \left|S_{k}-S_{k-1}\right\vert =a_{k}\!}$
+> 具有以下形式的级数 ${\displaystyle \sum_{n=0}^{\infin }(-1)^{n}a*{n}\!} \\$ 其中所有的 $a_{n}$ 非负, 被称作交错级数. 如果当 n 趋于无穷时, 数列 $a_{n}$ 的极限存在且等于 0, 并且每个 $a_{n}$ 小于或等于 $a_{n-1}$ (即数列 $a_{n}$ 是单调递减的), 那么级数收敛. 如果 L 是级数的和 ${\displaystyle \sum_{n=0}^{\infin }(
+> -1)^{n}a_{n}=L\!}$ 那么部分和 ${\displaystyle S_{k}=\sum_{n=0}^{k}(-1)^{n}a_{n}\!}$ 逼近 L 有截断误差 ${\displaystyle \left|S_
+> {k}-L\right\vert \leq \left|S_{k}-S_{k-1}\right\vert =a_{k}\!}$
 >
 > > 简化: $\lim_{n\to\infin}An=0, An≥A{n+1}$, 即单调递减
 
@@ -742,7 +766,8 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
 
 - 求和公式
 
-> 等比数列 ${\displaystyle S_{n}={\frac {a(1-r^{n})}{1-r}}}$ 等差级数 ${\displaystyle S_{n}={\frac {n}{2}}\,(a+a_{n})\\={\frac {n}{2}}[2a+(n-1)d]\\=an+d\cdot {\frac {n(n-1)}{2}}}$
+> 等比数列 ${\displaystyle S_{n}={\frac {a(1-r^{n})}{1-r}}}$ 等差级数 ${\displaystyle S_{n}={\frac {n}{2}}\,(a+a_{n})\\={\frac
+> {n}{2}}[2a+(n-1)d]\\=an+d\cdot {\frac {n(n-1)}{2}}}$
 
 ### 其他型月世界的级数例题
 
@@ -754,9 +779,13 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
 
 > 收敛半径 $R=\frac{1}{\rho},\rho=\lim_{n\to\infin}|\frac{A{n+1}}{A{n}}|, A{n}=\frac{\ln{n+1}}{n}$
 >
-> > $\begin{aligned}\rho&=\lim_{n\to\infin}|\frac{\frac{\ln(n+1+1)}{n+1}}{\frac{\ln(n+1)}{n}}|\\&=\lim_{n\to\infin}|\frac{\ln(n+1+1)}{n+1}\frac{n}{\ln(n+1)}|\\&=\lim_{n\to\infin}\frac{\ln(n+2)}{\ln(n+1)}\frac{n}{n+1}\\&=\lim_{n\to\infin}|\frac{n+1}{n+2}|\\&=1\end{aligned}\\R=\frac{1}{\rho}=1$ , 原级数收敛区间为(-1,1)
+> > $\begin{aligned}\rho&=\lim_{n\to\infin}|\frac{\frac{\ln(n+1+1)}{n+1}}{\frac{\ln(n+1)}{n}}|\\&=\lim_
+> > {n\to\infin}|\frac{\ln(n+1+1)}{n+1}\frac{n}{\ln(n+1)}|\\&=\lim_{n\to\infin}\frac{\ln(n+2)}{\ln(n+1)
+> > }\frac{n}{n+1}\\&=\lim_{n\to\infin}|\frac{n+1}{n+2}|\\&=1\end{aligned}\\R=\frac{1}{\rho}=1$ , 原级数收敛区间为(-1,1)
 > >
-> > > 当 x=-1 时, 原级数= ${\displaystyle\sum_{n=0}^{\infin }\frac{\ln(n+1)}{n}(-1)^{n-1}}$ 为交错级数, 此时判别敛散性\\ $\lim_{n\to\infin}\frac{\ln(n+1)}{n}=\frac{\infin}{\infin}$ =洛 $\frac{f`(x)}{g`(x)}=0$ , 且单调递减, 即 x=-1 时收敛\\当 x=1 时, 原级数= ${\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}(1)^{n-1}}={\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}}>{\displaystyle\sum_{n=0}^{\infin }\frac{1}{n}}$ ,即 x=1 时小发散$\rightarrow$ 大发散
+> > > 当 x=-1 时, 原级数= ${\displaystyle\sum_{n=0}^{\infin }\frac{\ln(n+1)}{n}(-1)^{n-1}}$ 为交错级数, 此时判别敛散性\\ $\lim_
+> > > {n\to\infin}\frac{\ln(n+1)}{n}=\frac{\infin}{\infin}$ =洛 $\frac{f`(x)}{g`(x)}=0$ , 且单调递减, 即 x=-1 时收敛\\当 x=1 时, 原级数= ${\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}(1)^{n-1}}={\displaystyle\sum_{n=0}^{\infin}\frac{\ln(n+1)}{n}}>
+> > > {\displaystyle\sum_{n=0}^{\infin }\frac{1}{n}}$ ,即 x=1 时小发散$\rightarrow$ 大发散
 > > >
 > > > > 综上, 原级数收敛区域为[-1,1)
 
@@ -774,7 +803,9 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
 
 ## 洛必达
 
-洛必达法则可以求出特定函数趋近于某数的极限值, 两函数 f(x),g(x)在以 x=c 为端点的开区间可微 ${\displaystyle c\in {\bar {\mathbb {R} }}}$ 时如果 ${\displaystyle\lim_{x\to c}{f(x)}=\lim_{x\to c}{g(x)}=0} 或 {\displaystyle \lim_{x\to c}{|f(x)|}=\lim_{x\to c}{|g(x)|}=\infin }$ 其中一者成立, 则称欲求的极限 ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}}$ 为未定式, 此时洛必达法则表明: ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}=\lim_{x\to c}{\frac{f'(x)}{g'(x)}}}$
+洛必达法则可以求出特定函数趋近于某数的极限值, 两函数 f(x),g(x)在以 x=c 为端点的开区间可微 ${\displaystyle c\in {\bar {\mathbb {R} }}}$ 时如果 ${\displaystyle\lim_{x\to c}{f(x)}=\lim_{x\to c}{g(x)}=0} 或 {\displaystyle \lim_{x\to c}{|f(x)|}=\lim_{x\to c}{|g(x)
+|}=\infin }$ 其中一者成立, 则称欲求的极限 ${\displaystyle\lim_{x\to c}{\frac {f(x)}{g(x)}}}$ 为未定式, 此时洛必达法则表明: ${\displaystyle\lim_
+{x\to c}{\frac {f(x)}{g(x)}}=\lim_{x\to c}{\frac{f'(x)}{g'(x)}}}$
 
 ## 条件
 
@@ -830,7 +861,8 @@ ${\displaystyle \sum _{n=1}^{\infty }{\frac {1}{n}}=1+{\frac {1}{2}}+{\frac {1}{
 
 > 若 f(x) 在 $x_0$ 处得到左、右极限均存在且相等的间断点, 称为可去间断点. 需要注意的是, 可去间断点需满足 f(x) 在 $x_0$ 处无定义, 或在 $x_0$ 处有定义但不等于函数 f(x) 在 $x_0$ 的左右极限.
 >
-> > 例如 $f\left({x}\right)={x}^{\frac{1}{x-1}}$ x=1 是 f(x)的可去间断点: 取极限 $\lim_{x\to 1}{x}^{\frac{1}{x-1}}=e^{\frac {x-1}{x-1}}=e$ 得极限存在, 而 x=1 方程无定义, 故为可去间断点.
+> > 例如 $f\left({x}\right)={x}^{\frac{1}{x-1}}$ x=1 是 f(x)的可去间断点: 取极限 $\lim_{x\to 1}{x}^{\frac{1}{x-1}}=e^{\frac
+> > {x-1}{x-1}}=e$ 得极限存在, 而 x=1 方程无定义, 故为可去间断点.
 
 ### 跳跃间断点
 
@@ -848,27 +880,42 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 
 | 未退化的一般实二次曲面 | 表达式 | 图像 |
 | :-: | :-: | :-: |
-| 椭球面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}+{z^{2} \over c^{2}}=1$ | ![椭球面](https://upload.wikimedia.org/wikipedia/commons/e/ec/Ellipsoid_Quadric.png) |
-| 椭圆抛物面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-z=0\,$ | ![椭圆抛物面](https://upload.wikimedia.org/wikipedia/commons/0/02/Paraboloid_Quadric.Png) |
-| 双曲抛物面 | ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}-z=0\,$ | ![双曲抛物面](https://upload.wikimedia.org/wikipedia/commons/8/87/Hyperbolic_Paraboloid_Quadric.png) |
-| 单页双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=1\,}$ | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/3/34/Hyperboloid_Of_One_Sheet_Quadric.png) |
-| 双叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/a/af/Hyperboloid_Of_Two_Sheets_Quadric.png) |
+| 椭球面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}+{z^{2} \over c^{2}}=1$ |
+| ![椭球面](https://upload.wikimedia.org/wikipedia/commons/e/ec/Ellipsoid_Quadric.png) |
+| 椭圆抛物面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-z=0\,$ |
+| ![椭圆抛物面](https://upload.wikimedia.org/wikipedia/commons/0/02/Paraboloid_Quadric.Png) |
+| 双曲抛物面 | ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}-z=0\,$ |
+| ![双曲抛物面](https://upload.wikimedia.org/wikipedia/commons/8/87/Hyperbolic_Paraboloid_Quadric.png) |
+| 单页双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=1\,}$ |
+| ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/3/34/Hyperboloid_Of_One_Sheet_Quadric.png) |
+| 双叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=-1\,}$ |
+| ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/a/af/Hyperboloid_Of_Two_Sheets_Quadric.png) |
 
 | 特殊二次曲面 | 表达式 | 图像 |
 | :-: | :-: | :-: |
-| 类球面（一种特殊的椭球面） | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$ | ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png) |
-| 球面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$ | ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png) |
-| 圆抛物面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$ | ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png) |
-| 单叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$ | ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png) |
-| 双叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ | ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
+| 类球面（一种特殊的椭球面） | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over b^{2}}=1\,$ |
+| ![类球面（一种特殊的椭球面） ](https://upload.wikimedia.org/wikipedia/commons/6/61/Oblate_Spheroid_Quadric.png) |
+| 球面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}+{z^{2} \over a^{2}}=1\,$ |
+| ![球面](https://upload.wikimedia.org/wikipedia/commons/6/6f/Sphere_Quadric.png) |
+| 圆抛物面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}-z=0\,$ |
+| ![圆抛物面](https://upload.wikimedia.org/wikipedia/commons/6/6a/Circular_Paraboloid_Quadric.png) |
+| 单叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=1\,}$ |
+| ![单叶双曲面](https://upload.wikimedia.org/wikipedia/commons/6/6e/Circular_Hyperboloid_Of_One_Sheet_Quadric.png) |
+| 双叶双曲面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=-1\,}$ |
+| ![双叶双曲面](https://upload.wikimedia.org/wikipedia/commons/1/1e/Circular_Hyperboloid_of_Two_Sheets_Quadric.png) |
 
 | 退化的一般实二次曲面 | 表达式 | 图像 |
 | :-: | :-: | :-: |
-| 椭圆锥面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=0\,$ | ![椭圆锥面](https://upload.wikimedia.org/wikipedia/commons/9/9b/Elliptical_Cone_Quadric.Png) |
-| 锥面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=0\,}$ | ![锥面](https://upload.wikimedia.org/wikipedia/commons/c/c6/Circular_Cone_Quadric.png) |
-| 椭圆柱面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}=1\,$ | ![椭圆柱面](https://upload.wikimedia.org/wikipedia/commons/6/64/Elliptic_Cylinder_Quadric.png) |
-| 圆柱面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}=1\,$ | ![圆柱面](https://upload.wikimedia.org/wikipedia/commons/0/0c/Circular_Cylinder_Quadric.png) |
-| 双曲柱面 | ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}=1\,$ | ![双曲柱面](https://upload.wikimedia.org/wikipedia/commons/8/82/Hyperbolic_Cylinder_Quadric.png) |
+| 椭圆锥面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}-{z^{2} \over c^{2}}=0\,$ |
+| ![椭圆锥面](https://upload.wikimedia.org/wikipedia/commons/9/9b/Elliptical_Cone_Quadric.Png) |
+| 锥面 | ${\displaystyle {x^{2} \over a^{2}}+{y^{2} \over a^{2}}-{z^{2} \over b^{2}}=0\,}$ |
+| ![锥面](https://upload.wikimedia.org/wikipedia/commons/c/c6/Circular_Cone_Quadric.png) |
+| 椭圆柱面 | ${x^{2} \over a^{2}}+{y^{2} \over b^{2}}=1\,$ |
+| ![椭圆柱面](https://upload.wikimedia.org/wikipedia/commons/6/64/Elliptic_Cylinder_Quadric.png) |
+| 圆柱面 | ${x^{2} \over a^{2}}+{y^{2} \over a^{2}}=1\,$ |
+| ![圆柱面](https://upload.wikimedia.org/wikipedia/commons/0/0c/Circular_Cylinder_Quadric.png) |
+| 双曲柱面 | ${x^{2} \over a^{2}}-{y^{2} \over b^{2}}=1\,$ |
+| ![双曲柱面](https://upload.wikimedia.org/wikipedia/commons/8/82/Hyperbolic_Cylinder_Quadric.png) |
 | 抛物柱面 | $x^{2}+2ay=0\,$ | ![抛物柱面](https://upload.wikimedia.org/wikipedia/commons/e/ea/Parabolic_Cylinder_Quadric.png) |
 
 > 简约版:
@@ -924,17 +971,19 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 - 求互相垂直直线, 设 $w=\frac{f(x)}{a}=\frac{g(y)}{b}=\frac{Q(z)}{c}$, 用向量 $s= w-所过点_{xyz},s_{所求}\times s_L=0$, 求出 t 代会列的向量求出分母, 分子就是 xyz-过的点
 - 法向量差积
 
-> $\overrightarrow{S}=\overrightarrow{n_1}\times\overrightarrow{n_2}=\begin{vmatrix} i & i & k \\ n_1系数_1 & n_1系数_2 & n_1系数_3 \\ n_2系数_1 & n_2系数_2 & n_2系数_3 \end{vmatrix}\\=去掉第一行第一列-去掉第二行第二列+去掉第三行第三列=\begin{vmatrix}n_1系数_2&n_1系数_3\\n_2系数_2&n_2系数_3\end{vmatrix}i-类推j+类推k=交叉相乘再相减i-类推j+类推k$
+> $\overrightarrow{S}=\overrightarrow{n_1}\times\overrightarrow{n_2}=\begin{vmatrix} i & i & k \\ n_1 系数\_1 & n_1 系数\_2 & n_1 系数\_3 \\ n_2 系数\_1 & n_2 系数\_2 & n_2 系数\_3
+>
+> \end{vmatrix}\\=去掉第一行第一列-去掉第二行第二列+去掉第三行第三列=\begin{vmatrix}n_1 系数\_2&n_1 系数\_3\\n_2 系数\_2&n_2 系数\_3\end{vmatrix}i-类推 j+类推 k=交叉相乘再相减 i-类推 j+类推 k$
 
 - 向量垂直
 
 > 向量点乘=0
 
 - 向量平行
->
+
 > - 平行的原向量点分之模长: $\frac{点}{模}$, 模 $=\sqrt{点^2+点^2+点^2}$
 > - 平行的单位向量: $±(\frac{点}{模}\frac{点}{模}\frac{点}{模})$
->
+
 - 切线方程
 
 > 两线相交一点, 求切线方程
@@ -971,7 +1020,9 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 
 - 求曲线 $x=e^t\cos t,y=e^t\sin t$, 在 $t=\frac{\pi}{2}$ 处的法线方程
 
-> 设法线的斜率为 w, 曲线切线的斜率为 k,则 $w=-k\\k=\frac{dy}{dx}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}=\frac{e^t\sin t+e^t\cos t}{e^t\cos t-e^t\sin t}=-1$, 即 $w=1\\$ 当 $t=\frac{\pi}{2}$ 时, $x=0, y=e^\frac{\pi}{2}\\$ 此时法线方程为 $(y-e^\frac{pi}{2})=(x-0), 即y=x+e^\frac{\pi}{2}$
+> 设法线的斜率为 w, 曲线切线的斜率为 k,则 $w=-k\\k=\frac{dy}{dx}=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}=\frac{e^t\sin t+e^t\cos t}{e^t\cos
+> t-e^t\sin t}=-1$, 即 $w=1\\$ 当 $t=\frac{\pi}{2}$ 时, $x=0, y=e^\frac{\pi}{2}\\$ 此时法线方程为 $(y-e^\frac{pi}{2})=(x-0),
+> 即y=x+e^\frac{\pi}{2}$
 
 - 两曲线的切线互相垂直: 一阶导相乘=-1
 
@@ -1019,13 +1070,15 @@ $A\left(x-x_{0}\right)+B\left(y-y_{0}\right)+C\left(z-z_{0}\right)=0$
 
 ### 拉日型例题
 
-- 已知函数 f(x)在[0,1]上连续,在(0,1)内可导,且 f(0)=0,f(1)=1, 试证明:\\(1)存在 $\xi\in(0,1)$ 使 $f(\xi)=1-\xi\\(2)$ 存在两个不同的点 $\eta,\mu\in(0,1)$ 使 $f`(\eta)f`(\mu)=1$
+- 已知函数 f(x)在[0,1]上连续,在(0,1)内可导,且 f(0)=0,f(1)=1, 试证明:\\(1)存在 $\xi\in(0,1)$ 使 $f(\xi)=1-\xi\\(2)$ 存在两个不同的点 $\eta,\mu\in(
+  0,1)$ 使 $f`(\eta)f`(\mu)=1$
 
 > (1)设辅助函数 $F(\xi)=f(\xi)-1+\xi\rightarrow F(x)=f(x)-1+x, x\in(0,1)$
 >
 > > $F(0)=f(0)-1+0=-1<0, F(1)=f(1)-1+1=1>0$, 由零点定理可得必有一点 $\xi$ 使 $F(\xi)=0$, 即 $f(\xi)=1-\xi$
 >
-> (2)设一点 $\xi,\eta\in(0,\xi),\mu\in(\xi,1)\\∵f(x)$ 在 $[0,1]$ 上连续,在(0,1)内可导, ∴f(x) 在 $[0,\xi]$ 上连续,在 $(0,\xi)$ 内可导,$[\xi,1]$ 上连续,在 $(\xi,1)$ 内可导 由拉日定理得 $f`(\eta)=\frac{f(\xi)-f(0)}{\xi-0},f`(\mu)=\frac{f(1)-\xi}{1-\xi}$ ,联立 $f(\xi)=1-\xi$ 得 $f`(\eta)f`(\mu)=\frac{1-1+\xi}{\xi}=1$ ,证毕
+> (2)设一点 $\xi,\eta\in(0,\xi),\mu\in(\xi,1)\\∵f(x)$ 在 $[0,1]$ 上连续,在(0,1)内可导, ∴f(x) 在 $[0,\xi]$ 上连续,在 $(0,\xi)$ 内可导,$[\xi,1]$ 上连续,在 $(\xi,1)$ 内可导 由拉日定理得 $f`(\eta)=\frac{f(\xi)-f(0)}{\xi-0},f`(\mu)=\frac{f(1)-\xi}{1-\xi}$ ,联立 $f(\xi)
+> =1-\xi$ 得 $f`(\eta)f`(\mu)=\frac{1-1+\xi}{\xi}=1$ ,证毕
 
 # 错题记录
 
