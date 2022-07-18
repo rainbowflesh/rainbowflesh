@@ -1,10 +1,10 @@
 # CV
 
-![meme](../../asset/img/meme/hislinkedinprofile.jpg) SRE / Web Full Stack / DevOps developer, Data Scientist.
+![meme](/asset/img/meme/hislinkedinprofile.jpg) SRE / Web Full Stack / DevOps developer, Data Scientist.
 
 Reach me with Email: yya3vslty@mozmail.com
 
-## What will I do
+## What can I do
 
 - Web application development:
 
