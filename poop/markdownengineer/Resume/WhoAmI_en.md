@@ -1,6 +1,8 @@
 # CV
 
-![meme](/asset/img/meme/hislinkedinprofile.jpg) SRE / Web Full Stack / DevOps developer, Data Scientist.
+Class of *, data science graduate with a passion for technical learning and open source contributions.
+
+My name is *, or call me Aldrich.
 
 Reach me with Email: yya3vslty@mozmail.com
 
@@ -18,7 +20,7 @@ Reach me with Email: yya3vslty@mozmail.com
 
 - Familiar with the operation, maintenance, and use of the Linux operating system, have experience in using cloud hosting services; understand anti-crawlers and common security policies.
 
-- Understand technical writing and documentation; Master Git use.
+- Understand technical writing and documentation; Master Git use; Familiar with the use of Ansible, GitLab CI/CD, Docker.
 
 - Familiar with the use of scripting languages such as PowerShell, Bash, etc.
 
