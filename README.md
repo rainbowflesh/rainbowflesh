@@ -14,4 +14,4 @@ I call myself a lofty tone geek.
 ## current statue 👇
 
 ![Hunting-to-love](asset/img/meme/stat0.jpg)
-![tired](asset/img/meme/stat1.jpg)
+<!-- ![tired](asset/img/meme/stat1.jpg) -->
