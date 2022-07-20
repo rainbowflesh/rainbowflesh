@@ -45,15 +45,15 @@
 
 - 开源社区
 
-    - 修复流媒体播放器 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 软件的一个[重大 bug](https://github.com/qier222/YesPlayMusic/issues/1019), 还有其他的一些小 bug.
+    - 修复 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 软件的一个[重大 bug](https://github.com/qier222/YesPlayMusic/issues/1019), 还有其他的一些小 bug.
 
-    - 参与过 AI 画画软件 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, logo 设计.
+    - 参与过 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, logo 设计.
 
     - 参与过 style2paints 作者其他项目 [PaintingLight](https://github.com/lllyasviel/PaintingLight), 以及 [MangaCraft](https://github.com/lllyasviel/MangaCraft).
 
     - 参与过 [DeepCreamPy](https://github.com/liaoxiong3x/DeepCreamPy) 的测试工作.
 
-    - 参与 3D 建模软件 [VRoid Studio 翻译](https://github.com/xiaoye97/VRoidChinese)工作.
+    - 参与 [VRoid Studio 翻译](https://github.com/xiaoye97/VRoidChinese)工作.
 
     - FreeBSD 中文社区成员, 参与过文档攥写和翻译.
 
