@@ -1,8 +1,8 @@
 # CV
 
-Class of *, data science graduate with a passion for technical learning and open source contributions.
+Class of \*, data science graduate with a passion for technical learning and open source contributions.
 
-My name is *, or call me Aldrich.
+My name is \*, or call me Aldrich.
 
 Reach me with Email: yya3vslty@mozmail.com
 
@@ -10,19 +10,20 @@ Reach me with Email: yya3vslty@mozmail.com
 
 - Web application development:
 
-    - Use Java, JavaScript, SQL languages.
+    - Make use of the Java, JavaScript, and SQL programming languages.
+    - Experience with the Spring Boot framework and single-page application development using the Vue.js framework.
+    - Know how to develop desktop / mobile applications using the Electron framework.
+    - Understand the microservice and how to use the Eureka server's discover service.
+    - Understand how to utilize messaging middleware Kafka and distributed coordinator Zookeeper in projects to increase system availability and stability.
+    - Be familiar with ORM frameworks such as JPA, Mybatis-Plus, Bee.
+    - Experience developing front-end and back-end application prototypes quickly.
+    - Experience with MySQL, PostgreSQL, Redis, Apache HIVE, and the HDFS file system.
 
-    - Experience developing B/S single-page applications using the Spring Boot and Vue.js frameworks; Know how to development desktop application with the Electron framework; Understand microservice architecture application development using the Spring Cloud framework.
+- Master the use of Git; Familiar with technical writing.
 
-    - Familiar with MySQL. The use of PostgreSQL, and the use of Redis and MongoDB.
+- Understand the usage of scripting languages such as Powershell and Bash, as well as tools such as Ansible, GitLab CI/CD, Docker, etc.
 
-- Familiar with Hadoop cluster construction; Understand the use of message queue Kafka, distributed coordinator Zookeeper, and computing framework Spark.
-
-- Familiar with the operation, maintenance, and use of the Linux operating system, have experience in using cloud hosting services; understand anti-crawlers and common security policies.
-
-- Understand technical writing and documentation; Master Git use; Familiar with the use of Ansible, GitLab CI/CD, Docker.
-
-- Familiar with the use of scripting languages such as PowerShell, Bash, etc.
+-
 
 ## Work Experience
 
