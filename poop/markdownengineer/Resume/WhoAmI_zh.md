@@ -12,21 +12,20 @@
 
 ## 我会什么
 
-- Web 应用开发:
+- Web 服务应用开发:
 
-    - 使用 Java, JavaScript, SQL 语言.
+    - 使用 Java, Javascript, SQL 语言.
+    - 熟悉 Spring Boot 框架, Vue.js 框架下的单页面应用开发.
+    - 了解 Electron 框架下的桌面 / 移动应用开发.
+    - 了解微服务架构, 了解发现服务 Eureka server 的使用.
+    - 了解消息中间件 Kafka 和分布式协调器 Zookeeper 的使用, 能够在项目中灵活运用提高系统可用性和稳定性.
+    - 了解 JPA, Mybatis-Plus, Bee 等 ORM 框架的使用.
+    - 熟悉前后端应用程序原型的快速开发.
+    - 熟悉 MySQL, PostgreSQL 的使用, 了解 Redis, Apache HIVE 的使用, 了解 HDFS 文件系统的使用.
 
-    - 熟悉 Spring Boot 框架与 Vue.js 框架下的 B/S 单页面应用开发; 了解 Electron 框架下的桌面应用开发, Spring Cloud 框架的微服务架构应用开发.
+- 掌握 Git 使用; 拥有文档编写能力.
 
-    - 熟悉 MySQL. PostgreSQL 的使用, 了解 Redis, MongoDB 的使用.
-
-- 熟悉 Hadoop 集群搭建; 了解消息队列 Kafka, 分布式协调器 Zookeeper, 计算框架 Spark 的使用.
-
-- 熟悉 Linux 操作系统的运维和使用, 有云托管服务使用经验; 了解反爬虫和常用安全策略.
-
-- 掌握 Git 使用; 了解技术写作与文档编写; 了解 Ansible, GitLab CI/CD, Docker 等工具的使用.
-
-- 掌握 Powershell, Bash 等脚本语言的使用.
+- 掌握 Powershell, Bash 等脚本语言的使用; 了解 Ansible, GitLab CI/CD, Docker 等工具的使用.
 
 ## 工作经验
 
@@ -48,11 +47,11 @@
 
     - 修复流媒体播放器 [YesPlayMusic](https://github.com/qier222/YesPlayMusic) 软件的一个[重大 bug](https://github.com/qier222/YesPlayMusic/issues/1019), 还有其他的一些小 bug.
 
-    - 参与过人工智能上色软件 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, logo 设计.
+    - 参与过 AI 画画软件 [style2paints](https://github.com/lllyasviel/style2paints) 的早期 (v2, v3, v4) 开发, 测试工作, logo 设计.
 
     - 参与过 style2paints 作者其他项目 [PaintingLight](https://github.com/lllyasviel/PaintingLight), 以及 [MangaCraft](https://github.com/lllyasviel/MangaCraft).
 
-    - 参与过人工智能图片缺陷补充软件 [DeepCreamPy](https://github.com/liaoxiong3x/DeepCreamPy) 的测试工作.
+    - 参与过 [DeepCreamPy](https://github.com/liaoxiong3x/DeepCreamPy) 的测试工作.
 
     - 参与 3D 建模软件 [VRoid Studio 翻译](https://github.com/xiaoye97/VRoidChinese)工作.
 
