@@ -23,7 +23,7 @@
     - 熟悉前后端应用程序原型的快速开发.
     - 熟悉 MySQL, PostgreSQL 的使用, 了解 Redis, Apache HIVE 的使用, 了解 HDFS 文件系统的使用.
 
-- 掌握 Git 使用; 拥有文档编写能力.
+- 掌握 Git 使用; 了解技术写作.
 
 - 掌握 Powershell, Bash 等脚本语言的使用; 了解 Ansible, GitLab CI/CD, Docker 等工具的使用.
 
