@@ -1,6 +1,6 @@
 ![Ohayōgozaimasuha](asset/img/meme/oha.jpg)
 
-# Hwallo there👋, m'Nijikawa a data scientist desu
+# Hwllo there👋, m'Nijikawa a data scientist desu
 
 I call myself a lofty tone geek.
 
