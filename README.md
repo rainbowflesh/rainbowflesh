@@ -4,7 +4,7 @@
 
 I call myself a lofty tone geek.
 
-- 🤯 Reaching for a job!
+- 😎 Working on Rust & Hardware develop!
 - 📖 Read.
 - 👁️‍🗨️ I know nothing but Bishōjo ;)
 - 📮 Reach me with email.
