@@ -8,7 +8,7 @@ I call myself a lofty tone geek.
 - 📖 Read.
 - 👁️‍🗨️ I know nothing but Bishōjo ;)
 - 📮 Reach me with email.
-- ⚡ Fun fact: Woa! Actually I am alchemist cyber ork.
+- ⚡ Fun fact: Woa! Actually I am cyber-alchemy-ork.
 - [Who Im I?](./poop/markdownengineer/Resume/WhoAmI_en.md)
 
 ## current statue 👇
