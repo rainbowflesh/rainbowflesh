@@ -1,16 +1,23 @@
-### Hi there 👋
+![Ohayōgozaimasuha](asset/images/banner.jpg)
 
-<!--
-**rainbowflesh/rainbowflesh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Greeting fellow!
 
-Here are some ideas to get you started:
+I'm RainbowFlesh former Counter-Unmanned-Aerial-Systems Researcher.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 😎 Freelancer and focus on open source!
+- 🏋️ Seasoned in cybersecurity and UAV Swarm networking, hacking, and simulating :p
+- 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator, scientist.
+- 🤓 Training the "taste" of programming.
+- [whoimi?](./resume.md)
+
+I call myself a lofty tone geek.
+
+## current statue 👇
+
+<p float="left">
+<img src="asset/images/statues.jpg" height="150" />
+<img src="asset/images/statues1.jpg" height="150" />
+<img src="asset/images/statues2.jpg" height="150" />
+<img src="asset/images/statues3.jpg" height="150" />
+<img src="asset/images/i�unicode.png" height="150" />
+</p>
