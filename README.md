@@ -2,10 +2,10 @@
 
 # Greeting fellow!
 
-I'm RainbowFlesh former Counter-Unmanned-Aerial-Systems Researcher.
+I'm RainbowFlesh former Counter-Unmanned-Aerial-Systems Researcher, active AI module machine learning engineer.
 
-- 😎 Freelancer and focus on open source!
-- 🏋️ Seasoned in cybersecurity and UAV Swarm networking, hacking, and simulating :p
+- 😎 Working on [zeewind-uav.com](https://www.zeewind-uav.com)
+- 🏋️ Seasoned in cybersecurity and UAV Swarm networking, hacking, simulating, and target tracking :p
 - 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator, scientist.
 - 🤓 Training the "taste" of programming.
 - [whoimi?](./resume.md)
