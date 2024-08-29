@@ -6,7 +6,7 @@ I'm RainbowFlesh former Counter-Unmanned-Aerial-Systems Researcher, active AI mo
 
 - 😎 Working on [zeewind-uav.com](https://www.zeewind-uav.com)
 - 🏋️ Seasoned in cybersecurity and UAV Swarm networking, hacking, simulating, and target tracking :p
-- 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator, scientist.
+- 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator.
 - 🤓 Training the "taste" of programming.
 - [whoimi?](./resume.md)
 
