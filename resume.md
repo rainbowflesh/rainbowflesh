@@ -1,8 +1,8 @@
 # Resume for People who Interest
 
-Email: 9i36iqh38@mozmail.com;
+Email me: 9i36iqh38@mozmail.com;
 
-[Blog](rainbowflesh.github.io) rainbowflesh.github.io
+Blog: [rainbowflesh.github.io](rainbowflesh.github.io) 
 
 ## What Im I
 
