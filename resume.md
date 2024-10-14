@@ -117,4 +117,4 @@ zstd,
 
 I'm an entrepreneur and adviser running a group companies focus on engineering, procurement, construction; yet, Im an computer fan and most of "employee history" is making interesting products with my colleagues; check out my recently works, a target tracking device [zeewind-uav.com](zeewind-uav.com)
 
-Yet, I still have an intern experience in PowerChina KHID, just GIS/BIM web fullstack R&D with java and vue, interesting experience but boring tech stack.
+I have an intern experience in PowerChina KHID, just GIS/BIM web fullstack R&D with java and vue, interesting experience but boring tech stack.
