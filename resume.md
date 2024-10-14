@@ -6,7 +6,7 @@ Blog: [rainbowflesh.github.io](rainbowflesh.github.io)
 
 ## What Im I
 
-Im rainbowflesh, a fullstack software engineer, engage in unmanned vehicle networking, cybersecurity, web applications development, GIS, computer vision and some NLP research stuffs.
+Im rainbowflesh, fullstack software engineer, engage in unmanned vehicle networking, cybersecurity, web applications development, GIS, computer vision and some NLP research stuffs.
 
 I prefer programming with Rust, Python, JS/TS, and Shell, PowerShell <del>PowerScript</del> scripting;
 
@@ -115,6 +115,6 @@ zstd,
 
 ## Employee History
 
-Im an entrepreneur and adviser running a group companies engage in engineering, procurement, construction; yet, Im an computer fan and most of "employee history" is making interesting products with my colleagues; check out my recently works, a target tracking device [zeewind-uav.com](zeewind-uav.com)
+I'm an entrepreneur and adviser running a group companies focus on engineering, procurement, construction; yet, Im an computer fan and most of "employee history" is making interesting products with my colleagues; check out my recently works, a target tracking device [zeewind-uav.com](zeewind-uav.com)
 
 Yet, I still have an intern experience in PowerChina KHID, just GIS/BIM web fullstack R&D with java and vue, interesting experience but boring tech stack.
