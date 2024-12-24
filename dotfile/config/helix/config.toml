@@ -1,0 +1,54 @@
+theme = "rose_pine_dawn"
+
+[editor]
+mouse = true
+true-color = true
+cursorline = true
+cursorcolumn = true
+idle-timeout = 210
+auto-save = true
+bufferline = "multiple"
+
+[editor.statusline]
+left = ["mode", "spinner","diagnostics"]
+center = ["file-name","separator","spacer","position-percentage"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "││" 
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "bar"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.lsp]
+display-messages = true
+
+[editor.whitespace.render]
+nbsp = "all"
+newline = "all"
+
+[editor.whitespace.characters]
+nbsp = "⍽"
+newline = "⏎"
+
+[editor.indent-guides]
+render = true
+
+[keys.insert]
+C-c = "normal_mode"
+C-left = "move_prev_word_start"
+C-right = "move_next_word_start"
+C-up = "move_line_up"
+C-down = "move_line_down"
+
+[keys.normal]
+j = "move_line_up"
+k = "move_line_down"
+l = "move_char_right"
+C-left = "move_prev_word_start"
+C-right = "move_next_word_start"
+C-up = "move_line_up"
+C-down = "move_line_down"

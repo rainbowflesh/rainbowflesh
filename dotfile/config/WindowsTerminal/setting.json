@@ -1,0 +1,436 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+m"
+    },
+    {
+      "command": "unbound",
+      "keys": "alt+enter"
+    },
+    {
+      "command": "unbound",
+      "keys": "f11"
+    },
+    {
+      "command": "unbound",
+      "keys": "alt+shift+minus"
+    },
+    {
+      "command": "unbound",
+      "keys": "alt+shift+plus"
+    },
+    {
+      "command": "unbound",
+      "keys": "win+sc(41)"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+a"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+tab"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+v"
+    },
+    {
+      "command": "unbound",
+      "keys": "shift+insert"
+    },
+    {
+      "command": "unbound",
+      "keys": "alt+space"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+comma"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+comma"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+n"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+tab"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+insert"
+    },
+    {
+      "command": "unbound",
+      "keys": "enter"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+c"
+    },
+    {
+      "command": "unbound",
+      "keys": "alt+f4"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+w"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+d"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+alt+left"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+t"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+alt+comma"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+space"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+b"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+alt+minus"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+alt+plus"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "down"
+      },
+      "id": "User.splitPane.D5151347",
+      "keys": "alt+down"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "right"
+      },
+      "id": "User.moveFocus.87C324ED",
+      "keys": "ctrl+right"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "right"
+      },
+      "id": "User.splitPane.864CD510",
+      "keys": "alt+right"
+    },
+    {
+      "command": {
+        "action": "swapPane",
+        "direction": "left"
+      },
+      "id": "User.swapPane.2A0DA8E0",
+      "keys": "alt+left"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "up"
+      },
+      "id": "User.splitPane.B39B174B",
+      "keys": "alt+up"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "down"
+      },
+      "id": "User.moveFocus.F747588A",
+      "keys": "ctrl+down"
+    },
+    {
+      "command": {
+        "action": "newTab"
+      },
+      "id": "User.newTab.5DEADB41",
+      "keys": "ctrl+t"
+    },
+    {
+      "command": "selectAll",
+      "id": "User.selectAll",
+      "keys": "ctrl+a"
+    },
+    {
+      "command": {
+        "action": "newWindow"
+      },
+      "id": "User.newWindow.5DEADB41",
+      "keys": "ctrl+alt+t"
+    },
+    {
+      "command": {
+        "action": "prevTab"
+      },
+      "id": "User.prevTab.0",
+      "keys": "ctrl+shift+left"
+    },
+    {
+      "command": "paste",
+      "id": "User.paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": {
+        "action": "clearBuffer",
+        "clear": "all"
+      },
+      "id": "User.clearBuffer.87C324ED",
+      "keys": "ctrl+alt+c"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "left"
+      },
+      "id": "User.moveFocus.2A0DA8E0",
+      "keys": "ctrl+left"
+    },
+    {
+      "command": "toggleBlockSelection",
+      "id": "User.toggleBlockSelection"
+    },
+    {
+      "command": {
+        "action": "nextTab"
+      },
+      "id": "User.nextTab.0",
+      "keys": "ctrl+shift+right"
+    },
+    {
+      "command": "closePane",
+      "id": "User.closePane",
+      "keys": "ctrl+w"
+    },
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "id": "User.copy.644BA8F2",
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "find",
+      "id": "User.find",
+      "keys": "ctrl+f"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "up"
+      },
+      "id": "User.moveFocus.6CD791B",
+      "keys": "ctrl+up"
+    }
+  ],
+  "alwaysShowNotificationIcon": false,
+  "alwaysShowTabs": true,
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "focusFollowMouse": false,
+  "initialCols": 70,
+  "initialRows": 20,
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": {
+        "dark": "rose-pine",
+        "light": "rose-pine-dawn"
+      },
+      "experimental.rightClickContextMenu": true,
+      "font": {
+        "face": "GohuFont uni14 Nerd Font Mono",
+        "size": 15
+      },
+      "intenseTextStyle": "all",
+      "opacity": 70,
+      "useAcrylic": true
+    },
+    "list": [
+      {
+        "adjustIndistinguishableColors": "always",
+        "antialiasingMode": "cleartype",
+        "colorScheme": {
+          "dark": "rose-pine",
+          "light": "rose-pine-dawn"
+        },
+        "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe --nologo",
+        "cursorShape": "bar",
+        "experimental.retroTerminalEffect": false,
+        "font": {
+          "face": "GohuFont uni14 Nerd Font Mono",
+          "size": 15
+        },
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "historySize": 9001,
+        "icon": "\ud83e\udd69",
+        "name": "local",
+        "opacity": 70,
+        "useAcrylic": true
+      },
+      {
+        "colorScheme": {
+          "dark": "rose-pine",
+          "light": "rose-pine-dawn"
+        },
+        "experimental.retroTerminalEffect": false,
+        "font": {
+          "face": "GohuFont uni14 Nerd Font Mono"
+        },
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "icon": "\ud83e\udea6",
+        "name": "CMD",
+        "opacity": 70
+      },
+      {
+        "adjustIndistinguishableColors": "always",
+        "altGrAliasing": true,
+        "antialiasingMode": "grayscale",
+        "closeOnExit": "automatic",
+        "colorScheme": {
+          "dark": "rose-pine",
+          "light": "rose-pine-dawn"
+        },
+        "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "cursorShape": "bar",
+        "elevate": true,
+        "experimental.retroTerminalEffect": false,
+        "font": {
+          "face": "GohuFont uni14 Nerd Font Mono",
+          "size": 15
+        },
+        "guid": "{f8e475ea-15d1-4900-ab73-d96ea681b6b3}",
+        "hidden": false,
+        "historySize": 9001,
+        "icon": "\ud83e\udeb7",
+        "name": "local:admin",
+        "opacity": 70,
+        "padding": "8, 8, 8, 8",
+        "snapOnInput": true,
+        "startingDirectory": "%USERPROFILE%",
+        "useAcrylic": true
+      },
+      {
+        "font": {
+          "face": "GohuFont uni14 Nerd Font Mono"
+        },
+        "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
+        "hidden": false,
+        "name": "Ubuntu 24.04.1 LTS",
+        "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#191724",
+      "black": "#26233A",
+      "blue": "#9CCFD8",
+      "brightBlack": "#6E6A86",
+      "brightBlue": "#9CCFD8",
+      "brightCyan": "#EBBCBA",
+      "brightGreen": "#31748F",
+      "brightPurple": "#C4A7E7",
+      "brightRed": "#EB6F92",
+      "brightWhite": "#E0DEF4",
+      "brightYellow": "#F6C177",
+      "cursorColor": "#F4EDE8",
+      "cyan": "#EBBCBA",
+      "foreground": "#E0DEF4",
+      "green": "#31748F",
+      "name": "rose-pine",
+      "purple": "#C4A7E7",
+      "red": "#EB6F92",
+      "selectionBackground": "#F4EDE8",
+      "white": "#E0DEF4",
+      "yellow": "#F6C177"
+    },
+    {
+      "background": "#FAF4ED",
+      "black": "#F2E9DE",
+      "blue": "#56949F",
+      "brightBlack": "#6E6A86",
+      "brightBlue": "#56949F",
+      "brightCyan": "#D7827E",
+      "brightGreen": "#286983",
+      "brightPurple": "#907AA9",
+      "brightRed": "#B4637A",
+      "brightWhite": "#575279",
+      "brightYellow": "#EA9D34",
+      "cursorColor": "#9893A5",
+      "cyan": "#D7827E",
+      "foreground": "#575279",
+      "green": "#286983",
+      "name": "rose-pine-dawn",
+      "purple": "#907AA9",
+      "red": "#B4637A",
+      "selectionBackground": "#403D52",
+      "white": "#575279",
+      "yellow": "#EA9D34"
+    },
+    {
+      "background": "#232136",
+      "black": "#393552",
+      "blue": "#9CCFD8",
+      "brightBlack": "#817C9C",
+      "brightBlue": "#9CCFD8",
+      "brightCyan": "#EA9A97",
+      "brightGreen": "#3E8FB0",
+      "brightPurple": "#C4A7E7",
+      "brightRed": "#EB6F92",
+      "brightWhite": "#E0DEF4",
+      "brightYellow": "#F6C177",
+      "cursorColor": "#59546D",
+      "cyan": "#EA9A97",
+      "foreground": "#E0DEF4",
+      "green": "#3E8FB0",
+      "name": "rose-pine-moon",
+      "purple": "#C4A7E7",
+      "red": "#EB6F92",
+      "selectionBackground": "#312F44",
+      "white": "#E0DEF4",
+      "yellow": "#F6C177"
+    }
+  ],
+  "showTabsInTitlebar": true,
+  "showTerminalTitleInTitlebar": true,
+  "tabWidthMode": "equal",
+  "theme": "system",
+  "themes": [],
+  "useAcrylicInTabRow": true
+}

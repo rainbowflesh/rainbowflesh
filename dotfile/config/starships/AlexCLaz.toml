@@ -1,0 +1,117 @@
+# https://github.com/AlexCLaz/starship-theme
+
+format = """
+$hostname\
+$localip\
+$username\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$c\
+$cmake\
+$cobol\
+$daml\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$guix_shell\
+$haskell\
+$haxe\
+$helm\
+$java\
+$julia\
+$kotlin\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$opa\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$raku\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$swift\
+$terraform\
+$vlang\
+$vagrant\
+$zig\
+$buf\
+$nix_shell\
+$conda\
+$meson\
+$spack\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$env_var\
+$crystal\
+$custom\
+$sudo\
+$jobs\
+$battery\
+$package\
+$fill\
+$cmd_duration\
+$time\
+$line_break\
+$character\
+"""
+
+[username]
+show_always = true
+disabled = false
+
+[directory]
+truncation_length = 10
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[package]
+format = '[$version](208 bold) '
+
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[✗](bold red) '
+
+[git_branch]
+symbol = '🌱 '
+
+[fill] 
+symbol = '-'
+
+[cmd_duration]
+min_time = 500
+format = '[ $duration ](bold yellow)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+format = '[$time]($style)'
+
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 100
+
+# Disable the blank line at the start of the prompt
+add_newline = false
