@@ -1,11 +1,11 @@
 :root {
   /* color platte */
-  --vscode-editor-selectionBackground: light-dark(#403d52, #dfdad9) !important;
+  --vscode-editor-selectionBackground: #403d52 !important;
   --accent: ACCENT_COLOR;
   --app-bg: APP_BG;
   --accent-pressed-bg: ACCENT_PRESSED_COLOR;
   --accent-hover: ACCENT_HOVER_COLOR;
-  --card-bg: light-dark(CARD_LIGHT_BG_COLOR, CARD_DARK_BG_COLOR);
+  --card-bg: CARD_DARK_BG_COLOR;
 
   /* animation */
   --easing-curve-in: cubic-bezier(0, 0, 0, 1);
@@ -191,7 +191,6 @@
 .remote-kind {
   background-color: transparent !important;
 }
-
 .monaco-list-row.focused.selected .monaco-tl-row .monaco-tl-contents {
   border-left: 1px solid rgba(255, 255, 255, 0.8);
 }
