@@ -9,7 +9,6 @@ I'm RainbowFlesh
 - 🚀 Newbie rocket engineer :p
 - 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator.
 - 🤓 Training the "taste" of programming.
-- [whoimi?](./resume.md)
 
 I call myself a lofty tone geek.
 
