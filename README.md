@@ -2,10 +2,11 @@
 
 # Greeting fellow!
 
-I'm RainbowFlesh former Counter-Unmanned-Aerial-Systems researcher and UAV engineer.
+I'm RainbowFlesh
 
-- 😎 Working on [zeewind-uav.com](https://www.zeewind-uav.com)
-- 🏋️ Seasoned in cybersecurity and UAV Swarm networking, hacking, simulating, and target tracking :p
+- 😎 Former UAV engineer in [zeewind-uav.com](https://www.zeewind-uav.com), now working on avionics and aerospace materials science.
+- 🏋️ Seasoned in cybersecurity and UAV Swarm network hacking and target tracking;
+- 🚀 Newbie rocket engineer :p
 - 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator.
 - 🤓 Training the "taste" of programming.
 - [whoimi?](./resume.md)
