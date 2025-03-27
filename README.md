@@ -8,7 +8,7 @@ I'm RainbowFlesh
 - 🏋️ Seasoned in cybersecurity and UAV Swarm network hacking and target tracking;
 - 🚀 Newbie rocket engineer :p
 - 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator.
-- 🤓 Training the "taste" of programming.
+- ❌ Programming taste sh*t.
 
 I call myself a lofty tone geek.
 
