@@ -169,16 +169,8 @@
     "command": "-workbench.action.files.saveWithoutFormatting"
   },
   {
-    "key": "ctrl+shift+alt+s",
-    "command": "workbench.action.files.saveAs"
-  },
-  {
     "key": "ctrl+shift+s",
     "command": "-workbench.action.files.saveAs"
-  },
-  {
-    "key": "ctrl+oem_3",
-    "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
     "key": "ctrl+alt+b",
@@ -198,5 +190,57 @@
     "key": "ctrl+shift+enter",
     "command": "-editor.action.insertLineBefore",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+i",
+    "command": "workbench.action.chat.openInEditor",
+    "when": "chatIsEnabled"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "filesExplorer.findInFolder",
+    "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !inputFocus"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-filesExplorer.findInFolder",
+    "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !inputFocus"
+  },
+  {
+    "key": "ctrl+oem_3",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+oem_3",
+    "command": "workbench.action.createTerminalEditor"
   }
 ]

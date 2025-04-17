@@ -44,6 +44,7 @@
   background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
   border: var(--border) !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* ------------ Hover popups ------------ */
@@ -51,6 +52,7 @@
   backdrop-filter: var(--acrylic) !important;
   background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  border-radius: var(--border-radius) !important;
 }
 .editor-group-container {
   border-left: var(--border) !important;
