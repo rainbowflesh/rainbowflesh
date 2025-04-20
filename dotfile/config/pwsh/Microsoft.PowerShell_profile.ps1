@@ -1,37 +1,48 @@
 $SCRIPTS_DIR = "$HOME\Developments\rainbowflesh\src\scripts"
 
-$themes = Get-ChildItem "$env:POSH_THEMES_PATH" -Filter *.omp.json | Select-Object -ExpandProperty FullName
+# oh my posh random theme
+$themes = Get-ChildItem "$ENV:POSH_THEMES_PATH" -Filter *.omp.json | Select-Object -ExpandProperty FullName
 $randomTheme = Get-Random -InputObject $themes
 oh-my-posh init pwsh --config "$randomTheme" | Invoke-Expression
 
-. $SCRIPTS_DIR\zoxide.ps1
+# init conda
+. "$ENV:USERPROFILE\AppData\Local\Programs\miniconda\shell\condabin\conda-hook.ps1"
 
-Set-Alias -Name z -Value __zoxide_z -Option AllScope -Scope Global -Force
-Set-Alias -Name zi -Value __zoxide_zi -Option AllScope -Scope Global -Force
+# config eza
+$ENV:EZA_CONFIG_DIR = "$ENV:USERPROFILE\.config\eza"
+# init fzf
+$ENV:FZF_DEFAULT_OPTS = @"
+    --color=fg:#908caa,bg:#191724,hl:#ebbcba
+    --color=fg+:#e0def4,bg+:#26233a,hl+:#ebbcba
+    --color=border:#403d52,header:#31748f,gutter:#191724
+    --color=spinner:#f6c177,info:#9ccfd8
+    --color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa
+"@
 
+# init zoxide
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
+$ZoxideFzfOpts = '--layout=reverse --height=30%'
+$ENV:_ZO_FZF_OPTS = "$ENV:FZF_DEFAULT_OPTS $ZoxideFzfOpts"
 
+# init PSReadline
 Import-Module PSReadline -ErrorAction SilentlyContinue
-Import-Module "$env:USERPROFILE\Documents\PowerShell\Modules\PSFzf\2.6.7\PSFzf.psm1" -ErrorAction SilentlyContinue
+Import-Module "$ENV:USERPROFILE\Documents\PowerShell\Modules\PSFzf\2.6.7\PSFzf.psm1" -ErrorAction SilentlyContinue
 
 # Override PSReadLine's history search
 Set-PsFzfOption -PSReadlineChordReverseHistory 'Ctrl+r'
 Set-PsFzfOption -TabExpansion
 
 # Override default tab completion
-$PsFzfDesc = 'Uses PSReadline''s Completion results at any given cursor position and context ' +
-'as the source for PsFzf''s module wrapper for fzf.exe'
 $PsFzfParam = @{
-    Chord            = 'Tab'
-    BriefDescription = 'Fzf Tab Completion'
-    Description      = $PsFzfDesc
-    ScriptBlock      = { Invoke-FzfTabCompletion }
+    Chord       = 'Tab'
+    Description = $PsFzfDesc
+    ScriptBlock = { Invoke-FzfTabCompletion }
 }
 Set-PSReadLineKeyHandler @PsFzfParam
 Set-PsFzfOption -TabContinuousTrigger "Tab"
 
-# config eza
-$env:EZA_CONFIG_DIR = "$env:USERPROFILE\.config\eza"
+# PSFzf fzf options
+$ENV:_PSFZF_FZF_DEFAULT_OPTS = "$ENV:FZF_DEFAULT_OPTS $ZoxideFzfOpts --preview-window 'hidden'"
 
 # Aliases
 # script shortcuts
@@ -54,6 +65,7 @@ function ezals {
 Set-Alias -Name ls -Value "ezals" -Option AllScope
 Set-Alias -Name l -Value "ezals" -Option AllScope
 Set-Alias -Name cd -Value "z" -Option AllScope
+Set-Alias -Name cdr -Value "zi" -Option AllScope
 Set-Alias -Name zip -Value "Compress-Archive" -Option AllScope
 Set-Alias -Name vim -Value 'hx' -Option AllScope
 Set-Alias -Name mklink -Value New-Item
