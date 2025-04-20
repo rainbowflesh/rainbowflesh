@@ -1,70 +1,62 @@
 $SCRIPTS_DIR = "$HOME\Developments\rainbowflesh\src\scripts"
-# $starships = "$HOME\.config\starships\"
-# $starshipThemes = Get-ChildItem $starships | Where-Object { $_.PSIsContainer -eq $false }
-# $fileCount = $starshipThemes.Count
-
-# # init starship
-# $ENV:STARSHIP_CONFIG = "$starships\$randomFile"
-# Invoke-Expression (&starship init powershell)
-# Invoke-Expression (& {
-#         $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
-#     (zoxide init --hook $hook powershell | Out-String)
-#     })
-
-# if ($fileCount -gt 0) {
-#     $randomIndex = Get-Random -Minimum 0 -Maximum $fileCount
-#     $randomFile = $starshipThemes[$randomIndex].Name
-#     Write-Host " [starship] Random theme $randomFile loaded"
-# }
 
 $themes = Get-ChildItem "$env:POSH_THEMES_PATH" -Filter *.omp.json | Select-Object -ExpandProperty FullName
 $randomTheme = Get-Random -InputObject $themes
 oh-my-posh init pwsh --config "$randomTheme" | Invoke-Expression
 
-Import-Module -Name Terminal-Icons
+. $SCRIPTS_DIR\zoxide.ps1
 
-if ($host.Name -eq 'ConsoleHost') {
-    Import-Module PSReadLine
+Set-Alias -Name z -Value __zoxide_z -Option AllScope -Scope Global -Force
+Set-Alias -Name zi -Value __zoxide_zi -Option AllScope -Scope Global -Force
 
-    # Binding for moving through history by prefix
-    Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
-    Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
-}
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
 
-Import-Module PSFzf -ErrorAction SilentlyContinue
-function Invoke-FzfTabCompletionOverride {
-    $script:continueCompletion = $true
-    do {
-        $script:continueCompletion = Invoke-FzfTabCompletionInner
-    } while ($script:continueCompletion)
-}
+Import-Module PSReadline -ErrorAction SilentlyContinue
+Import-Module "$env:USERPROFILE\Documents\PowerShell\Modules\PSFzf\2.6.7\PSFzf.psm1" -ErrorAction SilentlyContinue
 
 # Override PSReadLine's history search
 Set-PsFzfOption -PSReadlineChordReverseHistory 'Ctrl+r'
+Set-PsFzfOption -TabExpansion
 
 # Override default tab completion
 $PsFzfDesc = 'Uses PSReadline''s Completion results at any given cursor position and context ' +
 'as the source for PsFzf''s module wrapper for fzf.exe'
 $PsFzfParam = @{
-    Chord            = 'Tab,Tab'
+    Chord            = 'Tab'
     BriefDescription = 'Fzf Tab Completion'
     Description      = $PsFzfDesc
-    ScriptBlock      = { Invoke-FzfTabCompletionOverride }
+    ScriptBlock      = { Invoke-FzfTabCompletion }
 }
 Set-PSReadLineKeyHandler @PsFzfParam
+Set-PsFzfOption -TabContinuousTrigger "Tab"
+
+# config eza
+$env:EZA_CONFIG_DIR = "$env:USERPROFILE\.config\eza"
 
 # Aliases
 # script shortcuts
 Set-Alias -Name dowaifu2x -Value "$SCRIPTS_DIR\waifu2x.ps1"
 Set-Alias -Name killfilecoauth -Value "$SCRIPTS_DIR\kill_filecoauth.exe.ps1"
 
-## Linux style
-Set-Alias -Name cat -Value bat -Option AllScope # --theme="Solarized (light)" --style=plain
+## Linux style aliases
+function whereis {
+    & "$SCRIPTS_DIR\whereis.ps1" @args
+}
+
+function cat {
+    bat --theme="ansi" --style=plain @args
+}
+
+function ezals {
+    eza --icons=auto --group-directories-first @args
+}
+
+Set-Alias -Name ls -Value "ezals" -Option AllScope
+Set-Alias -Name l -Value "ezals" -Option AllScope
 Set-Alias -Name cd -Value "z" -Option AllScope
+Set-Alias -Name zip -Value "Compress-Archive" -Option AllScope
+Set-Alias -Name vim -Value 'hx' -Option AllScope
+Set-Alias -Name mklink -Value New-Item
 Set-Alias -Name grep -Value Select-String
-Set-Alias -Name l -Value 'ls'
-Set-Alias -Name mklink -Value New-Item -Option AllScope -Description 'Creates a symbolic link'
-Set-Alias -Name vim -Value 'hx'
-Set-Alias -Name whereis -Value Get-Command
 Set-Alias -Name which -Value Get-Command
 Set-Alias -Name py -Value python
