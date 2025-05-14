@@ -61,7 +61,6 @@
 }
 .editor-group-container {
   border-left: var(--border) !important;
-  /* border-right: var(--border) !important; .active*/
 }
 
 /* ------------ Tabs ------------ */

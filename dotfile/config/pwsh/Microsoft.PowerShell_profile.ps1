@@ -1,12 +1,28 @@
 $SCRIPTS_DIR = "$HOME\Developments\rainbowflesh\src\scripts"
 
+# $starships = "$HOME\.config\starships\"
+# $files = Get-ChildItem $starships | Where-Object { $_.PSIsContainer -eq $false }
+# $fileCount = $files.Count
+# if ($fileCount -gt 0) {
+#     $randomIndex = Get-Random -Minimum 0 -Maximum $fileCount
+#     $randomFile = $files[$randomIndex].Name
+#     Write-Host " [starship] Random theme $randomFile loaded"
+# }
+
+# $ENV:STARSHIP_CONFIG = "$starships\$randomFile"
+# Invoke-Expression (&starship init powershell)
+# Invoke-Expression (& {
+#         $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
+#     (zoxide init --hook $hook powershell | Out-String)
+#     })
+
 # oh my posh random theme
 $themes = Get-ChildItem "$ENV:POSH_THEMES_PATH" -Filter *.omp.json | Select-Object -ExpandProperty FullName
 $randomTheme = Get-Random -InputObject $themes
 oh-my-posh init pwsh --config "$randomTheme" | Invoke-Expression
 
 # init conda
-. "$ENV:USERPROFILE\AppData\Local\Programs\miniconda\shell\condabin\conda-hook.ps1"
+Import-Module "$Env:_CONDA_ROOT\shell\condabin\Conda.psm1"
 
 # config eza
 $ENV:EZA_CONFIG_DIR = "$ENV:USERPROFILE\.config\eza"
@@ -26,23 +42,17 @@ $ENV:_ZO_FZF_OPTS = "$ENV:FZF_DEFAULT_OPTS $ZoxideFzfOpts"
 
 # init PSReadline
 Import-Module PSReadline -ErrorAction SilentlyContinue
-Import-Module "$ENV:USERPROFILE\Documents\PowerShell\Modules\PSFzf\2.6.7\PSFzf.psm1" -ErrorAction SilentlyContinue
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+Set-PSReadLineOption -HistorySearchCursorMovesToEnd
 
-# Override PSReadLine's history search
-Set-PsFzfOption -PSReadlineChordReverseHistory 'Ctrl+r'
-Set-PsFzfOption -TabExpansion
-
-# Override default tab completion
-$PsFzfParam = @{
-    Chord       = 'Tab'
-    Description = $PsFzfDesc
-    ScriptBlock = { Invoke-FzfTabCompletion }
-}
-Set-PSReadLineKeyHandler @PsFzfParam
-Set-PsFzfOption -TabContinuousTrigger "Tab"
-
+# init PSFzf
+Import-Module PSFzf
 # PSFzf fzf options
 $ENV:_PSFZF_FZF_DEFAULT_OPTS = "$ENV:FZF_DEFAULT_OPTS $ZoxideFzfOpts --preview-window 'hidden'"
+# Override PSReadLine's history search
+Set-PsFzfOption -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # Aliases
 # script shortcuts
@@ -62,13 +72,21 @@ function ezals {
     eza --icons=auto --group-directories-first @args
 }
 
+function ln ($target, $link) {
+    New-Item -Path $link -ItemType SymbolicLink -Value $target
+}
+
+function hln ($target, $link) {
+    New-Item -Path $link -ItemType HardLink -Value $target
+}
+
+Set-Alias -Name grep -Value Select-String
+Set-Alias -Name which -Value Get-Command
+
 Set-Alias -Name ls -Value "ezals" -Option AllScope
 Set-Alias -Name l -Value "ezals" -Option AllScope
 Set-Alias -Name cd -Value "z" -Option AllScope
 Set-Alias -Name cdr -Value "zi" -Option AllScope
 Set-Alias -Name zip -Value "Compress-Archive" -Option AllScope
 Set-Alias -Name vim -Value 'hx' -Option AllScope
-Set-Alias -Name mklink -Value New-Item
-Set-Alias -Name grep -Value Select-String
-Set-Alias -Name which -Value Get-Command
-Set-Alias -Name py -Value python
+Set-Alias -Name py -Value 'python' -Option AllScope

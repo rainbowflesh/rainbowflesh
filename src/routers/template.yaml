@@ -1,0 +1,407 @@
+rules:
+  # process
+  - PROCESS-NAME,Mordhau-Win64-Shipping.exe,DIRECT
+  - PROCESS-NAME,Mordhau.exe,DIRECT
+  - PROCESS-NAME,TeraBoxUnite.exe,Select
+  - PROCESS-NAME,TeraBoxHost.exe,Select
+  - PROCESS-NAME,TeraBox.exe,Select
+  - PROCESS-NAME,WeMod.exe,Select
+
+  # game
+  - DOMAIN-SUFFIX,e4mc.link,Game
+
+  # no proxy
+  - DOMAIN-KEYWORD,prod,DIRECT
+  - DOMAIN-KEYWORD,18comic,DIRECT
+  - DOMAIN-KEYWORD,jmcomic,DIRECT
+  - DOMAIN-KEYWORD,1080pzy,DIRECT
+  - DOMAIN-KEYWORD,gsuus,DIRECT
+  - DOMAIN-KEYWORD,ffzy,DIRECT
+  - DOMAIN-KEYWORD,lz-cdn,DIRECT
+  - DOMAIN-KEYWORD,mixdrop,DIRECT
+  - DOMAIN-KEYWORD,epic,DIRECT
+  - DOMAIN-KEYWORD,moyu,DIRECT
+
+  # handle proxy
+  - DOMAIN-KEYWORD,copymanga,Select
+  - DOMAIN-KEYWORD,bing,Select
+
+  # GEO-IPs
+  - DOMAIN-SUFFIX,miconisomi.com,JP
+  - DOMAIN-SUFFIX,makersuite.google.com,US
+  - DOMAIN-KEYWORD,nekohouse,US
+  - DOMAIN-KEYWORD,kemono,US
+  - DOMAIN-KEYWORD,anime1,TW
+
+  # based
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - GEOIP,TW,TW
+  - GEOIP,JP,JP
+  - RULE-SET,custom_direct,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,custom_reject,REJECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,custom_gfw,Select
+  - RULE-SET,gfw,Select
+  - MATCH,Select
+
+proxy-groups:
+  - name: Select
+    type: select
+    proxies:
+      - Random
+      - Mega
+      - Sakuracat
+      - Tagcdn
+    use:
+      - all
+      - tagcdn
+
+  - name: Game
+    proxies:
+      - DIRECT
+    use:
+      - ap
+    type: select
+
+  - name: Random
+    use:
+      - mega
+      - sakuracat
+      - tagcdn
+    type: load-balance
+    strategy: round-robin
+
+  - name: Mega
+    use:
+      - mega
+    type: load-balance
+    strategy: round-robin
+
+  - name: Tagcdn
+    use:
+      - tagcdn
+    type: load-balance
+    strategy: round-robin
+    interval: 36000
+
+  - name: Sakuracat
+    use:
+      - sakuracat
+    type: load-balance
+    strategy: round-robin
+    interval: 36000
+
+  # ------------ GEOIP ------------
+  - name: JP
+    use:
+      - jp
+    type: load-balance
+    strategy: round-robin
+    interval: 36000
+  - name: TW
+    use:
+      - tw
+    type: load-balance
+    strategy: round-robin
+    interval: 36000
+  - name: US
+    use:
+      - us
+    type: load-balance
+    strategy: round-robin
+    interval: 36000
+
+proxy-providers:
+  all:
+    type: http
+    url: https://api.sublink.dev/sub?target=clash&url=https://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=|http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&list=true&tfo=false&fdn=true
+    path: ./providers/all.yml
+    interval: 604800
+  mega:
+    type: http
+    url: https://api.sublink.dev/sub?target=clash&url=https://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&emoji=false&list=true&tfo=false&fdn=true&sort=true&new_name=true&exclude=[%E8%B7%9D%E5%A5%97%E6%B8%B8%E6%B5%81%E8%BD%AC%E5%80%8D%E5%9C%9F%E4%BF%84%E4%B9%8C%E5%B0%BC%E5%B7%B4%E6%84%8F%E6%B3%B0%E6%BE%B3%E8%B6%8A%E9%98%BF%E9%A9%AC]
+    path: ./providers/mega.yml
+    interval: 604800
+  sakuracat:
+    type: http
+    url: https://api.sublink.dev/sub?target=clash&url=http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&emoji=false&list=true&tfo=false&fdn=true&sort=true&new_name=true&exclude=[%E8%B7%9D%E5%A5%97%E6%B8%B8%E6%B5%81%E8%BD%AC%E5%80%8D%E5%9C%9F]&include=%E8%BF%9B%E9%98%B6|iepl|IEPL
+    path: ./providers/sakuracat.yml
+    interval: 604800
+  tagcdn:
+    type: http
+    url: https://www.nameless13.com/sub?target=clash&url=https://sublink.dev/subscribe/qayxgn-rih-splm|http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&emoji=false&list=true&tfo=false&fdn=true&sort=true&new_name=true&udp=true&include=United%20State|%E7%BE%8E%E5%9B%BD&exclude=[%E5%80%8D%E6%B5%81%E6%B8%B8%E4%B8%AD]
+    path: ./providers/us.yml
+    interval: 604800
+
+  # ------------ GEOIP ------------
+  ap:
+    type: http
+    url: https://api.sublink.dev/sub?target=clash&url=http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=|http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&emoji=false&list=true&tfo=false&fdn=true&sort=true&new_name=true&include=[%E6%97%A5%E9%97%A8%E6%B8%AF%E5%8F%B0]
+    path: ./providers/ap.yml
+    interval: 604800
+  jp:
+    type: http
+    url: https://api.sublink.dev/sub?target=clash&url=http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=|http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&emoji=false&list=true&tfo=false&fdn=true&sort=true&new_name=true&include=%E6%97%A5%E6%9C%AC
+    path: ./providers/jp.yml
+    interval: 604800
+  tw:
+    type: http
+    url: https://api.sublink.dev/sub?target=clash&url=http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=|http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&emoji=false&list=true&tfo=false&fdn=true&sort=true&new_name=true&include=%E5%8F%B0%E6%B9%BE
+    path: ./providers/tw.yml
+    interval: 604800
+  us:
+    type: http
+    url: https://api.sublink.dev/sub?target=clash&url=http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=|http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&emoji=false&list=true&tfo=false&fdn=true&sort=true&new_name=true&include=%E7%BE%8E%E5%9B%BD
+    path: ./providers/us.yml
+    interval: 604800
+  game:
+    type: http
+    url: https://api.sublink.dev/sub?target=clash&url=http://0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com/api/v1/client/subscribe?token=&include=[%E6%B8%B8%E5%80%8D%E5%8F%B0%E6%B8%AF%E9%A9%AC]&list=true
+    path: ./providers/game.yml
+    interval: 604800
+
+rule-providers:
+  # ------------ REJECT ------------
+  custom_reject:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/rainbowflesh/rainbowflesh@main/src/routers/custom_reject.yaml
+    path: ./ruleset/custom_reject.yaml
+    interval: 604800
+  reject:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
+    path: ./ruleset/reject.yaml
+    interval: 604800
+
+  # ------------ DIRECT ------------
+  custom_direct:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/rainbowflesh/rainbowflesh@main/src/routers/custom_direct.yaml
+    path: ./ruleset/custom_direct.yaml
+    interval: 604800
+  private:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+    path: ./ruleset/private.yaml
+    interval: 604800
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
+    path: ./ruleset/cncidr.yaml
+    interval: 604800
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+    path: ./ruleset/lancidr.yaml
+    interval: 604800
+
+  # ------------ GFW ------------
+  custom_gfw:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/rainbowflesh/rainbowflesh@main/src/routers/custom_gfw.yaml
+    path: ./ruleset/custom_gfw.yaml
+    interval: 604800
+  gfw:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt
+    path: ./ruleset/gfw.yaml
+    interval: 604800
+
+# ------------ config ------------
+experimental:
+  sniff-tls-sni: true
+find-process-mode: strict
+
+dns:
+  enable: true
+  listen: 127.0.0.1:8853
+  ipv6: false
+  prefer-h3: true
+  enhanced-mode: fake-ip
+  default-nameserver:
+    - 1.0.0.1
+    - 8.8.4.4
+    - 8.8.8.8
+    - 114.114.114.114
+  nameserver:
+    - https://0ms.dev/dns-query
+    - https://1.0.0.1/dns-query
+    - https://101.101.101.101/dns-query
+    - https://101.102.103.104/dns-query
+    - https://149.112.112.112/dns-query
+    - https://208.67.220.220/dns-query#h3=true
+    - https://208.67.222.123/dns-query#h3=true
+    - https://208.67.222.222/dns-query#h3=true
+    - https://8.8.8.8/dns-query
+    - https://9.9.9.9/dns-query
+    - https://adfreedns.top/dns-query
+    - https://au01.dns4me.net
+    - https://au02.dns4me.net
+    - https://ca01.dns4me.net
+    - https://ca02.dns4me.net
+    - https://cloudflare-dns.com/dns-query
+    - https://de01.dns4me.net
+    - https://dns.alidns.com/dns-query
+    - https://dns.alidns.com/dns-query#h3=true
+    - https://dns.aquilenet.fr/dns-query
+    - https://dns.google/dns-query
+    - https://dns.nextdns.io/37b82b
+    - https://dns.pub/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://doh.360.cn/dns-query#h3=true
+    - https://doh.apad.pro/dns-query
+    - https://doh.futa.gg/dns-query
+    - https://doh.pub/dns-query
+    - https://doh.sb/dns-query
+    - https://freedns.controld.com/p0
+    - https://freedns.controld.com/uncensored
+    - https://ie01.dns4me.net
+    - https://jp01.dns4me.net
+    - https://max.rethinkdns.com/dns-query
+    - https://nz01.dns4me.net
+    - https://odvr.nic.cz/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - https://sa01.dns4me.net
+    - https://sg01.dns4me.net
+    - https://uk01.dns4me.net
+    - https://unfiltered.adguard-dns.com/dns-query
+    - https://us01.dns4me.net
+    - https://us02.dns4me.net
+    - tls://1.0.0.1
+    - tls://1.1.1.1
+    - tls://1.12.12.12
+    - tls://101.101.101.101/dns-query
+    - tls://120.53.53.53
+    - tls://208.67.222.222
+    - tls://223.5.5.5:853
+    - tls://223.6.6.6:853
+    - tls://37b82b.dns.nextdns.io
+    - tls://8.8.4.4
+    - tls://dns.alidns.com
+    - tls://dns.alidns.com:853
+    - tls://dns.google
+    - tls://dns.google:853
+    - tls://dns.quad9.net:853
+    - tls://dot.pub
+    - tls://dot.pub:853
+    - tls://dot.sb:853
+    - tls://one.one.one.one:853
+  nameserver-policy:
+    "geosite:cn,private":
+      - tls://223.5.5.5:853
+      - tls://223.6.6.6:853
+      - https://223.5.5.5/dns-query#h3=true
+      - https://223.6.6.6/dns-query#h3=true
+      - https://doh.360.cn/dns-query#h3=true
+      - https://208.67.220.220/dns-query#h3=true
+      - https://208.67.222.123/dns-query#h3=true
+      - https://208.67.222.222/dns-query#h3=true
+      - https://dns.alidns.com/dns-query#h3=true
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.ipv6.microsoft.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - ff.dorado.sdo.com
+    - "*.mcdn.bilivideo.cn"
+    - +.media.dssott.com
+    - +.pvp.net
