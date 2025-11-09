@@ -4,7 +4,7 @@
 
 I'm RainbowFlesh
 
-- 😎 Former UAV engineer in [zeewind-uav.com](https://www.zeewind-uav.com), now working on avionics and aerospace materials science.
+- 😎 Former UAV engineer in [zeewind-uav.com](https://www.zeewind-uav.com), now working on gamedev.
 - 🏋️ Seasoned in cybersecurity and UAV Swarm network hacking and target tracking;
 - 🚀 Newbie rocket engineer :p
 - 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator.
