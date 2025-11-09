@@ -1,7 +1,5 @@
 :root {
   /* color platte */
-  --vscode-editor-selectionBackground: #403d52 !important;
-  --vscode-terminal-selectionBackground: #403d52 !important;
   --accent: ACCENT_COLOR;
   --app-bg: APP_BG;
   --accent-pressed-bg: ACCENT_PRESSED_COLOR;
@@ -51,8 +49,8 @@
 .suggest-widget,
 .suggest-details {
   backdrop-filter: var(--acrylic) !important;
-  background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  background-color: var(--card-bg) !important;
   border: var(--border) !important;
   border-radius: var(--border-radius) !important;
 }
@@ -60,8 +58,8 @@
 /* ------------ Hover popups ------------ */
 .monaco-editor .monaco-hover {
   backdrop-filter: var(--acrylic) !important;
-  background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  background-color: var(--card-bg) !important;
   border-radius: var(--border-radius) !important;
 }
 .editor-group-container {
@@ -98,8 +96,8 @@
 /* ------------ Tooltips ------------ */
 .workbench-hover {
   backdrop-filter: var(--acrylic) !important;
-  background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  background-color: var(--card-bg) !important;
   box-shadow: var(--depth-16);
 }
 
@@ -110,8 +108,8 @@
 /* ------------ Dropdown container ------------ */
 .monaco-select-box-dropdown-container > .select-box-dropdown-list-container {
   backdrop-filter: var(--acrylic) !important;
-  background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  background-color: var(--card-bg) !important;
   box-shadow: var(--flyout-shadow) !important;
 }
 
@@ -129,8 +127,8 @@
   border: var(--border) !important;
   border-radius: var(--border-radius) !important;
   backdrop-filter: var(--acrylic) !important;
-  background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  background-color: var(--card-bg) !important;
   min-height: 58px !important;
   box-shadow: 0px 2px 10px 4px var(--vscode-widget-shadow) !important;
 }
@@ -211,6 +209,11 @@
 }
 
 /* ------------ Editor Screen ------------ */
+.monaco-workbench .part.editor > .content .editor-group-container,
+#workbench\.parts\.editor {
+  border-radius: 8px;
+}
+
 .line-numbers {
   transform: scale(1);
   transition: all 10 linear;
@@ -244,8 +247,8 @@
   border: var(--border) !important;
   border-radius: var(--border-radius) !important;
   backdrop-filter: var(--acrylic) !important;
-  background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  background-color: var(--card-bg) !important;
 
   padding-top: 1px !important;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
@@ -281,16 +284,16 @@
 }
 .monaco-workbench .notifications-list-container {
   backdrop-filter: var(--acrylic) !important;
-  background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  background-color: var(--card-bg) !important;
 }
 
 /* ------------ Statusbar ------------ */
 .statusbar {
   box-shadow: var(--depth-8);
   backdrop-filter: var(--acrylic) !important;
-  background-color: var(--card-bg) !important;
   background: var(--noise-bg) repeat var(--app-bg) !important;
+  background-color: var(--card-bg) !important;
   border: var(--border) !important;
   animation: statusBarIn var(--easing-timing-normal) var(--easing-curve-in) forwards !important;
   animation-delay: 3s;
@@ -298,4 +301,11 @@
 
 .monaco-workbench .part.statusbar > .items-container > .statusbar-item {
   color: var(--foreground) !important;
+}
+
+/* menu bar */
+#workbench\.parts\.titlebar,
+/* primary sidebar */
+#workbench\.parts\.sidebar {
+  background-color: transparent !important;
 }

@@ -10,7 +10,11 @@
   "git.autofetch": true,
   "security.workspace.trust.untrustedFiles": "open",
   "vscode_vibrancy.opacity": 0,
-  "settingsSync.ignoredSettings": ["powershell.cwd", "vscode_vibrancy.theme", "http.proxy"],
+  "settingsSync.ignoredSettings": [
+    "powershell.cwd",
+    "vscode_vibrancy.theme",
+    "http.proxy"
+  ],
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "[javascript]": {
@@ -28,12 +32,13 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    "**/CVS": true,
-    "**/.ruby-lsp": true,
     "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
     "**/.factorypath": true,
+    "**/.project": true,
+    "**/.ruby-lsp": true,
+    "**/.settings": true,
+    "**/bin": true,
+    "**/CVS": true,
     "**/node_modules": true
   },
   "redhat.telemetry.enabled": false,
@@ -47,19 +52,27 @@
   "cSpell.language": "en,en-US,cn-ZH,zh,cn,en-GB,lorem",
   "cSpell.userWords": [
     "aircrack",
+    "ARASAKA",
+    "artbook",
+    "balabala",
+    "bgcolor",
     "DEEPSEEK",
     "dotenv",
     "Figtree",
     "fractaldildo",
     "gitee",
+    "jumpscare",
     "Kubernetes",
     "Minecraft",
+    "netrunner",
     "pewdiepie",
     "pixiv",
     "qiuqi",
     "rainbowflesh",
+    "restomod",
     "Tauri",
     "Tello",
+    "vaporwave",
     "vtuber",
     "waifu"
   ],
@@ -74,12 +87,14 @@
   "workbench.panel.defaultLocation": "right",
   "workbench.panel.opensMaximized": "never",
   "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#403d52",
     "terminal.selectionBackground": "#403d52",
-    "terminal.background": "#00000000"
+    "sideBar.background": "#00000000",
+    "quickInput.background": "#00000000",
+    "xx.background": "#00000000"
   },
   "editor.inlayHints.enabled": "off",
   "extensions.ignoreRecommendations": true,
-  "markdown.extension.print.theme": "dark",
   "markdown.preview.fontSize": 16,
   "markdown.preview.openMarkdownLinks": "inEditor",
   "markdown.preview.scrollEditorWithPreview": false,
@@ -104,7 +119,11 @@
     "editor.defaultFormatter": "ms-vscode.powershell"
   },
   "powershell.powerShellDefaultVersion": "posh",
-  "terminal.integrated.ignoreProcessNames": ["starship", "bash", "zsh"],
+  "terminal.integrated.ignoreProcessNames": [
+    "starship",
+    "bash",
+    "zsh"
+  ],
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "powershell.buttons.showPanelMovementButtons": true,
   "powershell.cwd": "C:\\\\Program Files\\\\PowerShell\\\\7\\\\",
@@ -114,14 +133,14 @@
     "posh": "C:\\\\Program Files\\\\PowerShell\\\\7\\\\pwsh.exe"
   },
   "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationAfterEveryPipeline",
-  "scm.inputFontSize": 15,
+  "scm.inputFontSize": 16,
   "debug.console.fontSize": 15,
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 16,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "cSpell.maxDuplicateProblems": 3,
   "cSpell.maxNumberOfProblems": 10,
@@ -129,13 +148,16 @@
   "cSpell.spellCheckOnlyWorkspaceFiles": true,
   "cSpell.spellCheckDelayMs": 1000,
   "cSpell.suggestionsTimeout": 200,
-  "editor.inlayHints.fontFamily": "SpaceMono Nerd Font Mono",
+  "editor.inlayHints.fontFamily": "DepartureMono Nerd Font Mono",
   "scm.inputFontFamily": "",
-  "editor.fontFamily": "SpaceMono Nerd Font Mono",
+  "editor.fontFamily": "Twilio Sans Mono",
   "debug.console.fontFamily": "AnonymicePro Nerd Font Mono",
-  "markdown.preview.fontFamily": "figtree",
-  "errorLens.fontFamily": "GohuFont uni14 Nerd Font Mono",
-  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+  "markdown.preview.fontFamily": "Atkinson Hyperlegible Next",
+  "errorLens.fontFamily": "DepartureMono Nerd Font Mono",
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
   "errorLens.enableOnDiffView": true,
   "errorLens.fontStyleItalic": true,
   "errorLens.gutterIconsEnabled": true,
@@ -154,7 +176,9 @@
     "editor.semanticHighlighting.enabled": true
   },
   "files.trimTrailingWhitespace": true,
-  "editor.rulers": [120],
+  "editor.rulers": [
+    120
+  ],
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.preferredHighContrastColorTheme": "Rosé Pine",
   "markdown.marp.themes": [
@@ -200,14 +224,19 @@
   "search.showLineNumbers": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "http.proxyStrictSSL": false,
-  "settingsSync.ignoredExtensions": ["s-nlf-fh.glassit", "nowsci.glassit-linux"],
+  "settingsSync.ignoredExtensions": [
+    "s-nlf-fh.glassit",
+    "nowsci.glassit-linux"
+  ],
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "{hexdiff}:/**/*.*": "hexEditor.hexedit",
     "*.db": "sqlite-viewer.option",
     "*.svg": "default"
   },
-  "errorLens.excludeBySource": ["compiler(UnusedVar)"],
+  "errorLens.excludeBySource": [
+    "compiler(UnusedVar)"
+  ],
   "cSpell.showSuggestionsLinkInEditorContextMenu": false,
   "go.editorContextMenuCommands": {
     "toggleTestFile": false,
@@ -223,7 +252,9 @@
   "hediet.vscode-drawio.resizeImages": null,
   "javascript.suggest.completeFunctionCalls": true,
   "xml.codeLens.enabled": true,
-  "xml.symbols.excluded": ["*.svg"],
+  "xml.symbols.excluded": [
+    "*.svg"
+  ],
   "go.toolsManagement.autoUpdate": true,
   "editor.suggest.snippetsPreventQuickSuggestions": true,
   "editor.gotoLocation.alternativeDefinitionCommand": "",
@@ -236,11 +267,10 @@
   "editor.find.autoFindInSelection": "multiline",
   "diffEditor.codeLens": true,
   "diffEditor.diffAlgorithm": "advanced",
-  "editor.minimap.autohide": true,
+  "editor.minimap.autohide": "mouseover",
   "files.autoGuessEncoding": true,
   "files.autoSaveDelay": 2000,
   "files.participants.timeout": 15000,
-  "files.simpleDialog.enable": true,
   "files.trimFinalNewlines": true,
   "workbench.editor.enablePreviewFromCodeNavigation": true,
   "workbench.editor.pinnedTabSizing": "shrink",
@@ -248,7 +278,7 @@
   "workbench.editor.wrapTabs": true,
   "telemetry.telemetryLevel": "error",
   "prettier.printWidth": 120,
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "notebook.formatOnSave.enabled": true,
   "editor.suggest.showStatusBar": true,
   "pythonIndent.useTabOnHangingIndent": true,
@@ -261,7 +291,11 @@
   "rust-analyzer.notifications.cargoTomlNotFound": false,
   "rust-analyzer.lens.run.enable": false,
   "rust-analyzer.lens.enable": false,
-  "rust-analyzer.diagnostics.warningsAsHint": ["dead_code", "unused_variables", "unreachable_code"],
+  "rust-analyzer.diagnostics.warningsAsHint": [
+    "dead_code",
+    "unused_variables",
+    "unreachable_code"
+  ],
   "rust-analyzer.hover.actions.debug.enable": false,
   "rust-analyzer.hover.actions.implementations.enable": false,
   "rust-analyzer.hover.actions.gotoTypeDef.enable": false,
@@ -285,20 +319,27 @@
   "github.copilot.advanced": {},
   "http.proxyAuthorization": null,
   "http.proxySupport": "fallback",
-  "remote.SSH.remotePlatform": {},
+  "remote.SSH.remotePlatform": {
+    "192.168.0.123": "linux",
+    "192.168.123.123": "linux",
+    "192.168.1.66": "linux"
+  },
   "files.associations": {
     "*.txt": "plaintext",
     "*.cjson": "jsonc",
     "*.wxss": "css",
     "*.wxs": "javascript",
-    "*.json": "jsonc"
+    "*.json": "jsonc",
+    "*.reds": "csharp"
   },
   "hide-node-modules.enable": true,
   "hide-node-modules.user-setting": true,
   "emmet.includeLanguages": {
     "wxml": "html"
   },
-  "workbench.settings.applyToAllProfiles": ["editor.formatOnSave"],
+  "workbench.settings.applyToAllProfiles": [
+    "editor.formatOnSave"
+  ],
   "editor.formatOnSave": true,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -318,7 +359,7 @@
   "editor.stickyScroll.maxLineCount": 1,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.suggest.shareSuggestSelections": true,
-  "editor.suggestFontSize": 14,
+  "editor.suggestFontSize": 15,
   "workbench.commandPalette.preserveInput": true,
   "breadcrumbs.showArrays": false,
   "breadcrumbs.showBooleans": false,
@@ -348,7 +389,6 @@
   "breadcrumbs.symbolPath": "last",
   "zenMode.hideActivityBar": false,
   "zenMode.hideStatusBar": false,
-  "zenMode.silentNotifications": false,
   "window.doubleClickIconToClose": true,
   "accessibility.dimUnfocused.opacity": 0.7,
   "explorer.confirmUndo": "light",
@@ -381,8 +421,12 @@
   },
   "editor.autoClosingComments": "never",
   "editor.autoClosingQuotes": "never",
-  "window.zoomLevel": 1,
-  "emmet.excludeLanguages": ["markdown", "js", "jsx", "tsx"],
+  "emmet.excludeLanguages": [
+    "markdown",
+    "js",
+    "jsx",
+    "tsx"
+  ],
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
@@ -399,12 +443,12 @@
   "workbench.iconTheme": "rose-pine-icons",
   "workbench.tree.stickyScrollMaxItemCount": 1,
   "editor.cursorStyle": "line",
-  "chat.editor.fontFamily": "figtree",
+  "chat.editor.fontFamily": "Atkinson Hyperlegible Next",
   "notebook.stickyScroll.enabled": true,
   "editor.stickyScroll.enabled": true,
   "editor.mouseWheelScrollSensitivity": 3,
   "editor.suggest.selectionMode": "whenQuickSuggestion",
-  "editor.inlineSuggest.fontFamily": "GohuFont uni14 Nerd Font Mono",
+  "editor.inlineSuggest.fontFamily": "DepartureMono Nerd Font Mono",
   "editor.hover.above": false,
   "[properties]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -428,9 +472,9 @@
   "thunder-client.sidebar.layout": "compact",
   "go.alternateTools": {},
   "editor.gotoLocation.alternativeDeclarationCommand": "",
-  "notebook.output.fontFamily": "figtree",
+  "notebook.output.fontFamily": "Atkinson Hyperlegible Next",
   "terminal.integrated.fontFamily": "AnonymicePro Nerd Font Mono",
-  "editor.codeLensFontFamily": "GohuFont uni14 Nerd Font Mono",
+  "editor.codeLensFontFamily": "DepartureMono Nerd Font Mono",
   "workbench.editor.alwaysShowEditorActions": true,
   "javascript.preferences.renameMatchingJsxTags": false,
   "typescript.preferences.renameMatchingJsxTags": false,
@@ -451,27 +495,19 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
-  "chat.editor.fontSize": 15,
+  "chat.editor.fontSize": 16,
   "terminal.external.windowsExec": "wt.exe",
   "terminal.external.linuxExec": "",
-  "security.allowedUNCHosts": ["wsl.localhost"],
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "workbench.colorTheme": "Default Dark+",
   "editor.cursorWidth": 2,
   "explorer.sortOrder": "type",
-  "markdown-pdf.footerTemplate": "<div style=\"font-size: 8px; margin: 0 auto;\"> <span class='pageNumber'></span> / <span class='totalPages'></span></div>",
-  "markdown-pdf.headerTemplate": "<div className=\"%%ISO-DATE%%\"></div>",
-  "markdown-pdf.styles": ["$HOME\\Developments\\rainbowflesh.github.io\\public\\css\\grayscale.css"],
-  "markdown-pdf.highlightStyle": "grayscale.css",
-  "markdown-pdf.omitBackground": true,
-  "markdown-pdf.executablePath": "$HOME\\AppData\\Local\\Programs\\Chromium\\Application\\thorium.exe",
-  "notebook.defaultFormatter": "esbenp.prettier-vscode",
-  "markdown-pdf.margin.top": "1cm",
   "html.autoClosingTags": false,
   "editor.formatOnPaste": false,
-  "vscode_vibrancy.enableAutoTheme": true,
   "workbench.editor.openPositioning": "left",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorStyleInactive": "line",
@@ -486,11 +522,10 @@
   "remote-explorer.foldersSortOrder": "alphabetical",
   "terminal.integrated.gpuAcceleration": "off",
   "diffEditor.renderSideBySide": true,
-  "fluentui.compact": true,
-  "fluentui.darkBackground": "#191724",
-  "fluentui.lightBackground": "#faf4ed",
-  "fluentui.accent": "#ebbcba",
-  "vscode_vibrancy.imports": ["$HOME\\Developments\\rainbowflesh\\dotfile\\config\\vscode\\custom.css"],
+  "vscode_vibrancy.imports": [
+    "C:\\Users\\catki\\Developments\\rainbowflesh\\dotfile\\config\\vscode\\custom.css",
+    "C:\\Users\\catki\\Developments\\rainbowflesh\\dotfile\\config\\vscode\\custom.js",
+  ],
   "window.density.editorTabHeight": "compact",
   "github.copilot.chat.editor.temporalContext.enabled": true,
   "github.copilot.chat.edits.temporalContext.enabled": true,
@@ -498,7 +533,6 @@
   "github.copilot.chat.languageContext.typescript.enabled": true,
   "editor.scrollBeyondLastLine": false,
   "editor.scrollbar.horizontalScrollbarSize": 10,
-  "vscode_vibrancy.preferedLightTheme": "Light (Only Subbar)",
   "workbench.tree.enableStickyScroll": false,
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
@@ -510,19 +544,20 @@
   "editor.find.seedSearchStringFromSelection": "selection",
   "editor.foldingHighlight": false,
   "xml.format.maxLineWidth": 0,
-  "C_Cpp.copilotHover": "disabled",
   "github.copilot.chat.scopeSelection": true,
   "github.copilot.renameSuggestions.triggerAutomatically": false,
   "github.copilot.chat.completionContext.typescript.mode": "on",
   "files.autoSave": "onWindowChange",
-  "diffEditor.experimental.showMoves": true,
   "cSpell.enabledFileTypes": {
     "markdown": true,
     "md": true
   },
   "css.format.enable": false,
   "css.completion.completePropertyWithSemicolon": false,
-  "css.lint.validProperties": ["css-lcurlyexpected", "css-semicolonexpected"],
+  "css.lint.validProperties": [
+    "css-lcurlyexpected",
+    "css-semicolonexpected"
+  ],
   "editor.scrollPredominantAxis": false,
   "editor.renderLineHighlight": "gutter",
   "workbench.startupEditor": "none",
@@ -532,7 +567,6 @@
   "github.copilot.chat.codesearch.enabled": true,
   "github.copilot.chat.agent.thinkingTool": true,
   "terminal.integrated.suggest.inlineSuggestion": "alwaysOnTopExceptExactMatch",
-  "github.copilot.nextEditSuggestions.enabled": true,
   "intellicodeCompletions.loggingLevel": "WARN",
   "intellicodeApiExamples.loggingLevel": "WARN",
   "editor.inlineSuggest.suppressSuggestions": true,
@@ -547,11 +581,7 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "editor.unicodeHighlight.ambiguousCharacters": false,
-  "explorer.confirmPasteNative": false,
-  "vscode_vibrancy.theme": "Dark (Only Subbar)",
-  "vscode_vibrancy.preferedDarkTheme": "Dark (Only Subbar)",
-  "window.titleBarStyle": "custom",
-  "workbench.preferredLightColorTheme": "Rosé Pine",
+  "workbench.preferredLightColorTheme": "Rosé Pine Dawn",
   "editor.overtypeCursorStyle": "underline",
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.analysis.inlayHints.pytestParameters": true,
@@ -565,17 +595,108 @@
     "lib/degrees-of-lewdity-plus/**",
     "tests/playground/degrees-of-lewdity-plus/**"
   ],
-  "python.analysis.exclude": ["**/degrees-of-lewdity-plus", "**/logs", "**/ditcs", "**/assets", "**/test_data"],
+  "python.analysis.exclude": [
+    "**/degrees-of-lewdity-plus",
+    "**/logs",
+    "**/ditcs",
+    "**/assets",
+    "**/test_data"
+  ],
   "terminal.integrated.rightClickBehavior": "default",
   "intellicodeCompletions.runAlongsideCopilot": true,
-  "files.dialog.defaultPath": "$HOME\\Developments",
-  "workbench.preferredDarkColorTheme": "Rosé Pine",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
-  "workbench.activityBar.location": "top",
   "window.commandCenter": false,
-  "window.autoDetectColorScheme": true,
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.integratedConsole.startInBackground": true,
-  "powershell.integratedConsole.suppressStartupBanner": true
+  "powershell.integratedConsole.suppressStartupBanner": true,
+  "files.dialog.defaultPath": "C:\\Users\\catki\\Developments",
+  "files.simpleDialog.enable": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "hexeditor.showOpenFileButton": true,
+  "prettier.experimentalTernaries": true,
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "accessibility.verbosity.notification": false,
+  "editor.largeFileOptimizations": false,
+  "markdown.extension.syntax.decorationFileSizeLimit": 100000,
+  "vscode-office.editorTheme": "Github Dark",
+  "search.followSymlinks": false,
+  "telemetry.feedback.enabled": false,
+  "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.chat.search.keywordSuggestions": true,
+  "python.analysis.addHoverSummaries": true,
+  "pgsql.copilot.enable": true,
+  "cSpell.enabledNotifications": {
+    "Average Word Length too Long": false,
+    "Lines too Long": false,
+    "Maximum Word Length Exceeded": false
+  },
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "smarty.highlight": true,
+  "vscode-office.previewCodeHighlight.style": "github",
+  "kilo-code.vsCodeLmModelSelector": {},
+  "kilo-code.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show",
+    "pnpm run",
+    "pnpm build",
+    "pnpm install",
+    "webpack",
+    "conda",
+    "python"
+  ],
+  "markdown.extension.completion.enabled": true,
+  "markdown.extension.theming.decoration.renderTrailingSpace": true,
+  "vscode-office.chromiumPath": "\"C:\\Users\\catki\\AppData\\Local\\Programs\\Chromium\\Application\\thorium.exe\"",
+  "markdown-pdf.headerTemplate": "",
+  "markdown-pdf.highlightStyle": "ascetic.css",
+  "markdown-pdf.margin.top": "1cm",
+  "markdown-pdf.executablePath": "C:\\Users\\catki\\AppData\\Local\\Programs\\Chromium\\Application\\thorium.exe",
+  "markdown-pdf.breaks": true,
+  "markdown-pdf.margin.left": "2cm",
+  "markdown-pdf.margin.right": "2cm",
+  "biome.suggestInstallingGlobally": false,
+  "window.zoomLevel": 0.5,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "notebook.markup.fontFamily": "Atkinson Hyperlegible Next",
+  "hediet.vscode-drawio.theme": "kennedy",
+  "hediet.vscode-drawio.appearance": "automatic",
+  "workbench.editor.enablePreview": false,
+  "window.menuStyle": "custom",
+  "window.dialogStyle": "custom",
+  "window.customTitleBarVisibility": "windowed",
+  "vscode_vibrancy.disableThemeFixes": true,
+  "vue.autoInsert.dotValue": true,
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Rosé Pine Moon",
+  "window.controlsStyle": "custom",
+  "workbench.preferredDarkColorTheme": "Rosé Pine",
+  "csharp.suppressProjectJsonWarning": true,
+  "csharp.suppressDotnetInstallWarning": true,
+  "omnisharp.disableMSBuildDiagnosticWarning": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "csharp.suppressDotnetRestoreNotification": true,
+  "resharper.solutionExplorer.trackActiveItem": false,
+  "explorer.confirmPasteNative": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.activityBar.location": "top",
+  "fluentui.compact": true,
+  "fluentui.accent": "#c4a7e7",
+  "vscode_vibrancy.enableAutoTheme": true,
+  "vscode_vibrancy.preferedLightTheme": "Custom theme (use imports)",
+  "vscode_vibrancy.preferedDarkTheme": "Custom theme (use imports)",
+  "vscode_vibrancy.theme": "Custom theme (use imports)",
+  "vscode_vibrancy.disableFramelessWindow": true,
+  "vscode_vibrancy.preventFlash": false,
+  "window.autoDetectColorScheme": true,
 }
