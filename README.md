@@ -5,7 +5,7 @@
 I'm RainbowFlesh
 
 - 😎 Former UAV engineer, newbie gamedev, Now serving as the board secretary of a 暗黒メガコーポ.
-- 🏋️ Seasoned in Cybersecurity, UAV Swarm, Target tracking, Human Society's Operation, Tax Black Holes, and Corporate Management;
+- 🏋️ Seasoned in Cybersecurity, UAV Swarm, Target Tracking, Manipulation of Society, Taxation Black Holes, and Corporate Management;
 - 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator.
 - ❌ Programming taste is sh*t.
 
