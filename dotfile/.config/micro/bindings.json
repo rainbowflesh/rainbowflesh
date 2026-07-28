@@ -1,0 +1,6 @@
+{
+    "Esc": "Quit",
+    "Tab": "Autocomplete|InsertTab",
+    "Ctrl-p": "CommandMode",
+    "Ctrl-e": "lua:filemanager2.toggle_tree"
+}

@@ -3,3 +3,6 @@
 .DS_Store
 rainbowflesh.iml
 out
+
+dotfile/.config/micro/buffers
+dotfile/.config/micro/plug

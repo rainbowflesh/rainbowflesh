@@ -1,0 +1,83 @@
+## Rosé Pine for micro
+## All natural pine, faux fur and a bit of soho vibes for the classy minimalist
+## https://github.com/vasylromanets/rose-pine-micro
+
+color-link default "#e0def4,#191724"
+
+color-link comment "italic #6e6a86"
+color-link comment.bright "italic #908caa"
+
+color-link identifier "#e0def4"
+color-link identifier.var "#e0def4"
+color-link identifier.class "#9ccfd8"
+color-link identifier.function "#ebbcba"
+color-link identifier.macro "#c4a7e7"
+
+color-link constant "#f6c177"
+color-link constant.builtin "#f6c177"
+color-link constant.bool "#ebbcba"
+color-link constant.bool.true "#ebbcba"
+color-link constant.bool.false "#ebbcba"
+color-link constant.number "#f6c177"
+color-link constant.string "#f6c177"
+color-link constant.string.char "#f6c177"
+color-link constant.string.url "underline #f6c177"
+color-link constant.specialChar "#9ccfd8"
+
+color-link statement "#31748f"
+color-link statement.control "#31748f"
+color-link statement.declaration "#31748f"
+
+color-link symbol "#908caa"
+color-link symbol.operator "#908caa"
+color-link symbol.brackets "#908caa"
+color-link symbol.tag "#9ccfd8"
+
+color-link preproc "#c4a7e7"
+color-link preproc.shebang "italic #6e6a86"
+
+color-link type "#9ccfd8"
+color-link type.keyword "#31748f"
+color-link type.storage "#9ccfd8"
+
+color-link special "#9ccfd8"
+color-link underlined "underline #9ccfd8"
+
+color-link error "bold #eb6f92"
+color-link error-message "#eb6f92"
+color-link message "#9ccfd8"
+color-link todo "bold italic #ebbcba,#21202e"
+
+color-link selection "#e0def4,#403d52"
+
+color-link statusline "#e0def4,#26233a"
+color-link statusline.inactive "#6e6a86,#1f1d2e"
+color-link statusline.suggestions "#908caa,#26233a"
+
+color-link tabbar "#6e6a86,#1f1d2e"
+color-link tabbar.active "#e0def4,#26233a"
+
+color-link indent-char "#524f67,#191724"
+color-link line-number "#6e6a86,#1f1d2e"
+color-link current-line-number "#908caa,#1f1d2e"
+
+color-link gutter-info "#9ccfd8,#1f1d2e"
+color-link gutter-error "#eb6f92,#1f1d2e"
+color-link gutter-warning "#f6c177,#1f1d2e"
+
+color-link diff-added "#9ccfd8"
+color-link diff-modified "#f6c177"
+color-link diff-deleted "#eb6f92"
+
+color-link cursor-line "#21202e"
+color-link color-column "#21202e"
+
+color-link ignore "#6e6a86"
+color-link scrollbar "#524f67"
+color-link divider "#403d52"
+
+color-link match-brace "#191724,#c4a7e7"
+color-link hlsearch "#191724,#f6c177"
+
+color-link tab-error "#eb6f92"
+color-link trailingws "#eb6f92"

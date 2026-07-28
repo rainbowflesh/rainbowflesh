@@ -1,0 +1,26 @@
+{
+    "colorscheme": "rose-pine",
+    "tabsize": 2,
+    "tabstospaces": true,
+    "autoindent": true,
+    "softwrap": true,
+    "mouse": true,
+    "scrollbar": true,
+    "ruler": true,
+    "cursorline": true,
+    "diffgutter": true,
+    "statusline": true,
+    "savecursor": true,
+    "saveundo": true,
+    "ignorecase": true,
+    "rmtrailingws": true,
+    "matchbrace": true,
+    "clipboard": "external",
+    "autosave": 60,
+    "pluginchannels": [
+        //Get plugins from main channel first
+        "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json",
+        //The use the official channel last
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+    ]
+}

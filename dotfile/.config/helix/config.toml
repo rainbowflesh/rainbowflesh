@@ -8,10 +8,12 @@ cursorcolumn = true
 idle-timeout = 210
 auto-save = true
 bufferline = "multiple"
-
+completion-trigger-len = 1
+auto-completion = true
+auto-format = true
 
 [editor.statusline]
-left = ["mode", "spinner","diagnostics"]
+left = ["mode", "spinner"]
 center = ["file-name","separator","spacer","position-percentage"]
 right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
 separator = "││"
@@ -26,40 +28,62 @@ hidden = false
 
 [editor.lsp]
 display-messages = true
+display-inlay-hints = true
 
 [editor.whitespace.render]
 nbsp = "all"
 newline = "all"
+tab = "all"
+space = "none"
 
 [editor.whitespace.characters]
 nbsp = "⍽"
 newline = "⏎"
+tab = "→"
 
 [editor.indent-guides]
 render = true
-
+character = "╎"
 
 [keys.insert]
 C-z = "undo"
 C-y = "redo"
 C-s = ":write"
-C-c = "yank_to_primary_clipboard"
-C-v = "paste_primary_clipboard_after"
+C-c = "yank_to_clipboard"
+C-v = "paste_clipboard_after"
+
 C-left = "move_prev_word_start"
 C-right = "move_next_word_start"
 C-up = "move_line_up"
 C-down = "move_line_down"
 
+C-w = ":buffer-close"
+C-q = ":quit"
+
+
 [keys.normal]
 C-z = "undo"
 C-y = "redo"
 C-s = ":write"
-C-c = "yank_to_primary_clipboard"
-C-v = "paste_primary_clipboard_after"
-j = "move_line_up"
-k = "move_line_down"
-l = "move_char_right"
+C-c = "yank_to_clipboard"
+C-v = "paste_clipboard_after"
+
 C-left = "move_prev_word_start"
 C-right = "move_next_word_start"
 C-up = "move_line_up"
 C-down = "move_line_down"
+
+C-w = ":buffer-close"
+C-q = ":quit"
+
+[keys.select]
+C-left = "shrink_selection"
+C-right = "expand_selection"
+C-up = "expand_selection"
+C-down = "extend_line_below"
+
+[editor.soft-wrap]
+enable = false
+
+[editor.search]
+smart-case = true

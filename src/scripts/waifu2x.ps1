@@ -1,8 +1,8 @@
 Write-Host "Starting Process..."
 Write-Output ""
 
-$input_file_path = "$HOME\Pictures\Processing\in"
-$output_file_path = "$HOME\Pictures\Processing\out"
+$input_file_path = "$HOME\Workspace\Photography\input_waifu2x"
+$output_file_path = "$HOME\Workspace\Photography\output"
 
 $before_count = [System.IO.Directory]::GetFiles($output_file_path).Count
 $total_input = [System.IO.Directory]::GetFiles($input_file_path).Count # Uncount script file
@@ -24,7 +24,3 @@ Write-Host "Processed image count:"$total_output -ForegroundColor Red
 Write-Host Done!
 
 pause
-
-
-
-
