@@ -4,11 +4,10 @@
 
 I'm RainbowFlesh
 
-- 😎 Former UAV engineer in [zeewind-uav.com](https://www.zeewind-uav.com), now working on gamedev.
-- 🏋️ Seasoned in cybersecurity and UAV Swarm network hacking and target tracking;
-- 🚀 Newbie rocket engineer :p
+- 😎 Former UAV engineer, newbie gamedev, Now serving as the board secretary of a 暗黒メガコーポ.
+- 🏋️ Seasoned in Cybersecurity, UAV Swarm, Target Tracking, Manipulation of Society, Taxation Black Holes, and Corporate Management;
 - 🎧📷🎨✏️🔬 HIFI user, photographer, artist, writer, translator.
-- ❌ Programming taste sh*t.
+- ❌ Programming taste is sh*t.
 
 I call myself a lofty tone geek.
 
