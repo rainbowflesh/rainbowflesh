@@ -2,7 +2,7 @@
 # PowerShell 7+ recommended
 # Requires ImageMagick "magick" in PATH
 
-$rootDir = "$HOME\Pictures\wallpapers"
+$rootDir = "$HOME\Pictures\backgrounds"
 $expandDir = "$HOME\Workspace\Photography\input_expand2x"
 
 New-Item -ItemType Directory -Force -Path $expandDir | Out-Null
